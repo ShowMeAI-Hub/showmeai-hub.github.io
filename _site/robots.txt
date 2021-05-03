@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://hitchhiker.ma/sitemap.xml

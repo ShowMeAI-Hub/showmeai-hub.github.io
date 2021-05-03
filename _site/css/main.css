@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* =Colors */
+/* =Base */
+body { font-family: "Inconsolata"; color: #333333; background-color: #F5F5F5; }
+
+a { color: #828282; font-weight: bold; text-decoration: none; }
+
+p { font-size: 20px; line-height: 32px; }
+
+img { margin: 40px auto; display: block; max-width: 100%; }
+
+blockquote { letter-spacing: 3px; margin: 0px; margin-top: 40px; margin-bottom: 70px; padding: 0px; text-align: center; position: relative; }
+
+blockquote footer { position: absolute; bottom: -35px; font-size: 15px; color: #333333; letter-spacing: 0px; left: 0px; right: 0px; }
+
+blockquote footer:before { content: "** "; }
+
+blockquote footer:after { content: " **"; }
+
+blockquote p { display: inline; font-size: 20px; color: #828282; font-weight: 400; }
+
+blockquote p:before { content: "“ "; }
+
+blockquote p:after { content: " ”"; }
+
+strong { color: #333333; }
+
+/* =Header */
+.wrapper { max-width: 800px; margin: 100px auto; }
+
+.header { overflow: hidden; }
+
+.navigation { float: left; }
+
+.logo { font-size: 50px; font-weight: 700; color: #333333; display: block; }
+
+.menu { color: #828282; font-size: 18px; margin: 0px; margin-top: 6px; padding: 0px; list-style-type: none; }
+
+.menu__entry { display: inline-block; margin-right: 35px; }
+
+.menu__entry:last-child { margin-right: 0px; }
+
+.menu__entry a { font-weight: 400; }
+
+.social-links { float: right; font-size: 24px; color: #828282; list-style-type: none; }
+
+.social-links__entry { display: inline-block; margin-left: 10px; }
+
+/* =Titles */
+.page-title { margin-top: 100px; margin-bottom: 125px; text-align: center; }
+
+.page-title__text { font-weight: 700; font-size: 70px; }
+
+.page-title__subtitle { font-weight: 400; font-size: 22px; color: #828282; }
+
+.post-title { margin-bottom: 110px; }
+
+.post-title__text { font-size: 40px; }
+
+.post-title__subtitle { font-size: 20px; }
+
+/* =Post teasers */
+.list-posts { list-style-type: none; padding: 0px; }
+
+.post-teaser { margin-bottom: 45px; font-weight: 700; }
+
+.post-teaser__title { font-size: 22px; color: #333333; }
+
+.post-teaser__date { font-size: 16px; float: right; vertical-align: middle; color: #828282; }
+
+.empty-post-list { font-size: 22px; font-weight: 700; color: #333333; text-align: center; }
+
+/* =Explore */
+.explore { text-align: center; color: #828282; margin-top: 140px; }
+
+.explore__devider { font-size: 18px; letter-spacing: 8.18px; }
+
+.explore__label { font-size: 14px; margin-top: 15px; }
+
+.categories { list-style-type: none; margin-top: 15px; padding: 0px; }
+
+.categories__item { display: inline-block; font-weight: 700; font-size: 18px; }
+
+.categories__item a { color: #333333; }
+
+.categories__item:after { content: "/"; margin-left: 6px; color: #828282; }
+
+.categories__item:last-child:after { content: ""; margin-left: 0px; }
+
+/* =Post page */
+.about { color: #828282; margin-top: 70px; text-align: center; line-height: 24px; }
+
+.about__devider { font-size: 20px; margin-bottom: 50px; letter-spacing: 9.09px; }
+
+.about__text { font-size: 18px; }
+
+#disqus_thread { margin-top: 100px; }
+
+@media (max-width: 800px) { /* =Base */ p { font-size: 16px; line-height: 1.6; } .wrapper { width: 80%; } .navigation, .social-links { display: block; text-align: center; width: 100%; } .social-links { font-size: 30px; margin-top: 35px; } .page-title { margin-top: 80px; margin-bottom: 60px; } .page-title__text { font-size: 40px; } .page-title__subtitle { font-size: 18px; } .post-teaser__title { font-size: 18px; display: block; text-align: center; width: 100%; } .post-teaser__date { font-size: 16px; margin-top: 10px; float: none; display: block; text-align: center; width: 100%; } .explore { margin-top: 80px; } .post-title__text { font-size: 28px; } .post-title__subtitle { font-size: 18px; } }
+
+/* Source: http://codepen.io/bulby97/pen/fcvay */
+.glitch { position: relative; animation: glitch 2s steps(100) infinite; }
+
+@keyframes glitch { 0% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  1% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  2% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  3% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  4% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  5% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  6% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  7% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  8% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  9% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  10% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  11% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  12% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  13% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  14% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  15% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  16% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  17% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  18% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  19% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  20% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  21% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  22% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  23% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  24% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  25% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  26% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  27% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  28% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  29% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  30% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  31% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  32% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  33% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  34% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  35% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  36% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  37% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  38% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  39% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  40% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  41% { text-shadow: 50px 0 0 blue, -50px 0 0 lime; }
+  42% { text-shadow: 0 0 0 blue, 0 0 0 lime; }
+  43% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  44% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  45% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  46% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  47% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  48% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  49% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  50% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  51% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  52% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  53% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  54% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  55% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  56% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  57% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  58% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  59% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  60% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  61% { text-shadow: 30px 0 0 red, -30px 0 0 lime; }
+  62% { text-shadow: 0 0 0 red, 0 0 0 lime; }
+  63% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue; }
+  64% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue; }
+  65% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue; }
+  66% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue; }
+  67% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  68% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  69% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  70% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  71% { text-shadow: 70px 0 0 red, -70px 0 0 blue; }
+  72% { text-shadow: 0 0 0 red, 0 0 0 blue; }
+  73% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  74% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  75% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  76% { text-shadow: 1px 0 0 red, -1px 0 0 blue; }
+  77% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  78% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  79% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  80% { text-shadow: -1px 0 0 red, 1px 0 0 blue; }
+  81% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  82% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  83% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  84% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  85% { text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime; }
+  86% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  87% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  88% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  89% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  90% { text-shadow: -1px 0 0 red, 1px 0 0 lime; }
+  91% { text-shadow: 60px 0 0 lime, -60px 0 0 blue; }
+  92% { text-shadow: 0 0 0 lime, 0 0 0 blue; }
+  92% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  93% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  94% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  95% { text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime; }
+  96% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  97% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  98% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  99% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
+  100% { text-shadow: -1px 0 0 blue, 1px 0 0 lime; } }
+
+/* Custom */
+.go-home { text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
