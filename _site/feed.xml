@@ -5,8 +5,8 @@
     <description>world about machine learning and artificial intelligence</description>
     <link>http://hitchhiker.ma/</link>
     <atom:link href="http://hitchhiker.ma/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 May 2021 22:52:30 +0800</pubDate>
-    <lastBuildDate>Wed, 12 May 2021 22:52:30 +0800</lastBuildDate>
+    <pubDate>Wed, 12 May 2021 22:56:42 +0800</pubDate>
+    <lastBuildDate>Wed, 12 May 2021 22:56:42 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -13964,7 +13964,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[12]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -14257,7 +14257,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[14]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -14550,7 +14550,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[16]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -14827,7 +14827,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[18]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -15039,7 +15039,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[19]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -17616,7 +17616,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[21]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -17833,7 +17833,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[22]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -18168,7 +18168,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[23]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -18397,7 +18397,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[24]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -18738,7 +18738,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[26]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -18955,7 +18955,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[27]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -20775,7 +20775,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[28]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -21683,7 +21683,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[30]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -21900,7 +21900,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[31]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -26682,7 +26682,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[33]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -26886,7 +26886,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[34]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -27067,7 +27067,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[36]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -27269,7 +27269,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[37]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -27445,7 +27445,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[39]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -27649,7 +27649,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[40]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -27830,7 +27830,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[42]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -28030,7 +28030,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[43]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -28201,7 +28201,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[45]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -28403,7 +28403,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[46]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -29252,7 +29252,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[48]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -29454,7 +29454,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[49]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -34199,7 +34199,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[50]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -36394,7 +36394,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[52]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -45610,7 +45610,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[76]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -45827,7 +45827,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[77]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -46109,7 +46109,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[56]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -46447,7 +46447,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[79]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -46655,7 +46655,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[81]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -46935,7 +46935,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[59]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -47139,7 +47139,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[60]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -47387,7 +47387,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[61]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -47589,7 +47589,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[62]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -47829,7 +47829,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[63]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -47985,7 +47985,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[64]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -48187,7 +48187,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[65]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -48443,7 +48443,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[66]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -48599,7 +48599,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[67]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
@@ -48801,7 +48801,7 @@ div#notebook {
 
 &lt;div class=&quot;output_area&quot;&gt;
 
-    &lt;div class=&quot;prompt output_prompt&quot;&gt;Out[68]:&lt;/div&gt;
+    &lt;div class=&quot;prompt output_prompt&quot;&gt;&lt;/div&gt;
 
 
 
