@@ -82,33 +82,326 @@
         }
     </style>
     <div class="tab">
-            <button class="tablinks" onclick="showChart(event, 'fb9287c1469a4b2d86a2dcbc481d3f82')">薪资</button>
-            <button class="tablinks" onclick="showChart(event, '7eb6138143d64bc0b96178c3641654b6')">薪资</button>
-            <button class="tablinks" onclick="showChart(event, '9a99ddcfaa4946008c8b515d8f315aa6')">薪资</button>
-            <button class="tablinks" onclick="showChart(event, '1da148b6b84d41598097f2f35cb100e0')">实习薪资分布</button>
-            <button class="tablinks" onclick="showChart(event, 'b713b7bb56a648db8a1906f9d630ad66')">社招薪资分布</button>
-            <button class="tablinks" onclick="showChart(event, '9a05dc09a93f4448bcae864cc3485a51')">城市&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, '062a42edb7134e78bab35cbf353999a5')">城市&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, '7b814e7eb57b47e18e42b9c8bf25357a')">城市&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, '6c2a31ba84854c5f801861cbd3c27ee9')">区域&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, '97987be9c5e64227b3c943ff480e24ce')">区域&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, '42b141af74af4580979f5686b91dd458')">行业&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, '6d3f096f311a406baddfd915386c50c1')">行业&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, '4b2820af903844a4892161fc0e92147c')">方向关键词&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, '9b9eb6431d264f4384bcfb2defc5eace')">方向关键词&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, '8859468c33f04091a0a03dc34522ab06')">学历&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, '06eb6c8735324bd981140ce748a1e097')">学历&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'acc81a26a5ad4fb2b59cadadd4f24453')">经验&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, '409f8d4000d449ec9a65f63eb500a8ba')">经验&amp;薪资</button>
-            <button class="tablinks" onclick="showChart(event, '802fef73a4ab49829a377c9c185e6db8')">top10薪资招聘</button>
+            <button class="tablinks" onclick="showChart(event, 'f1f707fc24af448cb4fbb4ba88314152')">薪资</button>
+            <button class="tablinks" onclick="showChart(event, '1055081826734167bb26d54c81d49949')">薪资</button>
+            <button class="tablinks" onclick="showChart(event, '03180da375984355ba8c8ebdab4f969d')">薪资</button>
+            <button class="tablinks" onclick="showChart(event, '9329bfe83e92461090a5ea2474346133')">实习薪资分布</button>
+            <button class="tablinks" onclick="showChart(event, 'ea20bc5e373e45ce957671f56fff9162')">社招薪资分布</button>
+            <button class="tablinks" onclick="showChart(event, 'd00a66f53ad8434995c0e0a3d1429c48')">城市&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, '80ffc9d9f49b4792923b6e1778de95a5')">城市&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'a405463a59284ac5884815e914dd9231')">城市&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, '6d90a025f85e4aa59d1abe65d50134c4')">区域&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'd933c81b80544726bd34825e0a8c87dd')">区域&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, '99c6d5c4591b45bd93a4b21a847ca734')">行业&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'c1d0ef1b48e047918d44ed956f968674')">行业&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'deec48a2b1b9490d81b94b87a046ada7')">方向关键词&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, '1bed24b3988f4a0eab4430a92f7d3a88')">方向关键词&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'f72f71757435413f971cc97b593deea6')">学历&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, '4a2fa61e1f1b402ebb732b82b79c4a92')">学历&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, '6b0e1ca951074fa39b73e7cc64aaa675')">经验&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, '97eabe134610443fa5f0b7fd9342a311')">经验&amp;薪资</button>
+            <button class="tablinks" onclick="showChart(event, '5321da0daf4c484394fe4267323e256e')">top10薪资招聘</button>
     </div>
 
     <div class="box">
-                <div id="fb9287c1469a4b2d86a2dcbc481d3f82" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="f1f707fc24af448cb4fbb4ba88314152" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_fb9287c1469a4b2d86a2dcbc481d3f82 = echarts.init(
-            document.getElementById('fb9287c1469a4b2d86a2dcbc481d3f82'), 'white', {renderer: 'canvas'});
-        var option_fb9287c1469a4b2d86a2dcbc481d3f82 = {
+        var chart_f1f707fc24af448cb4fbb4ba88314152 = echarts.init(
+            document.getElementById('f1f707fc24af448cb4fbb4ba88314152'), 'white', {renderer: 'canvas'});
+        var option_f1f707fc24af448cb4fbb4ba88314152 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "20k-40k",
+                    "value": 179
+                },
+                {
+                    "name": "25k-50k",
+                    "value": 117
+                },
+                {
+                    "name": "15k-30k",
+                    "value": 116
+                },
+                {
+                    "name": "30k-60k",
+                    "value": 87
+                },
+                {
+                    "name": "30k-50k",
+                    "value": 75
+                },
+                {
+                    "name": "20k-30k",
+                    "value": 63
+                },
+                {
+                    "name": "15k-25k",
+                    "value": 58
+                },
+                {
+                    "name": "25k-40k",
+                    "value": 53
+                },
+                {
+                    "name": "20k-35k",
+                    "value": 46
+                },
+                {
+                    "name": "25k-45k",
+                    "value": 43
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}: {c}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "20k-40k",
+                "25k-50k",
+                "15k-30k",
+                "30k-60k",
+                "30k-50k",
+                "20k-30k",
+                "15k-25k",
+                "25k-40k",
+                "20k-35k",
+                "25k-45k"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_f1f707fc24af448cb4fbb4ba88314152.setOption(option_f1f707fc24af448cb4fbb4ba88314152);
+    </script>
+                <div id="1055081826734167bb26d54c81d49949" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_1055081826734167bb26d54c81d49949 = echarts.init(
+            document.getElementById('1055081826734167bb26d54c81d49949'), 'white', {renderer: 'canvas'});
+        var option_1055081826734167bb26d54c81d49949 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "20k-40k",
+                    "value": 179
+                },
+                {
+                    "name": "25k-50k",
+                    "value": 117
+                },
+                {
+                    "name": "15k-30k",
+                    "value": 116
+                },
+                {
+                    "name": "30k-60k",
+                    "value": 87
+                },
+                {
+                    "name": "30k-50k",
+                    "value": 75
+                },
+                {
+                    "name": "20k-30k",
+                    "value": 63
+                },
+                {
+                    "name": "15k-25k",
+                    "value": 58
+                },
+                {
+                    "name": "25k-40k",
+                    "value": 53
+                },
+                {
+                    "name": "20k-35k",
+                    "value": 46
+                },
+                {
+                    "name": "25k-45k",
+                    "value": 43
+                }
+            ],
+            "radius": [
+                "20%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "roseType": "radius",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "20k-40k",
+                "25k-50k",
+                "15k-30k",
+                "30k-60k",
+                "30k-50k",
+                "20k-30k",
+                "15k-25k",
+                "25k-40k",
+                "20k-35k",
+                "25k-45k"
+            ],
+            "selected": {}
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    }
+};
+        chart_1055081826734167bb26d54c81d49949.setOption(option_1055081826734167bb26d54c81d49949);
+    </script>
+                <div id="03180da375984355ba8c8ebdab4f969d" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_03180da375984355ba8c8ebdab4f969d = echarts.init(
+            document.getElementById('03180da375984355ba8c8ebdab4f969d'), 'white', {renderer: 'canvas'});
+        var option_03180da375984355ba8c8ebdab4f969d = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -277,306 +570,13 @@
         }
     ]
 };
-        chart_fb9287c1469a4b2d86a2dcbc481d3f82.setOption(option_fb9287c1469a4b2d86a2dcbc481d3f82);
+        chart_03180da375984355ba8c8ebdab4f969d.setOption(option_03180da375984355ba8c8ebdab4f969d);
     </script>
-                <div id="7eb6138143d64bc0b96178c3641654b6" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="9329bfe83e92461090a5ea2474346133" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_7eb6138143d64bc0b96178c3641654b6 = echarts.init(
-            document.getElementById('7eb6138143d64bc0b96178c3641654b6'), 'white', {renderer: 'canvas'});
-        var option_7eb6138143d64bc0b96178c3641654b6 = {
-    "animation": true,
-    "animationThreshold": 2000,
-    "animationDuration": 1000,
-    "animationEasing": "cubicOut",
-    "animationDelay": 0,
-    "animationDurationUpdate": 300,
-    "animationEasingUpdate": "cubicOut",
-    "animationDelayUpdate": 0,
-    "color": [
-        "#c23531",
-        "#2f4554",
-        "#61a0a8",
-        "#d48265",
-        "#749f83",
-        "#ca8622",
-        "#bda29a",
-        "#6e7074",
-        "#546570",
-        "#c4ccd3",
-        "#f05b72",
-        "#ef5b9c",
-        "#f47920",
-        "#905a3d",
-        "#fab27b",
-        "#2a5caa",
-        "#444693",
-        "#726930",
-        "#b2d235",
-        "#6d8346",
-        "#ac6767",
-        "#1d953f",
-        "#6950a1",
-        "#918597"
-    ],
-    "series": [
-        {
-            "type": "pie",
-            "clockwise": true,
-            "data": [
-                {
-                    "name": "20k-40k",
-                    "value": 179
-                },
-                {
-                    "name": "25k-50k",
-                    "value": 117
-                },
-                {
-                    "name": "15k-30k",
-                    "value": 116
-                },
-                {
-                    "name": "30k-60k",
-                    "value": 87
-                },
-                {
-                    "name": "30k-50k",
-                    "value": 75
-                },
-                {
-                    "name": "20k-30k",
-                    "value": 63
-                },
-                {
-                    "name": "15k-25k",
-                    "value": 58
-                },
-                {
-                    "name": "25k-40k",
-                    "value": 53
-                },
-                {
-                    "name": "20k-35k",
-                    "value": 46
-                },
-                {
-                    "name": "25k-45k",
-                    "value": 43
-                }
-            ],
-            "radius": [
-                "0%",
-                "75%"
-            ],
-            "center": [
-                "50%",
-                "50%"
-            ],
-            "label": {
-                "show": true,
-                "position": "top",
-                "margin": 8,
-                "formatter": "{b}: {c}"
-            },
-            "rippleEffect": {
-                "show": true,
-                "brushType": "stroke",
-                "scale": 2.5,
-                "period": 4
-            }
-        }
-    ],
-    "legend": [
-        {
-            "data": [
-                "20k-40k",
-                "25k-50k",
-                "15k-30k",
-                "30k-60k",
-                "30k-50k",
-                "20k-30k",
-                "15k-25k",
-                "25k-40k",
-                "20k-35k",
-                "25k-45k"
-            ],
-            "selected": {},
-            "show": true,
-            "padding": 5,
-            "itemGap": 10,
-            "itemWidth": 25,
-            "itemHeight": 14
-        }
-    ],
-    "tooltip": {
-        "show": true,
-        "trigger": "item",
-        "triggerOn": "mousemove|click",
-        "axisPointer": {
-            "type": "line"
-        },
-        "showContent": true,
-        "alwaysShowContent": false,
-        "showDelay": 0,
-        "hideDelay": 100,
-        "textStyle": {
-            "fontSize": 14
-        },
-        "borderWidth": 0,
-        "padding": 5
-    },
-    "title": [
-        {
-            "padding": 5,
-            "itemGap": 10
-        }
-    ]
-};
-        chart_7eb6138143d64bc0b96178c3641654b6.setOption(option_7eb6138143d64bc0b96178c3641654b6);
-    </script>
-                <div id="9a99ddcfaa4946008c8b515d8f315aa6" class="chart-container" style="width:900px; height:500px;"></div>
-    <script>
-        var chart_9a99ddcfaa4946008c8b515d8f315aa6 = echarts.init(
-            document.getElementById('9a99ddcfaa4946008c8b515d8f315aa6'), 'white', {renderer: 'canvas'});
-        var option_9a99ddcfaa4946008c8b515d8f315aa6 = {
-    "animation": true,
-    "animationThreshold": 2000,
-    "animationDuration": 1000,
-    "animationEasing": "cubicOut",
-    "animationDelay": 0,
-    "animationDurationUpdate": 300,
-    "animationEasingUpdate": "cubicOut",
-    "animationDelayUpdate": 0,
-    "color": [
-        "#c23531",
-        "#2f4554",
-        "#61a0a8",
-        "#d48265",
-        "#749f83",
-        "#ca8622",
-        "#bda29a",
-        "#6e7074",
-        "#546570",
-        "#c4ccd3",
-        "#f05b72",
-        "#ef5b9c",
-        "#f47920",
-        "#905a3d",
-        "#fab27b",
-        "#2a5caa",
-        "#444693",
-        "#726930",
-        "#b2d235",
-        "#6d8346",
-        "#ac6767",
-        "#1d953f",
-        "#6950a1",
-        "#918597"
-    ],
-    "series": [
-        {
-            "type": "pie",
-            "clockwise": true,
-            "data": [
-                {
-                    "name": "20k-40k",
-                    "value": 179
-                },
-                {
-                    "name": "25k-50k",
-                    "value": 117
-                },
-                {
-                    "name": "15k-30k",
-                    "value": 116
-                },
-                {
-                    "name": "30k-60k",
-                    "value": 87
-                },
-                {
-                    "name": "30k-50k",
-                    "value": 75
-                },
-                {
-                    "name": "20k-30k",
-                    "value": 63
-                },
-                {
-                    "name": "15k-25k",
-                    "value": 58
-                },
-                {
-                    "name": "25k-40k",
-                    "value": 53
-                },
-                {
-                    "name": "20k-35k",
-                    "value": 46
-                },
-                {
-                    "name": "25k-45k",
-                    "value": 43
-                }
-            ],
-            "radius": [
-                "20%",
-                "75%"
-            ],
-            "center": [
-                "50%",
-                "50%"
-            ],
-            "roseType": "radius",
-            "label": {
-                "show": true,
-                "position": "top",
-                "margin": 8
-            }
-        }
-    ],
-    "legend": [
-        {
-            "data": [
-                "20k-40k",
-                "25k-50k",
-                "15k-30k",
-                "30k-60k",
-                "30k-50k",
-                "20k-30k",
-                "15k-25k",
-                "25k-40k",
-                "20k-35k",
-                "25k-45k"
-            ],
-            "selected": {}
-        }
-    ],
-    "tooltip": {
-        "show": true,
-        "trigger": "item",
-        "triggerOn": "mousemove|click",
-        "axisPointer": {
-            "type": "line"
-        },
-        "showContent": true,
-        "alwaysShowContent": false,
-        "showDelay": 0,
-        "hideDelay": 100,
-        "textStyle": {
-            "fontSize": 14
-        },
-        "borderWidth": 0,
-        "padding": 5
-    }
-};
-        chart_9a99ddcfaa4946008c8b515d8f315aa6.setOption(option_9a99ddcfaa4946008c8b515d8f315aa6);
-    </script>
-                <div id="1da148b6b84d41598097f2f35cb100e0" class="chart-container" style="width:900px; height:500px;"></div>
-    <script>
-        var chart_1da148b6b84d41598097f2f35cb100e0 = echarts.init(
-            document.getElementById('1da148b6b84d41598097f2f35cb100e0'), 'white', {renderer: 'canvas'});
-        var option_1da148b6b84d41598097f2f35cb100e0 = {
+        var chart_9329bfe83e92461090a5ea2474346133 = echarts.init(
+            document.getElementById('9329bfe83e92461090a5ea2474346133'), 'white', {renderer: 'canvas'});
+        var option_9329bfe83e92461090a5ea2474346133 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -810,13 +810,13 @@
         }
     ]
 };
-        chart_1da148b6b84d41598097f2f35cb100e0.setOption(option_1da148b6b84d41598097f2f35cb100e0);
+        chart_9329bfe83e92461090a5ea2474346133.setOption(option_9329bfe83e92461090a5ea2474346133);
     </script>
-                <div id="b713b7bb56a648db8a1906f9d630ad66" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="ea20bc5e373e45ce957671f56fff9162" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_b713b7bb56a648db8a1906f9d630ad66 = echarts.init(
-            document.getElementById('b713b7bb56a648db8a1906f9d630ad66'), 'white', {renderer: 'canvas'});
-        var option_b713b7bb56a648db8a1906f9d630ad66 = {
+        var chart_ea20bc5e373e45ce957671f56fff9162 = echarts.init(
+            document.getElementById('ea20bc5e373e45ce957671f56fff9162'), 'white', {renderer: 'canvas'});
+        var option_ea20bc5e373e45ce957671f56fff9162 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -1050,13 +1050,13 @@
         }
     ]
 };
-        chart_b713b7bb56a648db8a1906f9d630ad66.setOption(option_b713b7bb56a648db8a1906f9d630ad66);
+        chart_ea20bc5e373e45ce957671f56fff9162.setOption(option_ea20bc5e373e45ce957671f56fff9162);
     </script>
-                <div id="9a05dc09a93f4448bcae864cc3485a51" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="d00a66f53ad8434995c0e0a3d1429c48" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_9a05dc09a93f4448bcae864cc3485a51 = echarts.init(
-            document.getElementById('9a05dc09a93f4448bcae864cc3485a51'), 'white', {renderer: 'canvas'});
-        var option_9a05dc09a93f4448bcae864cc3485a51 = {
+        var chart_d00a66f53ad8434995c0e0a3d1429c48 = echarts.init(
+            document.getElementById('d00a66f53ad8434995c0e0a3d1429c48'), 'white', {renderer: 'canvas'});
+        var option_d00a66f53ad8434995c0e0a3d1429c48 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -1224,13 +1224,13 @@
         }
     ]
 };
-        chart_9a05dc09a93f4448bcae864cc3485a51.setOption(option_9a05dc09a93f4448bcae864cc3485a51);
+        chart_d00a66f53ad8434995c0e0a3d1429c48.setOption(option_d00a66f53ad8434995c0e0a3d1429c48);
     </script>
-                <div id="062a42edb7134e78bab35cbf353999a5" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="80ffc9d9f49b4792923b6e1778de95a5" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_062a42edb7134e78bab35cbf353999a5 = echarts.init(
-            document.getElementById('062a42edb7134e78bab35cbf353999a5'), 'white', {renderer: 'canvas'});
-        var option_062a42edb7134e78bab35cbf353999a5 = {
+        var chart_80ffc9d9f49b4792923b6e1778de95a5 = echarts.init(
+            document.getElementById('80ffc9d9f49b4792923b6e1778de95a5'), 'white', {renderer: 'canvas'});
+        var option_80ffc9d9f49b4792923b6e1778de95a5 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -1463,13 +1463,13 @@
         }
     ]
 };
-        chart_062a42edb7134e78bab35cbf353999a5.setOption(option_062a42edb7134e78bab35cbf353999a5);
+        chart_80ffc9d9f49b4792923b6e1778de95a5.setOption(option_80ffc9d9f49b4792923b6e1778de95a5);
     </script>
-                <div id="7b814e7eb57b47e18e42b9c8bf25357a" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="a405463a59284ac5884815e914dd9231" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_7b814e7eb57b47e18e42b9c8bf25357a = echarts.init(
-            document.getElementById('7b814e7eb57b47e18e42b9c8bf25357a'), 'white', {renderer: 'canvas'});
-        var option_7b814e7eb57b47e18e42b9c8bf25357a = {
+        var chart_a405463a59284ac5884815e914dd9231 = echarts.init(
+            document.getElementById('a405463a59284ac5884815e914dd9231'), 'white', {renderer: 'canvas'});
+        var option_a405463a59284ac5884815e914dd9231 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -1767,13 +1767,13 @@
         "emphasis": {}
     }
 };
-        chart_7b814e7eb57b47e18e42b9c8bf25357a.setOption(option_7b814e7eb57b47e18e42b9c8bf25357a);
+        chart_a405463a59284ac5884815e914dd9231.setOption(option_a405463a59284ac5884815e914dd9231);
     </script>
-                <div id="6c2a31ba84854c5f801861cbd3c27ee9" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="6d90a025f85e4aa59d1abe65d50134c4" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_6c2a31ba84854c5f801861cbd3c27ee9 = echarts.init(
-            document.getElementById('6c2a31ba84854c5f801861cbd3c27ee9'), 'white', {renderer: 'canvas'});
-        var option_6c2a31ba84854c5f801861cbd3c27ee9 = {
+        var chart_6d90a025f85e4aa59d1abe65d50134c4 = echarts.init(
+            document.getElementById('6d90a025f85e4aa59d1abe65d50134c4'), 'white', {renderer: 'canvas'});
+        var option_6d90a025f85e4aa59d1abe65d50134c4 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -1941,13 +1941,13 @@
         }
     ]
 };
-        chart_6c2a31ba84854c5f801861cbd3c27ee9.setOption(option_6c2a31ba84854c5f801861cbd3c27ee9);
+        chart_6d90a025f85e4aa59d1abe65d50134c4.setOption(option_6d90a025f85e4aa59d1abe65d50134c4);
     </script>
-                <div id="97987be9c5e64227b3c943ff480e24ce" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="d933c81b80544726bd34825e0a8c87dd" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_97987be9c5e64227b3c943ff480e24ce = echarts.init(
-            document.getElementById('97987be9c5e64227b3c943ff480e24ce'), 'white', {renderer: 'canvas'});
-        var option_97987be9c5e64227b3c943ff480e24ce = {
+        var chart_d933c81b80544726bd34825e0a8c87dd = echarts.init(
+            document.getElementById('d933c81b80544726bd34825e0a8c87dd'), 'white', {renderer: 'canvas'});
+        var option_d933c81b80544726bd34825e0a8c87dd = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -2180,13 +2180,13 @@
         }
     ]
 };
-        chart_97987be9c5e64227b3c943ff480e24ce.setOption(option_97987be9c5e64227b3c943ff480e24ce);
+        chart_d933c81b80544726bd34825e0a8c87dd.setOption(option_d933c81b80544726bd34825e0a8c87dd);
     </script>
-                <div id="42b141af74af4580979f5686b91dd458" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="99c6d5c4591b45bd93a4b21a847ca734" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_42b141af74af4580979f5686b91dd458 = echarts.init(
-            document.getElementById('42b141af74af4580979f5686b91dd458'), 'white', {renderer: 'canvas'});
-        var option_42b141af74af4580979f5686b91dd458 = {
+        var chart_99c6d5c4591b45bd93a4b21a847ca734 = echarts.init(
+            document.getElementById('99c6d5c4591b45bd93a4b21a847ca734'), 'white', {renderer: 'canvas'});
+        var option_99c6d5c4591b45bd93a4b21a847ca734 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -2348,13 +2348,13 @@
         }
     ]
 };
-        chart_42b141af74af4580979f5686b91dd458.setOption(option_42b141af74af4580979f5686b91dd458);
+        chart_99c6d5c4591b45bd93a4b21a847ca734.setOption(option_99c6d5c4591b45bd93a4b21a847ca734);
     </script>
-                <div id="6d3f096f311a406baddfd915386c50c1" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="c1d0ef1b48e047918d44ed956f968674" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_6d3f096f311a406baddfd915386c50c1 = echarts.init(
-            document.getElementById('6d3f096f311a406baddfd915386c50c1'), 'white', {renderer: 'canvas'});
-        var option_6d3f096f311a406baddfd915386c50c1 = {
+        var chart_c1d0ef1b48e047918d44ed956f968674 = echarts.init(
+            document.getElementById('c1d0ef1b48e047918d44ed956f968674'), 'white', {renderer: 'canvas'});
+        var option_c1d0ef1b48e047918d44ed956f968674 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -2563,13 +2563,13 @@
         }
     ]
 };
-        chart_6d3f096f311a406baddfd915386c50c1.setOption(option_6d3f096f311a406baddfd915386c50c1);
+        chart_c1d0ef1b48e047918d44ed956f968674.setOption(option_c1d0ef1b48e047918d44ed956f968674);
     </script>
-                <div id="4b2820af903844a4892161fc0e92147c" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="deec48a2b1b9490d81b94b87a046ada7" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_4b2820af903844a4892161fc0e92147c = echarts.init(
-            document.getElementById('4b2820af903844a4892161fc0e92147c'), 'white', {renderer: 'canvas'});
-        var option_4b2820af903844a4892161fc0e92147c = {
+        var chart_deec48a2b1b9490d81b94b87a046ada7 = echarts.init(
+            document.getElementById('deec48a2b1b9490d81b94b87a046ada7'), 'white', {renderer: 'canvas'});
+        var option_deec48a2b1b9490d81b94b87a046ada7 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -2731,13 +2731,13 @@
         }
     ]
 };
-        chart_4b2820af903844a4892161fc0e92147c.setOption(option_4b2820af903844a4892161fc0e92147c);
+        chart_deec48a2b1b9490d81b94b87a046ada7.setOption(option_deec48a2b1b9490d81b94b87a046ada7);
     </script>
-                <div id="9b9eb6431d264f4384bcfb2defc5eace" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="1bed24b3988f4a0eab4430a92f7d3a88" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_9b9eb6431d264f4384bcfb2defc5eace = echarts.init(
-            document.getElementById('9b9eb6431d264f4384bcfb2defc5eace'), 'white', {renderer: 'canvas'});
-        var option_9b9eb6431d264f4384bcfb2defc5eace = {
+        var chart_1bed24b3988f4a0eab4430a92f7d3a88 = echarts.init(
+            document.getElementById('1bed24b3988f4a0eab4430a92f7d3a88'), 'white', {renderer: 'canvas'});
+        var option_1bed24b3988f4a0eab4430a92f7d3a88 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -2946,13 +2946,13 @@
         }
     ]
 };
-        chart_9b9eb6431d264f4384bcfb2defc5eace.setOption(option_9b9eb6431d264f4384bcfb2defc5eace);
+        chart_1bed24b3988f4a0eab4430a92f7d3a88.setOption(option_1bed24b3988f4a0eab4430a92f7d3a88);
     </script>
-                <div id="8859468c33f04091a0a03dc34522ab06" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="f72f71757435413f971cc97b593deea6" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_8859468c33f04091a0a03dc34522ab06 = echarts.init(
-            document.getElementById('8859468c33f04091a0a03dc34522ab06'), 'white', {renderer: 'canvas'});
-        var option_8859468c33f04091a0a03dc34522ab06 = {
+        var chart_f72f71757435413f971cc97b593deea6 = echarts.init(
+            document.getElementById('f72f71757435413f971cc97b593deea6'), 'white', {renderer: 'canvas'});
+        var option_f72f71757435413f971cc97b593deea6 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -3116,13 +3116,13 @@
         }
     ]
 };
-        chart_8859468c33f04091a0a03dc34522ab06.setOption(option_8859468c33f04091a0a03dc34522ab06);
+        chart_f72f71757435413f971cc97b593deea6.setOption(option_f72f71757435413f971cc97b593deea6);
     </script>
-                <div id="06eb6c8735324bd981140ce748a1e097" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="4a2fa61e1f1b402ebb732b82b79c4a92" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_06eb6c8735324bd981140ce748a1e097 = echarts.init(
-            document.getElementById('06eb6c8735324bd981140ce748a1e097'), 'white', {renderer: 'canvas'});
-        var option_06eb6c8735324bd981140ce748a1e097 = {
+        var chart_4a2fa61e1f1b402ebb732b82b79c4a92 = echarts.init(
+            document.getElementById('4a2fa61e1f1b402ebb732b82b79c4a92'), 'white', {renderer: 'canvas'});
+        var option_4a2fa61e1f1b402ebb732b82b79c4a92 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -3323,13 +3323,13 @@
         }
     ]
 };
-        chart_06eb6c8735324bd981140ce748a1e097.setOption(option_06eb6c8735324bd981140ce748a1e097);
+        chart_4a2fa61e1f1b402ebb732b82b79c4a92.setOption(option_4a2fa61e1f1b402ebb732b82b79c4a92);
     </script>
-                <div id="acc81a26a5ad4fb2b59cadadd4f24453" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="6b0e1ca951074fa39b73e7cc64aaa675" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_acc81a26a5ad4fb2b59cadadd4f24453 = echarts.init(
-            document.getElementById('acc81a26a5ad4fb2b59cadadd4f24453'), 'white', {renderer: 'canvas'});
-        var option_acc81a26a5ad4fb2b59cadadd4f24453 = {
+        var chart_6b0e1ca951074fa39b73e7cc64aaa675 = echarts.init(
+            document.getElementById('6b0e1ca951074fa39b73e7cc64aaa675'), 'white', {renderer: 'canvas'});
+        var option_6b0e1ca951074fa39b73e7cc64aaa675 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -3491,13 +3491,13 @@
         }
     ]
 };
-        chart_acc81a26a5ad4fb2b59cadadd4f24453.setOption(option_acc81a26a5ad4fb2b59cadadd4f24453);
+        chart_6b0e1ca951074fa39b73e7cc64aaa675.setOption(option_6b0e1ca951074fa39b73e7cc64aaa675);
     </script>
-                <div id="409f8d4000d449ec9a65f63eb500a8ba" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="97eabe134610443fa5f0b7fd9342a311" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_409f8d4000d449ec9a65f63eb500a8ba = echarts.init(
-            document.getElementById('409f8d4000d449ec9a65f63eb500a8ba'), 'white', {renderer: 'canvas'});
-        var option_409f8d4000d449ec9a65f63eb500a8ba = {
+        var chart_97eabe134610443fa5f0b7fd9342a311 = echarts.init(
+            document.getElementById('97eabe134610443fa5f0b7fd9342a311'), 'white', {renderer: 'canvas'});
+        var option_97eabe134610443fa5f0b7fd9342a311 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -3690,7 +3690,7 @@
         }
     ]
 };
-        chart_409f8d4000d449ec9a65f63eb500a8ba.setOption(option_409f8d4000d449ec9a65f63eb500a8ba);
+        chart_97eabe134610443fa5f0b7fd9342a311.setOption(option_97eabe134610443fa5f0b7fd9342a311);
     </script>
                         <style>
             .fl-table {
@@ -3744,7 +3744,7 @@
                 background: #F8F8F8;
             }
         </style>
-        <div id="802fef73a4ab49829a377c9c185e6db8" class="chart-container" style="">
+        <div id="5321da0daf4c484394fe4267323e256e" class="chart-container" style="">
             <p class="title" style="font-size: 18px; font-weight:bold;"> top10高薪岗位</p>
             <p class="subtitle" style="font-size: 12px;"> </p>
             <table class="fl-table">
