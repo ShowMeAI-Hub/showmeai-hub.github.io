@@ -3,10 +3,10 @@
   <channel>
     <title>Algorithm</title>
     <description>world about machine learning and artificial intelligence</description>
-    <link>http://hitchhiker.ma/</link>
-    <atom:link href="http://hitchhiker.ma/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 May 2021 21:51:16 +0800</pubDate>
-    <lastBuildDate>Thu, 13 May 2021 21:51:16 +0800</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 14 May 2021 12:29:47 +0800</pubDate>
+    <lastBuildDate>Fri, 14 May 2021 12:29:47 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -42692,17 +42692,20 @@
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>Thu, 13 May 2021 00:00:00 +0800</pubDate>
-        <link>http://hitchhiker.ma/2021/05/13/%E7%AE%97%E6%B3%95%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90(%E5%85%A8%E5%9B%BD).html</link>
-        <guid isPermaLink="true">http://hitchhiker.ma/2021/05/13/%E7%AE%97%E6%B3%95%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90(%E5%85%A8%E5%9B%BD).html</guid>
+        <pubDate>Thu, 13 May 2021 11:55:00 +0800</pubDate>
+        <link>/%E9%9D%A2%E8%AF%95%E6%B1%82%E8%81%8C/2021/05/13/%E7%AE%97%E6%B3%95%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90(%E5%85%A8%E5%9B%BD).html</link>
+        <guid isPermaLink="true">/%E9%9D%A2%E8%AF%95%E6%B1%82%E8%81%8C/2021/05/13/%E7%AE%97%E6%B3%95%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90(%E5%85%A8%E5%9B%BD).html</guid>
         
+        <category>面试求职</category>
+        
+        
+        <category>面试求职</category>
         
       </item>
     
       <item>
-        <title>Python机器学习资源大全</title>
-        <description>&lt;!-- markdownlint-disable --&gt;
-&lt;h1 align=&quot;center&quot;&gt;
+        <title>python机器学习资源与工具库大全</title>
+        <description>&lt;h1 align=&quot;center&quot;&gt;
     python机器学习资源与工具库大全
     &lt;br /&gt;
 &lt;/h1&gt;
@@ -53855,17 +53858,20 @@ _用于连接，操作和查询数据库的库。_
 - [**CV项目和资源大全**](https://github.com/HanXinzi-AI/awesome-computer-vision-resources): 周更新的各种CV板块涉及的项目和工具资源汇集列表
 &lt;/code&gt;&lt;/summary&gt;&lt;/details&gt;
 </description>
-        <pubDate>Mon, 26 Apr 2021 00:00:00 +0800</pubDate>
-        <link>http://hitchhiker.ma/2021/04/26/python%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</link>
-        <guid isPermaLink="true">http://hitchhiker.ma/2021/04/26/python%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</guid>
+        <pubDate>Sun, 25 Apr 2021 10:55:00 +0800</pubDate>
+        <link>/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/python%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</link>
+        <guid isPermaLink="true">/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/python%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</guid>
         
+        <category>工具库与资源</category>
+        
+        
+        <category>工具库与资源</category>
         
       </item>
     
       <item>
-        <title>Jupyter资源大全</title>
-        <description>&lt;!-- markdownlint-disable --&gt;
-&lt;h1 align=&quot;center&quot;&gt;
+        <title>Jupyter资源与工具库大全</title>
+        <description>&lt;h1 align=&quot;center&quot;&gt;
     Jupyter资源与工具库大全
     &lt;br /&gt;
 &lt;/h1&gt;
@@ -57659,10 +57665,14 @@ _用于连接，操作和查询数据库的库。_
   &lt;li&gt;&lt;a href=&quot;https://github.com/HanXinzi-AI/awesome-computer-vision-resources&quot;&gt;&lt;strong&gt;CV项目和资源大全&lt;/strong&gt;&lt;/a&gt;: 周更新的各种CV板块涉及的项目和工具资源汇集列表&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 25 Apr 2021 00:00:00 +0800</pubDate>
-        <link>http://hitchhiker.ma/2021/04/25/jupyter%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</link>
-        <guid isPermaLink="true">http://hitchhiker.ma/2021/04/25/jupyter%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</guid>
+        <pubDate>Sun, 25 Apr 2021 10:55:00 +0800</pubDate>
+        <link>/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/jupyter%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</link>
+        <guid isPermaLink="true">/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/jupyter%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</guid>
         
+        <category>工具库与资源</category>
+        
+        
+        <category>工具库与资源</category>
         
       </item>
     

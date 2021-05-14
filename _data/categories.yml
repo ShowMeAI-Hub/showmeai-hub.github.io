@@ -1,8 +1,11 @@
-- slug: artificial-intelligence
-  name: AI-algorithm
+- slug: AI算法
+  name: AI算法
 
-- slug: interview
-  name: interview
+- slug: 面试求职
+  name: 面试求职
 
-- slug: projects
-  name: projects
+- slug: AI项目
+  name: AI项目
+
+- slug: 工具库与资源
+  name: 工具库与资源

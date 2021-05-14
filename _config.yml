@@ -1,13 +1,19 @@
+# the HTML language tag › https://www.w3.org/International/questions/qa-choosing-language-tags
+lang: zh-CN
+
+# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+timezone: Asia/Shanghai
+
 # Site settings
 title: Algorithm
 description: world about machine learning and artificial intelligence
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hitchhiker.ma" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 author:
   fullname: ShowMeAI
-  github: showmeai-officail
+  github: showmeai-hub
   # twitter: electrik_frog
   # disqus: your_disqus_forum_shortname
 

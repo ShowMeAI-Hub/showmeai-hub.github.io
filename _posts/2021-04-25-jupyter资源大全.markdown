@@ -1,4 +1,12 @@
-<!-- markdownlint-disable -->
+---
+title: Jupyter资源与工具库大全
+author: ShowMeAI
+date: 2021-04-25 10:55:00 +0800
+categories: [工具库与资源]
+tags: [工具库与资源]
+pin: false
+---
+
 <h1 align="center">
     Jupyter资源与工具库大全
     <br>
