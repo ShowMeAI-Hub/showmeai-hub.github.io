@@ -5,12 +5,12 @@
     <description>world about machine learning and artificial intelligence</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 May 2021 11:56:39 +0800</pubDate>
-    <lastBuildDate>Sat, 15 May 2021 11:56:39 +0800</lastBuildDate>
+    <pubDate>Sat, 15 May 2021 15:35:41 +0800</pubDate>
+    <lastBuildDate>Sat, 15 May 2021 15:35:41 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>算法招聘数据分析(全国)</title>
+        <title>算法招聘数据分析</title>
         <description>&lt;html&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot; /&gt;
@@ -43,15 +43,16 @@
 &lt;/head&gt;
 &lt;body&gt;
 
+&lt;h2&gt;(2021-05-15更新)&lt;/h2&gt;
 &lt;h2&gt;点击按钮查看招聘数据分析详情&lt;/h2&gt;
     
-&lt;a href=&quot;https://showmeai-hub.github.io/面试求职/2021/05/13/算法招聘数据分析(全国).html&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/2021/05/13/job_data_analysis.html&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看薪资&lt;/button&gt;
 &lt;/a&gt;
-&lt;a href=&quot;https://showmeai-hub.github.io/面试求职/2021/05/13/招聘数据分析_公司与业务.html&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/2021/05/13/job_analysis_company.html&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看公司&lt;/button&gt;
 &lt;/a&gt;
-&lt;a href=&quot;https://showmeai-hub.github.io/面试求职/2021/05/13/招聘数据分析_技能与要求.html&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/2021/05/13/job_analysis_skills.html&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看要求&lt;/button&gt;
 &lt;/a&gt;
 
@@ -3586,18 +3587,14 @@
 &lt;/html&gt;
 </description>
         <pubDate>Thu, 13 May 2021 00:00:00 +0800</pubDate>
-        <link>/%E9%9D%A2%E8%AF%95%E6%B1%82%E8%81%8C/2021/05/13/%E7%AE%97%E6%B3%95%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90(%E5%85%A8%E5%9B%BD).html</link>
-        <guid isPermaLink="true">/%E9%9D%A2%E8%AF%95%E6%B1%82%E8%81%8C/2021/05/13/%E7%AE%97%E6%B3%95%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90(%E5%85%A8%E5%9B%BD).html</guid>
+        <link>/2021/05/13/job_data_analysis.html</link>
+        <guid isPermaLink="true">/2021/05/13/job_data_analysis.html</guid>
         
-        <category>面试求职</category>
-        
-        
-        <category>面试求职</category>
         
       </item>
     
       <item>
-        <title>招聘数据分析_技能与要求</title>
+        <title>算法招聘-技能与要求分析</title>
         <description>&lt;html&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot; /&gt;
@@ -3630,15 +3627,16 @@
 &lt;/head&gt;
 &lt;body&gt;
 
+&lt;h2&gt;(2021-05-15更新)&lt;/h2&gt;
 &lt;h2&gt;点击按钮查看招聘数据分析详情&lt;/h2&gt;
     
-&lt;a href=&quot;https://showmeai-hub.github.io/面试求职/2021/05/13/算法招聘数据分析(全国).html&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/2021/05/13/job_data_analysis.html&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看薪资&lt;/button&gt;
 &lt;/a&gt;
-&lt;a href=&quot;https://showmeai-hub.github.io/面试求职/2021/05/13/招聘数据分析_公司与业务.html&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/2021/05/13/job_analysis_company.html&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看公司&lt;/button&gt;
 &lt;/a&gt;
-&lt;a href=&quot;https://showmeai-hub.github.io/面试求职/2021/05/13/招聘数据分析_技能与要求.html&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/2021/05/13/job_analysis_skills.html&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看要求&lt;/button&gt;
 &lt;/a&gt;
 
@@ -15695,18 +15693,14 @@
 &lt;/html&gt;
 </description>
         <pubDate>Thu, 13 May 2021 00:00:00 +0800</pubDate>
-        <link>/%E9%9D%A2%E8%AF%95%E6%B1%82%E8%81%8C/2021/05/13/%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90_%E6%8A%80%E8%83%BD%E4%B8%8E%E8%A6%81%E6%B1%82.html</link>
-        <guid isPermaLink="true">/%E9%9D%A2%E8%AF%95%E6%B1%82%E8%81%8C/2021/05/13/%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90_%E6%8A%80%E8%83%BD%E4%B8%8E%E8%A6%81%E6%B1%82.html</guid>
+        <link>/2021/05/13/job_analysis_skills.html</link>
+        <guid isPermaLink="true">/2021/05/13/job_analysis_skills.html</guid>
         
-        <category>面试求职</category>
-        
-        
-        <category>面试求职</category>
         
       </item>
     
       <item>
-        <title>招聘数据分析_公司与业务</title>
+        <title>算法招聘-公司与业务分析</title>
         <description>&lt;html&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot; /&gt;
@@ -15740,15 +15734,16 @@
 &lt;/head&gt;
 &lt;body&gt;
 
+&lt;h2&gt;(2021-05-15更新)&lt;/h2&gt;
 &lt;h2&gt;点击按钮查看招聘数据分析详情&lt;/h2&gt;
     
-&lt;a href=&quot;https://showmeai-hub.github.io/面试求职/2021/05/13/算法招聘数据分析(全国).html&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/2021/05/13/job_data_analysis.html&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看薪资&lt;/button&gt;
 &lt;/a&gt;
-&lt;a href=&quot;https://showmeai-hub.github.io/面试求职/2021/05/13/招聘数据分析_公司与业务.html&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/2021/05/13/job_analysis_company.html&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看公司&lt;/button&gt;
 &lt;/a&gt;
-&lt;a href=&quot;https://showmeai-hub.github.io/面试求职/2021/05/13/招聘数据分析_技能与要求.html&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/2021/05/13/job_analysis_skills.html&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看要求&lt;/button&gt;
 &lt;/a&gt;
 
@@ -42614,13 +42609,9 @@
 &lt;/html&gt;
 </description>
         <pubDate>Thu, 13 May 2021 00:00:00 +0800</pubDate>
-        <link>/%E9%9D%A2%E8%AF%95%E6%B1%82%E8%81%8C/2021/05/13/%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90_%E5%85%AC%E5%8F%B8%E4%B8%8E%E4%B8%9A%E5%8A%A1.html</link>
-        <guid isPermaLink="true">/%E9%9D%A2%E8%AF%95%E6%B1%82%E8%81%8C/2021/05/13/%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90_%E5%85%AC%E5%8F%B8%E4%B8%8E%E4%B8%9A%E5%8A%A1.html</guid>
+        <link>/2021/05/13/job_analysis_company.html</link>
+        <guid isPermaLink="true">/2021/05/13/job_analysis_company.html</guid>
         
-        <category>面试求职</category>
-        
-        
-        <category>面试求职</category>
         
       </item>
     

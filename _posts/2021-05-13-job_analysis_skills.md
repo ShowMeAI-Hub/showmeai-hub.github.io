@@ -1,6 +1,12 @@
+---
+title: 算法招聘-技能与要求分析
+---
+
+
+
 <html>
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
         <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-wordcloud.min.js"></script>
@@ -30,19 +36,20 @@
 </head>
 <body>
 
+<h2>(2021-05-15更新)</h2>
 <h2>点击按钮查看招聘数据分析详情</h2>
     
-<a href="https://showmeai-hub.github.io/面试求职/2021/05/13/算法招聘数据分析(全国).html">
+<a href="https://showmeai-hub.github.io/2021/05/13/job_data_analysis.html">
     <button class="button">看薪资</button>
 </a>
-<a href="https://showmeai-hub.github.io/面试求职/2021/05/13/招聘数据分析_公司与业务.html">
+<a href="https://showmeai-hub.github.io/2021/05/13/job_analysis_company.html">
     <button class="button">看公司</button>
 </a>
-<a href="https://showmeai-hub.github.io/面试求职/2021/05/13/招聘数据分析_技能与要求.html">
+<a href="https://showmeai-hub.github.io/2021/05/13/job_analysis_skills.html">
     <button class="button">看要求</button>
 </a>
 
-<p style="clear:both"><br /></p>
+<p style="clear:both"><br></p>
 
 
 </body>
