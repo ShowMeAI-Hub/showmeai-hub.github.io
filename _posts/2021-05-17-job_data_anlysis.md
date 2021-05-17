@@ -40,13 +40,13 @@ title: 算法招聘数据分析
 
 <h2>点击按钮查看招聘数据分析详情</h2>
     
-<a href="https://showmeai-hub.github.io/2021/05/13/job_data_anlysis.html">
+<a href="https://showmeai-hub.github.io/2021/05/17/job_data_anlysis.html">
     <button class="button">看薪资</button>
 </a>
-<a href="https://showmeai-hub.github.io/2021/05/13/job_anlysis_company.html">
+<a href="https://showmeai-hub.github.io/2021/05/17/job_anlysis_company.html">
     <button class="button">看公司</button>
 </a>
-<a href="https://showmeai-hub.github.io/2021/05/13/job_anlysis_skills.html">
+<a href="https://showmeai-hub.github.io/2021/05/17/job_anlysis_skills.html">
     <button class="button">看要求</button>
 </a>
 
@@ -89,24 +89,24 @@ title: 算法招聘数据分析
         }
     </style>
     <div class="tab">
-            <button class="tablinks" onclick="showChart(event, 'b90ab6e2cc764a41907362644278ea63')">薪资</button>
-            <button class="tablinks" onclick="showChart(event, '4b6fb4c1f08b4eec960cb6c704ea0fd2')">实习薪资分布</button>
-            <button class="tablinks" onclick="showChart(event, '4af52d7e28a142279315a6a20eb47117')">社招薪资分布</button>
-            <button class="tablinks" onclick="showChart(event, '9a0637f844684648a72a54043583bf41')">城市&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '7084a17411864b47af8acb738be0f36e')">薪资地图</button>
-            <button class="tablinks" onclick="showChart(event, '2544d362826846e78d85e462a748d283')">区域&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '97e479b27efb477cae09643d5266c1bf')">行业&薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'd11d6a68fb904a509c31f42cf0de06ef')">方向关键词&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '2e439a9399f94403a6c7829239375d5c')">方向关键词&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '66f90243077748ddba9a9b56445579c0')">经验&薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'c09f00a902934cfc82d23e94e24a75b9')">top10薪资招聘</button>
+            <button class="tablinks" onclick="showChart(event, 'e86dcfe81be74b9da77c20106189a202')">薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'd16948205b734f0ab3d99542d4598d6e')">实习薪资分布</button>
+            <button class="tablinks" onclick="showChart(event, 'bdd767b162c341b1bf9086401c7913f9')">社招薪资分布</button>
+            <button class="tablinks" onclick="showChart(event, '01c2593b2aa44ad5a81b2f52f2b280d7')">城市&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'c30343ab1f3d4422ba31c17d78c5cf57')">薪资地图</button>
+            <button class="tablinks" onclick="showChart(event, '8a88521d1c0148d4919f7ecb3802570a')">区域&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'c235cc05ac044df5958330aefbb98f6f')">行业&薪资</button>
+            <button class="tablinks" onclick="showChart(event, '548154f3ca604b5795edfbec6258e66b')">方向关键词&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'abd575034ba84c32a9e6c7839b3f153a')">方向关键词&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'b652136ecb734f33930dda550d15b7c7')">经验&薪资</button>
+            <button class="tablinks" onclick="showChart(event, '4678d86e0d8648c9a5e328f56fc1a719')">top10薪资招聘</button>
     </div>
 
     <div class="box">
-                <div id="b90ab6e2cc764a41907362644278ea63" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="e86dcfe81be74b9da77c20106189a202" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_b90ab6e2cc764a41907362644278ea63 = echarts.init(
-            document.getElementById('b90ab6e2cc764a41907362644278ea63'), 'white', {renderer: 'canvas'});
+        var chart_e86dcfe81be74b9da77c20106189a202 = echarts.init(
+            document.getElementById('e86dcfe81be74b9da77c20106189a202'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -121,7 +121,7 @@ title: 算法招聘数据分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_b90ab6e2cc764a41907362644278ea63 = {
+        var option_e86dcfe81be74b9da77c20106189a202 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -480,12 +480,12 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_b90ab6e2cc764a41907362644278ea63.setOption(option_b90ab6e2cc764a41907362644278ea63);
+        chart_e86dcfe81be74b9da77c20106189a202.setOption(option_e86dcfe81be74b9da77c20106189a202);
     </script>
-                <div id="4b6fb4c1f08b4eec960cb6c704ea0fd2" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="d16948205b734f0ab3d99542d4598d6e" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_4b6fb4c1f08b4eec960cb6c704ea0fd2 = echarts.init(
-            document.getElementById('4b6fb4c1f08b4eec960cb6c704ea0fd2'), 'white', {renderer: 'canvas'});
+        var chart_d16948205b734f0ab3d99542d4598d6e = echarts.init(
+            document.getElementById('d16948205b734f0ab3d99542d4598d6e'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -500,7 +500,7 @@ title: 算法招聘数据分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_4b6fb4c1f08b4eec960cb6c704ea0fd2 = {
+        var option_d16948205b734f0ab3d99542d4598d6e = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -740,12 +740,12 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_4b6fb4c1f08b4eec960cb6c704ea0fd2.setOption(option_4b6fb4c1f08b4eec960cb6c704ea0fd2);
+        chart_d16948205b734f0ab3d99542d4598d6e.setOption(option_d16948205b734f0ab3d99542d4598d6e);
     </script>
-                <div id="4af52d7e28a142279315a6a20eb47117" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="bdd767b162c341b1bf9086401c7913f9" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_4af52d7e28a142279315a6a20eb47117 = echarts.init(
-            document.getElementById('4af52d7e28a142279315a6a20eb47117'), 'white', {renderer: 'canvas'});
+        var chart_bdd767b162c341b1bf9086401c7913f9 = echarts.init(
+            document.getElementById('bdd767b162c341b1bf9086401c7913f9'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -760,7 +760,7 @@ title: 算法招聘数据分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_4af52d7e28a142279315a6a20eb47117 = {
+        var option_bdd767b162c341b1bf9086401c7913f9 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -1000,13 +1000,13 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_4af52d7e28a142279315a6a20eb47117.setOption(option_4af52d7e28a142279315a6a20eb47117);
+        chart_bdd767b162c341b1bf9086401c7913f9.setOption(option_bdd767b162c341b1bf9086401c7913f9);
     </script>
-                <div id="9a0637f844684648a72a54043583bf41" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="01c2593b2aa44ad5a81b2f52f2b280d7" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_9a0637f844684648a72a54043583bf41 = echarts.init(
-            document.getElementById('9a0637f844684648a72a54043583bf41'), 'white', {renderer: 'canvas'});
-        var option_9a0637f844684648a72a54043583bf41 = {
+        var chart_01c2593b2aa44ad5a81b2f52f2b280d7 = echarts.init(
+            document.getElementById('01c2593b2aa44ad5a81b2f52f2b280d7'), 'white', {renderer: 'canvas'});
+        var option_01c2593b2aa44ad5a81b2f52f2b280d7 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -1373,12 +1373,12 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_9a0637f844684648a72a54043583bf41.setOption(option_9a0637f844684648a72a54043583bf41);
+        chart_01c2593b2aa44ad5a81b2f52f2b280d7.setOption(option_01c2593b2aa44ad5a81b2f52f2b280d7);
     </script>
-                <div id="7084a17411864b47af8acb738be0f36e" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="c30343ab1f3d4422ba31c17d78c5cf57" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_7084a17411864b47af8acb738be0f36e = echarts.init(
-            document.getElementById('7084a17411864b47af8acb738be0f36e'), 'white', {renderer: 'canvas'});
+        var chart_c30343ab1f3d4422ba31c17d78c5cf57 = echarts.init(
+            document.getElementById('c30343ab1f3d4422ba31c17d78c5cf57'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -1393,7 +1393,7 @@ title: 算法招聘数据分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_7084a17411864b47af8acb738be0f36e = {
+        var option_c30343ab1f3d4422ba31c17d78c5cf57 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -1704,13 +1704,13 @@ title: 算法招聘数据分析
         "emphasis": {}
     }
 };
-        chart_7084a17411864b47af8acb738be0f36e.setOption(option_7084a17411864b47af8acb738be0f36e);
+        chart_c30343ab1f3d4422ba31c17d78c5cf57.setOption(option_c30343ab1f3d4422ba31c17d78c5cf57);
     </script>
-                <div id="2544d362826846e78d85e462a748d283" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="8a88521d1c0148d4919f7ecb3802570a" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_2544d362826846e78d85e462a748d283 = echarts.init(
-            document.getElementById('2544d362826846e78d85e462a748d283'), 'white', {renderer: 'canvas'});
-        var option_2544d362826846e78d85e462a748d283 = {
+        var chart_8a88521d1c0148d4919f7ecb3802570a = echarts.init(
+            document.getElementById('8a88521d1c0148d4919f7ecb3802570a'), 'white', {renderer: 'canvas'});
+        var option_8a88521d1c0148d4919f7ecb3802570a = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -2077,13 +2077,13 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_2544d362826846e78d85e462a748d283.setOption(option_2544d362826846e78d85e462a748d283);
+        chart_8a88521d1c0148d4919f7ecb3802570a.setOption(option_8a88521d1c0148d4919f7ecb3802570a);
     </script>
-                <div id="97e479b27efb477cae09643d5266c1bf" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="c235cc05ac044df5958330aefbb98f6f" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_97e479b27efb477cae09643d5266c1bf = echarts.init(
-            document.getElementById('97e479b27efb477cae09643d5266c1bf'), 'white', {renderer: 'canvas'});
-        var option_97e479b27efb477cae09643d5266c1bf = {
+        var chart_c235cc05ac044df5958330aefbb98f6f = echarts.init(
+            document.getElementById('c235cc05ac044df5958330aefbb98f6f'), 'white', {renderer: 'canvas'});
+        var option_c235cc05ac044df5958330aefbb98f6f = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -2420,13 +2420,13 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_97e479b27efb477cae09643d5266c1bf.setOption(option_97e479b27efb477cae09643d5266c1bf);
+        chart_c235cc05ac044df5958330aefbb98f6f.setOption(option_c235cc05ac044df5958330aefbb98f6f);
     </script>
-                <div id="d11d6a68fb904a509c31f42cf0de06ef" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="548154f3ca604b5795edfbec6258e66b" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_d11d6a68fb904a509c31f42cf0de06ef = echarts.init(
-            document.getElementById('d11d6a68fb904a509c31f42cf0de06ef'), 'white', {renderer: 'canvas'});
-        var option_d11d6a68fb904a509c31f42cf0de06ef = {
+        var chart_548154f3ca604b5795edfbec6258e66b = echarts.init(
+            document.getElementById('548154f3ca604b5795edfbec6258e66b'), 'white', {renderer: 'canvas'});
+        var option_548154f3ca604b5795edfbec6258e66b = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -2763,13 +2763,13 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_d11d6a68fb904a509c31f42cf0de06ef.setOption(option_d11d6a68fb904a509c31f42cf0de06ef);
+        chart_548154f3ca604b5795edfbec6258e66b.setOption(option_548154f3ca604b5795edfbec6258e66b);
     </script>
-                <div id="2e439a9399f94403a6c7829239375d5c" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="abd575034ba84c32a9e6c7839b3f153a" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_2e439a9399f94403a6c7829239375d5c = echarts.init(
-            document.getElementById('2e439a9399f94403a6c7829239375d5c'), 'white', {renderer: 'canvas'});
-        var option_2e439a9399f94403a6c7829239375d5c = {
+        var chart_abd575034ba84c32a9e6c7839b3f153a = echarts.init(
+            document.getElementById('abd575034ba84c32a9e6c7839b3f153a'), 'white', {renderer: 'canvas'});
+        var option_abd575034ba84c32a9e6c7839b3f153a = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -3108,13 +3108,13 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_2e439a9399f94403a6c7829239375d5c.setOption(option_2e439a9399f94403a6c7829239375d5c);
+        chart_abd575034ba84c32a9e6c7839b3f153a.setOption(option_abd575034ba84c32a9e6c7839b3f153a);
     </script>
-                <div id="66f90243077748ddba9a9b56445579c0" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="b652136ecb734f33930dda550d15b7c7" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_66f90243077748ddba9a9b56445579c0 = echarts.init(
-            document.getElementById('66f90243077748ddba9a9b56445579c0'), 'white', {renderer: 'canvas'});
-        var option_66f90243077748ddba9a9b56445579c0 = {
+        var chart_b652136ecb734f33930dda550d15b7c7 = echarts.init(
+            document.getElementById('b652136ecb734f33930dda550d15b7c7'), 'white', {renderer: 'canvas'});
+        var option_b652136ecb734f33930dda550d15b7c7 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -3443,7 +3443,7 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_66f90243077748ddba9a9b56445579c0.setOption(option_66f90243077748ddba9a9b56445579c0);
+        chart_b652136ecb734f33930dda550d15b7c7.setOption(option_b652136ecb734f33930dda550d15b7c7);
     </script>
                         <style>
             .fl-table {
@@ -3497,7 +3497,7 @@ title: 算法招聘数据分析
                 background: #F8F8F8;
             }
         </style>
-        <div id="c09f00a902934cfc82d23e94e24a75b9" class="chart-container" style="">
+        <div id="4678d86e0d8648c9a5e328f56fc1a719" class="chart-container" style="">
             <p class="title" style="font-size: 18px; font-weight:bold;" > top10高薪岗位</p>
             <p class="subtitle" style="font-size: 12px;" > </p>
             <table class="fl-table">
