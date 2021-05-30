@@ -8,8 +8,6 @@ title: 算法招聘_典型招聘信息
 <head>
     <meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
-    
-    
 
 <style>
 .button {
@@ -58,43 +56,8 @@ title: 算法招聘_典型招聘信息
 
 
 <body>
+
         <style>
-        .tab {
-            overflow: hidden;
-            border: 1px solid #ccc;
-            background-color: #f1f1f1;
-        }
-
-        .tab button {
-            background-color: inherit;
-            float: left;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 12px 16px;
-            transition: 0.3s;
-        }
-
-        .tab button:hover {
-            background-color: #ddd;
-        }
-
-        .tab button.active {
-            background-color: #ccc;
-        }
-
-        .chart-container {
-            display: none;
-            padding: 6px 12px;
-            border-top: none;
-        }
-    </style>
-    <div class="tab">
-            <button class="tablinks" onclick="showChart(event, 'd6062cb177d143ba90aee87df9d5688d')">典型JD</button>
-    </div>
-
-    <div class="box">
-                        <style>
             .fl-table {
                 margin: 20px;
                 border-radius: 5px;
@@ -146,8 +109,8 @@ title: 算法招聘_典型招聘信息
                 background: #F8F8F8;
             }
         </style>
-        <div id="d6062cb177d143ba90aee87df9d5688d" class="chart-container" style="">
-            <p class="title" style="font-size: 18px; font-weight:bold;" > 典型JD一览</p>
+        <div id="87aab72d4ff140a5becf9386590aaa9b" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
             <p class="subtitle" style="font-size: 12px;" > </p>
             <table class="fl-table">
     <tr>
@@ -521,32 +484,6 @@ title: 算法招聘_典型招聘信息
 </table>
         </div>
 
-    </div>
 
-    <script>
-    </script>
-    <script>
-        (function() {
-            containers = document.getElementsByClassName("chart-container");
-            if(containers.length > 0) {
-                containers[0].style.display = "block";
-            }
-        })()
-
-        function showChart(evt, chartID) {
-            let containers = document.getElementsByClassName("chart-container");
-            for (let i = 0; i < containers.length; i++) {
-                containers[i].style.display = "none";
-            }
-
-            let tablinks = document.getElementsByClassName("tablinks");
-            for (let i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = "tablinks";
-            }
-
-            document.getElementById(chartID).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-    </script>
 </body>
 </html>
