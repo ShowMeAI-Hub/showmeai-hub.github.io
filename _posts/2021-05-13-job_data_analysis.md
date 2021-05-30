@@ -36,7 +36,7 @@ title: 算法招聘数据分析
 </head>
 <body>
 
-<h2>（2021-05-28更新）</h2>
+<h2>（2021-05-30更新）</h2>
 
 <h2>点击按钮查看招聘数据分析详情</h2>
     
@@ -48,6 +48,9 @@ title: 算法招聘数据分析
 </a>
 <a href="https://showmeai-hub.github.io/2021/05/13/job_analysis_skills.html">
     <button class="button">看要求</button>
+</a>
+<a href="https://showmeai-hub.github.io/2021/05/13/recent_jds.html">
+    <button class="button">典型JD</button>
 </a>
 
 <p style="clear:both"><br></p>
@@ -89,24 +92,24 @@ title: 算法招聘数据分析
         }
     </style>
     <div class="tab">
-            <button class="tablinks" onclick="showChart(event, '4e2b1d76cfc44fc481bb6f6880225f49')">薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'e6888dd4905747b1a3a1fb2350b1ec2d')">实习薪资分布</button>
-            <button class="tablinks" onclick="showChart(event, '63338a372c2643e6b622de5de83312a5')">社招薪资分布</button>
-            <button class="tablinks" onclick="showChart(event, '042e34f7553a478ab8a7c3ada996cef5')">城市&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '6ae942ce64c34f02822dfdb5cf37823a')">薪资地图</button>
-            <button class="tablinks" onclick="showChart(event, '626f827267cd462fb12a2c3a0df941dd')">区域&薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'a48ebbf4e1b74ef8ab642b2183d95f44')">行业&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '0d95714970e741fcabba4a2b635bd734')">方向关键词&薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'ef7c3db7718e4062889b155b070654ca')">学历&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '6f6777cc96fe488487cb16f1b0348e19')">经验&薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'a013e8ae0b4444a7996d74fe64e31d32')">top10薪资招聘</button>
+            <button class="tablinks" onclick="showChart(event, 'c7a77ff061e045db9d63d3310d6fd340')">薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'e47594a51e66433bb5269afec1c8f420')">实习薪资分布</button>
+            <button class="tablinks" onclick="showChart(event, '6ca70c00b1d04da0b7202ec15715db5f')">社招薪资分布</button>
+            <button class="tablinks" onclick="showChart(event, '1953ce06c3d44446bd51e1f3d91682e9')">城市&薪资</button>
+            <button class="tablinks" onclick="showChart(event, '1fb8d916e79e4614aefd3633754606eb')">薪资地图</button>
+            <button class="tablinks" onclick="showChart(event, '69a8b8089e154652a65adb04a98d9e37')">区域&薪资</button>
+            <button class="tablinks" onclick="showChart(event, '6cacdd1accbb4f408bae1895349e5f9b')">行业&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'c541861945bc45178f787b7f475834eb')">方向关键词&薪资</button>
+            <button class="tablinks" onclick="showChart(event, '4ea2aa27c5154d369a5cf031dc9408c4')">学历&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'd5cbed39a65f4609a321f4d97708dfad')">经验&薪资</button>
+            <button class="tablinks" onclick="showChart(event, '19de68cec1b345aa9f666587b116ce6c')">top10薪资招聘</button>
     </div>
 
     <div class="box">
-                <div id="4e2b1d76cfc44fc481bb6f6880225f49" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="c7a77ff061e045db9d63d3310d6fd340" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_4e2b1d76cfc44fc481bb6f6880225f49 = echarts.init(
-            document.getElementById('4e2b1d76cfc44fc481bb6f6880225f49'), 'white', {renderer: 'canvas'});
+        var chart_c7a77ff061e045db9d63d3310d6fd340 = echarts.init(
+            document.getElementById('c7a77ff061e045db9d63d3310d6fd340'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -121,7 +124,7 @@ title: 算法招聘数据分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_4e2b1d76cfc44fc481bb6f6880225f49 = {
+        var option_c7a77ff061e045db9d63d3310d6fd340 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -168,16 +171,16 @@ title: 算法招聘数据分析
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                360,
-                222,
-                209,
-                194,
-                130,
-                128,
-                120,
-                86,
-                82,
-                68
+                240,
+                152,
+                135,
+                113,
+                85,
+                84,
+                72,
+                53,
+                47,
+                45
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -202,43 +205,43 @@ title: 算法招聘数据分析
             "data": [
                 {
                     "name": "20k-40k",
-                    "value": 360
+                    "value": 240
                 },
                 {
                     "name": "25k-50k",
-                    "value": 222
+                    "value": 152
                 },
                 {
                     "name": "15k-30k",
-                    "value": 209
+                    "value": 135
                 },
                 {
                     "name": "30k-60k",
-                    "value": 194
-                },
-                {
-                    "name": "30k-50k",
-                    "value": 130
+                    "value": 113
                 },
                 {
                     "name": "20k-30k",
-                    "value": 128
+                    "value": 85
                 },
                 {
                     "name": "15k-25k",
-                    "value": 120
+                    "value": 84
+                },
+                {
+                    "name": "30k-50k",
+                    "value": 72
                 },
                 {
                     "name": "25k-40k",
-                    "value": 86
+                    "value": 53
                 },
                 {
                     "name": "20k-35k",
-                    "value": 82
+                    "value": 47
                 },
                 {
                     "name": "25k-45k",
-                    "value": 68
+                    "value": 45
                 }
             ],
             "radius": [
@@ -271,43 +274,43 @@ title: 算法招聘数据分析
             "data": [
                 {
                     "name": "20k-40k",
-                    "value": 360
+                    "value": 240
                 },
                 {
                     "name": "25k-50k",
-                    "value": 222
+                    "value": 152
                 },
                 {
                     "name": "15k-30k",
-                    "value": 209
+                    "value": 135
                 },
                 {
                     "name": "30k-60k",
-                    "value": 194
-                },
-                {
-                    "name": "30k-50k",
-                    "value": 130
+                    "value": 113
                 },
                 {
                     "name": "20k-30k",
-                    "value": 128
+                    "value": 85
                 },
                 {
                     "name": "15k-25k",
-                    "value": 120
+                    "value": 84
+                },
+                {
+                    "name": "30k-50k",
+                    "value": 72
                 },
                 {
                     "name": "25k-40k",
-                    "value": 86
+                    "value": 53
                 },
                 {
                     "name": "20k-35k",
-                    "value": 82
+                    "value": 47
                 },
                 {
                     "name": "25k-45k",
-                    "value": 68
+                    "value": 45
                 }
             ],
             "radius": [
@@ -354,9 +357,9 @@ title: 算法招聘数据分析
                 "25k-50k",
                 "15k-30k",
                 "30k-60k",
-                "30k-50k",
                 "20k-30k",
                 "15k-25k",
+                "30k-50k",
                 "25k-40k",
                 "20k-35k",
                 "25k-45k"
@@ -415,9 +418,9 @@ title: 算法招聘数据分析
                 "25k-50k",
                 "15k-30k",
                 "30k-60k",
-                "30k-50k",
                 "20k-30k",
                 "15k-25k",
+                "30k-50k",
                 "25k-40k",
                 "20k-35k",
                 "25k-45k"
@@ -483,12 +486,12 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_4e2b1d76cfc44fc481bb6f6880225f49.setOption(option_4e2b1d76cfc44fc481bb6f6880225f49);
+        chart_c7a77ff061e045db9d63d3310d6fd340.setOption(option_c7a77ff061e045db9d63d3310d6fd340);
     </script>
-                <div id="e6888dd4905747b1a3a1fb2350b1ec2d" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="e47594a51e66433bb5269afec1c8f420" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_e6888dd4905747b1a3a1fb2350b1ec2d = echarts.init(
-            document.getElementById('e6888dd4905747b1a3a1fb2350b1ec2d'), 'white', {renderer: 'canvas'});
+        var chart_e47594a51e66433bb5269afec1c8f420 = echarts.init(
+            document.getElementById('e47594a51e66433bb5269afec1c8f420'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -503,7 +506,7 @@ title: 算法招聘数据分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_e6888dd4905747b1a3a1fb2350b1ec2d = {
+        var option_e47594a51e66433bb5269afec1c8f420 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -620,9 +623,9 @@ title: 算法招聘数据分析
             "data": [
                 [
                     2.5,
-                    4.5,
+                    5.0,
                     6.0,
-                    7.5,
+                    8.0,
                     40.0
                 ]
             ],
@@ -743,12 +746,12 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_e6888dd4905747b1a3a1fb2350b1ec2d.setOption(option_e6888dd4905747b1a3a1fb2350b1ec2d);
+        chart_e47594a51e66433bb5269afec1c8f420.setOption(option_e47594a51e66433bb5269afec1c8f420);
     </script>
-                <div id="63338a372c2643e6b622de5de83312a5" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="6ca70c00b1d04da0b7202ec15715db5f" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_63338a372c2643e6b622de5de83312a5 = echarts.init(
-            document.getElementById('63338a372c2643e6b622de5de83312a5'), 'white', {renderer: 'canvas'});
+        var chart_6ca70c00b1d04da0b7202ec15715db5f = echarts.init(
+            document.getElementById('6ca70c00b1d04da0b7202ec15715db5f'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -763,7 +766,7 @@ title: 算法招聘数据分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_63338a372c2643e6b622de5de83312a5 = {
+        var option_6ca70c00b1d04da0b7202ec15715db5f = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -810,9 +813,9 @@ title: 算法招聘数据分析
             "data": [
                 [
                     8,
-                    15.5,
-                    24,
-                    35.5,
+                    14.5,
+                    23,
+                    33.5,
                     70
                 ]
             ],
@@ -844,10 +847,10 @@ title: 算法招聘数据分析
             "name": "\u85aa\u8d44\u4e0a\u9650",
             "data": [
                 [
-                    14,
-                    25.5,
+                    15,
+                    26,
                     38,
-                    54.0,
+                    55,
                     120
                 ]
             ],
@@ -880,7 +883,7 @@ title: 算法招聘数据分析
             "data": [
                 [
                     12.0,
-                    22.5,
+                    23.0,
                     30.0,
                     37.5,
                     90.0
@@ -1003,13 +1006,13 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_63338a372c2643e6b622de5de83312a5.setOption(option_63338a372c2643e6b622de5de83312a5);
+        chart_6ca70c00b1d04da0b7202ec15715db5f.setOption(option_6ca70c00b1d04da0b7202ec15715db5f);
     </script>
-                <div id="042e34f7553a478ab8a7c3ada996cef5" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="1953ce06c3d44446bd51e1f3d91682e9" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_042e34f7553a478ab8a7c3ada996cef5 = echarts.init(
-            document.getElementById('042e34f7553a478ab8a7c3ada996cef5'), 'white', {renderer: 'canvas'});
-        var option_042e34f7553a478ab8a7c3ada996cef5 = {
+        var chart_1953ce06c3d44446bd51e1f3d91682e9 = echarts.init(
+            document.getElementById('1953ce06c3d44446bd51e1f3d91682e9'), 'white', {renderer: 'canvas'});
+        var option_1953ce06c3d44446bd51e1f3d91682e9 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -1061,13 +1064,13 @@ title: 算法招聘数据分析
                 30.0,
                 30.0,
                 30.0,
-                27.0,
+                25.0,
                 22.5,
-                20.0,
+                22.5,
                 22.5,
                 30.0,
-                22.5,
-                34.0
+                20.0,
+                20.0
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -1094,7 +1097,7 @@ title: 算法招聘数据分析
             "data": [
                 [
                     12.0,
-                    30.0,
+                    27.5,
                     35.0,
                     42.5,
                     90.0
@@ -1103,27 +1106,27 @@ title: 算法招聘数据分析
                     12.0,
                     25.0,
                     30.0,
-                    40.0,
-                    80.0
-                ],
-                [
-                    12.0,
-                    23.25,
-                    30.0,
                     37.5,
                     80.0
                 ],
                 [
+                    12.0,
+                    24.0,
+                    30.0,
+                    40.0,
+                    80.0
+                ],
+                [
                     12.5,
-                    22.5,
+                    23.5,
                     30.0,
                     37.5,
                     70.0
                 ],
                 [
-                    12.0,
-                    20.5,
-                    27.0,
+                    13.5,
+                    20.0,
+                    25.0,
                     32.5,
                     75.0
                 ],
@@ -1131,36 +1134,36 @@ title: 算法招聘数据分析
                     12.5,
                     20.0,
                     22.5,
-                    27.5,
+                    26.5,
                     40.0
                 ],
                 [
                     12.5,
-                    16.0,
-                    20.0,
-                    25.0,
+                    18.5,
+                    22.5,
+                    27.0,
+                    37.5
+                ],
+                [
+                    17.5,
+                    19.75,
+                    22.5,
+                    27.5,
+                    35.0
+                ],
+                [
+                    18.5,
+                    27.5,
+                    30.0,
+                    33.75,
                     37.5
                 ],
                 [
                     15.0,
-                    20.0,
-                    22.5,
-                    30.0,
-                    45.0
-                ],
-                [
-                    15.0,
-                    19.25,
-                    22.75,
-                    30.0,
-                    50.0
-                ],
-                [
-                    17.5,
-                    25.375,
-                    30.0,
-                    35.625,
-                    42.5
+                    18.75,
+                    33.5,
+                    37.5,
+                    40.0
                 ]
             ],
             "label": {
@@ -1258,16 +1261,16 @@ title: 算法招聘数据分析
             },
             "data": [
                 "\u5317\u4eac",
-                "\u4e0a\u6d77",
                 "\u6df1\u5733",
+                "\u4e0a\u6d77",
                 "\u676d\u5dde",
                 "\u5e7f\u5dde",
                 "\u6210\u90fd",
                 "\u6b66\u6c49",
                 "\u82cf\u5dde",
                 "\u4f5b\u5c71",
-                "\u897f\u5b89",
-                "\u53a6\u95e8"
+                "\u957f\u6c99",
+                "\u897f\u5b89"
             ]
         },
         {
@@ -1292,15 +1295,15 @@ title: 算法招聘数据分析
             },
             "data": [
                 "\u5317\u4eac",
-                "\u4e0a\u6d77",
                 "\u6df1\u5733",
+                "\u4e0a\u6d77",
                 "\u676d\u5dde",
                 "\u5e7f\u5dde",
                 "\u6210\u90fd",
                 "\u6b66\u6c49",
                 "\u82cf\u5dde",
-                "\u5357\u4eac",
-                "\u4f5b\u5c71"
+                "\u4f5b\u5c71",
+                "\u53a6\u95e8"
             ]
         }
     ],
@@ -1381,12 +1384,12 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_042e34f7553a478ab8a7c3ada996cef5.setOption(option_042e34f7553a478ab8a7c3ada996cef5);
+        chart_1953ce06c3d44446bd51e1f3d91682e9.setOption(option_1953ce06c3d44446bd51e1f3d91682e9);
     </script>
-                <div id="6ae942ce64c34f02822dfdb5cf37823a" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="1fb8d916e79e4614aefd3633754606eb" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_6ae942ce64c34f02822dfdb5cf37823a = echarts.init(
-            document.getElementById('6ae942ce64c34f02822dfdb5cf37823a'), 'white', {renderer: 'canvas'});
+        var chart_1fb8d916e79e4614aefd3633754606eb = echarts.init(
+            document.getElementById('1fb8d916e79e4614aefd3633754606eb'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -1401,7 +1404,7 @@ title: 算法招聘数据分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_6ae942ce64c34f02822dfdb5cf37823a = {
+        var option_1fb8d916e79e4614aefd3633754606eb = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -1464,18 +1467,18 @@ title: 算法招聘数据分析
                     ]
                 },
                 {
-                    "name": "\u4e0a\u6d77",
-                    "value": [
-                        121.473701,
-                        31.230416,
-                        30.0
-                    ]
-                },
-                {
                     "name": "\u6df1\u5733",
                     "value": [
                         114.07,
                         22.62,
+                        30.0
+                    ]
+                },
+                {
+                    "name": "\u4e0a\u6d77",
+                    "value": [
+                        121.473701,
+                        31.230416,
                         30.0
                     ]
                 },
@@ -1492,7 +1495,7 @@ title: 算法招聘数据分析
                     "value": [
                         113.23,
                         23.16,
-                        27.0
+                        25.0
                     ]
                 },
                 {
@@ -1508,7 +1511,7 @@ title: 算法招聘数据分析
                     "value": [
                         114.31,
                         30.52,
-                        20.0
+                        22.5
                     ]
                 },
                 {
@@ -1528,26 +1531,18 @@ title: 算法招聘数据分析
                     ]
                 },
                 {
-                    "name": "\u897f\u5b89",
-                    "value": [
-                        108.95,
-                        34.27,
-                        22.5
-                    ]
-                },
-                {
-                    "name": "\u53a6\u95e8",
-                    "value": [
-                        118.1,
-                        24.46,
-                        34.0
-                    ]
-                },
-                {
                     "name": "\u957f\u6c99",
                     "value": [
                         113,
                         28.21,
+                        20.0
+                    ]
+                },
+                {
+                    "name": "\u897f\u5b89",
+                    "value": [
+                        108.95,
+                        34.27,
                         20.0
                     ]
                 },
@@ -1560,14 +1555,6 @@ title: 算法招聘数据分析
                     ]
                 },
                 {
-                    "name": "\u5408\u80a5",
-                    "value": [
-                        117.27,
-                        31.86,
-                        20.5
-                    ]
-                },
-                {
                     "name": "\u90d1\u5dde",
                     "value": [
                         113.65,
@@ -1576,27 +1563,27 @@ title: 算法招聘数据分析
                     ]
                 },
                 {
-                    "name": "\u9752\u5c9b",
+                    "name": "\u73e0\u6d77",
                     "value": [
-                        120.33,
-                        36.07,
-                        17.5
+                        113.52,
+                        22.3,
+                        27.5
                     ]
                 },
                 {
-                    "name": "\u5609\u5174",
+                    "name": "\u65e0\u9521",
                     "value": [
-                        120.76,
-                        30.77,
-                        14.0
-                    ]
-                },
-                {
-                    "name": "\u5929\u6d25",
-                    "value": [
-                        117.200983,
-                        39.084158,
+                        120.29,
+                        31.59,
                         22.5
+                    ]
+                },
+                {
+                    "name": "\u5408\u80a5",
+                    "value": [
+                        117.27,
+                        31.86,
+                        20.5
                     ]
                 },
                 {
@@ -1608,11 +1595,27 @@ title: 算法招聘数据分析
                     ]
                 },
                 {
-                    "name": "\u4e1c\u839e",
+                    "name": "\u5929\u6d25",
                     "value": [
-                        113.75,
-                        23.04,
-                        24.0
+                        117.200983,
+                        39.084158,
+                        22.5
+                    ]
+                },
+                {
+                    "name": "\u9752\u5c9b",
+                    "value": [
+                        120.33,
+                        36.07,
+                        12.5
+                    ]
+                },
+                {
+                    "name": "\u798f\u5dde",
+                    "value": [
+                        119.3,
+                        26.08,
+                        12.0
                     ]
                 }
             ],
@@ -1672,13 +1675,13 @@ title: 算法招聘数据分析
         "emphasis": {}
     }
 };
-        chart_6ae942ce64c34f02822dfdb5cf37823a.setOption(option_6ae942ce64c34f02822dfdb5cf37823a);
+        chart_1fb8d916e79e4614aefd3633754606eb.setOption(option_1fb8d916e79e4614aefd3633754606eb);
     </script>
-                <div id="626f827267cd462fb12a2c3a0df941dd" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="69a8b8089e154652a65adb04a98d9e37" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_626f827267cd462fb12a2c3a0df941dd = echarts.init(
-            document.getElementById('626f827267cd462fb12a2c3a0df941dd'), 'white', {renderer: 'canvas'});
-        var option_626f827267cd462fb12a2c3a0df941dd = {
+        var chart_69a8b8089e154652a65adb04a98d9e37 = echarts.init(
+            document.getElementById('69a8b8089e154652a65adb04a98d9e37'), 'white', {renderer: 'canvas'});
+        var option_69a8b8089e154652a65adb04a98d9e37 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -1727,16 +1730,16 @@ title: 算法招聘数据分析
             "legendHoverLink": true,
             "data": [
                 35.0,
-                37.5,
+                35.0,
                 32.5,
-                30.0,
-                30.0,
-                22.5,
-                30.0,
-                30.0,
+                37.5,
                 30.0,
                 40.0,
-                30.0
+                27.5,
+                22.5,
+                30.0,
+                45.0,
+                27.5
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -1765,71 +1768,71 @@ title: 算法招聘数据分析
                     12.5,
                     30.0,
                     35.0,
-                    40.0,
+                    45.0,
                     80.0
                 ],
                 [
                     13.5,
                     30.0,
-                    37.5,
+                    35.0,
                     45.0,
                     80.0
                 ],
                 [
-                    12.5,
-                    27.0,
+                    15.0,
+                    30.0,
                     32.5,
-                    37.5,
-                    65.0
+                    38.875,
+                    75.0
                 ],
                 [
-                    16.0,
-                    25.0,
+                    12.0,
+                    22.625,
+                    28.75,
+                    37.5,
+                    80.0
+                ],
+                [
+                    12.5,
+                    22.5,
+                    29.75,
+                    39.375,
+                    62.5
+                ],
+                [
+                    20.0,
                     30.0,
-                    38.25,
+                    37.5,
+                    45.0,
+                    75.0
+                ],
+                [
+                    18.0,
+                    22.5,
+                    30.0,
+                    37.875,
                     55.0
                 ],
                 [
-                    12.5,
-                    22.5,
-                    30.0,
-                    38.125,
-                    67.5
-                ],
-                [
-                    12.0,
-                    26.875,
-                    36.25,
-                    45.0,
-                    75.0
-                ],
-                [
-                    12.5,
-                    20.0,
-                    22.5,
-                    30.0,
-                    40.0
-                ],
-                [
-                    12.0,
-                    25.0,
-                    30.0,
-                    37.5,
-                    80.0
-                ],
-                [
-                    15.0,
-                    25.0,
-                    30.0,
-                    45.0,
-                    75.0
-                ],
-                [
-                    15.0,
-                    27.0,
-                    36.25,
+                    17.5,
+                    34.0,
+                    40.0,
                     45.0,
                     70.0
+                ],
+                [
+                    12.0,
+                    22.5,
+                    27.5,
+                    35.625,
+                    60.0
+                ],
+                [
+                    15.0,
+                    20.125,
+                    22.5,
+                    29.125,
+                    40.0
                 ]
             ],
             "label": {
@@ -1929,14 +1932,14 @@ title: 算法招聘数据分析
                 "\u6d77\u6dc0\u533a",
                 "\u671d\u9633\u533a",
                 "\u5357\u5c71\u533a",
-                "\u6d66\u4e1c\u65b0\u2026",
-                "\u4f59\u676d\u533a",
-                "\u9ad8\u65b0\u533a",
-                "\u79d1\u6280\u56ed",
-                "\u5f90\u6c47\u533a",
-                "\u5b9d\u5b89\u533a",
                 "\u897f\u5317\u65fa",
-                "\u897f\u6e56\u533a"
+                "\u6d66\u4e1c\u65b0\u2026",
+                "\u4e2d\u5173\u6751",
+                "\u5b9d\u5b89\u533a",
+                "\u9ad8\u65b0\u533a",
+                "\u671b\u4eac",
+                "\u95f5\u884c\u533a",
+                "\u5f90\u6c47\u533a"
             ]
         },
         {
@@ -1963,13 +1966,13 @@ title: 算法招聘数据分析
                 "\u6d77\u6dc0\u533a",
                 "\u671d\u9633\u533a",
                 "\u5357\u5c71\u533a",
-                "\u6d66\u4e1c\u65b0\u2026",
-                "\u4f59\u676d\u533a",
-                "\u671b\u4eac",
-                "\u9ad8\u65b0\u533a",
                 "\u79d1\u6280\u56ed",
-                "\u5f90\u6c47\u533a",
-                "\u4e2d\u5173\u6751"
+                "\u4f59\u676d\u533a",
+                "\u897f\u5317\u65fa",
+                "\u6d66\u4e1c\u65b0\u2026",
+                "\u4e2d\u5173\u6751",
+                "\u5b9d\u5b89\u533a",
+                "\u9ad8\u65b0\u533a"
             ]
         }
     ],
@@ -2050,13 +2053,13 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_626f827267cd462fb12a2c3a0df941dd.setOption(option_626f827267cd462fb12a2c3a0df941dd);
+        chart_69a8b8089e154652a65adb04a98d9e37.setOption(option_69a8b8089e154652a65adb04a98d9e37);
     </script>
-                <div id="a48ebbf4e1b74ef8ab642b2183d95f44" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="6cacdd1accbb4f408bae1895349e5f9b" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_a48ebbf4e1b74ef8ab642b2183d95f44 = echarts.init(
-            document.getElementById('a48ebbf4e1b74ef8ab642b2183d95f44'), 'white', {renderer: 'canvas'});
-        var option_a48ebbf4e1b74ef8ab642b2183d95f44 = {
+        var chart_6cacdd1accbb4f408bae1895349e5f9b = echarts.init(
+            document.getElementById('6cacdd1accbb4f408bae1895349e5f9b'), 'white', {renderer: 'canvas'});
+        var option_6cacdd1accbb4f408bae1895349e5f9b = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -2106,11 +2109,11 @@ title: 算法招聘数据分析
             "data": [
                 45.0,
                 37.5,
-                33.75,
-                33.75,
-                30.0,
-                27.75,
-                22.5
+                37.5,
+                37.5,
+                35.0,
+                27.5,
+                25.75
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -2138,36 +2141,29 @@ title: 算法招聘数据分析
                 [
                     12.0,
                     22.0,
-                    27.75,
-                    37.5,
-                    80.0
-                ],
-                [
-                    12.5,
-                    22.5,
-                    30.0,
-                    37.5,
-                    80.0
-                ],
-                [
-                    12.0,
-                    22.5,
-                    30.0,
-                    37.5,
-                    80.0
-                ],
-                [
-                    12.5,
-                    25.625,
-                    32.5,
-                    40.0,
-                    80.0
-                ],
-                [
-                    12.0,
-                    20.0,
                     27.5,
-                    32.5,
+                    37.5,
+                    80.0
+                ],
+                [
+                    12.5,
+                    22.5,
+                    30.0,
+                    37.5,
+                    80.0
+                ],
+                [
+                    12.0,
+                    22.5,
+                    30.0,
+                    37.5,
+                    80.0
+                ],
+                [
+                    12.0,
+                    22.5,
+                    30.0,
+                    35.0,
                     80.0
                 ],
                 [
@@ -2176,6 +2172,13 @@ title: 算法招聘数据分析
                     30.0,
                     37.5,
                     75.0
+                ],
+                [
+                    16.5,
+                    24.0,
+                    30.0,
+                    37.5,
+                    65.0
                 ],
                 [
                     12.0,
@@ -2281,11 +2284,11 @@ title: 算法招聘数据分析
             "data": [
                 "\u77ed\u89c6\u9891",
                 "\u7535\u5546\u5e73\u53f0",
-                "\u76f4\u64ad\u5e73\u53f0",
-                "MCN",
                 "\u77ff\u4ea7",
+                "\u793e\u4ea4",
+                "\u76f4\u64ad\u5e73\u53f0",
                 "IT\u6280\u672f\u670d\u52a1",
-                "\u786c\u4ef6"
+                "\u7535\u5546"
             ]
         },
         {
@@ -2312,9 +2315,9 @@ title: 算法招聘数据分析
                 "IT\u6280\u672f\u670d\u52a1",
                 "\u4eba\u5de5\u667a\u80fd\u670d\u52a1",
                 "\u54a8\u8be2",
-                "\u5de5\u5177\u7c7b\u4ea7\u54c1",
                 "\u6570\u636e\u670d\u52a1",
                 "\u667a\u80fd\u786c\u4ef6",
+                "\u79d1\u6280\u91d1\u878d",
                 "\u8f6f\u4ef6\u670d\u52a1"
             ]
         }
@@ -2396,13 +2399,13 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_a48ebbf4e1b74ef8ab642b2183d95f44.setOption(option_a48ebbf4e1b74ef8ab642b2183d95f44);
+        chart_6cacdd1accbb4f408bae1895349e5f9b.setOption(option_6cacdd1accbb4f408bae1895349e5f9b);
     </script>
-                <div id="0d95714970e741fcabba4a2b635bd734" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="c541861945bc45178f787b7f475834eb" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_0d95714970e741fcabba4a2b635bd734 = echarts.init(
-            document.getElementById('0d95714970e741fcabba4a2b635bd734'), 'white', {renderer: 'canvas'});
-        var option_0d95714970e741fcabba4a2b635bd734 = {
+        var chart_c541861945bc45178f787b7f475834eb = echarts.init(
+            document.getElementById('c541861945bc45178f787b7f475834eb'), 'white', {renderer: 'canvas'});
+        var option_c541861945bc45178f787b7f475834eb = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -2450,13 +2453,13 @@ title: 算法招聘数据分析
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                32.5,
-                32.5,
+                31.0,
                 30.0,
                 30.0,
                 30.0,
                 30.0,
-                25.75
+                30.0,
+                30.0
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -2482,11 +2485,18 @@ title: 算法招聘数据分析
             "yAxisIndex": 1,
             "data": [
                 [
+                    12.5,
+                    22.5,
+                    30.0,
+                    37.5,
+                    62.5
+                ],
+                [
                     12.0,
                     22.5,
                     30.0,
                     37.5,
-                    75.0
+                    62.5
                 ],
                 [
                     12.0,
@@ -2497,35 +2507,28 @@ title: 算法招聘数据分析
                 ],
                 [
                     12.5,
-                    20.0,
-                    25.75,
-                    35.625,
+                    22.5,
+                    30.0,
+                    37.5,
                     75.0
-                ],
-                [
-                    12.5,
-                    27.5,
-                    32.5,
-                    45.0,
-                    85.0
                 ],
                 [
                     12.0,
                     22.5,
                     30.0,
                     37.5,
-                    70.0
+                    65.0
                 ],
                 [
                     12.0,
                     25.0,
-                    32.5,
-                    42.5,
+                    31.0,
+                    40.0,
                     90.0
                 ],
                 [
                     12.0,
-                    22.5,
+                    25.0,
                     30.0,
                     37.5,
                     90.0
@@ -2626,12 +2629,12 @@ title: 算法招聘数据分析
             },
             "data": [
                 "\u673a\u5668\u5b66\u4e60",
-                "\u63a8\u8350\u7b97\u6cd5",
                 "\u6570\u636e\u6316\u6398",
                 "\u6df1\u5ea6\u5b66\u4e60",
-                "Python",
+                "C/C++",
                 "\u4eba\u5de5\u667a\u80fd\u670d\u52a1",
-                "\u56fe\u7247\u8bc6\u522b"
+                "Python",
+                "\u56fe\u50cf\u7b97\u6cd5"
             ]
         },
         {
@@ -2655,10 +2658,10 @@ title: 算法招聘数据分析
                 }
             },
             "data": [
+                "C/C++",
                 "Python",
                 "\u4eba\u5de5\u667a\u80fd\u670d\u52a1",
-                "\u56fe\u7247\u8bc6\u522b",
-                "\u63a8\u8350\u7b97\u6cd5",
+                "\u56fe\u50cf\u7b97\u6cd5",
                 "\u6570\u636e\u6316\u6398",
                 "\u673a\u5668\u5b66\u4e60",
                 "\u6df1\u5ea6\u5b66\u4e60"
@@ -2742,13 +2745,13 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_0d95714970e741fcabba4a2b635bd734.setOption(option_0d95714970e741fcabba4a2b635bd734);
+        chart_c541861945bc45178f787b7f475834eb.setOption(option_c541861945bc45178f787b7f475834eb);
     </script>
-                <div id="ef7c3db7718e4062889b155b070654ca" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="4ea2aa27c5154d369a5cf031dc9408c4" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_ef7c3db7718e4062889b155b070654ca = echarts.init(
-            document.getElementById('ef7c3db7718e4062889b155b070654ca'), 'white', {renderer: 'canvas'});
-        var option_ef7c3db7718e4062889b155b070654ca = {
+        var chart_4ea2aa27c5154d369a5cf031dc9408c4 = echarts.init(
+            document.getElementById('4ea2aa27c5154d369a5cf031dc9408c4'), 'white', {renderer: 'canvas'});
+        var option_4ea2aa27c5154d369a5cf031dc9408c4 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -2801,9 +2804,9 @@ title: 算法招聘数据分析
                 35.0,
                 30.0,
                 30.0,
-                20.0,
-                20.0,
-                19.0
+                20.5,
+                18.0,
+                18.0
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -2833,7 +2836,7 @@ title: 算法招聘数据分析
                     30.0,
                     35.0,
                     45.0,
-                    60.0
+                    55.0
                 ],
                 [
                     24.0,
@@ -2843,29 +2846,29 @@ title: 算法招聘数据分析
                     80.0
                 ],
                 [
-                    14.5,
+                    15.0,
                     15.0,
                     18.0,
-                    24.25,
+                    28.125,
                     37.5
                 ],
                 [
                     12.0,
                     15.0,
-                    20.0,
-                    23.625,
+                    20.5,
+                    22.5,
                     40.0
                 ],
                 [
                     12.0,
                     15.0,
-                    20.0,
-                    23.25,
-                    34.5
+                    18.0,
+                    22.5,
+                    40.0
                 ],
                 [
                     12.0,
-                    23.5,
+                    24.0,
                     30.0,
                     40.0,
                     90.0
@@ -2978,8 +2981,8 @@ title: 算法招聘数据分析
                 "\u672c\u79d1",
                 "\u7855\u58eb",
                 "\u5e94\u5c4a / \u672c\u79d1",
-                "\u5e94\u5c4a / \u7855\u58eb",
-                "\u5e94\u5c4a / \u4e0d\u9650"
+                "\u5927\u4e13",
+                "\u5e94\u5c4a / \u7855\u58eb"
             ]
         },
         {
@@ -3090,13 +3093,13 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_ef7c3db7718e4062889b155b070654ca.setOption(option_ef7c3db7718e4062889b155b070654ca);
+        chart_4ea2aa27c5154d369a5cf031dc9408c4.setOption(option_4ea2aa27c5154d369a5cf031dc9408c4);
     </script>
-                <div id="6f6777cc96fe488487cb16f1b0348e19" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="d5cbed39a65f4609a321f4d97708dfad" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_6f6777cc96fe488487cb16f1b0348e19 = echarts.init(
-            document.getElementById('6f6777cc96fe488487cb16f1b0348e19'), 'white', {renderer: 'canvas'});
-        var option_6f6777cc96fe488487cb16f1b0348e19 = {
+        var chart_d5cbed39a65f4609a321f4d97708dfad = echarts.init(
+            document.getElementById('d5cbed39a65f4609a321f4d97708dfad'), 'white', {renderer: 'canvas'});
+        var option_d5cbed39a65f4609a321f4d97708dfad = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -3144,12 +3147,12 @@ title: 算法招聘数据分析
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                55.0,
+                50.0,
                 40.0,
                 30.0,
                 30.0,
                 25.0,
-                22.5,
+                20.0,
                 20.0
             ],
             "showBackground": false,
@@ -3177,51 +3180,51 @@ title: 算法招聘数据分析
             "data": [
                 [
                     12.0,
-                    21.5,
+                    22.5,
                     25.0,
-                    30.0,
+                    31.0,
                     80.0
                 ],
                 [
                     30.0,
-                    40.0,
-                    55.0,
-                    65.0,
+                    37.5,
+                    50.0,
+                    68.75,
                     80.0
                 ],
                 [
                     13.5,
-                    15.125,
-                    22.5,
-                    24.375,
+                    15.0,
+                    20.0,
+                    25.0,
                     30.0
                 ],
                 [
-                    12.5,
-                    25.0,
+                    15.0,
+                    25.125,
                     30.0,
-                    40.0,
+                    37.5,
                     80.0
                 ],
                 [
                     12.5,
-                    32.5,
+                    30.0,
                     40.0,
                     50.0,
                     90.0
                 ],
                 [
                     12.0,
-                    25.0,
+                    26.5,
                     30.0,
                     37.5,
-                    80.0
+                    75.0
                 ],
                 [
                     12.0,
                     15.0,
                     20.0,
-                    24.0,
+                    23.625,
                     40.0
                 ]
             ],
@@ -3436,7 +3439,7 @@ title: 算法招聘数据分析
         }
     ]
 };
-        chart_6f6777cc96fe488487cb16f1b0348e19.setOption(option_6f6777cc96fe488487cb16f1b0348e19);
+        chart_d5cbed39a65f4609a321f4d97708dfad.setOption(option_d5cbed39a65f4609a321f4d97708dfad);
     </script>
                         <style>
             .fl-table {
@@ -3490,7 +3493,7 @@ title: 算法招聘数据分析
                 background: #F8F8F8;
             }
         </style>
-        <div id="a013e8ae0b4444a7996d74fe64e31d32" class="chart-container" style="">
+        <div id="19de68cec1b345aa9f666587b116ce6c" class="chart-container" style="">
             <p class="title" style="font-size: 18px; font-weight:bold;" > top10高薪岗位</p>
             <p class="subtitle" style="font-size: 12px;" > </p>
             <table class="fl-table">
@@ -3528,17 +3531,6 @@ title: 算法招聘数据分析
         <td>70k-100k</td>
     </tr>
     <tr>
-        <td>算法经理</td>
-        <td>上海·虹梅路</td>
-        <td>思贤科技</td>
-        <td>硕士</td>
-        <td>经验3-5年</td>
-        <td>数据服务｜咨询,人工智能服务</td>
-        <td>B轮</td>
-        <td>50-150人</td>
-        <td>60k-100k</td>
-    </tr>
-    <tr>
         <td>SJY-自然语言处理算法专家</td>
         <td>北京·海淀区</td>
         <td>顺丰科技有限公司</td>
@@ -3550,28 +3542,6 @@ title: 算法招聘数据分析
         <td>70k-90k</td>
     </tr>
     <tr>
-        <td>算法负责人（总监）</td>
-        <td>上海·静安区</td>
-        <td>逸兴遄飞</td>
-        <td>本科</td>
-        <td>经验5-10年</td>
-        <td>专业服务｜咨询</td>
-        <td>未融资</td>
-        <td>50-150人</td>
-        <td>70k-90k</td>
-    </tr>
-    <tr>
-        <td>高级算法专家/资深算法专家-信息</td>
-        <td>北京·朝阳区</td>
-        <td>阿里巴巴-高德</td>
-        <td>本科</td>
-        <td>经验不限</td>
-        <td>工具类产品</td>
-        <td>上市公司</td>
-        <td>2000人以上</td>
-        <td>60k-100k</td>
-    </tr>
-    <tr>
         <td>算法专家（3D视觉方向）</td>
         <td>深圳·科技园</td>
         <td>信润富联</td>
@@ -3579,6 +3549,28 @@ title: 算法招聘数据分析
         <td>经验1-3年</td>
         <td>软件开发</td>
         <td>不需要融资</td>
+        <td>50-150人</td>
+        <td>60k-100k</td>
+    </tr>
+    <tr>
+        <td>算法专家</td>
+        <td>北京·朝阳区</td>
+        <td>十九街人力资源管理</td>
+        <td>本科</td>
+        <td>经验5-10年</td>
+        <td>其他</td>
+        <td>不需要融资</td>
+        <td>150-500人</td>
+        <td>60k-100k</td>
+    </tr>
+    <tr>
+        <td>算法经理</td>
+        <td>上海·虹梅路</td>
+        <td>思贤科技</td>
+        <td>硕士</td>
+        <td>经验3-5年</td>
+        <td>数据服务｜咨询,人工智能服务</td>
+        <td>B轮</td>
         <td>50-150人</td>
         <td>60k-100k</td>
     </tr>
@@ -3594,48 +3586,26 @@ title: 算法招聘数据分析
         <td>60k-100k</td>
     </tr>
     <tr>
-        <td>算法leader</td>
-        <td>北京·学院路</td>
-        <td>最右</td>
+        <td>推荐算法高级工程师</td>
+        <td>北京·海淀区</td>
+        <td>沅逸方达管理咨询</td>
         <td>本科</td>
         <td>经验5-10年</td>
-        <td>社交平台,内容社区</td>
-        <td>D轮及以上</td>
-        <td>500-2000人</td>
+        <td>社交平台,IT技术服务｜咨询,电商平台</td>
+        <td>未融资</td>
+        <td>50-150人</td>
         <td>60k-100k</td>
     </tr>
     <tr>
-        <td>算法专家</td>
-        <td>北京·朝阳区</td>
-        <td>十九街人力资源管理</td>
-        <td>本科</td>
+        <td>推荐算法专家</td>
+        <td>北京·海淀区</td>
+        <td>网易</td>
+        <td>硕士</td>
         <td>经验5-10年</td>
-        <td>其他</td>
-        <td>不需要融资</td>
-        <td>150-500人</td>
-        <td>60k-100k</td>
-    </tr>
-    <tr>
-        <td>图像算法</td>
-        <td>广州·新港</td>
-        <td>唯品会</td>
-        <td>本科</td>
-        <td>经验3-5年</td>
-        <td>电商平台</td>
+        <td>内容资讯,游戏,音频｜视频媒体</td>
         <td>上市公司</td>
         <td>2000人以上</td>
-        <td>50k-100k</td>
-    </tr>
-    <tr>
-        <td>算法leader-直播</td>
-        <td>北京·海淀区</td>
-        <td>字节跳动</td>
-        <td>本科</td>
-        <td>经验不限</td>
-        <td>内容资讯,短视频</td>
-        <td>D轮及以上</td>
-        <td>2000人以上</td>
-        <td>50k-100k</td>
+        <td>70k-90k</td>
     </tr>
     <tr>
         <td>高级/资深图像算法工程师</td>
@@ -3649,17 +3619,6 @@ title: 算法招聘数据分析
         <td>50k-100k</td>
     </tr>
     <tr>
-        <td>算法leader</td>
-        <td>深圳·新安</td>
-        <td>江行智能</td>
-        <td>硕士</td>
-        <td>经验3-5年</td>
-        <td>智能硬件</td>
-        <td>A轮</td>
-        <td>50-150人</td>
-        <td>60k-90k</td>
-    </tr>
-    <tr>
         <td>资深算法专家</td>
         <td>北京</td>
         <td>方仕达企业管理咨询</td>
@@ -3668,6 +3627,50 @@ title: 算法招聘数据分析
         <td>企业服务</td>
         <td>不需要融资</td>
         <td>15-50人</td>
+        <td>50k-100k</td>
+    </tr>
+    <tr>
+        <td>技术总监（数据算法类）</td>
+        <td>北京·朝阳区</td>
+        <td>火眼云</td>
+        <td>本科</td>
+        <td>经验5-10年</td>
+        <td>营销服务｜咨询</td>
+        <td>A轮</td>
+        <td>50-150人</td>
+        <td>50k-100k</td>
+    </tr>
+    <tr>
+        <td>算法工程师</td>
+        <td>北京·通州区</td>
+        <td>京东集团</td>
+        <td>本科</td>
+        <td>经验3-5年</td>
+        <td>电商平台</td>
+        <td>上市公司</td>
+        <td>2000人以上</td>
+        <td>50k-100k</td>
+    </tr>
+    <tr>
+        <td>图像算法</td>
+        <td>广州·新港</td>
+        <td>唯品会</td>
+        <td>本科</td>
+        <td>经验3-5年</td>
+        <td>电商平台</td>
+        <td>上市公司</td>
+        <td>2000人以上</td>
+        <td>50k-100k</td>
+    </tr>
+    <tr>
+        <td>算法负责人-国际化直播</td>
+        <td>深圳·南山区</td>
+        <td>字节跳动</td>
+        <td>本科</td>
+        <td>经验不限</td>
+        <td>内容资讯,短视频</td>
+        <td>D轮及以上</td>
+        <td>2000人以上</td>
         <td>50k-100k</td>
     </tr>
 </table>
