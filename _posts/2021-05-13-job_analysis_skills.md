@@ -36,7 +36,7 @@ title: 算法招聘_技能与要求分析
 </head>
 <body>
 
-<h2>（2021-06-08更新）</h2>
+<h2>（2021-06-11更新）</h2>
 
 <h2>点击按钮查看招聘数据分析详情</h2>
     
@@ -92,23 +92,23 @@ title: 算法招聘_技能与要求分析
         }
     </style>
     <div class="tab">
-            <button class="tablinks" onclick="showChart(event, '00126836fd3e4d98b0be4f9d83f4faae')">关键词</button>
-            <button class="tablinks" onclick="showChart(event, 'af6b1345ea3346b892fcfddf7f7c3283')">关键词分布</button>
-            <button class="tablinks" onclick="showChart(event, '164ae0db96874b47af74ad064b096823')">学历要求</button>
-            <button class="tablinks" onclick="showChart(event, '804422a2fb18472994b35e40e26be36a')">经验要求</button>
-            <button class="tablinks" onclick="showChart(event, '12862ce4b1e74e52b9068ac6fe0b9e06')">NLP岗位职责</button>
-            <button class="tablinks" onclick="showChart(event, '4659f16188ec421abb058dd41d48082e')">NLP任职要求</button>
-            <button class="tablinks" onclick="showChart(event, 'a0bdbec0ee3342b8ae7236b42b3d9780')">CV岗位职责</button>
-            <button class="tablinks" onclick="showChart(event, '67a98595bc664e43b4d6d20fd2118c03')">CV任职要求</button>
-            <button class="tablinks" onclick="showChart(event, '6b926fa90a1a42bc8317f0c74b6c0ada')">推荐算法岗位职责</button>
-            <button class="tablinks" onclick="showChart(event, 'b439a2503efd4ed1b95f59fdd1ee1c8d')">推荐算法任职要求</button>
+            <button class="tablinks" onclick="showChart(event, '5b3ab441c37241029e737054e05c3a9d')">关键词</button>
+            <button class="tablinks" onclick="showChart(event, '28df9b693201446aa6757d1ce4c66067')">关键词分布</button>
+            <button class="tablinks" onclick="showChart(event, 'ae5024414d224654b9cfccf026bede85')">学历要求</button>
+            <button class="tablinks" onclick="showChart(event, '08f9acda916940a68ecf3389bcc08905')">经验要求</button>
+            <button class="tablinks" onclick="showChart(event, 'e01044125ba24bbb99565afb8151c101')">NLP岗位职责</button>
+            <button class="tablinks" onclick="showChart(event, 'dc93e3bca1d04de6a39eb2c43dcc4c2a')">NLP任职要求</button>
+            <button class="tablinks" onclick="showChart(event, 'e7c2420cf0c448928917731fd8dbf88d')">CV岗位职责</button>
+            <button class="tablinks" onclick="showChart(event, '3c77926b5fe644449ab6500ad0ed3b6c')">CV任职要求</button>
+            <button class="tablinks" onclick="showChart(event, '3a8156607c12430ca8785e7fba01c002')">推荐算法岗位职责</button>
+            <button class="tablinks" onclick="showChart(event, '19b1de2f5cdf4d7cba0c64e04fc61bd2')">推荐算法任职要求</button>
     </div>
 
     <div class="box">
-                <div id="00126836fd3e4d98b0be4f9d83f4faae" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="5b3ab441c37241029e737054e05c3a9d" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_00126836fd3e4d98b0be4f9d83f4faae = echarts.init(
-            document.getElementById('00126836fd3e4d98b0be4f9d83f4faae'), 'white', {renderer: 'canvas'});
+        var chart_5b3ab441c37241029e737054e05c3a9d = echarts.init(
+            document.getElementById('5b3ab441c37241029e737054e05c3a9d'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -123,7 +123,7 @@ title: 算法招聘_技能与要求分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_00126836fd3e4d98b0be4f9d83f4faae = {
+        var option_5b3ab441c37241029e737054e05c3a9d = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -170,13 +170,13 @@ title: 算法招聘_技能与要求分析
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                485,
-                278,
-                202,
-                156,
-                127,
-                120,
-                115
+                471,
+                280,
+                200,
+                166,
+                125,
+                124,
+                117
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -212,82 +212,82 @@ title: 算法招聘_技能与要求分析
             "data": [
                 {
                     "name": "\u6df1\u5ea6\u5b66\u4e60",
-                    "value": 485,
+                    "value": 471,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(106,120,118)"
+                            "color": "rgb(75,83,136)"
                         }
                     }
                 },
                 {
                     "name": "\u4eba\u5de5\u667a\u80fd\u670d\u52a1",
-                    "value": 278,
+                    "value": 280,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(99,119,1)"
+                            "color": "rgb(82,20,120)"
                         }
                     }
                 },
                 {
                     "name": "Python",
-                    "value": 202,
+                    "value": 200,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(138,124,147)"
+                            "color": "rgb(160,34,112)"
                         }
                     }
                 },
                 {
                     "name": "\u6570\u636e\u6316\u6398",
-                    "value": 156,
+                    "value": 166,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(141,0,3)"
+                            "color": "rgb(82,48,23)"
                         }
                     }
                 },
                 {
                     "name": "\u56fe\u50cf\u7b97\u6cd5",
-                    "value": 127,
+                    "value": 125,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(84,35,115)"
+                            "color": "rgb(28,84,59)"
                         }
                     }
                 },
                 {
                     "name": "\u673a\u5668\u5b66\u4e60",
-                    "value": 120,
+                    "value": 124,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(120,84,60)"
+                            "color": "rgb(136,160,62)"
                         }
                     }
                 },
                 {
                     "name": "\u56fe\u7247\u8bc6\u522b",
-                    "value": 115,
+                    "value": 117,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(122,78,151)"
-                        }
-                    }
-                },
-                {
-                    "name": "C/C++",
-                    "value": 110,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(20,22,56)"
+                            "color": "rgb(43,91,56)"
                         }
                     }
                 },
                 {
                     "name": "\u63a8\u8350\u7b97\u6cd5",
-                    "value": 104,
+                    "value": 108,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(24,99,134)"
+                            "color": "rgb(52,59,49)"
+                        }
+                    }
+                },
+                {
+                    "name": "C/C++",
+                    "value": 108,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(144,29,131)"
                         }
                     }
                 },
@@ -296,25 +296,34 @@ title: 算法招聘_技能与要求分析
                     "value": 93,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(33,109,0)"
+                            "color": "rgb(68,40,77)"
                         }
                     }
                 },
                 {
                     "name": "\u7535\u5546\u5e73\u53f0",
-                    "value": 83,
+                    "value": 82,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(100,60,125)"
+                            "color": "rgb(159,146,22)"
                         }
                     }
                 },
                 {
                     "name": "\u81ea\u7136\u8bed\u8a00\u5904\u7406",
-                    "value": 83,
+                    "value": 79,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(66,96,60)"
+                            "color": "rgb(147,18,70)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7ee9\u6548\u5956\u91d1",
+                    "value": 72,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(7,114,76)"
                         }
                     }
                 },
@@ -323,7 +332,7 @@ title: 算法招聘_技能与要求分析
                     "value": 70,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(14,160,143)"
+                            "color": "rgb(25,159,117)"
                         }
                     }
                 },
@@ -332,7 +341,7 @@ title: 算法招聘_技能与要求分析
                     "value": 66,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(60,133,122)"
+                            "color": "rgb(133,72,127)"
                         }
                     }
                 },
@@ -341,16 +350,7 @@ title: 算法招聘_技能与要求分析
                     "value": 64,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(74,7,62)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7ee9\u6548\u5956\u91d1",
-                    "value": 62,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(53,133,74)"
+                            "color": "rgb(66,111,79)"
                         }
                     }
                 },
@@ -359,25 +359,34 @@ title: 算法招聘_技能与要求分析
                     "value": 62,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(79,135,32)"
+                            "color": "rgb(104,129,68)"
                         }
                     }
                 },
                 {
                     "name": "\u667a\u80fd\u786c\u4ef6",
-                    "value": 62,
+                    "value": 60,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(69,155,128)"
+                            "color": "rgb(66,46,86)"
                         }
                     }
                 },
                 {
                     "name": "\u6570\u636e\u670d\u52a1\uff5c\u54a8\u8be2",
-                    "value": 58,
+                    "value": 59,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(125,25,56)"
+                            "color": "rgb(69,124,22)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6280\u80fd\u57f9\u8bad",
+                    "value": 57,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,111,98)"
                         }
                     }
                 },
@@ -386,43 +395,43 @@ title: 算法招聘_技能与要求分析
                     "value": 56,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(23,38,30)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6280\u80fd\u57f9\u8bad",
-                    "value": 52,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(62,104,26)"
+                            "color": "rgb(117,52,12)"
                         }
                     }
                 },
                 {
                     "name": "C++",
-                    "value": 49,
+                    "value": 51,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(117,8,68)"
+                            "color": "rgb(93,115,68)"
                         }
                     }
                 },
                 {
-                    "name": "\u79fb\u52a8\u4e92\u8054\u7f51",
-                    "value": 47,
+                    "name": "\u5e26\u85aa\u5e74\u5047",
+                    "value": 46,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(145,116,17)"
+                            "color": "rgb(131,67,133)"
                         }
                     }
                 },
                 {
                     "name": "\u8bed\u97f3\u8bc6\u522b",
-                    "value": 43,
+                    "value": 44,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(31,79,130)"
+                            "color": "rgb(138,35,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5c97\u4f4d\u664b\u5347",
+                    "value": 44,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,111,110)"
                         }
                     }
                 },
@@ -431,106 +440,106 @@ title: 算法招聘_技能与要求分析
                     "value": 43,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(87,49,32)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5c97\u4f4d\u664b\u5347",
-                    "value": 41,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(97,7,9)"
+                            "color": "rgb(76,151,122)"
                         }
                     }
                 },
                 {
                     "name": "\u56fe\u50cf\u5904\u7406",
-                    "value": 38,
+                    "value": 43,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(0,48,64)"
+                            "color": "rgb(46,3,147)"
                         }
                     }
                 },
                 {
-                    "name": "\u7269\u8054\u7f51",
-                    "value": 37,
+                    "name": "\u79fb\u52a8\u4e92\u8054\u7f51",
+                    "value": 41,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(160,12,41)"
-                        }
-                    }
-                },
-                {
-                    "name": "TensoFlow",
-                    "value": 37,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(6,1,92)"
-                        }
-                    }
-                },
-                {
-                    "name": "IT\u6280\u672f\u670d\u52a1\uff5c\u54a8\u8be2",
-                    "value": 37,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(116,55,149)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e09\u7ef4\u56fe\u50cf\u89c6\u89c9",
-                    "value": 37,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(77,77,117)"
+                            "color": "rgb(126,148,7)"
                         }
                     }
                 },
                 {
                     "name": "\u79d1\u6280\u91d1\u878d",
-                    "value": 37,
+                    "value": 41,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(17,17,113)"
+                            "color": "rgb(146,59,134)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e09\u7ef4\u56fe\u50cf\u89c6\u89c9",
+                    "value": 40,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(12,11,49)"
                         }
                     }
                 },
                 {
                     "name": "\u9886\u5bfc\u597d",
-                    "value": 37,
+                    "value": 39,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(53,65,92)"
+                            "color": "rgb(88,6,24)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7269\u8054\u7f51",
+                    "value": 36,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(156,43,113)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8ba1\u7b97\u673a\u89c6\u89c9",
+                    "value": 36,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,99,5)"
+                        }
+                    }
+                },
+                {
+                    "name": "TensoFlow",
+                    "value": 36,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(92,89,14)"
+                        }
+                    }
+                },
+                {
+                    "name": "IT\u6280\u672f\u670d\u52a1\uff5c\u54a8\u8be2",
+                    "value": 35,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(155,104,78)"
                         }
                     }
                 },
                 {
                     "name": "\u5f39\u6027\u5de5\u4f5c",
-                    "value": 36,
+                    "value": 33,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(39,72,50)"
+                            "color": "rgb(44,61,83)"
                         }
                     }
                 },
                 {
-                    "name": "\u5e26\u85aa\u5e74\u5047",
-                    "value": 36,
+                    "name": "OpenCV",
+                    "value": 33,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(99,151,130)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6587\u5b57\u8bc6\u522b",
-                    "value": 32,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(33,135,101)"
+                            "color": "rgb(94,158,90)"
                         }
                     }
                 },
@@ -539,70 +548,61 @@ title: 算法招聘_技能与要求分析
                     "value": 32,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(106,64,78)"
+                            "color": "rgb(72,27,72)"
                         }
                     }
                 },
                 {
-                    "name": "\u63a8\u8350\u7cfb\u7edf",
+                    "name": "\u6587\u5b57\u8bc6\u522b",
                     "value": 31,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(86,49,9)"
-                        }
-                    }
-                },
-                {
-                    "name": "OpenCV",
-                    "value": 31,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(103,155,1)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u533b\u7597\u5065\u5eb7",
-                    "value": 30,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(94,12,0)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8ba1\u7b97\u673a\u89c6\u89c9",
-                    "value": 30,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(139,37,7)"
-                        }
-                    }
-                },
-                {
-                    "name": "PyTorch",
-                    "value": 29,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(59,126,9)"
+                            "color": "rgb(14,32,84)"
                         }
                     }
                 },
                 {
                     "name": "\u6587\u672c\u5206\u7c7b",
-                    "value": 29,
+                    "value": 30,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(94,116,87)"
+                            "color": "rgb(103,82,140)"
                         }
                     }
                 },
                 {
-                    "name": "NLP",
+                    "name": "\u65b0\u96f6\u552e",
+                    "value": 29,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(38,37,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u63a8\u8350\u7cfb\u7edf",
+                    "value": 29,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(97,107,52)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u533b\u7597\u5065\u5eb7",
+                    "value": 29,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(75,20,123)"
+                        }
+                    }
+                },
+                {
+                    "name": "PyTorch",
                     "value": 28,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(58,40,97)"
+                            "color": "rgb(64,90,8)"
                         }
                     }
                 },
@@ -611,43 +611,43 @@ title: 算法招聘_技能与要求分析
                     "value": 28,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(58,43,84)"
+                            "color": "rgb(116,96,61)"
                         }
                     }
                 },
                 {
-                    "name": "\u65b0\u96f6\u552e",
-                    "value": 28,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(100,90,9)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u540e\u7aef\u5f00\u53d1",
+                    "name": "\u80a1\u7968\u671f\u6743",
                     "value": 27,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(0,118,30)"
+                            "color": "rgb(157,56,10)"
                         }
                     }
                 },
                 {
-                    "name": "\u76ee\u6807\u68c0\u6d4b",
-                    "value": 27,
+                    "name": "NLP",
+                    "value": 26,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(88,115,36)"
+                            "color": "rgb(25,95,152)"
                         }
                     }
                 },
                 {
-                    "name": "\u81ea\u52a8\u9a7e\u9a76",
+                    "name": "\u5e74\u5e95\u53cc\u85aa",
+                    "value": 26,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(59,50,58)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u610f\u56fe\u8bc6\u522b",
                     "value": 25,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(39,159,57)"
+                            "color": "rgb(81,142,4)"
                         }
                     }
                 },
@@ -656,16 +656,61 @@ title: 算法招聘_技能与要求分析
                     "value": 25,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(137,120,2)"
+                            "color": "rgb(56,116,85)"
                         }
                     }
                 },
                 {
-                    "name": "\u610f\u56fe\u8bc6\u522b",
+                    "name": "\u4e94\u9669\u4e00\u91d1",
+                    "value": 25,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(74,45,103)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u76ee\u6807\u68c0\u6d4b",
+                    "value": 25,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,72,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u52a8\u9a7e\u9a76",
+                    "value": 25,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(95,88,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8282\u65e5\u793c\u7269",
+                    "value": 25,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,88,89)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e7f\u544a\u7b97\u6cd5",
                     "value": 24,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(146,68,132)"
+                            "color": "rgb(115,38,17)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b9a\u671f\u4f53\u68c0",
+                    "value": 23,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(50,66,135)"
                         }
                     }
                 },
@@ -674,106 +719,61 @@ title: 算法招聘_技能与要求分析
                     "value": 23,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(143,130,151)"
+                            "color": "rgb(54,20,130)"
                         }
                     }
                 },
                 {
-                    "name": "\u5e7f\u544a\u7b97\u6cd5",
-                    "value": 23,
+                    "name": "\u4e13\u9879\u5956\u91d1",
+                    "value": 22,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(15,22,152)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u80a1\u7968\u671f\u6743",
-                    "value": 23,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(75,44,91)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8282\u65e5\u793c\u7269",
-                    "value": 23,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(18,86,66)"
+                            "color": "rgb(159,37,94)"
                         }
                     }
                 },
                 {
                     "name": "\u793e\u4ea4\u5e73\u53f0",
-                    "value": 21,
+                    "value": 22,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(119,78,159)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5b9a\u671f\u4f53\u68c0",
-                    "value": 21,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(139,37,1)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e94\u9669\u4e00\u91d1",
-                    "value": 21,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(151,43,143)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5e74\u5e95\u53cc\u85aa",
-                    "value": 21,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(117,70,70)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u91d1\u878d",
-                    "value": 21,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(59,12,48)"
+                            "color": "rgb(77,144,33)"
                         }
                     }
                 },
                 {
                     "name": "Hadoop",
-                    "value": 20,
+                    "value": 21,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(5,143,83)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u97f3\u9891\uff5c\u89c6\u9891\u5a92\u4f53",
-                    "value": 20,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(44,71,87)"
+                            "color": "rgb(94,28,111)"
                         }
                     }
                 },
                 {
                     "name": "\u6e38\u620f",
-                    "value": 19,
+                    "value": 21,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(43,19,131)"
+                            "color": "rgb(38,150,160)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6587\u672c\u751f\u6210",
+                    "value": 20,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,143,22)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u641c\u7d22",
+                    "value": 20,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(140,108,96)"
                         }
                     }
                 },
@@ -782,43 +782,25 @@ title: 算法招聘_技能与要求分析
                     "value": 19,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(42,45,79)"
+                            "color": "rgb(122,126,60)"
                         }
                     }
                 },
                 {
-                    "name": "\u4e13\u9879\u5956\u91d1",
+                    "name": "\u91d1\u878d",
                     "value": 19,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(18,57,13)"
+                            "color": "rgb(136,43,91)"
                         }
                     }
                 },
                 {
-                    "name": "\u641c\u7d22",
-                    "value": 19,
+                    "name": "\u97f3\u9891\uff5c\u89c6\u9891\u5a92\u4f53",
+                    "value": 18,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(87,64,71)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u516d\u9669\u4e00\u91d1",
-                    "value": 17,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(53,34,108)"
-                        }
-                    }
-                },
-                {
-                    "name": "nan",
-                    "value": 17,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(58,128,139)"
+                            "color": "rgb(103,57,114)"
                         }
                     }
                 },
@@ -827,25 +809,43 @@ title: 算法招聘_技能与要求分析
                     "value": 17,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(61,8,110)"
+                            "color": "rgb(137,131,69)"
                         }
                     }
                 },
                 {
-                    "name": "\u6587\u672c\u751f\u6210",
+                    "name": "\u540e\u7aef\u5f00\u53d1",
                     "value": 17,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(142,127,117)"
+                            "color": "rgb(73,121,123)"
                         }
                     }
                 },
                 {
-                    "name": "\u5c31\u8fd1\u79df\u623f\u8865\u8d34",
+                    "name": "\u5de5\u4e1a\u89c6\u89c9\u68c0\u6d4b",
                     "value": 16,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(41,31,68)"
+                            "color": "rgb(24,25,42)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u516d\u9669\u4e00\u91d1",
+                    "value": 15,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(91,112,60)"
+                        }
+                    }
+                },
+                {
+                    "name": "nan",
+                    "value": 15,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(48,145,5)"
                         }
                     }
                 },
@@ -854,25 +854,16 @@ title: 算法招聘_技能与要求分析
                     "value": 15,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(45,1,137)"
+                            "color": "rgb(129,73,119)"
                         }
                     }
                 },
                 {
-                    "name": "\u8bed\u97f3\u5408\u6210",
+                    "name": "\u533b\u7597\u5f71\u50cf\u8bca\u65ad",
                     "value": 15,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(136,18,93)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5de5\u4e1a\u89c6\u89c9\u68c0\u6d4b",
-                    "value": 15,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(58,122,64)"
+                            "color": "rgb(17,89,22)"
                         }
                     }
                 },
@@ -881,25 +872,7 @@ title: 算法招聘_技能与要求分析
                     "value": 14,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(73,151,144)"
-                        }
-                    }
-                },
-                {
-                    "name": "MATLAB",
-                    "value": 14,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(103,106,50)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7ba1\u7406\u89c4\u8303",
-                    "value": 14,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(133,71,62)"
+                            "color": "rgb(51,128,90)"
                         }
                     }
                 },
@@ -908,52 +881,79 @@ title: 算法招聘_技能与要求分析
                     "value": 14,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(145,57,45)"
+                            "color": "rgb(0,77,40)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5c31\u8fd1\u79df\u623f\u8865\u8d34",
+                    "value": 14,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,132,157)"
                         }
                     }
                 },
                 {
                     "name": "\u4e91\u8ba1\u7b97",
+                    "value": 14,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(102,29,98)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5bb9\u793e\u533a",
                     "value": 13,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(29,5,148)"
+                            "color": "rgb(41,103,101)"
                         }
                     }
                 },
                 {
-                    "name": "\u6d88\u8d39\u751f\u6d3b",
-                    "value": 12,
+                    "name": "\u8f85\u52a9/\u667a\u80fd\u9a7e\u9a76",
+                    "value": 13,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(97,9,54)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4fe1\u606f\u5b89\u5168",
-                    "value": 12,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(150,1,123)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u89c6\u9891/\u76d1\u63a7\u5206\u6790",
-                    "value": 12,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(86,81,34)"
+                            "color": "rgb(143,160,21)"
                         }
                     }
                 },
                 {
                     "name": "\u6559\u80b2",
-                    "value": 12,
+                    "value": 13,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(137,64,130)"
+                            "color": "rgb(132,145,29)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bed\u97f3\u5408\u6210",
+                    "value": 13,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(115,23,123)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7ba1\u7406\u89c4\u8303",
+                    "value": 13,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(136,3,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "MATLAB",
+                    "value": 13,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(52,1,71)"
                         }
                     }
                 },
@@ -962,79 +962,34 @@ title: 算法招聘_技能与要求分析
                     "value": 12,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(36,141,107)"
+                            "color": "rgb(101,37,74)"
                         }
                     }
                 },
                 {
-                    "name": "\u8f85\u52a9/\u667a\u80fd\u9a7e\u9a76",
+                    "name": "\u4fe1\u606f\u5b89\u5168",
                     "value": 12,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(104,76,112)"
+                            "color": "rgb(117,91,72)"
                         }
                     }
                 },
                 {
-                    "name": "\u5185\u5bb9\u793e\u533a",
+                    "name": "\u89c6\u9891/\u76d1\u63a7\u5206\u6790",
                     "value": 12,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(104,156,155)"
+                            "color": "rgb(158,27,80)"
                         }
                     }
                 },
                 {
-                    "name": "\u5e7f\u544a\u670d\u52a1",
-                    "value": 12,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(5,55,148)"
-                        }
-                    }
-                },
-                {
-                    "name": "CNN",
+                    "name": "Spark",
                     "value": 11,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(97,139,22)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u97f3\u4e50",
-                    "value": 11,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(17,23,116)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u63a8\u8350",
-                    "value": 11,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(62,41,39)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u95ee\u7b54\u7cfb\u7edf",
-                    "value": 11,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(135,120,118)"
-                        }
-                    }
-                },
-                {
-                    "name": "C",
-                    "value": 11,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(82,85,136)"
+                            "color": "rgb(106,85,12)"
                         }
                     }
                 },
@@ -1043,34 +998,43 @@ title: 算法招聘_技能与要求分析
                     "value": 11,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(75,136,143)"
+                            "color": "rgb(0,75,128)"
                         }
                     }
                 },
                 {
-                    "name": "SLAM",
+                    "name": "\u793e\u4ea4",
                     "value": 11,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(147,24,129)"
+                            "color": "rgb(110,76,61)"
                         }
                     }
                 },
                 {
-                    "name": "\u533b\u7597\u5f71\u50cf\u8bca\u65ad",
-                    "value": 10,
+                    "name": "CNN",
+                    "value": 11,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(20,112,56)"
+                            "color": "rgb(129,131,71)"
                         }
                     }
                 },
                 {
-                    "name": "Spark",
-                    "value": 10,
+                    "name": "\u97f3\u4e50",
+                    "value": 11,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(24,108,150)"
+                            "color": "rgb(130,8,15)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6d88\u8d39\u751f\u6d3b",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(149,2,39)"
                         }
                     }
                 },
@@ -1079,34 +1043,7 @@ title: 算法招聘_技能与要求分析
                     "value": 10,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(91,12,144)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5e7f\u544a\u8425\u9500",
-                    "value": 10,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(132,30,89)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u793e\u4ea4",
-                    "value": 10,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(122,88,36)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8425\u9500\u670d\u52a1\uff5c\u54a8\u8be2",
-                    "value": 10,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(8,8,153)"
+                            "color": "rgb(80,132,90)"
                         }
                     }
                 },
@@ -1115,7 +1052,34 @@ title: 算法招聘_技能与要求分析
                     "value": 10,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(27,94,41)"
+                            "color": "rgb(130,51,23)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8425\u9500\u670d\u52a1\uff5c\u54a8\u8be2",
+                    "value": 10,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(156,42,92)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u63a8\u8350",
+                    "value": 10,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(129,105,54)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e7f\u544a\u8425\u9500",
+                    "value": 10,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(86,134,137)"
                         }
                     }
                 },
@@ -1124,34 +1088,61 @@ title: 算法招聘_技能与要求分析
                     "value": 10,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(152,103,32)"
+                            "color": "rgb(158,45,52)"
                         }
                     }
                 },
                 {
-                    "name": "AI",
-                    "value": 9,
+                    "name": "C",
+                    "value": 10,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(97,112,132)"
+                            "color": "rgb(159,65,131)"
                         }
                     }
                 },
                 {
-                    "name": "\u5728\u7ebf\u533b\u7597",
-                    "value": 9,
+                    "name": "\u95ee\u7b54\u7cfb\u7edf",
+                    "value": 10,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(152,115,12)"
+                            "color": "rgb(76,146,49)"
                         }
                     }
                 },
                 {
-                    "name": "\u5185\u5bb9\u8d44\u8baf",
+                    "name": "\u5e7f\u544a\u670d\u52a1",
+                    "value": 10,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,79,87)"
+                        }
+                    }
+                },
+                {
+                    "name": "SLAM",
                     "value": 9,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(122,100,43)"
+                            "color": "rgb(58,32,46)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ea4\u901a\u8865\u52a9",
+                    "value": 9,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(106,77,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e92\u8054\u7f51\u91d1\u878d",
+                    "value": 9,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(102,75,31)"
                         }
                     }
                 },
@@ -1160,7 +1151,7 @@ title: 算法招聘_技能与要求分析
                     "value": 9,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(157,9,16)"
+                            "color": "rgb(41,82,54)"
                         }
                     }
                 },
@@ -1169,52 +1160,52 @@ title: 算法招聘_技能与要求分析
                     "value": 9,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(93,71,58)"
+                            "color": "rgb(7,14,61)"
                         }
                     }
                 },
                 {
                     "name": "SQL",
-                    "value": 8,
+                    "value": 9,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(19,145,95)"
+                            "color": "rgb(41,104,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u53e5\u6cd5\u5206\u6790",
+                    "value": 9,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,26,75)"
                         }
                     }
                 },
                 {
                     "name": "\u7f8e\u5973\u591a",
-                    "value": 8,
+                    "value": 9,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(151,102,3)"
+                            "color": "rgb(87,47,126)"
                         }
                     }
                 },
                 {
-                    "name": "RNN",
-                    "value": 8,
+                    "name": "\u5728\u7ebf\u533b\u7597",
+                    "value": 9,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(71,60,22)"
+                            "color": "rgb(54,96,53)"
                         }
                     }
                 },
                 {
-                    "name": "\u901a\u8baf\u6d25\u8d34",
+                    "name": "\u65b0\u80fd\u6e90\u6c7d\u8f66\u5236\u9020",
                     "value": 8,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(94,105,4)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e92\u8054\u7f51\u91d1\u878d",
-                    "value": 8,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(148,67,13)"
+                            "color": "rgb(57,41,13)"
                         }
                     }
                 },
@@ -1223,7 +1214,7 @@ title: 算法招聘_技能与要求分析
                     "value": 8,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(41,124,141)"
+                            "color": "rgb(30,44,146)"
                         }
                     }
                 },
@@ -1232,16 +1223,7 @@ title: 算法招聘_技能与要求分析
                     "value": 8,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(7,122,32)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u667a\u80fd\u91d1\u878d",
-                    "value": 8,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(16,85,69)"
+                            "color": "rgb(154,139,97)"
                         }
                     }
                 },
@@ -1250,16 +1232,25 @@ title: 算法招聘_技能与要求分析
                     "value": 8,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(70,69,81)"
+                            "color": "rgb(66,107,143)"
                         }
                     }
                 },
                 {
-                    "name": "\u77e5\u8bc6\u56fe\u8c31",
+                    "name": "\u901a\u8baf\u6d25\u8d34",
                     "value": 8,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(100,9,76)"
+                            "color": "rgb(23,80,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "AI",
+                    "value": 8,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(29,57,159)"
                         }
                     }
                 },
@@ -1268,70 +1259,25 @@ title: 算法招聘_技能与要求分析
                     "value": 8,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(156,140,52)"
+                            "color": "rgb(84,57,112)"
                         }
                     }
                 },
                 {
-                    "name": "\u533b\u7597\uff5c\u4fdd\u5065\uff5c\u7f8e\u5bb9",
+                    "name": "RNN",
                     "value": 8,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(99,134,104)"
+                            "color": "rgb(126,19,18)"
                         }
                     }
                 },
                 {
-                    "name": "\u53e5\u6cd5\u5206\u6790",
+                    "name": "\u77e5\u8bc6\u56fe\u8c31",
                     "value": 8,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(91,74,79)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u77ed\u89c6\u9891",
-                    "value": 8,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(72,94,79)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8fd0\u7b79\u4f18\u5316",
-                    "value": 7,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(31,92,28)"
-                        }
-                    }
-                },
-                {
-                    "name": "python",
-                    "value": 7,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(148,148,15)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4ea4\u901a\u8865\u52a9",
-                    "value": 7,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(157,22,35)"
-                        }
-                    }
-                },
-                {
-                    "name": "TensorFlow",
-                    "value": 7,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(132,137,74)"
+                            "color": "rgb(33,125,35)"
                         }
                     }
                 },
@@ -1340,7 +1286,70 @@ title: 算法招聘_技能与要求分析
                     "value": 7,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(50,99,148)"
+                            "color": "rgb(70,90,143)"
+                        }
+                    }
+                },
+                {
+                    "name": "MySQL",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,25,136)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u667a\u80fd\u91d1\u878d",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(97,126,124)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7269\u6d41\uff5c\u8fd0\u8f93",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(79,35,22)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u533b\u7597\uff5c\u4fdd\u5065\uff5c\u7f8e\u5bb9",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(81,63,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fd0\u7b79\u4f18\u5316",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(160,69,139)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u667a\u80fd\u5bb6\u5c45",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(47,49,105)"
+                        }
+                    }
+                },
+                {
+                    "name": "c++",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(50,108,110)"
                         }
                     }
                 },
@@ -1349,61 +1358,34 @@ title: 算法招聘_技能与要求分析
                     "value": 7,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(71,14,141)"
+                            "color": "rgb(120,13,122)"
                         }
                     }
                 },
                 {
-                    "name": "\u5de5\u5177\u8f6f\u4ef6",
+                    "name": "\u5185\u5bb9\u8d44\u8baf",
                     "value": 7,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(0,149,101)"
+                            "color": "rgb(89,143,70)"
+                        }
+                    }
+                },
+                {
+                    "name": "TensorFlow",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(47,95,22)"
                         }
                     }
                 },
                 {
                     "name": "\u4e2d\u6587\u5206\u8bcd",
-                    "value": 7,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(112,76,155)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u793e\u4ea4\u5a92\u4f53",
                     "value": 6,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(155,59,133)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u65b0\u80fd\u6e90\u6c7d\u8f66\u5236\u9020",
-                    "value": 6,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(99,131,108)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e92\u8054\u7f51",
-                    "value": 6,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(19,12,141)"
-                        }
-                    }
-                },
-                {
-                    "name": "Shell",
-                    "value": 6,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(90,157,11)"
+                            "color": "rgb(49,96,156)"
                         }
                     }
                 },
@@ -1412,25 +1394,7 @@ title: 算法招聘_技能与要求分析
                     "value": 6,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(127,112,57)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4fe1\u606f\u68c0\u7d22",
-                    "value": 6,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(9,107,18)"
-                        }
-                    }
-                },
-                {
-                    "name": "nlp\u7b97\u6cd5\u5de5\u7a0b\u5e08",
-                    "value": 6,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(3,17,102)"
+                            "color": "rgb(63,42,160)"
                         }
                     }
                 },
@@ -1439,25 +1403,7 @@ title: 算法招聘_技能与要求分析
                     "value": 6,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(3,17,14)"
-                        }
-                    }
-                },
-                {
-                    "name": "Linux",
-                    "value": 6,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(74,151,94)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7269\u6d41\uff5c\u8fd0\u8f93",
-                    "value": 6,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(22,61,69)"
+                            "color": "rgb(153,26,23)"
                         }
                     }
                 },
@@ -1466,16 +1412,79 @@ title: 算法招聘_技能与要求分析
                     "value": 6,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(43,18,94)"
+                            "color": "rgb(74,52,116)"
                         }
                     }
                 },
                 {
-                    "name": "Keras",
+                    "name": "\u77ed\u89c6\u9891",
                     "value": 6,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(85,13,4)"
+                            "color": "rgb(42,22,154)"
+                        }
+                    }
+                },
+                {
+                    "name": "spark",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(11,143,159)"
+                        }
+                    }
+                },
+                {
+                    "name": "nlp\u7b97\u6cd5\u5de5\u7a0b\u5e08",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(157,40,77)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5de5\u5177\u8f6f\u4ef6",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,149,53)"
+                        }
+                    }
+                },
+                {
+                    "name": "python",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(51,33,130)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u793e\u4ea4\u5a92\u4f53",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,58,87)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4fe1\u606f\u68c0\u7d22",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(109,91,111)"
+                        }
+                    }
+                },
+                {
+                    "name": "Shell",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,145,69)"
                         }
                     }
                 },
@@ -1484,106 +1493,25 @@ title: 算法招聘_技能与要求分析
                     "value": 6,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(140,114,135)"
+                            "color": "rgb(134,87,107)"
                         }
                     }
                 },
                 {
-                    "name": "Golang",
+                    "name": "Keras",
                     "value": 6,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(66,1,135)"
+                            "color": "rgb(137,144,12)"
                         }
                     }
                 },
                 {
-                    "name": "ROS",
-                    "value": 5,
+                    "name": "\u4e92\u8054\u7f51",
+                    "value": 6,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(7,54,122)"
-                        }
-                    }
-                },
-                {
-                    "name": "GAN",
-                    "value": 5,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(144,50,29)"
-                        }
-                    }
-                },
-                {
-                    "name": "CTR\u9884\u4f30",
-                    "value": 5,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(56,8,20)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6587\u672c\u8574\u6db5",
-                    "value": 5,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(82,126,151)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7528\u6237\u753b\u50cf",
-                    "value": 5,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(112,57,73)"
-                        }
-                    }
-                },
-                {
-                    "name": "spark",
-                    "value": 5,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(63,56,16)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u667a\u80fd\u5bb6\u5c45",
-                    "value": 5,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(156,67,58)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8bed\u97f3\u7b97\u6cd5",
-                    "value": 5,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(158,122,145)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u533a\u5757\u94fe",
-                    "value": 5,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(7,92,121)"
-                        }
-                    }
-                },
-                {
-                    "name": "tensorflow",
-                    "value": 5,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(98,136,120)"
+                            "color": "rgb(25,60,141)"
                         }
                     }
                 },
@@ -1592,7 +1520,52 @@ title: 算法招聘_技能与要求分析
                     "value": 5,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(73,43,52)"
+                            "color": "rgb(37,148,46)"
+                        }
+                    }
+                },
+                {
+                    "name": "ARM",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,86,2)"
+                        }
+                    }
+                },
+                {
+                    "name": "GAN",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,19,153)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7528\u6237\u753b\u50cf",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,21,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "CTR\u9884\u4f30",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(62,153,126)"
+                        }
+                    }
+                },
+                {
+                    "name": "Linux",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(57,87,150)"
                         }
                     }
                 },
@@ -1601,160 +1574,43 @@ title: 算法招聘_技能与要求分析
                     "value": 5,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(78,125,84)"
+                            "color": "rgb(25,67,96)"
                         }
                     }
                 },
                 {
-                    "name": "\u6c7d\u8f66\u4ea4\u6613\u5e73\u53f0",
-                    "value": 4,
+                    "name": "\u533a\u5757\u94fe",
+                    "value": 5,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(13,88,97)"
+                            "color": "rgb(41,99,78)"
                         }
                     }
                 },
                 {
-                    "name": "CV",
-                    "value": 4,
+                    "name": "ROS",
+                    "value": 5,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(74,13,42)"
+                            "color": "rgb(65,80,47)"
                         }
                     }
                 },
                 {
-                    "name": "\u5927\u725b\u56e2\u961f",
-                    "value": 4,
+                    "name": "Golang",
+                    "value": 5,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(32,133,120)"
+                            "color": "rgb(125,121,26)"
                         }
                     }
                 },
                 {
-                    "name": "\u89c6\u9891",
-                    "value": 4,
+                    "name": "\u8bed\u97f3\u7b97\u6cd5",
+                    "value": 5,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(148,131,63)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8bed\u97f3\u5904\u7406",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(157,137,158)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7269\u6d41",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(82,82,8)"
-                        }
-                    }
-                },
-                {
-                    "name": "linux",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(37,81,19)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7f51\u7edc\u901a\u4fe1",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(2,144,67)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u56fe\u50cf\u8bc6\u522b",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(51,75,44)"
-                        }
-                    }
-                },
-                {
-                    "name": "c++",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(85,98,111)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u91d1\u878d\u4e1a",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(88,13,59)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4ea7\u54c1\u8bbe\u8ba1",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(137,92,56)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6210\u957f\u7a7a\u95f4",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(6,122,125)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8def\u5f84\u89c4\u5212",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(64,12,134)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6559\u80b2\uff5c\u57f9\u8bad",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(139,28,56)"
-                        }
-                    }
-                },
-                {
-                    "name": "nlp",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(108,88,1)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u529e\u516c\u903c\u683c\u9ad8",
-                    "value": 4,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(85,108,147)"
+                            "color": "rgb(149,12,156)"
                         }
                     }
                 },
@@ -1763,34 +1619,106 @@ title: 算法招聘_技能与要求分析
                     "value": 4,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(6,14,47)"
+                            "color": "rgb(97,87,125)"
                         }
                     }
                 },
                 {
-                    "name": "\u65e0\u4eba\u8f66",
+                    "name": "\u540e\u7aef",
                     "value": 4,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(25,59,116)"
+                            "color": "rgb(154,73,139)"
                         }
                     }
                 },
                 {
-                    "name": "ARM",
+                    "name": "\u5927\u725b\u56e2\u961f",
                     "value": 4,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(93,53,89)"
+                            "color": "rgb(118,133,155)"
                         }
                     }
                 },
                 {
-                    "name": "MySQL",
+                    "name": "\u7269\u6d41",
                     "value": 4,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(84,2,20)"
+                            "color": "rgb(15,98,44)"
+                        }
+                    }
+                },
+                {
+                    "name": "nlp",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(82,74,146)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4f18\u5316\u7b97\u6cd5",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(94,120,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u91d1\u878d\u4e1a",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(9,121,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6210\u957f\u7a7a\u95f4",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(74,50,5)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bed\u97f3\u5904\u7406",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(4,65,79)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8ffd\u6c42\u6781\u81f4",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,94,49)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8def\u5f84\u89c4\u5212",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(17,119,43)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6c7d\u8f66\u4ea4\u6613\u5e73\u53f0",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(57,79,3)"
                         }
                     }
                 },
@@ -1799,7 +1727,70 @@ title: 算法招聘_技能与要求分析
                     "value": 4,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(20,117,32)"
+                            "color": "rgb(87,71,86)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u529e\u516c\u903c\u683c\u9ad8",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(71,108,120)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6559\u80b2\uff5c\u57f9\u8bad",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,20,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "tensorflow",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(47,103,77)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u672c\u5206",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(15,130,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ea7\u54c1\u8bbe\u8ba1",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(0,83,135)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e30\u539a\u5e74\u7ec8",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,39,127)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u50cf\u8bc6\u522b",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(63,58,28)"
                         }
                     }
                 },
@@ -1808,106 +1799,34 @@ title: 算法招聘_技能与要求分析
                     "value": 4,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(114,105,11)"
+                            "color": "rgb(48,16,129)"
                         }
                     }
                 },
                 {
-                    "name": "\u540e\u7aef",
-                    "value": 3,
+                    "name": "\u65e0\u4eba\u8f66",
+                    "value": 4,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(129,32,124)"
+                            "color": "rgb(45,82,15)"
                         }
                     }
                 },
                 {
-                    "name": "\u5206\u7c7b\u4fe1\u606f",
-                    "value": 3,
+                    "name": "CV",
+                    "value": 4,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(12,101,20)"
+                            "color": "rgb(21,80,32)"
                         }
                     }
                 },
                 {
-                    "name": "\u5206\u5e03\u5f0f\u641c\u7d22",
-                    "value": 3,
+                    "name": "\u6587\u672c\u8574\u6db5",
+                    "value": 4,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(69,106,12)"
-                        }
-                    }
-                },
-                {
-                    "name": "ROS\u7cfb\u7edf",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(149,44,115)"
-                        }
-                    }
-                },
-                {
-                    "name": "C#",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(78,67,31)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u533b\u7597\u5668\u68b0",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(33,97,44)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8f6f\u4ef6\u5f00\u53d1",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(138,113,16)"
-                        }
-                    }
-                },
-                {
-                    "name": "matlab",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(132,151,73)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u56fe\u50cf\u5206\u5272",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(65,34,4)"
-                        }
-                    }
-                },
-                {
-                    "name": "Flink",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(9,5,49)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6c7d\u8f66",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(35,135,46)"
+                            "color": "rgb(80,119,40)"
                         }
                     }
                 },
@@ -1916,97 +1835,25 @@ title: 算法招聘_技能与要求分析
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(50,148,66)"
+                            "color": "rgb(20,121,150)"
                         }
                     }
                 },
                 {
-                    "name": "slam",
+                    "name": "\u7f51\u7edc\u901a\u4fe1",
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(88,124,11)"
+                            "color": "rgb(7,28,33)"
                         }
                     }
                 },
                 {
-                    "name": "\u6570\u636e\u5e93",
+                    "name": "linux",
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(155,134,55)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u534f\u540c\u8fc7\u6ee4",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(56,146,128)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5e74\u7ec8\u5206\u7ea2",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(77,5,27)"
-                        }
-                    }
-                },
-                {
-                    "name": "CAD",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(79,7,39)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u65f6\u5e8f\u9884\u6d4b",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(117,13,86)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u673a\u5668\u89c6\u89c9",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(88,57,97)"
-                        }
-                    }
-                },
-                {
-                    "name": "OCR",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(65,73,83)"
-                        }
-                    }
-                },
-                {
-                    "name": "Pytorch",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(29,37,58)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7269\u6d41\u5e73\u53f0",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(76,51,96)"
+                            "color": "rgb(32,111,99)"
                         }
                     }
                 },
@@ -2015,178 +1862,25 @@ title: 算法招聘_技能与要求分析
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(84,89,22)"
+                            "color": "rgb(24,73,14)"
                         }
                     }
                 },
                 {
-                    "name": "\u7cfb\u7edf\u67b6\u6784",
+                    "name": "\u534f\u540c\u8fc7\u6ee4",
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(19,154,25)"
+                            "color": "rgb(2,68,28)"
                         }
                     }
                 },
                 {
-                    "name": "kaggle",
+                    "name": "\u6c7d\u8f66",
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(22,149,41)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6d41\u5a92\u4f53",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(148,57,75)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u667a\u6167\u57ce\u5e02",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(45,72,52)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6027\u80fd\u6d4b\u8bd5",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(65,85,20)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5348\u9910\u8865\u52a9",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(130,160,136)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u56fe\u5f62",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(70,42,17)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6570\u636e\u7ed3\u6784",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(160,0,114)"
-                        }
-                    }
-                },
-                {
-                    "name": "Tensorflow",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(45,16,33)"
-                        }
-                    }
-                },
-                {
-                    "name": "GBDT",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(70,16,128)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8fea\u58eb\u5c3c",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(151,87,132)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7cbe\u82f1\u56e2\u961f",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(115,116,140)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4f18\u5316\u7b97\u6cd5",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(118,138,129)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u89c6\u89c9\u7b97\u6cd5",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(155,152,35)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6559\u80b2\u8f85\u5bfc",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(145,78,122)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8fd0\u7b79\u5b66",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(68,26,77)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u673a\u5668\u7ffb\u8bd1",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(158,24,156)"
-                        }
-                    }
-                },
-                {
-                    "name": "HALCON",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(90,75,29)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u52a8\u4f5c\u8bc6\u522b",
-                    "value": 3,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(72,62,70)"
+                            "color": "rgb(98,26,90)"
                         }
                     }
                 },
@@ -2195,43 +1889,376 @@ title: 算法招聘_技能与要求分析
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(95,86,50)"
+                            "color": "rgb(20,9,23)"
                         }
                     }
                 },
                 {
-                    "name": "\u7248\u9762\u5206\u6790",
-                    "value": 2,
+                    "name": "\u5348\u9910\u8865\u52a9",
+                    "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(13,78,50)"
+                            "color": "rgb(148,111,154)"
                         }
                     }
                 },
                 {
-                    "name": "\u5b9a\u4f4d\u7b97\u6cd5",
-                    "value": 2,
+                    "name": "ROS\u7cfb\u7edf",
+                    "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(8,60,9)"
+                            "color": "rgb(134,21,106)"
                         }
                     }
                 },
                 {
-                    "name": "\u529f\u80fd\u6d4b\u8bd5",
-                    "value": 2,
+                    "name": "\u97f3\u89c6\u9891",
+                    "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(114,77,152)"
+                            "color": "rgb(30,47,86)"
                         }
                     }
                 },
                 {
-                    "name": "AR",
-                    "value": 2,
+                    "name": "Pytorch",
+                    "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(114,33,24)"
+                            "color": "rgb(151,81,5)"
+                        }
+                    }
+                },
+                {
+                    "name": "OCR",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,138,19)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u673a\u5668\u7ffb\u8bd1",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(121,17,133)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fd0\u7b79\u5b66",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(137,160,96)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5c45\u4f4f\u670d\u52a1",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(57,58,57)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5206\u7c7b\u4fe1\u606f",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,74,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "slam",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(137,113,62)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7269\u6d41\u5e73\u53f0",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(96,152,107)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u5f62",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(2,110,102)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7cbe\u82f1\u56e2\u961f",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(37,95,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "Matlab",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(1,122,101)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u901a\u4fe1",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,91,109)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5206\u5e03\u5f0f\u641c\u7d22",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(77,119,119)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5236\u9020\u4e1a",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(13,31,41)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8f6f\u4ef6\u5f00\u53d1",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(8,34,57)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u65f6\u5e8f\u9884\u6d4b",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(36,86,98)"
+                        }
+                    }
+                },
+                {
+                    "name": "C#",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,128,41)"
+                        }
+                    }
+                },
+                {
+                    "name": "GBDT",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(5,0,34)"
+                        }
+                    }
+                },
+                {
+                    "name": "matlab",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(76,101,149)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5730\u56fe",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(144,129,151)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u89c6\u9891",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(159,1,71)"
+                        }
+                    }
+                },
+                {
+                    "name": "Tensorflow",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(17,116,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u50cf\u5206\u5272",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(160,26,134)"
+                        }
+                    }
+                },
+                {
+                    "name": "CAD",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,39,112)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u533b\u7597\u5668\u68b0",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(98,103,156)"
+                        }
+                    }
+                },
+                {
+                    "name": "ETA",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(98,89,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fea\u58eb\u5c3c",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,133,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e74\u7ec8\u5206\u7ea2",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(147,5,116)"
+                        }
+                    }
+                },
+                {
+                    "name": "HALCON",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,65,143)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6027\u80fd\u6d4b\u8bd5",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,41,68)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u673a\u5668\u89c6\u89c9",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(2,148,111)"
+                        }
+                    }
+                },
+                {
+                    "name": "opengl",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(46,42,138)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6d41\u5a92\u4f53",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,120,1)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7cfb\u7edf\u67b6\u6784",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(4,65,63)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u52a8\u4f5c\u8bc6\u522b",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(84,125,142)"
+                        }
+                    }
+                },
+                {
+                    "name": "GPU",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(14,75,109)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u5e93",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(134,139,125)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u70b9\u4e91",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(92,50,89)"
                         }
                     }
                 },
@@ -2240,484 +2267,7 @@ title: 算法招聘_技能与要求分析
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(160,106,132)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5236\u9020\u4e1a",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(119,79,18)"
-                        }
-                    }
-                },
-                {
-                    "name": "Go",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(72,123,141)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8425\u9500",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(143,54,129)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(71,110,37)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u901a\u4fe1",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(66,78,83)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u672c\u5206",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(73,68,79)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u786c\u4ef6\u5f00\u53d1",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(21,83,97)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u56e0\u679c\u63a8\u65ad",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(85,57,45)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6df1\u5ea6\u5b66\u4e60\u7b97\u6cd5",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(55,149,121)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u786c\u4ef6\u5236\u9020",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(90,113,27)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e03\u9669\u4e00\u91d1",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(153,133,158)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5feb\u901f\u6210\u957f",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(136,15,60)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6280\u672f\u7ba1\u7406",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(38,17,147)"
-                        }
-                    }
-                },
-                {
-                    "name": "ElasticSearch",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(101,21,38)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u89c6\u9891\u641c\u7d22",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(88,56,2)"
-                        }
-                    }
-                },
-                {
-                    "name": "gnss",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(90,99,107)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u65e0\u4eba\u9a7e\u9a76",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(113,55,33)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7b97\u6cd5\u5de5\u7a0b\u5316",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(99,85,136)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u65b0\u5a92\u4f53",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(35,74,64)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7279\u5f81\u5de5\u7a0b",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(70,127,91)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4f9b\u5e94\u94fe\u7b97\u6cd5",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(15,156,28)"
-                        }
-                    }
-                },
-                {
-                    "name": "SNN",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(25,127,119)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u901a\u4fe1/\u7f51\u7edc\u8bbe\u5907",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(58,21,158)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8ffd\u6c42\u6781\u81f4",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(43,77,77)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7c7b\u8111\u8ba1\u7b97",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(98,9,133)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u56fe\u50cf\u5206\u7c7b",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(85,82,81)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5f71\u89c6\uff5c\u52a8\u6f2b",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(47,137,122)"
-                        }
-                    }
-                },
-                {
-                    "name": "hadoop",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(61,88,28)"
-                        }
-                    }
-                },
-                {
-                    "name": "Lucene",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(110,1,100)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u89c6\u89c9",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(123,73,68)"
-                        }
-                    }
-                },
-                {
-                    "name": "VIO",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(4,14,5)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u519c\u6797\u7267\u6e14",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(150,141,49)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7acb\u4f53\u89c6\u89c9",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(55,100,17)"
-                        }
-                    }
-                },
-                {
-                    "name": "LR",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(80,34,22)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u97f3\u89c6\u9891",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(66,82,38)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u67b6\u6784\u5e08",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(106,50,4)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7b97\u6cd5\u4f18\u5316",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(36,53,133)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5206\u7c7b",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(91,7,84)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u70b9\u4e91",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(113,93,127)"
-                        }
-                    }
-                },
-                {
-                    "name": "opengl",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(134,25,105)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5e05\u54e5\u591a",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(129,123,69)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8bed\u4e49\u5206\u5272",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(113,146,0)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8111\u673a",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(33,114,136)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u667a\u80fd\u8425\u9500",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(92,26,77)"
-                        }
-                    }
-                },
-                {
-                    "name": "ACM",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(139,62,22)"
-                        }
-                    }
-                },
-                {
-                    "name": "AGV",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(2,26,155)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u672c\u5730\u751f\u6d3b",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(66,102,49)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u533b\u7597",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(49,58,47)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5f3a\u5316\u5b66\u4e60",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(145,23,124)"
-                        }
-                    }
-                },
-                {
-                    "name": "PaddlePddle",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(27,127,158)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5730\u56fe",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(34,155,84)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5de5\u4e1a\u81ea\u52a8\u5316",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(140,101,42)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5a92\u4f53",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(35,125,109)"
+                            "color": "rgb(7,9,19)"
                         }
                     }
                 },
@@ -2726,34 +2276,16 @@ title: 算法招聘_技能与要求分析
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(158,27,157)"
+                            "color": "rgb(8,82,2)"
                         }
                     }
                 },
                 {
-                    "name": "\u7b97\u6cd5\u57fa\u7840",
+                    "name": "\u901a\u4fe1/\u7f51\u7edc\u8bbe\u5907",
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(141,40,11)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7acb\u4f53\u5339\u914d",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(85,93,122)"
-                        }
-                    }
-                },
-                {
-                    "name": "OpenCL",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(52,137,73)"
+                            "color": "rgb(146,159,9)"
                         }
                     }
                 },
@@ -2762,133 +2294,43 @@ title: 算法招聘_技能与要求分析
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(157,25,144)"
+                            "color": "rgb(21,57,117)"
                         }
                     }
                 },
                 {
-                    "name": "\u4f20\u611f\u5668",
+                    "name": "gnss",
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(60,89,141)"
+                            "color": "rgb(7,154,104)"
                         }
                     }
                 },
                 {
-                    "name": "\u81ea\u52a8\u5316\u6d4b\u8bd5",
+                    "name": "\u786c\u4ef6\u5236\u9020",
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(95,105,89)"
+                            "color": "rgb(100,42,44)"
                         }
                     }
                 },
                 {
-                    "name": "\u5de5\u4e1a\u4e92\u8054\u7f51",
+                    "name": "\u89c6\u9891\u7b97\u6cd5",
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(106,50,92)"
+                            "color": "rgb(105,160,14)"
                         }
                     }
                 },
                 {
-                    "name": "Node.js",
+                    "name": "\u89c6\u89c9",
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(152,130,77)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u626b\u5730\u673a\u5668\u4eba",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(69,117,60)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u51fa\u56fd\u65c5\u6e38",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(22,140,144)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5de5\u4e1a\u68c0\u6d4b",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(85,130,82)"
-                        }
-                    }
-                },
-                {
-                    "name": "GPU",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(60,104,70)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e30\u539a\u5e74\u7ec8",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(151,99,95)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6570\u636e\u5904\u7406",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(132,58,72)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u805a\u7c7b",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(104,125,141)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8fd0\u52a8\u65e5",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(37,48,109)"
-                        }
-                    }
-                },
-                {
-                    "name": "3D",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(156,47,88)"
-                        }
-                    }
-                },
-                {
-                    "name": "Matlab",
-                    "value": 2,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(115,75,11)"
+                            "color": "rgb(94,159,104)"
                         }
                     }
                 },
@@ -2897,1717 +2339,610 @@ title: 算法招聘_技能与要求分析
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(102,12,136)"
+                            "color": "rgb(95,87,100)"
                         }
                     }
                 },
                 {
-                    "name": "\u79fb\u52a8\u7aef",
-                    "value": 1,
+                    "name": "AR",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(106,96,142)"
+                            "color": "rgb(112,154,70)"
                         }
                     }
                 },
                 {
-                    "name": "\u98ce\u63a7",
-                    "value": 1,
+                    "name": "\u4e03\u9669\u4e00\u91d1",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(92,90,153)"
+                            "color": "rgb(82,26,150)"
                         }
                     }
                 },
                 {
-                    "name": "\u5168\u94fe\u8defSaaS\u5e73\u53f0",
-                    "value": 1,
+                    "name": "\u6280\u672f\u7ba1\u7406",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(151,50,82)"
+                            "color": "rgb(34,158,45)"
                         }
                     }
                 },
                 {
-                    "name": "\u521b\u4e1a",
-                    "value": 1,
+                    "name": "\u7b97\u6cd5\u5de5\u7a0b\u5316",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(38,51,5)"
+                            "color": "rgb(121,66,74)"
                         }
                     }
                 },
                 {
-                    "name": "X264",
-                    "value": 1,
+                    "name": "\u5de5\u4e1a\u68c0\u6d4b",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(148,74,133)"
+                            "color": "rgb(87,129,50)"
                         }
                     }
                 },
                 {
-                    "name": "\u5e7f\u544a\u63a8\u8350",
-                    "value": 1,
+                    "name": "\u56fe\u50cf\u5206\u7c7b",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(100,94,24)"
+                            "color": "rgb(140,101,33)"
                         }
                     }
                 },
                 {
-                    "name": "pandas",
-                    "value": 1,
+                    "name": "\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(19,121,60)"
+                            "color": "rgb(27,99,13)"
                         }
                     }
                 },
                 {
-                    "name": "\u5bfc\u822a\u7b97\u6cd5",
-                    "value": 1,
+                    "name": "\u7b97\u6cd5\u4f18\u5316",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(88,58,158)"
+                            "color": "rgb(98,144,82)"
                         }
                     }
                 },
                 {
-                    "name": "Linux/Unix",
-                    "value": 1,
+                    "name": "\u7b97\u6cd5\u57fa\u7840",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(120,67,105)"
+                            "color": "rgb(148,113,6)"
                         }
                     }
                 },
                 {
-                    "name": "\u4fe1\u53f7\u91c7\u96c6",
-                    "value": 1,
+                    "name": "PaddlePddle",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(84,153,14)"
+                            "color": "rgb(56,95,65)"
                         }
                     }
                 },
                 {
-                    "name": "\u53cc\u76ee\u89c6\u89c9",
-                    "value": 1,
+                    "name": "\u5de5\u4e1a\u4e92\u8054\u7f51",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(44,67,4)"
+                            "color": "rgb(97,138,104)"
                         }
                     }
                 },
                 {
-                    "name": "\u6587\u672c\u5206\u7c7b\uff0c",
-                    "value": 1,
+                    "name": "OpenCL",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(99,138,58)"
+                            "color": "rgb(50,86,36)"
                         }
                     }
                 },
                 {
-                    "name": "\u6a21\u578b\u538b\u7f29",
-                    "value": 1,
+                    "name": "\u9700\u6c42\u5206\u6790",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(94,84,11)"
+                            "color": "rgb(159,38,13)"
                         }
                     }
                 },
                 {
-                    "name": "CTR",
-                    "value": 1,
+                    "name": "\u5b9a\u4f4d\u7b97\u6cd5",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(141,69,33)"
+                            "color": "rgb(74,138,53)"
                         }
                     }
                 },
                 {
-                    "name": "\u591a\u4f20\u611f\u5668",
-                    "value": 1,
+                    "name": "\u51fa\u56fd\u65c5\u6e38",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(53,45,70)"
+                            "color": "rgb(144,116,101)"
                         }
                     }
                 },
                 {
-                    "name": "\u5e95\u76d8\u63a7\u5236",
-                    "value": 1,
+                    "name": "\u8425\u9500",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(11,99,30)"
+                            "color": "rgb(45,84,33)"
                         }
                     }
                 },
                 {
-                    "name": "\u641c\u7d22\u6392\u5e8f",
-                    "value": 1,
+                    "name": "\u533b\u7597",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(86,81,93)"
+                            "color": "rgb(16,95,144)"
                         }
                     }
                 },
                 {
-                    "name": "\u7269\u4f53\u8bc6\u522b",
-                    "value": 1,
+                    "name": "Lucene",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(21,8,55)"
+                            "color": "rgb(25,23,90)"
                         }
                     }
                 },
                 {
-                    "name": "\u6570\u636e\u5f00\u53d1",
-                    "value": 1,
+                    "name": "\u5a92\u4f53",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(80,44,29)"
+                            "color": "rgb(18,81,108)"
                         }
                     }
                 },
                 {
-                    "name": "\u641c\u7d22\u63a8\u8350\u7b97\u6cd5",
-                    "value": 1,
+                    "name": "\u5206\u7c7b",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(55,127,32)"
+                            "color": "rgb(93,96,97)"
                         }
                     }
                 },
                 {
-                    "name": "\u52a8\u4f5c\u6355\u6349",
-                    "value": 1,
+                    "name": "\u529f\u80fd\u6d4b\u8bd5",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(48,95,94)"
+                            "color": "rgb(133,77,105)"
                         }
                     }
                 },
                 {
-                    "name": "\u4f20\u611f\u5668\u878d\u5408",
-                    "value": 1,
+                    "name": "SNN",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(125,96,59)"
+                            "color": "rgb(108,69,46)"
                         }
                     }
                 },
                 {
-                    "name": "\u516c\u94a5",
-                    "value": 1,
+                    "name": "opencv",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(128,64,11)"
+                            "color": "rgb(52,132,19)"
                         }
                     }
                 },
                 {
-                    "name": "\u5e95\u5c42",
-                    "value": 1,
+                    "name": "\u672c\u5730\u751f\u6d3b",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(83,1,149)"
+                            "color": "rgb(92,25,46)"
                         }
                     }
                 },
                 {
-                    "name": "\u58f0\u7eb9\u8bc6\u522b",
-                    "value": 1,
+                    "name": "DSP",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(151,156,92)"
+                            "color": "rgb(27,71,128)"
                         }
                     }
                 },
                 {
-                    "name": "\u4e13\u4e1a\u670d\u52a1\uff5c\u54a8\u8be2",
-                    "value": 1,
+                    "name": "\u56e0\u679c\u63a8\u65ad",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(131,57,104)"
+                            "color": "rgb(21,86,147)"
                         }
                     }
                 },
                 {
-                    "name": "\u542f\u53d1\u5f0f\u7b97\u6cd5",
-                    "value": 1,
+                    "name": "\u7c7b\u8111\u8ba1\u7b97",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(0,7,97)"
+                            "color": "rgb(143,131,43)"
                         }
                     }
                 },
                 {
-                    "name": "\u907f\u969c",
-                    "value": 1,
+                    "name": "AGV",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(147,51,83)"
+                            "color": "rgb(137,135,115)"
                         }
                     }
                 },
                 {
-                    "name": "\u673a\u5668\u5b66\u4e60\u7b97\u6cd5\u673a",
-                    "value": 1,
+                    "name": "\u6df1\u5ea6\u5b66\u4e60\u7b97\u6cd5",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(10,114,48)"
+                            "color": "rgb(134,122,65)"
                         }
                     }
                 },
                 {
-                    "name": "\u6295\u8d44/\u878d\u8d44",
-                    "value": 1,
+                    "name": "\u519c\u6797\u7267\u6e14",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(117,154,86)"
+                            "color": "rgb(160,108,143)"
                         }
                     }
                 },
                 {
-                    "name": "ADAS",
-                    "value": 1,
+                    "name": "\u65e0\u4eba\u9a7e\u9a76",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(140,40,84)"
-                        }
-                    }
-                },
-                {
-                    "name": "Caffe\u3001Tensorfl",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(86,62,35)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u901f\u5ea6\u63a7\u5236",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(92,3,154)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5c45\u4f4f\u670d\u52a1",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(11,126,8)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u836f\u7269\u7814\u53d1",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(82,5,160)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u56fe\u50cf",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(40,126,104)"
-                        }
-                    }
-                },
-                {
-                    "name": "x265",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(25,12,139)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5168\u5458\u51fa\u56fd\u6e38",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(56,49,153)"
-                        }
-                    }
-                },
-                {
-                    "name": "hybrid/end2end",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(12,68,135)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u96f6\u98df\u4e0b\u5348\u8336",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(17,29,96)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6ee4\u955c",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(110,12,146)"
-                        }
-                    }
-                },
-                {
-                    "name": "SSD\u3001Faster",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(106,63,90)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6df7\u54cd",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(50,96,75)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5e95\u5c42\u89c6\u89c9",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(25,126,105)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u9ad8\u7cbe\u5730\u56fe",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(2,13,79)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u667a\u80fd\u9a7e\u9a76",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(149,70,58)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u536b\u661f\u9065\u611f",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(134,126,158)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u56fe\u50cf\u62fc\u63a5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(3,84,123)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8f6f\u4ef6\u6d4b\u8bd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(17,16,48)"
-                        }
-                    }
-                },
-                {
-                    "name": "ocr",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(149,26,71)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u673a\u5668\u5b66\u4e60\u6a21\u578b",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(5,133,9)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5f02\u5e38\u8bca\u65ad",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(54,6,32)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6ef4\u6ef4",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(114,57,7)"
-                        }
-                    }
-                },
-                {
-                    "name": "Cplex",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(125,10,1)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5206\u5e03\u5f0f\u8bad\u7ec3",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(51,110,159)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u89c6\u9891\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(29,30,16)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e50\u7406\u8f6c\u6362",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(36,125,31)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e09\u7ef4\u91cd\u5efa",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(159,80,101)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e2a\u6027\u5316\u63a8\u8350",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(140,132,120)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u673a\u5668\u5b66\u4e60\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(104,118,135)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8fd0\u7b79\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(6,139,129)"
-                        }
-                    }
-                },
-                {
-                    "name": "3D\u59ff\u6001\u91cd\u5efa",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(145,74,88)"
-                        }
-                    }
-                },
-                {
-                    "name": "C/C++/Python",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(88,138,89)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5185\u5bb9\u63a8\u8350",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(103,111,87)"
-                        }
-                    }
-                },
-                {
-                    "name": "R\u8bed\u8a00",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(160,128,18)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5206\u7c7b\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(78,60,141)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5ba2\u7fa4\u5206\u7c7b\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(41,81,16)"
-                        }
-                    }
-                },
-                {
-                    "name": "TF",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(34,52,94)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6280\u672f\u5927\u725b\u591a",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(4,149,106)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e0b\u5348\u8336",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(67,95,137)"
-                        }
-                    }
-                },
-                {
-                    "name": "PHM",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(139,156,160)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7f51\u7edc\u5b89\u5168",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(67,117,106)"
-                        }
-                    }
-                },
-                {
-                    "name": "DSP\u7f16\u7a0b",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(110,143,100)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u56fe\u5f62\u56fe\u50cf\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(40,12,74)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7535\u5546\u641c\u7d22",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(111,65,71)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u98ce\u63a7\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(146,76,47)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5e7f\u544a\u5e73\u53f0",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(140,143,127)"
-                        }
-                    }
-                },
-                {
-                    "name": "python/go",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(49,112,35)"
-                        }
-                    }
-                },
-                {
-                    "name": "golang",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(56,100,63)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4eff\u771f",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(31,40,76)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u81ea\u4e3b\u664b\u5347\u8ba1\u5212",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(64,21,125)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5730\u56fe\u5f00\u53d1",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(115,59,50)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5f3a\u608d\u7684\u521b\u59cb\u4eba",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(94,9,100)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u56fe\u50cf\u5904\u7406\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(44,43,83)"
+                            "color": "rgb(136,38,94)"
                         }
                     }
                 },
                 {
                     "name": "\u6d4b\u8bd5\u5f00\u53d1",
-                    "value": 1,
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(54,76,132)"
+                            "color": "rgb(51,28,15)"
                         }
                     }
                 },
                 {
-                    "name": "GO",
-                    "value": 1,
+                    "name": "\u6570\u636e\u5904\u7406",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(32,135,137)"
+                            "color": "rgb(96,63,31)"
                         }
                     }
                 },
                 {
-                    "name": "\u56fe\u7b97\u6cd5",
-                    "value": 1,
+                    "name": "\u4f20\u611f\u5668",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(159,147,108)"
+                            "color": "rgb(61,93,35)"
                         }
                     }
                 },
                 {
-                    "name": "ROS\uff0cGazebo\u4eff\u771f",
-                    "value": 1,
+                    "name": "\u65b0\u5a92\u4f53",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(102,110,158)"
+                            "color": "rgb(92,78,46)"
                         }
                     }
                 },
                 {
-                    "name": "pytorch",
-                    "value": 1,
+                    "name": "3D",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(30,61,129)"
+                            "color": "rgb(65,103,142)"
                         }
                     }
                 },
                 {
-                    "name": "\u8d44\u8baf",
-                    "value": 1,
+                    "name": "\u7acb\u4f53\u89c6\u89c9",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(23,56,1)"
+                            "color": "rgb(15,42,138)"
                         }
                     }
                 },
                 {
-                    "name": "\u6392\u5e8f\u7b97\u6cd5",
-                    "value": 1,
+                    "name": "\u9879\u76ee\u7ba1\u7406",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(57,126,141)"
+                            "color": "rgb(150,39,130)"
                         }
                     }
                 },
                 {
-                    "name": "Windows",
-                    "value": 1,
+                    "name": "VIO",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(38,14,55)"
+                            "color": "rgb(37,61,82)"
                         }
                     }
                 },
                 {
-                    "name": "\u5de5\u4e1a\u6392\u7a0b",
-                    "value": 1,
+                    "name": "\u667a\u6167\u57ce\u5e02",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(128,121,75)"
+                            "color": "rgb(52,44,36)"
                         }
                     }
                 },
                 {
-                    "name": "\u539f\u578b\u8bbe\u8ba1",
-                    "value": 1,
+                    "name": "\u5f71\u89c6\uff5c\u52a8\u6f2b",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(154,75,120)"
+                            "color": "rgb(52,126,39)"
                         }
                     }
                 },
                 {
-                    "name": "\u53cd\u6b3a\u8bc8",
-                    "value": 1,
+                    "name": "ElasticSearch",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(105,73,66)"
+                            "color": "rgb(19,129,122)"
                         }
                     }
                 },
                 {
-                    "name": "rgbd",
-                    "value": 1,
+                    "name": "docker",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(82,34,158)"
+                            "color": "rgb(125,3,72)"
                         }
                     }
                 },
                 {
-                    "name": "\u540d\u6821\u540d\u4f01\u80cc\u666f",
-                    "value": 1,
+                    "name": "Flink",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(142,82,20)"
+                            "color": "rgb(4,122,101)"
                         }
                     }
                 },
                 {
-                    "name": "\u6587\u672c\u68c0\u6d4b",
-                    "value": 1,
+                    "name": "\u5feb\u901f\u6210\u957f",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(7,91,109)"
+                            "color": "rgb(60,128,158)"
                         }
                     }
                 },
                 {
-                    "name": "\u7b97\u6cd5",
-                    "value": 1,
+                    "name": "\u5de5\u4e1a\u81ea\u52a8\u5316",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(3,0,103)"
+                            "color": "rgb(143,83,157)"
                         }
                     }
                 },
                 {
-                    "name": "\u8bba\u6587\u5199\u4f5c",
-                    "value": 1,
+                    "name": "\u7ade\u54c1\u5206\u6790",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(86,23,11)"
+                            "color": "rgb(143,110,32)"
                         }
                     }
                 },
                 {
-                    "name": "\u5e74\u7ec8\u591a\u85aa",
-                    "value": 1,
+                    "name": "\u8111\u673a",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(57,39,5)"
+                            "color": "rgb(75,157,86)"
                         }
                     }
                 },
                 {
-                    "name": "NPU",
-                    "value": 1,
+                    "name": "Go",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(149,115,47)"
+                            "color": "rgb(136,7,6)"
                         }
                     }
                 },
                 {
-                    "name": "\u7528\u6237\u6d3b\u8dc3\u5ea6",
-                    "value": 1,
+                    "name": "\u667a\u80fd\u8425\u9500",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(104,79,55)"
+                            "color": "rgb(142,49,36)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fd0\u52a8\u65e5",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(32,53,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e05\u54e5\u591a",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,112,77)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u7ed3\u6784",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(115,84,73)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4fe1\u53f7\u5904\u7406",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(44,122,45)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7acb\u4f53\u5339\u914d",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(14,5,14)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4f9b\u5e94\u94fe\u7b97\u6cd5",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(90,38,81)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u89c6\u9891\u641c\u7d22",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(124,99,112)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u805a\u7c7b",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(88,28,24)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u52a8\u5316\u6d4b\u8bd5",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(132,86,115)"
+                        }
+                    }
+                },
+                {
+                    "name": "Node.js",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,129,93)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7279\u5f81\u5de5\u7a0b",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,28,15)"
                         }
                     }
                 },
                 {
                     "name": "\u6570\u636e\u5e93\u5f00\u53d1",
-                    "value": 1,
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(43,55,138)"
+                            "color": "rgb(139,64,102)"
                         }
                     }
                 },
                 {
-                    "name": "\u9ad8\u7ea7\u6280\u672f\u7ba1\u7406",
-                    "value": 1,
+                    "name": "\u786c\u4ef6\u5f00\u53d1",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(114,124,29)"
+                            "color": "rgb(19,115,68)"
                         }
                     }
                 },
                 {
-                    "name": "Pyspark",
-                    "value": 1,
+                    "name": "\u7248\u9762\u5206\u6790",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(127,107,25)"
+                            "color": "rgb(67,113,53)"
                         }
                     }
                 },
                 {
-                    "name": "\u56fe\u5f62\u5b66",
-                    "value": 1,
+                    "name": "\u89c6\u89c9\u7b97\u6cd5",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(88,90,15)"
+                            "color": "rgb(159,155,8)"
                         }
                     }
                 },
                 {
-                    "name": "\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5",
-                    "value": 1,
+                    "name": "\u626b\u5730\u673a\u5668\u4eba",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(21,127,85)"
+                            "color": "rgb(104,132,87)"
                         }
                     }
                 },
                 {
-                    "name": "\u79d1\u6280\u5927\u725b\u516c\u53f8",
-                    "value": 1,
+                    "name": "\u67b6\u6784\u5e08",
+                    "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(88,8,18)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u53ec\u56de\u7b56\u7565",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(148,117,83)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e09\u7ef4\u56fe\u5f62",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(155,1,74)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u56fe\u6587\u5206\u6790",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(119,46,130)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8ba1\u7b97\u673a\u56fe\u5f62",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(15,86,36)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4f20\u611f\u5668\u6216\u70b9\u4e91",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(143,160,157)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4f9b\u5e94\u94fe\u91d1\u878d",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(74,139,39)"
-                        }
-                    }
-                },
-                {
-                    "name": "flow",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(90,100,149)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u611f\u77e5\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(85,156,134)"
-                        }
-                    }
-                },
-                {
-                    "name": "RCNN",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(61,136,125)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8f68\u8ff9",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(73,107,10)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5149\u7ea4\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(14,114,46)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u63a7\u5236\u5668\u8bbe\u8ba1",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(109,42,104)"
-                        }
-                    }
-                },
-                {
-                    "name": "Javascript",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(54,82,75)"
-                        }
-                    }
-                },
-                {
-                    "name": "jaya",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(80,151,41)"
-                        }
-                    }
-                },
-                {
-                    "name": "webGL",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(90,43,63)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u89c4\u5212\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(23,63,15)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5730\u56fe\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(117,59,156)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u97f3\u9891\u5904\u7406",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(83,134,62)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u51e0\u4f55\u5b66",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(84,9,22)"
-                        }
-                    }
-                },
-                {
-                    "name": "3D\u6253\u5370",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(6,67,70)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5b9e\u4f53\u8bc6\u522b",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(99,107,37)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6709\u524d\u9014",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(96,110,17)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8d85\u957f\u5e26\u85aa\u5047\u671f",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(27,66,143)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5efa\u7b51\u8bbe\u8ba1",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(12,1,53)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u641c\u7d22\u5f15\u64ce",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(64,118,158)"
-                        }
-                    }
-                },
-                {
-                    "name": "PP",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(131,115,0)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8bed\u97f3\u524d\u5904\u7406",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(45,33,13)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4f18\u5148\u4e0a\u6d77\u843d\u6237",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(69,29,73)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5bfc\u822a\u5f15\u64ce",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(5,57,143)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u773c\u52a8",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(25,6,64)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8c03\u62e8",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(155,73,159)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u865a\u5047\u6d41\u91cf",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(99,6,28)"
-                        }
-                    }
-                },
-                {
-                    "name": "H.264/265",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(146,42,138)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u81ea\u52a8\u5316",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(70,45,122)"
-                        }
-                    }
-                },
-                {
-                    "name": "SSD",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(154,116,108)"
-                        }
-                    }
-                },
-                {
-                    "name": "query",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(90,107,160)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u59ff\u6001\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(63,160,80)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5956\u91d1\u591a\u591a\u591a",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(102,118,75)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u81ea\u52a8\u9a7e\u9a76\u5b9a\u4f4d",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(66,0,91)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u9ad8\u7cbe\u5ea6\u5730\u56fe",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(18,26,125)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7b97\u6cd5\u5e73\u53f0",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(57,9,10)"
-                        }
-                    }
-                },
-                {
-                    "name": "MTL",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(88,68,137)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7cfb\u7edf\u5206\u6790",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(41,107,24)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u804c\u80fd\u5236\u9020",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(29,14,25)"
-                        }
-                    }
-                },
-                {
-                    "name": "Gurobi",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(66,36,56)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u623f\u5730\u4ea7\uff5c\u5efa\u7b51\uff5c\u7269\u4e1a",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(52,57,74)"
-                        }
-                    }
-                },
-                {
-                    "name": "MatLab",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(37,117,142)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u652f\u4ed8\u4e1a\u52a1",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(29,154,35)"
-                        }
-                    }
-                },
-                {
-                    "name": "h264\uff0ch265\uff0cav1",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(69,145,37)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7279\u6548",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(85,14,8)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u9057\u4f20\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(153,123,90)"
-                        }
-                    }
-                },
-                {
-                    "name": "Pulp",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(43,98,73)"
-                        }
-                    }
-                },
-                {
-                    "name": "MXNet",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(63,127,58)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u9690\u79d8\u8ba1\u7b97\u672f",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(12,61,37)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4eba\u4f533D\u91cd\u5efa",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(2,155,18)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8bed\u4e49\u5206\u6790",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(13,88,11)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7f16\u7a0b",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(90,93,62)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u667a\u80fd\u4f18\u5316",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(1,22,58)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u79d1\u7814",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(151,63,36)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8c03\u5ea6\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(123,111,156)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u89c6\u89c9SLAM",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(96,19,5)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u641c\u7d22\u53ec\u56de",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(152,72,23)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7528\u6237\u884c\u4e3a\u6570\u636e",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(30,97,128)"
-                        }
-                    }
-                },
-                {
-                    "name": "CCF",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(150,135,56)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u89c6\u9891\u7f16\u8f91",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(1,5,61)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6df1\u5ea6\u6a21\u578b",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(86,51,0)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6574\u6570\u89c4\u5212",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(141,158,104)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e09\u7ef4",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(60,29,59)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u793e\u4ea4\u4ea7\u54c1",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(7,28,46)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7279\u5f81\u6316\u6398",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(3,100,40)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5b8c\u6210E\u8f6e\u878d\u8d44",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(13,101,159)"
-                        }
-                    }
-                },
-                {
-                    "name": "JAVA",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(144,62,24)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6a21\u578b\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(63,160,110)"
-                        }
-                    }
-                },
-                {
-                    "name": "KF/EKF",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(159,45,159)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5c0f\u6837\u672c\u5b66\u4e60",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(124,87,66)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5de5\u4e1a\u9886\u57df",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(96,54,64)"
-                        }
-                    }
-                },
-                {
-                    "name": "RCN",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(83,67,36)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u89c6\u9891\u7406\u89e3",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(14,28,129)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5348\u9910\u4ea4\u901a\u8865\u52a9",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(151,129,49)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8fd0\u52a8\u63a7\u5236",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(10,40,6)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u65b0\u95fb/\u51fa\u7248",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(139,34,152)"
+                            "color": "rgb(46,106,88)"
                         }
                     }
                 },
@@ -4616,826 +2951,7 @@ title: 算法招聘_技能与要求分析
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(101,103,23)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6241\u5e73\u5316\u7ba1\u7406",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(139,3,124)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u591c\u62cd",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(48,28,0)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7535\u673a\u63a7\u5236",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(111,78,20)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6570\u636e\u4ed3\u5e93",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(57,125,35)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6392\u7a0b",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(103,94,134)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7f51\u7edc\u4f20\u8f93\u534f\u8bae",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(144,21,67)"
-                        }
-                    }
-                },
-                {
-                    "name": "webgl",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(128,25,10)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u63a8\u8350\u641c\u7d22",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(19,72,98)"
-                        }
-                    }
-                },
-                {
-                    "name": "kalman",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(92,11,38)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u751f\u4ea7\u8c03\u5ea6",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(7,155,13)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7ecf\u5178\u63a7\u5236\u7406\u8bba",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(106,99,89)"
-                        }
-                    }
-                },
-                {
-                    "name": "ECC",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(90,81,42)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5e74\u7ec8\u5956\u91d1",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(26,80,39)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5927\u5065\u5eb7",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(158,28,118)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7b97\u6cd5\u843d\u5730",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(81,123,56)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5b9a\u4f4d\u5bfc\u822a",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(135,0,113)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u9aa8\u79d1\u673a\u5668\u4eba",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(125,109,28)"
-                        }
-                    }
-                },
-                {
-                    "name": "DNN",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(159,100,13)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5e26\u5bbd\u63a7\u5236",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(69,27,42)"
-                        }
-                    }
-                },
-                {
-                    "name": "AR/VR/MR",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(59,114,132)"
-                        }
-                    }
-                },
-                {
-                    "name": "DSP",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(139,128,71)"
-                        }
-                    }
-                },
-                {
-                    "name": "HIve",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(101,125,0)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u81ea\u7136\u8bed\u8a00",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(135,125,92)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8ba1\u7b97\u673a\u5b66\u4e60\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(143,7,54)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6570\u636e\u6293\u53d6",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(91,27,91)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8fd0\u7b79",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(26,152,21)"
-                        }
-                    }
-                },
-                {
-                    "name": "FLINK",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(89,159,78)"
-                        }
-                    }
-                },
-                {
-                    "name": "c",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(124,137,74)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5bfc\u822a\u907f\u969c",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(72,44,56)"
-                        }
-                    }
-                },
-                {
-                    "name": "3DGIS",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(19,35,152)"
-                        }
-                    }
-                },
-                {
-                    "name": "CPU",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(70,71,74)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7b56\u7565",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(107,47,57)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8ba1\u7b97\u51e0\u4f55",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(104,11,15)"
-                        }
-                    }
-                },
-                {
-                    "name": "Caffe\u3001Pytorch\u3001",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(67,71,115)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6d88\u8d39\u91d1\u878d",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(1,116,100)"
-                        }
-                    }
-                },
-                {
-                    "name": "HBase",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(141,147,104)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6a21\u578b\u79fb\u690d\u4f18\u5316",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(49,53,71)"
-                        }
-                    }
-                },
-                {
-                    "name": "ISP",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(30,149,8)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e16\u754c500\u5f3a",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(25,152,95)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u9a6c\u5c14\u514b\u592b\u968f\u673a\u52a8",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(88,148,11)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u80a2\u4f53\u68c0\u6d4b",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(35,75,104)"
-                        }
-                    }
-                },
-                {
-                    "name": "hive",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(109,98,54)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7ade\u54c1\u5206\u6790",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(62,145,114)"
-                        }
-                    }
-                },
-                {
-                    "name": "AutoML",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(123,16,66)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u57fa\u7840\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(61,131,68)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8bc1\u5238",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(130,151,115)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4f17\u7b79\u4e1a\u52a1",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(101,133,37)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u56fe\u50cf\u89c6\u9891\u5904\u7406",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(6,153,146)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8f66\u8054\u7f51",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(150,156,114)"
-                        }
-                    }
-                },
-                {
-                    "name": "PID",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(98,153,157)"
-                        }
-                    }
-                },
-                {
-                    "name": "C++/go",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(154,65,33)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u68c0\u6d4b\u3001\u8bc6\u522b\u3001\u7f16\u8f91",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(25,93,81)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u70b9\u4e91\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(118,16,97)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8fd0\u7ef4\u7ba1\u7406",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(95,120,37)"
-                        }
-                    }
-                },
-                {
-                    "name": "CRF",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(55,126,77)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5bfc\u822a",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(28,99,113)"
-                        }
-                    }
-                },
-                {
-                    "name": "rtk",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(129,102,16)"
-                        }
-                    }
-                },
-                {
-                    "name": "java",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(122,55,101)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6a21\u578b",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(88,67,66)"
-                        }
-                    }
-                },
-                {
-                    "name": "SFM",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(121,31,107)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u91d1\u878d\u98ce\u63a7AI",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(24,130,35)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5468\u672b\u53cc\u4f11",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(44,72,63)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u81ea\u52a9\u4e09\u9910",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(55,61,95)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8fd0\u52a8\u63a7\u5236\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(58,143,146)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8f68\u8ff9\u89c4\u5212",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(113,104,122)"
-                        }
-                    }
-                },
-                {
-                    "name": "3dmm",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(136,8,115)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4eba\u5de5\u667a\u80fd\u673a\u5668\u4eba",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(139,53,70)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4e09\u7ef4\u91cd\u6784",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(79,29,54)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u53cc\u76ee",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(148,71,35)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u964d\u566a",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(28,91,12)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u56fe\u50cf\u68c0\u6d4b",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(147,26,66)"
-                        }
-                    }
-                },
-                {
-                    "name": "KALDI",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(0,29,18)"
-                        }
-                    }
-                },
-                {
-                    "name": "HADOOP",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(49,42,126)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5de5\u5177\u793e\u533a",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(49,151,9)"
-                        }
-                    }
-                },
-                {
-                    "name": "nlp\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(110,83,49)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5206\u5e03\u5f0f",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(155,134,20)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4f9b\u5e94\u94fe",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(151,10,28)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u751f\u4fe1",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(118,125,38)"
-                        }
-                    }
-                },
-                {
-                    "name": "CAD\u56fe\u7eb8\u5206\u6790",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(39,21,135)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8bed\u4e49\u7406\u89e3",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(112,49,29)"
-                        }
-                    }
-                },
-                {
-                    "name": "NPL",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(95,123,46)"
-                        }
-                    }
-                },
-                {
-                    "name": "AEB",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(145,113,41)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u81ea\u52a8\u9a7e\u9a76\u4eff\u771f",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(125,35,72)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5b89\u5168\u5927\u6570\u636e",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(153,28,55)"
-                        }
-                    }
-                },
-                {
-                    "name": "/Pytorch",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(124,71,126)"
-                        }
-                    }
-                },
-                {
-                    "name": "ERP",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(141,33,112)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u65f6\u5e8f\u6570\u636e\u5e93",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(19,145,112)"
-                        }
-                    }
-                },
-                {
-                    "name": "Rust",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(140,4,147)"
-                        }
-                    }
-                },
-                {
-                    "name": "PPP",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(28,9,127)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5305\u5348\u9910\u665a\u9910",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(145,64,115)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6a21\u62df\u9000\u706b\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(106,8,49)"
+                            "color": "rgb(35,80,114)"
                         }
                     }
                 },
@@ -5444,16 +2960,25 @@ title: 算法招聘_技能与要求分析
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(22,111,16)"
+                            "color": "rgb(22,43,123)"
                         }
                     }
                 },
                 {
-                    "name": "\u8fd1\u7ea2\u5916",
+                    "name": "\u7528\u6237\u884c\u4e3a\u6570\u636e",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(123,83,49)"
+                            "color": "rgb(160,118,83)"
+                        }
+                    }
+                },
+                {
+                    "name": "ocr",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(17,46,116)"
                         }
                     }
                 },
@@ -5462,826 +2987,151 @@ title: 算法招聘_技能与要求分析
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(84,111,64)"
+                            "color": "rgb(56,154,39)"
                         }
                     }
                 },
                 {
-                    "name": "\u65f6\u95f4\u5e8f\u5217",
+                    "name": "\u667a\u80fd\u9a7e\u9a76",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(85,18,106)"
+                            "color": "rgb(55,56,148)"
                         }
                     }
                 },
                 {
-                    "name": "\u77e5\u8bc6\u5e93",
+                    "name": "\u98ce\u63a7\u7b97\u6cd5",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(96,83,92)"
+                            "color": "rgb(132,40,91)"
                         }
                     }
                 },
                 {
-                    "name": "TypeScript",
+                    "name": "Windows",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(7,87,141)"
+                            "color": "rgb(41,64,6)"
                         }
                     }
                 },
                 {
-                    "name": "\u591a\u4f20\u611f\u5668\u878d\u5408",
+                    "name": "\u5bfc\u822a\u907f\u969c",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(149,128,9)"
+                            "color": "rgb(11,127,91)"
                         }
                     }
                 },
                 {
-                    "name": "\u5185\u5bb9\u7406\u89e3",
+                    "name": "DNN",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(140,116,67)"
+                            "color": "rgb(18,74,4)"
                         }
                     }
                 },
                 {
-                    "name": "\u7cfb\u7edf\u6d4b\u8bd5",
+                    "name": "\u63a7\u5236\u5668\u8bbe\u8ba1",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(68,16,24)"
+                            "color": "rgb(114,41,36)"
                         }
                     }
                 },
                 {
-                    "name": "\u8fd0\u52a8\u5065\u5eb7",
+                    "name": "\u4f20\u611f\u5668\u878d\u5408",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(48,113,138)"
+                            "color": "rgb(21,10,43)"
                         }
                     }
                 },
                 {
-                    "name": "\u7528\u6237\u589e\u957f",
+                    "name": "\u4e0b\u5348\u8336",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(152,5,30)"
+                            "color": "rgb(82,148,134)"
                         }
                     }
                 },
                 {
-                    "name": "\u4e70\u624b\u6218\u7565",
+                    "name": "HBase",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(8,139,131)"
+                            "color": "rgb(37,48,47)"
                         }
                     }
                 },
                 {
-                    "name": "h264",
+                    "name": "\u5e95\u5c42",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(28,94,138)"
+                            "color": "rgb(33,4,136)"
                         }
                     }
                 },
                 {
-                    "name": "ACC/AEB/LKA",
+                    "name": "\u6a21\u578b\u538b\u7f29",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(147,151,97)"
+                            "color": "rgb(132,44,74)"
                         }
                     }
                 },
                 {
-                    "name": "\u65b0\u80fd\u6e90",
+                    "name": "Ai\u52a0\u901f\u5361",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(84,4,76)"
+                            "color": "rgb(60,71,82)"
                         }
                     }
                 },
                 {
-                    "name": "\u542f\u53d1\u5f0f\u89c4\u5219\u7b97\u6cd5",
+                    "name": "\u6a21\u578b",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(49,140,150)"
+                            "color": "rgb(73,71,97)"
                         }
                     }
                 },
                 {
-                    "name": "\u5e7f\u544aCTR/CVR",
+                    "name": "mas",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(12,40,124)"
+                            "color": "rgb(57,32,29)"
                         }
                     }
                 },
                 {
-                    "name": "Tensor",
+                    "name": "\u591a\u4f20\u611f\u5668",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(101,123,125)"
+                            "color": "rgb(65,47,21)"
                         }
                     }
                 },
                 {
-                    "name": "salm",
+                    "name": "Cplex",
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(105,77,8)"
-                        }
-                    }
-                },
-                {
-                    "name": "Linux\u3001C+\u3001Pyth",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(96,47,85)"
-                        }
-                    }
-                },
-                {
-                    "name": "SVC",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(113,146,66)"
-                        }
-                    }
-                },
-                {
-                    "name": "vr\u3002ar",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(134,56,53)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6570\u636e\u5efa\u6a21",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(60,6,122)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u89c6\u89c9slam",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(45,110,43)"
-                        }
-                    }
-                },
-                {
-                    "name": "NLP/CV",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(48,8,61)"
-                        }
-                    }
-                },
-                {
-                    "name": "numpy",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(58,129,45)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u65c5\u6e38",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(158,5,60)"
-                        }
-                    }
-                },
-                {
-                    "name": "opencv",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(69,130,146)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u673a\u5668\u4eba\u5173\u952e\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(71,2,126)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8bed\u97f3\u8f6c\u6362",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(14,59,144)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7b97\u6cd5\u90e8\u7f72",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(18,66,44)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u9700\u6c42\u5206\u6790",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(146,101,116)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u589e\u957f\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(142,125,40)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7b97\u6cd5\u5bfc\u822a",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(130,11,141)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6392\u5e8f",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(121,137,49)"
-                        }
-                    }
-                },
-                {
-                    "name": "GNSS",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(133,9,58)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7b97\u6cd5\u52a0\u901f",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(102,112,57)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6570\u636e\u91c7\u96c6",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(91,84,19)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u4ea4\u901a\u8fd0\u8f93",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(47,80,15)"
-                        }
-                    }
-                },
-                {
-                    "name": "NLP\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(61,55,73)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7528\u6237\u7814\u7a76",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(112,143,108)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5e7f\u544a\u6295\u653e",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(130,101,58)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u514d\u8d39\u5348\u9910\u665a\u9910",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(135,144,132)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u7b97\u6cd5\u63a8\u8350",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(128,151,0)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u89c4\u5212",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(71,106,96)"
-                        }
-                    }
-                },
-                {
-                    "name": "NLP\u5904\u7406",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(153,79,79)"
-                        }
-                    }
-                },
-                {
-                    "name": "/",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(39,95,33)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u51e0\u4f55\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(106,52,54)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u795e\u7ecf\u7f51\u7edc",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(14,35,50)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5927\u6570\u636e\u5904\u7406\u6280\u672f",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(62,20,129)"
-                        }
-                    }
-                },
-                {
-                    "name": "Linux\u5f00\u53d1",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(142,50,85)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8282\u65e5\u798f\u5229",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(18,53,89)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u624b\u52bf\u8bc6\u522b",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(111,73,114)"
-                        }
-                    }
-                },
-                {
-                    "name": "libvpx",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(49,123,146)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8def\u5f84\u4f18\u5316",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(133,106,123)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u9065\u611f",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(123,102,149)"
-                        }
-                    }
-                },
-                {
-                    "name": "JitterBuffer",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(8,144,83)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u96f6\u77e5\u8bc6\u8bc1\u660e",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(93,27,86)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5355\u76ee",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(109,64,33)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8bed\u97f3\u6d4b\u8bc4",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(57,85,41)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u52a8\u529b\u5b66\u5efa\u6a21",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(126,77,154)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u573a\u666f\u8bc6\u522b",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(153,83,17)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5927\u5e73\u53f0",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(88,81,63)"
-                        }
-                    }
-                },
-                {
-                    "name": "B2B",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(120,149,42)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5149\u5b66",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(65,110,123)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u91d1\u878d\u98ce\u63a7",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(152,5,132)"
-                        }
-                    }
-                },
-                {
-                    "name": "DeepFM",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(22,40,129)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u8fd0\u7b79\u4f18\u5316\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(5,53,95)"
-                        }
-                    }
-                },
-                {
-                    "name": "android",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(11,132,45)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5e7f\u544a\u7b56\u7565",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(0,81,103)"
-                        }
-                    }
-                },
-                {
-                    "name": "Ackerma",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(86,31,61)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5de5\u7a0b\u80fd\u529b",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(137,15,124)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5bc6\u7801\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(84,100,148)"
-                        }
-                    }
-                },
-                {
-                    "name": "Storm",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(83,73,109)"
-                        }
-                    }
-                },
-                {
-                    "name": "LTE",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(7,22,67)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u76ee\u6807\u5206\u5272",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(37,64,25)"
-                        }
-                    }
-                },
-                {
-                    "name": "BIM+3D",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(147,40,31)"
-                        }
-                    }
-                },
-                {
-                    "name": "VR",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(130,117,33)"
-                        }
-                    }
-                },
-                {
-                    "name": "mapreduce",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(20,56,67)"
-                        }
-                    }
-                },
-                {
-                    "name": "SOA",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(2,148,142)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u91d1\u878d\u5238\u5546",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(53,50,59)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u692d\u5706\u66f2\u7ebf",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(28,87,66)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u878d\u5408\u7b97\u6cd5",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(110,12,47)"
-                        }
-                    }
-                },
-                {
-                    "name": "POI",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(90,142,115)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u65e0\u76d1\u7763\u5b66\u4e60",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(95,87,99)"
-                        }
-                    }
-                },
-                {
-                    "name": "neon",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(70,104,115)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5730\u4ea7\u79d1\u6280",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(144,153,42)"
-                        }
-                    }
-                },
-                {
-                    "name": "3DCAD",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(10,59,86)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u6570\u5b57\u56fe\u50cf\u5904\u7406",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(111,110,160)"
-                        }
-                    }
-                },
-                {
-                    "name": "AIOPS",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(7,14,54)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u81ea\u7136\u8bed\u8a00\u5904",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(110,64,10)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u5927\u6570\u636e\u8f6f\u4ef6",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(101,2,146)"
-                        }
-                    }
-                },
-                {
-                    "name": "flv\uff0cmp3\uff0cmp4",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(148,72,107)"
-                        }
-                    }
-                },
-                {
-                    "name": "\u533b\u7597\u884c\u4e1a",
-                    "value": 1,
-                    "textStyle": {
-                        "normal": {
-                            "color": "rgb(153,11,26)"
+                            "color": "rgb(154,133,106)"
                         }
                     }
                 },
@@ -6290,7 +3140,3301 @@ title: 算法招聘_技能与要求分析
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(20,111,103)"
+                            "color": "rgb(103,9,6)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bc1\u5238",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,47,69)"
+                        }
+                    }
+                },
+                {
+                    "name": "Linux\u3001C+\u3001Pyth",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(90,118,125)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u50cf\u89c6\u9891\u5904\u7406",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(13,10,128)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u751f\u4fe1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,18,123)"
+                        }
+                    }
+                },
+                {
+                    "name": "BIM+3D",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(1,10,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f3a\u608d\u7684\u521b\u59cb\u4eba",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,26,66)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5c0f\u6ce2\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(58,148,155)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u624b\u52bf\u8bc6\u522b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(19,46,108)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7535\u5546\u641c\u7d22",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(116,5,97)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u52a8\u4f5c\u6355\u6349",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,125,32)"
+                        }
+                    }
+                },
+                {
+                    "name": "HADOOP",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(122,154,23)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5206\u5e03\u5f0f\u8bad\u7ec3",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(62,72,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5730\u7406\u8f68\u8ff9",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(127,98,28)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fd0\u52a8\u63a7\u5236",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(126,151,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u5b66\u5efa\u6a21",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(2,12,152)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7528\u6237\u589e\u957f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(129,8,87)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bed\u4e49\u7406\u89e3",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(8,150,42)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u65f6\u5e8f\u6570\u636e\u5e93",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(56,52,160)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8ba1\u7b97\u673a\u5b66\u4e60\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(130,94,158)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u542f\u53d1\u5f0f\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(76,42,130)"
+                        }
+                    }
+                },
+                {
+                    "name": "JitterBuffer",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(124,111,34)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5348\u9910\u4ea4\u901a\u8865\u52a9",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(18,47,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u542f\u53d1\u5f0f\u89c4\u5219\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,82,142)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e95\u76d8\u63a7\u5236",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(140,13,134)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,46,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u692d\u5706\u66f2\u7ebf",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,64,0)"
+                        }
+                    }
+                },
+                {
+                    "name": "ACC/AEB/LKA",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,103,45)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u5b57\u56fe\u50cf\u5904\u7406",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(15,33,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u7136\u8bed\u8a00",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,93,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6241\u5e73\u5316\u7ba1\u7406",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(29,65,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b9a\u4f4d\u5bfc\u822a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(113,141,87)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u673a\u5668\u5b66\u4e60\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(17,96,1)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9ad8\u7cbe\u5730\u56fe",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(118,107,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e70\u624b\u6218\u7565",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(79,107,74)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8f66\u8054\u7f51",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(129,142,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u521b\u4e1a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(121,158,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "PID",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(111,93,43)"
+                        }
+                    }
+                },
+                {
+                    "name": "rgbd",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(19,32,130)"
+                        }
+                    }
+                },
+                {
+                    "name": "ERP",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(71,148,150)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e09\u7ef4\u91cd\u5efa",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(104,129,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u65c5\u6e38",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(106,134,3)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ea4\u901a\u8fd0\u8f93",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,18,112)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6ee4\u6ce2\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(111,48,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5927\u5e73\u53f0",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(42,126,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "SVC",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(50,1,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u591a\u4f20\u611f\u5668\u878d\u5408",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,48,158)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u53cc\u76ee",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(146,93,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b8c\u6210E\u8f6e\u878d\u8d44",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,71,113)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u878d\u5408\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(77,27,99)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u673a\u5668\u5b66\u4e60\u7b97\u6cd5\u673a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,107,114)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u623f\u5730\u4ea7\uff5c\u5efa\u7b51\uff5c\u7269\u4e1a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(154,31,155)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u539f\u578b\u8bbe\u8ba1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(4,17,125)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b9e\u65f6\u8def\u51b5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(32,117,154)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5206\u5e03\u5f0f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(67,118,155)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e09\u7ef4\u56fe\u5f62",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(33,96,96)"
+                        }
+                    }
+                },
+                {
+                    "name": "TF",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(24,125,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f3a\u5316\u5b66\u4e60",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(11,150,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,134,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4eff\u771f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(118,54,151)"
+                        }
+                    }
+                },
+                {
+                    "name": "Javascript",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(58,48,50)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6ee4\u955c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(146,71,147)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5bc6\u7801\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(14,35,5)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u65b0\u80fd\u6e90",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(143,20,48)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b97\u6cd5\u5e73\u53f0",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(96,136,14)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7279\u6548",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(155,99,63)"
+                        }
+                    }
+                },
+                {
+                    "name": "LTE",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(14,102,144)"
+                        }
+                    }
+                },
+                {
+                    "name": "3DGIS",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(8,85,130)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5de5\u4e1a\u89c6\u89c9\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(104,107,47)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e26\u5bbd\u63a7\u5236",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(87,14,2)"
+                        }
+                    }
+                },
+                {
+                    "name": "ISP",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(69,91,134)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6d88\u8d39\u91d1\u878d",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(14,23,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9ad8\u7cbe\u5ea6\u5730\u56fe",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,119,56)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u641c\u7d22\u53ec\u56de",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,57,81)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f02\u5e38\u8bca\u65ad",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(55,48,45)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u795e\u7ecf\u7f51\u7edc",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(129,112,60)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5de5\u7a0b\u80fd\u529b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,70,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u5b89\u5168",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(160,120,62)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8d44\u8baf",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(69,142,66)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u89c4\u5212\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(78,47,97)"
+                        }
+                    }
+                },
+                {
+                    "name": "h264\uff0ch265\uff0cav1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(126,45,1)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e7f\u544a\u5e73\u53f0",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(135,90,71)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(27,52,45)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e7f\u544aCTR/CVR",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(121,101,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "B2B",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(75,36,109)"
+                        }
+                    }
+                },
+                {
+                    "name": "AI\u56fe\u50cf\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(32,95,86)"
+                        }
+                    }
+                },
+                {
+                    "name": "KALDI",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,102,137)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8def\u51b5\u8ba1\u7b97",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(29,92,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5168\u5927\u6570\u636e",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(64,27,75)"
+                        }
+                    }
+                },
+                {
+                    "name": "Tensor",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(59,56,92)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7cfb\u7edf\u5206\u6790",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(40,58,63)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5355\u76ee",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(56,137,102)"
+                        }
+                    }
+                },
+                {
+                    "name": "NPL",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(21,126,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u804c\u80fd\u5236\u9020",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(46,39,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "Caffe\u3001Pytorch\u3001",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,3,21)"
+                        }
+                    }
+                },
+                {
+                    "name": "Storm",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(14,61,91)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u53cc\u76ee\u89c6\u89c9",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,121,108)"
+                        }
+                    }
+                },
+                {
+                    "name": "AR/VR/MR",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,25,75)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4eba\u4f533D\u91cd\u5efa",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,66,150)"
+                        }
+                    }
+                },
+                {
+                    "name": "pandas",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(39,134,103)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4f20\u611f\u5668\u6216\u70b9\u4e91",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(4,30,80)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7535\u673a\u63a7\u5236",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,23,159)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u4ed3\u5e93",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(39,28,4)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u52a8\u529b\u5b66\u5efa\u6a21",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(7,39,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e09\u7ef4\u91cd\u6784",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,19,103)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b97\u6cd5\u52a0\u901f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(160,109,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4f9b\u5e94\u94fe\u91d1\u878d",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(61,28,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "salm",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(36,117,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9065\u611f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(127,121,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u5f62\u56fe\u50cf\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,104,127)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e13\u4e1a\u670d\u52a1\uff5c\u54a8\u8be2",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(87,60,109)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ea7\u54c1\u7b56\u5212",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(103,45,150)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4f11\u95f2\uff5c\u5a31\u4e50",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(133,33,114)"
+                        }
+                    }
+                },
+                {
+                    "name": "PPP",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(8,27,45)"
+                        }
+                    }
+                },
+                {
+                    "name": "python/go",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,111,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u97f3\u9891\u5904\u7406",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(87,154,126)"
+                        }
+                    }
+                },
+                {
+                    "name": "Linus",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(90,123,101)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u5efa\u6a21",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,53,111)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6a21\u62df\u9000\u706b\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(2,101,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e2a\u6027\u5316\u63a8\u8350",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(34,74,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b97\u6cd5\u90e8\u7f72",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(93,59,142)"
+                        }
+                    }
+                },
+                {
+                    "name": "query",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(1,114,70)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u89c6\u9891\u7f16\u8f91",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(92,64,113)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5de5\u5177\u793e\u533a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(87,77,28)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u536b\u661f\u9065\u611f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(115,24,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5468\u672b\u53cc\u4f11",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,91,122)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8ba1\u7b97\u51e0\u4f55",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,159,8)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u51e0\u4f55\u5b66",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(62,59,97)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5de5\u4e1a\u6392\u7a0b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(44,154,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "CRF",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,136,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "SFM",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(87,78,56)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9690\u79d8\u8ba1\u7b97\u672f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(158,118,31)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6a21\u578b\u79fb\u690d\u4f18\u5316",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(95,102,113)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u641c\u7d22\u6392\u5e8f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(133,112,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5bb9\u7406\u89e3",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(110,68,27)"
+                        }
+                    }
+                },
+                {
+                    "name": "3dmm",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,42,147)"
+                        }
+                    }
+                },
+                {
+                    "name": "Gurobi",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(157,72,128)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u98ce\u63a7",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(149,19,150)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bed\u97f3\u6d4b\u8bc4",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,17,40)"
+                        }
+                    }
+                },
+                {
+                    "name": "UWB",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,3,9)"
+                        }
+                    }
+                },
+                {
+                    "name": "mapreduce",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(13,152,31)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u89c6\u89c9slam",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(56,142,3)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bed\u97f3\u524d\u5904\u7406",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(23,115,12)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u591c\u62cd",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(86,153,93)"
+                        }
+                    }
+                },
+                {
+                    "name": "X264",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(1,51,103)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5730\u56fe\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(93,76,94)"
+                        }
+                    }
+                },
+                {
+                    "name": "NLP/CV",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(75,34,141)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8def\u5f84\u4f18\u5316",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(153,124,105)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u89c6\u89c9SLAM",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,4,58)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6ef4\u6ef4",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(65,89,160)"
+                        }
+                    }
+                },
+                {
+                    "name": "3D\u6253\u5370",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(21,107,151)"
+                        }
+                    }
+                },
+                {
+                    "name": "RCNN",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,88,47)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5149\u7ea4\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(103,135,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b56\u7565",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,116,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u53cd\u6b3a\u8bc8",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(113,107,10)"
+                        }
+                    }
+                },
+                {
+                    "name": "MatLab",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(142,81,101)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5927\u5065\u5eb7",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(67,75,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "jaya",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,66,27)"
+                        }
+                    }
+                },
+                {
+                    "name": "DSP\u7f16\u7a0b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(34,6,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6574\u6570\u89c4\u5212",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(53,13,50)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u533b\u7597\u884c\u4e1a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(18,28,65)"
+                        }
+                    }
+                },
+                {
+                    "name": "x265",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(130,149,108)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fd0\u7b79\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(82,116,75)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(152,45,28)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u52a8\u9a7e\u9a76\u4eff\u771f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(18,38,108)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4fe1\u53f7\u91c7\u96c6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,44,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "MTL",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(96,145,38)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8f68\u8ff9",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(146,106,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "PHM",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(133,132,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8282\u65e5\u798f\u5229",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(79,77,94)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u52a9\u4e09\u9910",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,160,12)"
+                        }
+                    }
+                },
+                {
+                    "name": "DeepFM",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(112,46,53)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5bb9\u63a8\u8350",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(11,7,136)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u52a8\u5316",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(36,73,70)"
+                        }
+                    }
+                },
+                {
+                    "name": "/",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(77,151,35)"
+                        }
+                    }
+                },
+                {
+                    "name": "KF/EKF",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(53,153,91)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7c92\u5b50\u7fa4",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,116,21)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u96f6\u77e5\u8bc6\u8bc1\u660e",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,136,21)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u91d1\u878d\u98ce\u63a7AI",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(51,4,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6280\u672f\u5927\u725b\u591a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,0,146)"
+                        }
+                    }
+                },
+                {
+                    "name": "Pulp",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(19,114,115)"
+                        }
+                    }
+                },
+                {
+                    "name": "R\u8bed\u8a00",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,59,142)"
+                        }
+                    }
+                },
+                {
+                    "name": "libvpx",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,58,132)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u6293\u53d6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(84,100,60)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bed\u4e49\u5206\u6790",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,20,110)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u91d1\u878d\u98ce\u63a7",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(85,51,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bba\u6587\u5199\u4f5c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(92,37,136)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u641c\u7d22\u63a8\u8350\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(116,102,120)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u773c\u52a8",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(158,51,81)"
+                        }
+                    }
+                },
+                {
+                    "name": "GNSS",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(42,79,12)"
+                        }
+                    }
+                },
+                {
+                    "name": "NLP\u5904\u7406",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(47,44,150)"
+                        }
+                    }
+                },
+                {
+                    "name": "POI",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(67,85,105)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u59ff\u6001\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(0,37,54)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5206\u7c7b\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(131,113,49)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u611f\u77e5\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(135,130,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b9e\u4f53\u8bc6\u522b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(35,123,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8f6f\u4ef6\u6d4b\u8bd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(111,92,97)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e09\u7ef4",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(23,76,33)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8c03\u62e8",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(90,33,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b97\u6cd5\u8c03\u7814",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(134,115,89)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9ad8\u7ea7\u6280\u672f\u7ba1\u7406",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(121,32,113)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8681\u7fa4",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(134,43,153)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6587\u672c\u68c0\u6d4b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,139,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u865a\u5047\u6d41\u91cf",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(119,120,134)"
+                        }
+                    }
+                },
+                {
+                    "name": "rtk",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(81,17,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u89c6\u9891\u7406\u89e3",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,139,31)"
+                        }
+                    }
+                },
+                {
+                    "name": "H.264/265",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(132,23,94)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5bfc\u822a\u89c4\u5212",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,13,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u50cf\u68c0\u6d4b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(42,67,82)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7a0b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,80,83)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u68c0\u6d4b\u3001\u8bc6\u522b\u3001\u7f16\u8f91",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(154,38,149)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u76ee\u6807\u5206\u5272",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,93,32)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u70b9\u4e91\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(126,10,36)"
+                        }
+                    }
+                },
+                {
+                    "name": "Ackerma",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,27,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8d85\u957f\u5e26\u85aa\u5047\u671f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(74,136,105)"
+                        }
+                    }
+                },
+                {
+                    "name": "ROS\uff0cGazebo\u4eff\u771f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(156,18,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fd0\u7b79",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(100,110,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u540d\u6821\u540d\u4f01\u80cc\u666f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(14,20,54)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u53ec\u56de\u7b56\u7565",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(105,144,2)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7269\u4f53\u8bc6\u522b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(152,122,73)"
+                        }
+                    }
+                },
+                {
+                    "name": "3DCAD",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(51,75,112)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8c03\u5ea6\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,40,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u514d\u8d39\u5348\u9910\u665a\u9910",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(4,150,50)"
+                        }
+                    }
+                },
+                {
+                    "name": "AIOPS",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(98,43,38)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5168\u94fe\u8defSaaS\u5e73\u53f0",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(139,13,14)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u73af\u5883\u611f\u77e5\u4e0e\u878d\u5408",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(124,91,115)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fd1\u7ea2\u5916",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(52,21,123)"
+                        }
+                    }
+                },
+                {
+                    "name": "pytorch",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(142,118,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "C/C++/Python",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(93,6,41)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u573a\u666f\u8bc6\u522b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(51,138,112)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u50cf\u62fc\u63a5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(135,33,94)"
+                        }
+                    }
+                },
+                {
+                    "name": "flow",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(56,48,60)"
+                        }
+                    }
+                },
+                {
+                    "name": "hive",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(31,42,109)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7528\u6237\u6d3b\u8dc3\u5ea6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(11,52,143)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u652f\u4ed8\u4e1a\u52a1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(111,20,2)"
+                        }
+                    }
+                },
+                {
+                    "name": "MXNet",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(55,57,154)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u673a\u5668\u5b66\u4e60\u6a21\u578b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,3,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "AEB",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(64,70,65)"
+                        }
+                    }
+                },
+                {
+                    "name": "c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(21,129,89)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e74\u7ec8\u591a\u85aa",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(27,47,66)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5efa\u7b51\u8bbe\u8ba1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(39,129,54)"
+                        }
+                    }
+                },
+                {
+                    "name": "nlp\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,101,59)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u4f20\u8f93\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(57,67,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6279\u53d1\uff5c\u96f6\u552e",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(19,22,39)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u673a\u5668\u4eba\u5173\u952e\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(136,31,120)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8ba1\u7b97\u673a\u56fe\u5f62",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,50,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8054\u90a6\u5b66\u4e60",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,108,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7279\u5f81\u6316\u6398",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,91,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6392\u5e8f\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(31,23,22)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u77e5\u8bc6\u5e93",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(132,15,88)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5bfc\u822a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,110,137)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u58f0\u7eb9\u8bc6\u522b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,70,30)"
+                        }
+                    }
+                },
+                {
+                    "name": "neon",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(61,31,102)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6a21\u578b\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,70,144)"
+                        }
+                    }
+                },
+                {
+                    "name": "PP",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(78,105,138)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b97\u6cd5\u63a8\u8350",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(104,87,119)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9057\u4f20\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(31,64,3)"
+                        }
+                    }
+                },
+                {
+                    "name": "Linux/Unix",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(139,120,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "kalman",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(4,90,50)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4eba\u5de5\u667a\u80fd\u673a\u5668\u4eba",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,103,136)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9aa8\u79d1\u673a\u5668\u4eba",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(75,115,58)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5730\u4ea7\u79d1\u6280",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,67,83)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7528\u6237\u7814\u7a76",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(82,67,159)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e7f\u544a\u63a8\u8350",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(52,130,68)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6587\u672c\u5206\u7c7b\uff0c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(38,21,29)"
+                        }
+                    }
+                },
+                {
+                    "name": "numpy",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(142,31,136)"
+                        }
+                    }
+                },
+                {
+                    "name": "android",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(69,31,32)"
+                        }
+                    }
+                },
+                {
+                    "name": "ACM",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(78,83,4)"
+                        }
+                    }
+                },
+                {
+                    "name": "HIve",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(40,3,143)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5ba2\u7fa4\u5206\u7c7b\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(65,43,96)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(119,32,73)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fd0\u7ef4\u7ba1\u7406",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(49,19,54)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e74\u7ec8\u5956\u91d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(78,123,19)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u5f62\u56fe",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(129,46,15)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e7f\u544a\u7b56\u7565",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,45,133)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u65b0\u95fb/\u51fa\u7248",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(4,79,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fd0\u7b79\u4f18\u5316\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,77,119)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u589e\u957f\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,64,156)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u52a8\u9a7e\u9a76\u5b9a\u4f4d",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(35,23,27)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bed\u97f3\u8f6c\u6362",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,12,63)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5c0f\u6837\u672c\u5b66\u4e60",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,98,108)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u836f\u7269\u7814\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(5,149,108)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6216",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(58,19,29)"
+                        }
+                    }
+                },
+                {
+                    "name": "CCF",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(129,97,65)"
+                        }
+                    }
+                },
+                {
+                    "name": "GO",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(116,6,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "VR",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(156,3,74)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e50\u7406\u8f6c\u6362",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(116,22,10)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u50cf",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(103,21,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "Caffe\u3001Tensorfl",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(93,130,120)"
+                        }
+                    }
+                },
+                {
+                    "name": "SOA",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(34,133,77)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fd0\u52a8\u63a7\u5236\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(154,117,84)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8def\u51b5\u4f18\u5316",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,104,154)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u51e0\u4f55\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(116,82,8)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b97\u6cd5\u5bfc\u822a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(14,37,78)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u6587\u5206\u6790",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,143,132)"
+                        }
+                    }
+                },
+                {
+                    "name": "java",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,150,102)"
+                        }
+                    }
+                },
+                {
+                    "name": "CTR",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,88,19)"
+                        }
+                    }
+                },
+                {
+                    "name": "TypeScript",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(82,81,39)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u964d\u566a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(154,90,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e16\u754c500\u5f3a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,37,12)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e92\u8054\u7f51\u51fa\u884c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(47,120,144)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7ecf\u5178\u63a7\u5236\u7406\u8bba",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,120,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "pil",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(155,17,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "FLINK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(74,67,46)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u793e\u4ea4\u4ea7\u54c1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(115,135,32)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bed\u4e49\u5206\u5272",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(46,62,21)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5149\u5b66",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(100,2,113)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6df1\u5ea6\u6a21\u578b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(114,28,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "golang",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,140,147)"
+                        }
+                    }
+                },
+                {
+                    "name": "hybrid/end2end",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(25,43,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u91d1\u878d\u5238\u5546",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(48,104,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "JAVA",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(40,9,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "NPU",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(71,12,44)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5bfc\u822a\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(154,130,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u667a\u80fd\u4f18\u5316",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(36,137,36)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u50cf\u5904\u7406\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,49,27)"
+                        }
+                    }
+                },
+                {
+                    "name": "CPU",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(4,60,150)"
+                        }
+                    }
+                },
+                {
+                    "name": "Rust",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(21,42,74)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6709\u524d\u9014",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(91,96,30)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4f18\u5148\u4e0a\u6d77\u843d\u6237",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(56,149,86)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u751f\u4ea7\u8c03\u5ea6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(95,34,75)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u5f62\u5b66",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(135,117,94)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5927\u6570\u636e\u5904\u7406\u6280\u672f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,93,52)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u79d1\u6280\u5927\u725b\u516c\u53f8",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(88,117,128)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6392\u5e8f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(12,159,151)"
+                        }
+                    }
+                },
+                {
+                    "name": "CAD\u56fe\u7eb8\u5206\u6790",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,159,94)"
+                        }
+                    }
+                },
+                {
+                    "name": "vr\u3002ar",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(146,144,156)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u901f\u5ea6\u63a7\u5236",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,141,137)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fd0\u52a8\u5065\u5eb7",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(136,138,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b97\u6cd5\u843d\u5730",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(74,40,93)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9a6c\u5c14\u514b\u592b\u968f\u673a\u52a8",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,67,134)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u907f\u969c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(149,78,99)"
+                        }
+                    }
+                },
+                {
+                    "name": "h264",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(3,125,135)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u516c\u94a5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,76,128)"
+                        }
+                    }
+                },
+                {
+                    "name": "SSD",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(129,82,123)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5730\u56fe\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(82,69,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "ADAS",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(51,105,109)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u91c7\u96c6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,104,116)"
+                        }
+                    }
+                },
+                {
+                    "name": "NLP\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,45,80)"
+                        }
+                    }
+                },
+                {
+                    "name": "C++/go",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(40,12,150)"
+                        }
+                    }
+                },
+                {
+                    "name": "/Pytorch",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(95,144,147)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u4e3b\u664b\u5347\u8ba1\u5212",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(139,23,0)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b97\u6cd5\u7b56\u7565",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(25,136,139)"
+                        }
+                    }
+                },
+                {
+                    "name": "3D\u59ff\u6001\u91cd\u5efa",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(132,92,42)"
+                        }
+                    }
+                },
+                {
+                    "name": "hadoop",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(75,22,96)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6392\u7a0b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,32,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5927\u6570\u636e\u8f6f\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(93,24,34)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7cfb\u7edf\u6d4b\u8bd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(96,56,27)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e92\u8054\u7f51\u4fdd\u9669",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(142,43,147)"
+                        }
+                    }
+                },
+                {
+                    "name": "Pyspark",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(32,19,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u52a8\u6458\u8981",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(138,80,21)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5de5\u4e1a\u9886\u57df",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(20,125,110)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4f9b\u5e94\u94fe",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,122,15)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u641c\u7d22\u5f15\u64ce",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(20,74,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "ECC",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,17,77)"
+                        }
+                    }
+                },
+                {
+                    "name": "webgl",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(53,12,40)"
+                        }
+                    }
+                },
+                {
+                    "name": "LR",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(136,120,73)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5bfc\u822a\u5f15\u64ce",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(8,142,39)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u65e0\u76d1\u7763\u5b66\u4e60",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(9,43,133)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u65f6\u95f4\u5e8f\u5217",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,134,124)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u63a8\u8350\u641c\u7d22",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,114,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u80a2\u4f53\u68c0\u6d4b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(150,138,91)"
+                        }
+                    }
+                },
+                {
+                    "name": "flv\uff0cmp3\uff0cmp4",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,33,141)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6df7\u54cd",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(137,124,108)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8f68\u8ff9\u89c4\u5212",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(102,20,109)"
+                        }
+                    }
+                },
+                {
+                    "name": "webGL",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(152,12,78)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4f17\u7b79\u4e1a\u52a1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(110,85,12)"
                         }
                     }
                 }
@@ -6441,13 +6585,13 @@ title: 算法招聘_技能与要求分析
         }
     ]
 };
-        chart_00126836fd3e4d98b0be4f9d83f4faae.setOption(option_00126836fd3e4d98b0be4f9d83f4faae);
+        chart_5b3ab441c37241029e737054e05c3a9d.setOption(option_5b3ab441c37241029e737054e05c3a9d);
     </script>
-                <div id="af6b1345ea3346b892fcfddf7f7c3283" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="28df9b693201446aa6757d1ce4c66067" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_af6b1345ea3346b892fcfddf7f7c3283 = echarts.init(
-            document.getElementById('af6b1345ea3346b892fcfddf7f7c3283'), 'white', {renderer: 'canvas'});
-        var option_af6b1345ea3346b892fcfddf7f7c3283 = {
+        var chart_28df9b693201446aa6757d1ce4c66067 = echarts.init(
+            document.getElementById('28df9b693201446aa6757d1ce4c66067'), 'white', {renderer: 'canvas'});
+        var option_28df9b693201446aa6757d1ce4c66067 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -6488,52 +6632,56 @@ title: 算法招聘_技能与要求分析
             "name": "\u5173\u952e\u8bcd\u5206\u5e03\u6811\u72b6\u56fe",
             "data": [
                 {
-                    "value": 485,
+                    "value": 471,
                     "name": "\u6df1\u5ea6\u5b66\u4e60"
                 },
                 {
-                    "value": 278,
+                    "value": 280,
                     "name": "\u4eba\u5de5\u667a\u80fd\u670d\u52a1"
                 },
                 {
-                    "value": 202,
+                    "value": 200,
                     "name": "Python"
                 },
                 {
-                    "value": 156,
+                    "value": 166,
                     "name": "\u6570\u636e\u6316\u6398"
                 },
                 {
-                    "value": 127,
+                    "value": 125,
                     "name": "\u56fe\u50cf\u7b97\u6cd5"
                 },
                 {
-                    "value": 120,
+                    "value": 124,
                     "name": "\u673a\u5668\u5b66\u4e60"
                 },
                 {
-                    "value": 115,
+                    "value": 117,
                     "name": "\u56fe\u7247\u8bc6\u522b"
                 },
                 {
-                    "value": 110,
-                    "name": "C/C++"
+                    "value": 108,
+                    "name": "\u63a8\u8350\u7b97\u6cd5"
                 },
                 {
-                    "value": 104,
-                    "name": "\u63a8\u8350\u7b97\u6cd5"
+                    "value": 108,
+                    "name": "C/C++"
                 },
                 {
                     "value": 93,
                     "name": "\u4eba\u8138\u8bc6\u522b"
                 },
                 {
-                    "value": 83,
+                    "value": 82,
                     "name": "\u7535\u5546\u5e73\u53f0"
                 },
                 {
-                    "value": 83,
+                    "value": 79,
                     "name": "\u81ea\u7136\u8bed\u8a00\u5904\u7406"
+                },
+                {
+                    "value": 72,
+                    "name": "\u7ee9\u6548\u5956\u91d1"
                 },
                 {
                     "value": 70,
@@ -6549,87 +6697,87 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 62,
-                    "name": "\u7ee9\u6548\u5956\u91d1"
-                },
-                {
-                    "value": 62,
                     "name": "\u8f6f\u4ef6\u670d\u52a1\uff5c\u54a8\u8be2"
                 },
                 {
-                    "value": 62,
+                    "value": 60,
                     "name": "\u667a\u80fd\u786c\u4ef6"
                 },
                 {
-                    "value": 58,
+                    "value": 59,
                     "name": "\u6570\u636e\u670d\u52a1\uff5c\u54a8\u8be2"
+                },
+                {
+                    "value": 57,
+                    "name": "\u6280\u80fd\u57f9\u8bad"
                 },
                 {
                     "value": 56,
                     "name": "\u6a21\u5f0f\u8bc6\u522b"
                 },
                 {
-                    "value": 52,
-                    "name": "\u6280\u80fd\u57f9\u8bad"
-                },
-                {
-                    "value": 49,
+                    "value": 51,
                     "name": "C++"
                 },
                 {
-                    "value": 47,
-                    "name": "\u79fb\u52a8\u4e92\u8054\u7f51"
+                    "value": 46,
+                    "name": "\u5e26\u85aa\u5e74\u5047"
                 },
                 {
-                    "value": 43,
+                    "value": 44,
                     "name": "\u8bed\u97f3\u8bc6\u522b"
+                },
+                {
+                    "value": 44,
+                    "name": "\u5c97\u4f4d\u664b\u5347"
                 },
                 {
                     "value": 43,
                     "name": "\u641c\u7d22\u7b97\u6cd5"
                 },
                 {
-                    "value": 41,
-                    "name": "\u5c97\u4f4d\u664b\u5347"
-                },
-                {
-                    "value": 38,
+                    "value": 43,
                     "name": "\u56fe\u50cf\u5904\u7406"
                 },
                 {
-                    "value": 37,
-                    "name": "\u7269\u8054\u7f51"
+                    "value": 41,
+                    "name": "\u79fb\u52a8\u4e92\u8054\u7f51"
                 },
                 {
-                    "value": 37,
-                    "name": "TensoFlow"
-                },
-                {
-                    "value": 37,
-                    "name": "IT\u6280\u672f\u670d\u52a1\uff5c\u54a8\u8be2"
-                },
-                {
-                    "value": 37,
-                    "name": "\u4e09\u7ef4\u56fe\u50cf\u89c6\u89c9"
-                },
-                {
-                    "value": 37,
+                    "value": 41,
                     "name": "\u79d1\u6280\u91d1\u878d"
                 },
                 {
-                    "value": 37,
+                    "value": 40,
+                    "name": "\u4e09\u7ef4\u56fe\u50cf\u89c6\u89c9"
+                },
+                {
+                    "value": 39,
                     "name": "\u9886\u5bfc\u597d"
                 },
                 {
                     "value": 36,
-                    "name": "\u5f39\u6027\u5de5\u4f5c"
+                    "name": "\u7269\u8054\u7f51"
                 },
                 {
                     "value": 36,
-                    "name": "\u5e26\u85aa\u5e74\u5047"
+                    "name": "\u8ba1\u7b97\u673a\u89c6\u89c9"
                 },
                 {
-                    "value": 32,
-                    "name": "\u6587\u5b57\u8bc6\u522b"
+                    "value": 36,
+                    "name": "TensoFlow"
+                },
+                {
+                    "value": 35,
+                    "name": "IT\u6280\u672f\u670d\u52a1\uff5c\u54a8\u8be2"
+                },
+                {
+                    "value": 33,
+                    "name": "\u5f39\u6027\u5de5\u4f5c"
+                },
+                {
+                    "value": 33,
+                    "name": "OpenCV"
                 },
                 {
                     "value": 32,
@@ -6637,46 +6785,58 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 31,
-                    "name": "\u63a8\u8350\u7cfb\u7edf"
-                },
-                {
-                    "value": 31,
-                    "name": "OpenCV"
+                    "name": "\u6587\u5b57\u8bc6\u522b"
                 },
                 {
                     "value": 30,
-                    "name": "\u533b\u7597\u5065\u5eb7"
-                },
-                {
-                    "value": 30,
-                    "name": "\u8ba1\u7b97\u673a\u89c6\u89c9"
-                },
-                {
-                    "value": 29,
-                    "name": "PyTorch"
-                },
-                {
-                    "value": 29,
                     "name": "\u6587\u672c\u5206\u7c7b"
                 },
                 {
+                    "value": 29,
+                    "name": "\u65b0\u96f6\u552e"
+                },
+                {
+                    "value": 29,
+                    "name": "\u63a8\u8350\u7cfb\u7edf"
+                },
+                {
+                    "value": 29,
+                    "name": "\u533b\u7597\u5065\u5eb7"
+                },
+                {
                     "value": 28,
-                    "name": "NLP"
+                    "name": "PyTorch"
                 },
                 {
                     "value": 28,
                     "name": "\u514d\u8d39\u73ed\u8f66"
                 },
                 {
-                    "value": 28,
-                    "name": "\u65b0\u96f6\u552e"
+                    "value": 27,
+                    "name": "\u80a1\u7968\u671f\u6743"
                 },
                 {
-                    "value": 27,
-                    "name": "\u540e\u7aef\u5f00\u53d1"
+                    "value": 26,
+                    "name": "NLP"
                 },
                 {
-                    "value": 27,
+                    "value": 26,
+                    "name": "\u5e74\u5e95\u53cc\u85aa"
+                },
+                {
+                    "value": 25,
+                    "name": "\u610f\u56fe\u8bc6\u522b"
+                },
+                {
+                    "value": 25,
+                    "name": "\u5de5\u5177\u7c7b\u4ea7\u54c1"
+                },
+                {
+                    "value": 25,
+                    "name": "\u4e94\u9669\u4e00\u91d1"
+                },
+                {
+                    "value": 25,
                     "name": "\u76ee\u6807\u68c0\u6d4b"
                 },
                 {
@@ -6685,59 +6845,43 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 25,
-                    "name": "\u5de5\u5177\u7c7b\u4ea7\u54c1"
+                    "name": "\u8282\u65e5\u793c\u7269"
                 },
                 {
                     "value": 24,
-                    "name": "\u610f\u56fe\u8bc6\u522b"
+                    "name": "\u5e7f\u544a\u7b97\u6cd5"
+                },
+                {
+                    "value": 23,
+                    "name": "\u5b9a\u671f\u4f53\u68c0"
                 },
                 {
                     "value": 23,
                     "name": "\u7535\u5546"
                 },
                 {
-                    "value": 23,
-                    "name": "\u5e7f\u544a\u7b97\u6cd5"
+                    "value": 22,
+                    "name": "\u4e13\u9879\u5956\u91d1"
                 },
                 {
-                    "value": 23,
-                    "name": "\u80a1\u7968\u671f\u6743"
-                },
-                {
-                    "value": 23,
-                    "name": "\u8282\u65e5\u793c\u7269"
-                },
-                {
-                    "value": 21,
+                    "value": 22,
                     "name": "\u793e\u4ea4\u5e73\u53f0"
                 },
                 {
                     "value": 21,
-                    "name": "\u5b9a\u671f\u4f53\u68c0"
-                },
-                {
-                    "value": 21,
-                    "name": "\u4e94\u9669\u4e00\u91d1"
-                },
-                {
-                    "value": 21,
-                    "name": "\u5e74\u5e95\u53cc\u85aa"
-                },
-                {
-                    "value": 21,
-                    "name": "\u91d1\u878d"
-                },
-                {
-                    "value": 20,
                     "name": "Hadoop"
                 },
                 {
-                    "value": 20,
-                    "name": "\u97f3\u9891\uff5c\u89c6\u9891\u5a92\u4f53"
+                    "value": 21,
+                    "name": "\u6e38\u620f"
                 },
                 {
-                    "value": 19,
-                    "name": "\u6e38\u620f"
+                    "value": 20,
+                    "name": "\u6587\u672c\u751f\u6210"
+                },
+                {
+                    "value": 20,
+                    "name": "\u641c\u7d22"
                 },
                 {
                     "value": 19,
@@ -6745,19 +6889,11 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 19,
-                    "name": "\u4e13\u9879\u5956\u91d1"
+                    "name": "\u91d1\u878d"
                 },
                 {
-                    "value": 19,
-                    "name": "\u641c\u7d22"
-                },
-                {
-                    "value": 17,
-                    "name": "\u516d\u9669\u4e00\u91d1"
-                },
-                {
-                    "value": 17,
-                    "name": "nan"
+                    "value": 18,
+                    "name": "\u97f3\u9891\uff5c\u89c6\u9891\u5a92\u4f53"
                 },
                 {
                     "value": 17,
@@ -6765,11 +6901,19 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 17,
-                    "name": "\u6587\u672c\u751f\u6210"
+                    "name": "\u540e\u7aef\u5f00\u53d1"
                 },
                 {
                     "value": 16,
-                    "name": "\u5c31\u8fd1\u79df\u623f\u8865\u8d34"
+                    "name": "\u5de5\u4e1a\u89c6\u89c9\u68c0\u6d4b"
+                },
+                {
+                    "value": 15,
+                    "name": "\u516d\u9669\u4e00\u91d1"
+                },
+                {
+                    "value": 15,
+                    "name": "nan"
                 },
                 {
                     "value": 15,
@@ -6777,11 +6921,7 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 15,
-                    "name": "\u8bed\u97f3\u5408\u6210"
-                },
-                {
-                    "value": 15,
-                    "name": "\u5de5\u4e1a\u89c6\u89c9\u68c0\u6d4b"
+                    "name": "\u533b\u7597\u5f71\u50cf\u8bca\u65ad"
                 },
                 {
                     "value": 14,
@@ -6789,23 +6929,43 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 14,
-                    "name": "MATLAB"
-                },
-                {
-                    "value": 14,
-                    "name": "\u7ba1\u7406\u89c4\u8303"
-                },
-                {
-                    "value": 14,
                     "name": "\u6570\u636e\u670d\u52a1"
                 },
                 {
-                    "value": 13,
+                    "value": 14,
+                    "name": "\u5c31\u8fd1\u79df\u623f\u8865\u8d34"
+                },
+                {
+                    "value": 14,
                     "name": "\u4e91\u8ba1\u7b97"
                 },
                 {
+                    "value": 13,
+                    "name": "\u5185\u5bb9\u793e\u533a"
+                },
+                {
+                    "value": 13,
+                    "name": "\u8f85\u52a9/\u667a\u80fd\u9a7e\u9a76"
+                },
+                {
+                    "value": 13,
+                    "name": "\u6559\u80b2"
+                },
+                {
+                    "value": 13,
+                    "name": "\u8bed\u97f3\u5408\u6210"
+                },
+                {
+                    "value": 13,
+                    "name": "\u7ba1\u7406\u89c4\u8303"
+                },
+                {
+                    "value": 13,
+                    "name": "MATLAB"
+                },
+                {
                     "value": 12,
-                    "name": "\u6d88\u8d39\u751f\u6d3b"
+                    "name": "\u4f01\u4e1a\u670d\u52a1"
                 },
                 {
                     "value": 12,
@@ -6816,24 +6976,16 @@ title: 算法招聘_技能与要求分析
                     "name": "\u89c6\u9891/\u76d1\u63a7\u5206\u6790"
                 },
                 {
-                    "value": 12,
-                    "name": "\u6559\u80b2"
+                    "value": 11,
+                    "name": "Spark"
                 },
                 {
-                    "value": 12,
-                    "name": "\u4f01\u4e1a\u670d\u52a1"
+                    "value": 11,
+                    "name": "\u5efa\u6a21"
                 },
                 {
-                    "value": 12,
-                    "name": "\u8f85\u52a9/\u667a\u80fd\u9a7e\u9a76"
-                },
-                {
-                    "value": 12,
-                    "name": "\u5185\u5bb9\u793e\u533a"
-                },
-                {
-                    "value": 12,
-                    "name": "\u5e7f\u544a\u670d\u52a1"
+                    "value": 11,
+                    "name": "\u793e\u4ea4"
                 },
                 {
                     "value": 11,
@@ -6845,31 +6997,7 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 11,
-                    "name": "\u63a8\u8350"
-                },
-                {
-                    "value": 11,
-                    "name": "\u95ee\u7b54\u7cfb\u7edf"
-                },
-                {
-                    "value": 11,
-                    "name": "C"
-                },
-                {
-                    "value": 11,
-                    "name": "\u5efa\u6a21"
-                },
-                {
-                    "value": 11,
-                    "name": "SLAM"
-                },
-                {
-                    "value": 10,
-                    "name": "\u533b\u7597\u5f71\u50cf\u8bca\u65ad"
-                },
-                {
-                    "value": 10,
-                    "name": "Spark"
+                    "name": "\u6d88\u8d39\u751f\u6d3b"
                 },
                 {
                     "value": 10,
@@ -6877,11 +7005,7 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 10,
-                    "name": "\u5e7f\u544a\u8425\u9500"
-                },
-                {
-                    "value": 10,
-                    "name": "\u793e\u4ea4"
+                    "name": "\u6570\u4ed3\u5efa\u6a21"
                 },
                 {
                     "value": 10,
@@ -6889,23 +7013,39 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 10,
-                    "name": "\u6570\u4ed3\u5efa\u6a21"
+                    "name": "\u63a8\u8350"
+                },
+                {
+                    "value": 10,
+                    "name": "\u5e7f\u544a\u8425\u9500"
                 },
                 {
                     "value": 10,
                     "name": "XGBoost"
                 },
                 {
-                    "value": 9,
-                    "name": "AI"
+                    "value": 10,
+                    "name": "C"
+                },
+                {
+                    "value": 10,
+                    "name": "\u95ee\u7b54\u7cfb\u7edf"
+                },
+                {
+                    "value": 10,
+                    "name": "\u5e7f\u544a\u670d\u52a1"
                 },
                 {
                     "value": 9,
-                    "name": "\u5728\u7ebf\u533b\u7597"
+                    "name": "SLAM"
                 },
                 {
                     "value": 9,
-                    "name": "\u5185\u5bb9\u8d44\u8baf"
+                    "name": "\u4ea4\u901a\u8865\u52a9"
+                },
+                {
+                    "value": 9,
+                    "name": "\u4e92\u8054\u7f51\u91d1\u878d"
                 },
                 {
                     "value": 9,
@@ -6916,24 +7056,24 @@ title: 算法招聘_技能与要求分析
                     "name": "Caffe"
                 },
                 {
-                    "value": 8,
+                    "value": 9,
                     "name": "SQL"
                 },
                 {
-                    "value": 8,
+                    "value": 9,
+                    "name": "\u53e5\u6cd5\u5206\u6790"
+                },
+                {
+                    "value": 9,
                     "name": "\u7f8e\u5973\u591a"
                 },
                 {
-                    "value": 8,
-                    "name": "RNN"
+                    "value": 9,
+                    "name": "\u5728\u7ebf\u533b\u7597"
                 },
                 {
                     "value": 8,
-                    "name": "\u901a\u8baf\u6d25\u8d34"
-                },
-                {
-                    "value": 8,
-                    "name": "\u4e92\u8054\u7f51\u91d1\u878d"
+                    "name": "\u65b0\u80fd\u6e90\u6c7d\u8f66\u5236\u9020"
                 },
                 {
                     "value": 8,
@@ -6945,15 +7085,15 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 8,
-                    "name": "\u667a\u80fd\u91d1\u878d"
-                },
-                {
-                    "value": 8,
                     "name": "\u5e74\u5ea6\u65c5\u6e38"
                 },
                 {
                     "value": 8,
-                    "name": "\u77e5\u8bc6\u56fe\u8c31"
+                    "name": "\u901a\u8baf\u6d25\u8d34"
+                },
+                {
+                    "value": 8,
+                    "name": "AI"
                 },
                 {
                     "value": 8,
@@ -6961,31 +7101,11 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 8,
-                    "name": "\u533b\u7597\uff5c\u4fdd\u5065\uff5c\u7f8e\u5bb9"
+                    "name": "RNN"
                 },
                 {
                     "value": 8,
-                    "name": "\u53e5\u6cd5\u5206\u6790"
-                },
-                {
-                    "value": 8,
-                    "name": "\u77ed\u89c6\u9891"
-                },
-                {
-                    "value": 7,
-                    "name": "\u8fd0\u7b79\u4f18\u5316"
-                },
-                {
-                    "value": 7,
-                    "name": "python"
-                },
-                {
-                    "value": 7,
-                    "name": "\u4ea4\u901a\u8865\u52a9"
-                },
-                {
-                    "value": 7,
-                    "name": "TensorFlow"
+                    "name": "\u77e5\u8bc6\u56fe\u8c31"
                 },
                 {
                     "value": 7,
@@ -6993,31 +7113,47 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 7,
+                    "name": "MySQL"
+                },
+                {
+                    "value": 7,
+                    "name": "\u667a\u80fd\u91d1\u878d"
+                },
+                {
+                    "value": 7,
+                    "name": "\u7269\u6d41\uff5c\u8fd0\u8f93"
+                },
+                {
+                    "value": 7,
+                    "name": "\u533b\u7597\uff5c\u4fdd\u5065\uff5c\u7f8e\u5bb9"
+                },
+                {
+                    "value": 7,
+                    "name": "\u8fd0\u7b79\u4f18\u5316"
+                },
+                {
+                    "value": 7,
+                    "name": "\u667a\u80fd\u5bb6\u5c45"
+                },
+                {
+                    "value": 7,
+                    "name": "c++"
+                },
+                {
+                    "value": 7,
                     "name": "\u6570\u636e\u5206\u6790"
                 },
                 {
                     "value": 7,
-                    "name": "\u5de5\u5177\u8f6f\u4ef6"
+                    "name": "\u5185\u5bb9\u8d44\u8baf"
                 },
                 {
                     "value": 7,
+                    "name": "TensorFlow"
+                },
+                {
+                    "value": 6,
                     "name": "\u4e2d\u6587\u5206\u8bcd"
-                },
-                {
-                    "value": 6,
-                    "name": "\u793e\u4ea4\u5a92\u4f53"
-                },
-                {
-                    "value": 6,
-                    "name": "\u65b0\u80fd\u6e90\u6c7d\u8f66\u5236\u9020"
-                },
-                {
-                    "value": 6,
-                    "name": "\u4e92\u8054\u7f51"
-                },
-                {
-                    "value": 6,
-                    "name": "Shell"
                 },
                 {
                     "value": 6,
@@ -7025,23 +7161,7 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 6,
-                    "name": "\u4fe1\u606f\u68c0\u7d22"
-                },
-                {
-                    "value": 6,
-                    "name": "nlp\u7b97\u6cd5\u5de5\u7a0b\u5e08"
-                },
-                {
-                    "value": 6,
                     "name": "\u673a\u5668\u4eba"
-                },
-                {
-                    "value": 6,
-                    "name": "Linux"
-                },
-                {
-                    "value": 6,
-                    "name": "\u7269\u6d41\uff5c\u8fd0\u8f93"
                 },
                 {
                     "value": 6,
@@ -7049,7 +7169,35 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 6,
-                    "name": "Keras"
+                    "name": "\u77ed\u89c6\u9891"
+                },
+                {
+                    "value": 6,
+                    "name": "spark"
+                },
+                {
+                    "value": 6,
+                    "name": "nlp\u7b97\u6cd5\u5de5\u7a0b\u5e08"
+                },
+                {
+                    "value": 6,
+                    "name": "\u5de5\u5177\u8f6f\u4ef6"
+                },
+                {
+                    "value": 6,
+                    "name": "python"
+                },
+                {
+                    "value": 6,
+                    "name": "\u793e\u4ea4\u5a92\u4f53"
+                },
+                {
+                    "value": 6,
+                    "name": "\u4fe1\u606f\u68c0\u7d22"
+                },
+                {
+                    "value": 6,
+                    "name": "Shell"
                 },
                 {
                     "value": 6,
@@ -7057,47 +7205,11 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 6,
-                    "name": "Golang"
+                    "name": "Keras"
                 },
                 {
-                    "value": 5,
-                    "name": "ROS"
-                },
-                {
-                    "value": 5,
-                    "name": "GAN"
-                },
-                {
-                    "value": 5,
-                    "name": "CTR\u9884\u4f30"
-                },
-                {
-                    "value": 5,
-                    "name": "\u6587\u672c\u8574\u6db5"
-                },
-                {
-                    "value": 5,
-                    "name": "\u7528\u6237\u753b\u50cf"
-                },
-                {
-                    "value": 5,
-                    "name": "spark"
-                },
-                {
-                    "value": 5,
-                    "name": "\u667a\u80fd\u5bb6\u5c45"
-                },
-                {
-                    "value": 5,
-                    "name": "\u8bed\u97f3\u7b97\u6cd5"
-                },
-                {
-                    "value": 5,
-                    "name": "\u533a\u5757\u94fe"
-                },
-                {
-                    "value": 5,
-                    "name": "tensorflow"
+                    "value": 6,
+                    "name": "\u4e92\u8054\u7f51"
                 },
                 {
                     "value": 5,
@@ -7105,75 +7217,43 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 5,
+                    "name": "ARM"
+                },
+                {
+                    "value": 5,
+                    "name": "GAN"
+                },
+                {
+                    "value": 5,
+                    "name": "\u7528\u6237\u753b\u50cf"
+                },
+                {
+                    "value": 5,
+                    "name": "CTR\u9884\u4f30"
+                },
+                {
+                    "value": 5,
+                    "name": "Linux"
+                },
+                {
+                    "value": 5,
                     "name": "\u8bcd\u6027\u6807\u6ce8"
                 },
                 {
-                    "value": 4,
-                    "name": "\u6c7d\u8f66\u4ea4\u6613\u5e73\u53f0"
+                    "value": 5,
+                    "name": "\u533a\u5757\u94fe"
                 },
                 {
-                    "value": 4,
-                    "name": "CV"
+                    "value": 5,
+                    "name": "ROS"
                 },
                 {
-                    "value": 4,
-                    "name": "\u5927\u725b\u56e2\u961f"
+                    "value": 5,
+                    "name": "Golang"
                 },
                 {
-                    "value": 4,
-                    "name": "\u89c6\u9891"
-                },
-                {
-                    "value": 4,
-                    "name": "\u8bed\u97f3\u5904\u7406"
-                },
-                {
-                    "value": 4,
-                    "name": "\u7269\u6d41"
-                },
-                {
-                    "value": 4,
-                    "name": "linux"
-                },
-                {
-                    "value": 4,
-                    "name": "\u7f51\u7edc\u901a\u4fe1"
-                },
-                {
-                    "value": 4,
-                    "name": "\u56fe\u50cf\u8bc6\u522b"
-                },
-                {
-                    "value": 4,
-                    "name": "c++"
-                },
-                {
-                    "value": 4,
-                    "name": "\u91d1\u878d\u4e1a"
-                },
-                {
-                    "value": 4,
-                    "name": "\u4ea7\u54c1\u8bbe\u8ba1"
-                },
-                {
-                    "value": 4,
-                    "name": "\u6210\u957f\u7a7a\u95f4"
-                },
-                {
-                    "value": 4,
-                    "name": "\u8def\u5f84\u89c4\u5212"
-                },
-                {
-                    "value": 4,
-                    "name": "\u6559\u80b2\uff5c\u57f9\u8bad"
-                },
-                {
-                    "value": 4,
-                    "name": "nlp"
-                },
-                {
-                    "value": 4,
-                    "name": "\u529e\u516c\u903c\u683c\u9ad8"
+                    "value": 5,
+                    "name": "\u8bed\u97f3\u7b97\u6cd5"
                 },
                 {
                     "value": 4,
@@ -7181,15 +7261,47 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 4,
-                    "name": "\u65e0\u4eba\u8f66"
+                    "name": "\u540e\u7aef"
                 },
                 {
                     "value": 4,
-                    "name": "ARM"
+                    "name": "\u5927\u725b\u56e2\u961f"
                 },
                 {
                     "value": 4,
-                    "name": "MySQL"
+                    "name": "\u7269\u6d41"
+                },
+                {
+                    "value": 4,
+                    "name": "nlp"
+                },
+                {
+                    "value": 4,
+                    "name": "\u4f18\u5316\u7b97\u6cd5"
+                },
+                {
+                    "value": 4,
+                    "name": "\u91d1\u878d\u4e1a"
+                },
+                {
+                    "value": 4,
+                    "name": "\u6210\u957f\u7a7a\u95f4"
+                },
+                {
+                    "value": 4,
+                    "name": "\u8bed\u97f3\u5904\u7406"
+                },
+                {
+                    "value": 4,
+                    "name": "\u8ffd\u6c42\u6781\u81f4"
+                },
+                {
+                    "value": 4,
+                    "name": "\u8def\u5f84\u89c4\u5212"
+                },
+                {
+                    "value": 4,
+                    "name": "\u6c7d\u8f66\u4ea4\u6613\u5e73\u53f0"
                 },
                 {
                     "value": 4,
@@ -7197,51 +7309,47 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 4,
+                    "name": "\u529e\u516c\u903c\u683c\u9ad8"
+                },
+                {
+                    "value": 4,
+                    "name": "\u6559\u80b2\uff5c\u57f9\u8bad"
+                },
+                {
+                    "value": 4,
+                    "name": "tensorflow"
+                },
+                {
+                    "value": 4,
+                    "name": "\u672c\u5206"
+                },
+                {
+                    "value": 4,
+                    "name": "\u4ea7\u54c1\u8bbe\u8ba1"
+                },
+                {
+                    "value": 4,
+                    "name": "\u4e30\u539a\u5e74\u7ec8"
+                },
+                {
+                    "value": 4,
+                    "name": "\u56fe\u50cf\u8bc6\u522b"
+                },
+                {
+                    "value": 4,
                     "name": "\u5546\u4e1a\u822a\u5929"
                 },
                 {
-                    "value": 3,
-                    "name": "\u540e\u7aef"
+                    "value": 4,
+                    "name": "\u65e0\u4eba\u8f66"
                 },
                 {
-                    "value": 3,
-                    "name": "\u5206\u7c7b\u4fe1\u606f"
+                    "value": 4,
+                    "name": "CV"
                 },
                 {
-                    "value": 3,
-                    "name": "\u5206\u5e03\u5f0f\u641c\u7d22"
-                },
-                {
-                    "value": 3,
-                    "name": "ROS\u7cfb\u7edf"
-                },
-                {
-                    "value": 3,
-                    "name": "C#"
-                },
-                {
-                    "value": 3,
-                    "name": "\u533b\u7597\u5668\u68b0"
-                },
-                {
-                    "value": 3,
-                    "name": "\u8f6f\u4ef6\u5f00\u53d1"
-                },
-                {
-                    "value": 3,
-                    "name": "matlab"
-                },
-                {
-                    "value": 3,
-                    "name": "\u56fe\u50cf\u5206\u5272"
-                },
-                {
-                    "value": 3,
-                    "name": "Flink"
-                },
-                {
-                    "value": 3,
-                    "name": "\u6c7d\u8f66"
+                    "value": 4,
+                    "name": "\u6587\u672c\u8574\u6db5"
                 },
                 {
                     "value": 3,
@@ -7249,43 +7357,11 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 3,
-                    "name": "slam"
+                    "name": "\u7f51\u7edc\u901a\u4fe1"
                 },
                 {
                     "value": 3,
-                    "name": "\u6570\u636e\u5e93"
-                },
-                {
-                    "value": 3,
-                    "name": "\u534f\u540c\u8fc7\u6ee4"
-                },
-                {
-                    "value": 3,
-                    "name": "\u5e74\u7ec8\u5206\u7ea2"
-                },
-                {
-                    "value": 3,
-                    "name": "CAD"
-                },
-                {
-                    "value": 3,
-                    "name": "\u65f6\u5e8f\u9884\u6d4b"
-                },
-                {
-                    "value": 3,
-                    "name": "\u673a\u5668\u89c6\u89c9"
-                },
-                {
-                    "value": 3,
-                    "name": "OCR"
-                },
-                {
-                    "value": 3,
-                    "name": "Pytorch"
-                },
-                {
-                    "value": 3,
-                    "name": "\u7269\u6d41\u5e73\u53f0"
+                    "name": "linux"
                 },
                 {
                     "value": 3,
@@ -7293,23 +7369,15 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 3,
-                    "name": "\u7cfb\u7edf\u67b6\u6784"
+                    "name": "\u534f\u540c\u8fc7\u6ee4"
                 },
                 {
                     "value": 3,
-                    "name": "kaggle"
+                    "name": "\u6c7d\u8f66"
                 },
                 {
                     "value": 3,
-                    "name": "\u6d41\u5a92\u4f53"
-                },
-                {
-                    "value": 3,
-                    "name": "\u667a\u6167\u57ce\u5e02"
-                },
-                {
-                    "value": 3,
-                    "name": "\u6027\u80fd\u6d4b\u8bd5"
+                    "name": "RTK"
                 },
                 {
                     "value": 3,
@@ -7317,43 +7385,19 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 3,
-                    "name": "\u56fe\u5f62"
+                    "name": "ROS\u7cfb\u7edf"
                 },
                 {
                     "value": 3,
-                    "name": "\u6570\u636e\u7ed3\u6784"
+                    "name": "\u97f3\u89c6\u9891"
                 },
                 {
                     "value": 3,
-                    "name": "Tensorflow"
+                    "name": "Pytorch"
                 },
                 {
                     "value": 3,
-                    "name": "GBDT"
-                },
-                {
-                    "value": 3,
-                    "name": "\u8fea\u58eb\u5c3c"
-                },
-                {
-                    "value": 3,
-                    "name": "\u7cbe\u82f1\u56e2\u961f"
-                },
-                {
-                    "value": 3,
-                    "name": "\u4f18\u5316\u7b97\u6cd5"
-                },
-                {
-                    "value": 3,
-                    "name": "\u89c6\u89c9\u7b97\u6cd5"
-                },
-                {
-                    "value": 3,
-                    "name": "\u6559\u80b2\u8f85\u5bfc"
-                },
-                {
-                    "value": 3,
-                    "name": "\u8fd0\u7b79\u5b66"
+                    "name": "OCR"
                 },
                 {
                     "value": 3,
@@ -7361,7 +7405,127 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 3,
+                    "name": "\u8fd0\u7b79\u5b66"
+                },
+                {
+                    "value": 3,
+                    "name": "\u5c45\u4f4f\u670d\u52a1"
+                },
+                {
+                    "value": 3,
+                    "name": "\u5206\u7c7b\u4fe1\u606f"
+                },
+                {
+                    "value": 3,
+                    "name": "slam"
+                },
+                {
+                    "value": 3,
+                    "name": "\u7269\u6d41\u5e73\u53f0"
+                },
+                {
+                    "value": 3,
+                    "name": "\u56fe\u5f62"
+                },
+                {
+                    "value": 3,
+                    "name": "\u7cbe\u82f1\u56e2\u961f"
+                },
+                {
+                    "value": 3,
+                    "name": "Matlab"
+                },
+                {
+                    "value": 3,
+                    "name": "\u901a\u4fe1"
+                },
+                {
+                    "value": 3,
+                    "name": "\u5206\u5e03\u5f0f\u641c\u7d22"
+                },
+                {
+                    "value": 3,
+                    "name": "\u5236\u9020\u4e1a"
+                },
+                {
+                    "value": 3,
+                    "name": "\u8f6f\u4ef6\u5f00\u53d1"
+                },
+                {
+                    "value": 3,
+                    "name": "\u65f6\u5e8f\u9884\u6d4b"
+                },
+                {
+                    "value": 3,
+                    "name": "C#"
+                },
+                {
+                    "value": 3,
+                    "name": "GBDT"
+                },
+                {
+                    "value": 3,
+                    "name": "matlab"
+                },
+                {
+                    "value": 3,
+                    "name": "\u5730\u56fe"
+                },
+                {
+                    "value": 3,
+                    "name": "\u89c6\u9891"
+                },
+                {
+                    "value": 3,
+                    "name": "Tensorflow"
+                },
+                {
+                    "value": 3,
+                    "name": "\u56fe\u50cf\u5206\u5272"
+                },
+                {
+                    "value": 3,
+                    "name": "CAD"
+                },
+                {
+                    "value": 3,
+                    "name": "\u533b\u7597\u5668\u68b0"
+                },
+                {
+                    "value": 3,
+                    "name": "ETA"
+                },
+                {
+                    "value": 3,
+                    "name": "\u8fea\u58eb\u5c3c"
+                },
+                {
+                    "value": 3,
+                    "name": "\u5e74\u7ec8\u5206\u7ea2"
+                },
+                {
+                    "value": 3,
                     "name": "HALCON"
+                },
+                {
+                    "value": 3,
+                    "name": "\u6027\u80fd\u6d4b\u8bd5"
+                },
+                {
+                    "value": 3,
+                    "name": "\u673a\u5668\u89c6\u89c9"
+                },
+                {
+                    "value": 3,
+                    "name": "opengl"
+                },
+                {
+                    "value": 3,
+                    "name": "\u6d41\u5a92\u4f53"
+                },
+                {
+                    "value": 3,
+                    "name": "\u7cfb\u7edf\u67b6\u6784"
                 },
                 {
                     "value": 3,
@@ -7369,23 +7533,15 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 3,
-                    "name": "RTK"
+                    "name": "GPU"
                 },
                 {
-                    "value": 2,
-                    "name": "\u7248\u9762\u5206\u6790"
+                    "value": 3,
+                    "name": "\u6570\u636e\u5e93"
                 },
                 {
-                    "value": 2,
-                    "name": "\u5b9a\u4f4d\u7b97\u6cd5"
-                },
-                {
-                    "value": 2,
-                    "name": "\u529f\u80fd\u6d4b\u8bd5"
-                },
-                {
-                    "value": 2,
-                    "name": "AR"
+                    "value": 3,
+                    "name": "\u70b9\u4e91"
                 },
                 {
                     "value": 2,
@@ -7393,91 +7549,7 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 2,
-                    "name": "\u5236\u9020\u4e1a"
-                },
-                {
-                    "value": 2,
-                    "name": "Go"
-                },
-                {
-                    "value": 2,
-                    "name": "\u8425\u9500"
-                },
-                {
-                    "value": 2,
-                    "name": "\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66"
-                },
-                {
-                    "value": 2,
-                    "name": "\u901a\u4fe1"
-                },
-                {
-                    "value": 2,
-                    "name": "\u672c\u5206"
-                },
-                {
-                    "value": 2,
-                    "name": "\u786c\u4ef6\u5f00\u53d1"
-                },
-                {
-                    "value": 2,
-                    "name": "\u56e0\u679c\u63a8\u65ad"
-                },
-                {
-                    "value": 2,
-                    "name": "\u6df1\u5ea6\u5b66\u4e60\u7b97\u6cd5"
-                },
-                {
-                    "value": 2,
-                    "name": "\u786c\u4ef6\u5236\u9020"
-                },
-                {
-                    "value": 2,
-                    "name": "\u4e03\u9669\u4e00\u91d1"
-                },
-                {
-                    "value": 2,
-                    "name": "\u5feb\u901f\u6210\u957f"
-                },
-                {
-                    "value": 2,
-                    "name": "\u6280\u672f\u7ba1\u7406"
-                },
-                {
-                    "value": 2,
-                    "name": "ElasticSearch"
-                },
-                {
-                    "value": 2,
-                    "name": "\u89c6\u9891\u641c\u7d22"
-                },
-                {
-                    "value": 2,
-                    "name": "gnss"
-                },
-                {
-                    "value": 2,
-                    "name": "\u65e0\u4eba\u9a7e\u9a76"
-                },
-                {
-                    "value": 2,
-                    "name": "\u7b97\u6cd5\u5de5\u7a0b\u5316"
-                },
-                {
-                    "value": 2,
-                    "name": "\u65b0\u5a92\u4f53"
-                },
-                {
-                    "value": 2,
-                    "name": "\u7279\u5f81\u5de5\u7a0b"
-                },
-                {
-                    "value": 2,
-                    "name": "\u4f9b\u5e94\u94fe\u7b97\u6cd5"
-                },
-                {
-                    "value": 2,
-                    "name": "SNN"
+                    "name": "\u53cd\u4f5c\u5f0a"
                 },
                 {
                     "value": 2,
@@ -7485,27 +7557,19 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 2,
-                    "name": "\u8ffd\u6c42\u6781\u81f4"
+                    "name": "\u641c\u7d22\u63a8\u8350"
                 },
                 {
                     "value": 2,
-                    "name": "\u7c7b\u8111\u8ba1\u7b97"
+                    "name": "gnss"
                 },
                 {
                     "value": 2,
-                    "name": "\u56fe\u50cf\u5206\u7c7b"
+                    "name": "\u786c\u4ef6\u5236\u9020"
                 },
                 {
                     "value": 2,
-                    "name": "\u5f71\u89c6\uff5c\u52a8\u6f2b"
-                },
-                {
-                    "value": 2,
-                    "name": "hadoop"
-                },
-                {
-                    "value": 2,
-                    "name": "Lucene"
+                    "name": "\u89c6\u9891\u7b97\u6cd5"
                 },
                 {
                     "value": 2,
@@ -7513,139 +7577,23 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 2,
-                    "name": "VIO"
+                    "name": "\u76f4\u64ad"
                 },
                 {
                     "value": 2,
-                    "name": "\u519c\u6797\u7267\u6e14"
+                    "name": "AR"
                 },
                 {
                     "value": 2,
-                    "name": "\u7acb\u4f53\u89c6\u89c9"
+                    "name": "\u4e03\u9669\u4e00\u91d1"
                 },
                 {
                     "value": 2,
-                    "name": "LR"
+                    "name": "\u6280\u672f\u7ba1\u7406"
                 },
                 {
                     "value": 2,
-                    "name": "\u97f3\u89c6\u9891"
-                },
-                {
-                    "value": 2,
-                    "name": "\u67b6\u6784\u5e08"
-                },
-                {
-                    "value": 2,
-                    "name": "\u7b97\u6cd5\u4f18\u5316"
-                },
-                {
-                    "value": 2,
-                    "name": "\u5206\u7c7b"
-                },
-                {
-                    "value": 2,
-                    "name": "\u70b9\u4e91"
-                },
-                {
-                    "value": 2,
-                    "name": "opengl"
-                },
-                {
-                    "value": 2,
-                    "name": "\u5e05\u54e5\u591a"
-                },
-                {
-                    "value": 2,
-                    "name": "\u8bed\u4e49\u5206\u5272"
-                },
-                {
-                    "value": 2,
-                    "name": "\u8111\u673a"
-                },
-                {
-                    "value": 2,
-                    "name": "\u667a\u80fd\u8425\u9500"
-                },
-                {
-                    "value": 2,
-                    "name": "ACM"
-                },
-                {
-                    "value": 2,
-                    "name": "AGV"
-                },
-                {
-                    "value": 2,
-                    "name": "\u672c\u5730\u751f\u6d3b"
-                },
-                {
-                    "value": 2,
-                    "name": "\u533b\u7597"
-                },
-                {
-                    "value": 2,
-                    "name": "\u5f3a\u5316\u5b66\u4e60"
-                },
-                {
-                    "value": 2,
-                    "name": "PaddlePddle"
-                },
-                {
-                    "value": 2,
-                    "name": "\u5730\u56fe"
-                },
-                {
-                    "value": 2,
-                    "name": "\u5de5\u4e1a\u81ea\u52a8\u5316"
-                },
-                {
-                    "value": 2,
-                    "name": "\u5a92\u4f53"
-                },
-                {
-                    "value": 2,
-                    "name": "\u53cd\u4f5c\u5f0a"
-                },
-                {
-                    "value": 2,
-                    "name": "\u7b97\u6cd5\u57fa\u7840"
-                },
-                {
-                    "value": 2,
-                    "name": "\u7acb\u4f53\u5339\u914d"
-                },
-                {
-                    "value": 2,
-                    "name": "OpenCL"
-                },
-                {
-                    "value": 2,
-                    "name": "\u641c\u7d22\u63a8\u8350"
-                },
-                {
-                    "value": 2,
-                    "name": "\u4f20\u611f\u5668"
-                },
-                {
-                    "value": 2,
-                    "name": "\u81ea\u52a8\u5316\u6d4b\u8bd5"
-                },
-                {
-                    "value": 2,
-                    "name": "\u5de5\u4e1a\u4e92\u8054\u7f51"
-                },
-                {
-                    "value": 2,
-                    "name": "Node.js"
-                },
-                {
-                    "value": 2,
-                    "name": "\u626b\u5730\u673a\u5668\u4eba"
-                },
-                {
-                    "value": 2,
-                    "name": "\u51fa\u56fd\u65c5\u6e38"
+                    "name": "\u7b97\u6cd5\u5de5\u7a0b\u5316"
                 },
                 {
                     "value": 2,
@@ -7653,11 +7601,111 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 2,
-                    "name": "GPU"
+                    "name": "\u56fe\u50cf\u5206\u7c7b"
                 },
                 {
                     "value": 2,
-                    "name": "\u4e30\u539a\u5e74\u7ec8"
+                    "name": "\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66"
+                },
+                {
+                    "value": 2,
+                    "name": "\u7b97\u6cd5\u4f18\u5316"
+                },
+                {
+                    "value": 2,
+                    "name": "\u7b97\u6cd5\u57fa\u7840"
+                },
+                {
+                    "value": 2,
+                    "name": "PaddlePddle"
+                },
+                {
+                    "value": 2,
+                    "name": "\u5de5\u4e1a\u4e92\u8054\u7f51"
+                },
+                {
+                    "value": 2,
+                    "name": "OpenCL"
+                },
+                {
+                    "value": 2,
+                    "name": "\u9700\u6c42\u5206\u6790"
+                },
+                {
+                    "value": 2,
+                    "name": "\u5b9a\u4f4d\u7b97\u6cd5"
+                },
+                {
+                    "value": 2,
+                    "name": "\u51fa\u56fd\u65c5\u6e38"
+                },
+                {
+                    "value": 2,
+                    "name": "\u8425\u9500"
+                },
+                {
+                    "value": 2,
+                    "name": "\u533b\u7597"
+                },
+                {
+                    "value": 2,
+                    "name": "Lucene"
+                },
+                {
+                    "value": 2,
+                    "name": "\u5a92\u4f53"
+                },
+                {
+                    "value": 2,
+                    "name": "\u5206\u7c7b"
+                },
+                {
+                    "value": 2,
+                    "name": "\u529f\u80fd\u6d4b\u8bd5"
+                },
+                {
+                    "value": 2,
+                    "name": "SNN"
+                },
+                {
+                    "value": 2,
+                    "name": "opencv"
+                },
+                {
+                    "value": 2,
+                    "name": "\u672c\u5730\u751f\u6d3b"
+                },
+                {
+                    "value": 2,
+                    "name": "DSP"
+                },
+                {
+                    "value": 2,
+                    "name": "\u56e0\u679c\u63a8\u65ad"
+                },
+                {
+                    "value": 2,
+                    "name": "\u7c7b\u8111\u8ba1\u7b97"
+                },
+                {
+                    "value": 2,
+                    "name": "AGV"
+                },
+                {
+                    "value": 2,
+                    "name": "\u6df1\u5ea6\u5b66\u4e60\u7b97\u6cd5"
+                },
+                {
+                    "value": 2,
+                    "name": "\u519c\u6797\u7267\u6e14"
+                },
+                {
+                    "value": 2,
+                    "name": "\u65e0\u4eba\u9a7e\u9a76"
+                },
+                {
+                    "value": 2,
+                    "name": "\u6d4b\u8bd5\u5f00\u53d1"
                 },
                 {
                     "value": 2,
@@ -7665,11 +7713,11 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 2,
-                    "name": "\u805a\u7c7b"
+                    "name": "\u4f20\u611f\u5668"
                 },
                 {
                     "value": 2,
-                    "name": "\u8fd0\u52a8\u65e5"
+                    "name": "\u65b0\u5a92\u4f53"
                 },
                 {
                     "value": 2,
@@ -7677,771 +7725,127 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 2,
-                    "name": "Matlab"
+                    "name": "\u7acb\u4f53\u89c6\u89c9"
                 },
                 {
                     "value": 2,
-                    "name": "\u76f4\u64ad"
+                    "name": "\u9879\u76ee\u7ba1\u7406"
                 },
                 {
-                    "value": 1,
-                    "name": "\u79fb\u52a8\u7aef"
+                    "value": 2,
+                    "name": "VIO"
                 },
                 {
-                    "value": 1,
-                    "name": "\u98ce\u63a7"
+                    "value": 2,
+                    "name": "\u667a\u6167\u57ce\u5e02"
                 },
                 {
-                    "value": 1,
-                    "name": "\u5168\u94fe\u8defSaaS\u5e73\u53f0"
+                    "value": 2,
+                    "name": "\u5f71\u89c6\uff5c\u52a8\u6f2b"
                 },
                 {
-                    "value": 1,
-                    "name": "\u521b\u4e1a"
+                    "value": 2,
+                    "name": "ElasticSearch"
                 },
                 {
-                    "value": 1,
-                    "name": "X264"
+                    "value": 2,
+                    "name": "docker"
                 },
                 {
-                    "value": 1,
-                    "name": "\u5e7f\u544a\u63a8\u8350"
+                    "value": 2,
+                    "name": "Flink"
                 },
                 {
-                    "value": 1,
-                    "name": "pandas"
+                    "value": 2,
+                    "name": "\u5feb\u901f\u6210\u957f"
                 },
                 {
-                    "value": 1,
-                    "name": "\u5bfc\u822a\u7b97\u6cd5"
+                    "value": 2,
+                    "name": "\u5de5\u4e1a\u81ea\u52a8\u5316"
                 },
                 {
-                    "value": 1,
-                    "name": "Linux/Unix"
+                    "value": 2,
+                    "name": "\u7ade\u54c1\u5206\u6790"
                 },
                 {
-                    "value": 1,
-                    "name": "\u4fe1\u53f7\u91c7\u96c6"
+                    "value": 2,
+                    "name": "\u8111\u673a"
                 },
                 {
-                    "value": 1,
-                    "name": "\u53cc\u76ee\u89c6\u89c9"
+                    "value": 2,
+                    "name": "Go"
                 },
                 {
-                    "value": 1,
-                    "name": "\u6587\u672c\u5206\u7c7b\uff0c"
+                    "value": 2,
+                    "name": "\u667a\u80fd\u8425\u9500"
                 },
                 {
-                    "value": 1,
-                    "name": "\u6a21\u578b\u538b\u7f29"
+                    "value": 2,
+                    "name": "\u8fd0\u52a8\u65e5"
                 },
                 {
-                    "value": 1,
-                    "name": "CTR"
+                    "value": 2,
+                    "name": "\u5e05\u54e5\u591a"
                 },
                 {
-                    "value": 1,
-                    "name": "\u591a\u4f20\u611f\u5668"
+                    "value": 2,
+                    "name": "\u6570\u636e\u7ed3\u6784"
                 },
                 {
-                    "value": 1,
-                    "name": "\u5e95\u76d8\u63a7\u5236"
+                    "value": 2,
+                    "name": "\u4fe1\u53f7\u5904\u7406"
                 },
                 {
-                    "value": 1,
-                    "name": "\u641c\u7d22\u6392\u5e8f"
+                    "value": 2,
+                    "name": "\u7acb\u4f53\u5339\u914d"
                 },
                 {
-                    "value": 1,
-                    "name": "\u7269\u4f53\u8bc6\u522b"
+                    "value": 2,
+                    "name": "\u4f9b\u5e94\u94fe\u7b97\u6cd5"
                 },
                 {
-                    "value": 1,
-                    "name": "\u6570\u636e\u5f00\u53d1"
+                    "value": 2,
+                    "name": "\u89c6\u9891\u641c\u7d22"
                 },
                 {
-                    "value": 1,
-                    "name": "\u641c\u7d22\u63a8\u8350\u7b97\u6cd5"
+                    "value": 2,
+                    "name": "\u805a\u7c7b"
                 },
                 {
-                    "value": 1,
-                    "name": "\u52a8\u4f5c\u6355\u6349"
+                    "value": 2,
+                    "name": "\u81ea\u52a8\u5316\u6d4b\u8bd5"
                 },
                 {
-                    "value": 1,
-                    "name": "\u4f20\u611f\u5668\u878d\u5408"
+                    "value": 2,
+                    "name": "Node.js"
                 },
                 {
-                    "value": 1,
-                    "name": "\u516c\u94a5"
+                    "value": 2,
+                    "name": "\u7279\u5f81\u5de5\u7a0b"
                 },
                 {
-                    "value": 1,
-                    "name": "\u5e95\u5c42"
-                },
-                {
-                    "value": 1,
-                    "name": "\u58f0\u7eb9\u8bc6\u522b"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4e13\u4e1a\u670d\u52a1\uff5c\u54a8\u8be2"
-                },
-                {
-                    "value": 1,
-                    "name": "\u542f\u53d1\u5f0f\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u907f\u969c"
-                },
-                {
-                    "value": 1,
-                    "name": "\u673a\u5668\u5b66\u4e60\u7b97\u6cd5\u673a"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6295\u8d44/\u878d\u8d44"
-                },
-                {
-                    "value": 1,
-                    "name": "ADAS"
-                },
-                {
-                    "value": 1,
-                    "name": "Caffe\u3001Tensorfl"
-                },
-                {
-                    "value": 1,
-                    "name": "\u901f\u5ea6\u63a7\u5236"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5c45\u4f4f\u670d\u52a1"
-                },
-                {
-                    "value": 1,
-                    "name": "\u836f\u7269\u7814\u53d1"
-                },
-                {
-                    "value": 1,
-                    "name": "\u56fe\u50cf"
-                },
-                {
-                    "value": 1,
-                    "name": "x265"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5168\u5458\u51fa\u56fd\u6e38"
-                },
-                {
-                    "value": 1,
-                    "name": "hybrid/end2end"
-                },
-                {
-                    "value": 1,
-                    "name": "\u96f6\u98df\u4e0b\u5348\u8336"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6ee4\u955c"
-                },
-                {
-                    "value": 1,
-                    "name": "SSD\u3001Faster"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6df7\u54cd"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5e95\u5c42\u89c6\u89c9"
-                },
-                {
-                    "value": 1,
-                    "name": "\u9ad8\u7cbe\u5730\u56fe"
-                },
-                {
-                    "value": 1,
-                    "name": "\u667a\u80fd\u9a7e\u9a76"
-                },
-                {
-                    "value": 1,
-                    "name": "\u536b\u661f\u9065\u611f"
-                },
-                {
-                    "value": 1,
-                    "name": "\u56fe\u50cf\u62fc\u63a5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8f6f\u4ef6\u6d4b\u8bd5"
-                },
-                {
-                    "value": 1,
-                    "name": "ocr"
-                },
-                {
-                    "value": 1,
-                    "name": "\u673a\u5668\u5b66\u4e60\u6a21\u578b"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5f02\u5e38\u8bca\u65ad"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6ef4\u6ef4"
-                },
-                {
-                    "value": 1,
-                    "name": "Cplex"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5206\u5e03\u5f0f\u8bad\u7ec3"
-                },
-                {
-                    "value": 1,
-                    "name": "\u89c6\u9891\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4e50\u7406\u8f6c\u6362"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4e09\u7ef4\u91cd\u5efa"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4e2a\u6027\u5316\u63a8\u8350"
-                },
-                {
-                    "value": 1,
-                    "name": "\u673a\u5668\u5b66\u4e60\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8fd0\u7b79\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "3D\u59ff\u6001\u91cd\u5efa"
-                },
-                {
-                    "value": 1,
-                    "name": "C/C++/Python"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5185\u5bb9\u63a8\u8350"
-                },
-                {
-                    "value": 1,
-                    "name": "R\u8bed\u8a00"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5206\u7c7b\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5ba2\u7fa4\u5206\u7c7b\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "TF"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6280\u672f\u5927\u725b\u591a"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4e0b\u5348\u8336"
-                },
-                {
-                    "value": 1,
-                    "name": "PHM"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7f51\u7edc\u5b89\u5168"
-                },
-                {
-                    "value": 1,
-                    "name": "DSP\u7f16\u7a0b"
-                },
-                {
-                    "value": 1,
-                    "name": "\u56fe\u5f62\u56fe\u50cf\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7535\u5546\u641c\u7d22"
-                },
-                {
-                    "value": 1,
-                    "name": "\u98ce\u63a7\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5e7f\u544a\u5e73\u53f0"
-                },
-                {
-                    "value": 1,
-                    "name": "python/go"
-                },
-                {
-                    "value": 1,
-                    "name": "golang"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4eff\u771f"
-                },
-                {
-                    "value": 1,
-                    "name": "\u81ea\u4e3b\u664b\u5347\u8ba1\u5212"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5730\u56fe\u5f00\u53d1"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5f3a\u608d\u7684\u521b\u59cb\u4eba"
-                },
-                {
-                    "value": 1,
-                    "name": "\u56fe\u50cf\u5904\u7406\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6d4b\u8bd5\u5f00\u53d1"
-                },
-                {
-                    "value": 1,
-                    "name": "GO"
-                },
-                {
-                    "value": 1,
-                    "name": "\u56fe\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "ROS\uff0cGazebo\u4eff\u771f"
-                },
-                {
-                    "value": 1,
-                    "name": "pytorch"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8d44\u8baf"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6392\u5e8f\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "Windows"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5de5\u4e1a\u6392\u7a0b"
-                },
-                {
-                    "value": 1,
-                    "name": "\u539f\u578b\u8bbe\u8ba1"
-                },
-                {
-                    "value": 1,
-                    "name": "\u53cd\u6b3a\u8bc8"
-                },
-                {
-                    "value": 1,
-                    "name": "rgbd"
-                },
-                {
-                    "value": 1,
-                    "name": "\u540d\u6821\u540d\u4f01\u80cc\u666f"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6587\u672c\u68c0\u6d4b"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8bba\u6587\u5199\u4f5c"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5e74\u7ec8\u591a\u85aa"
-                },
-                {
-                    "value": 1,
-                    "name": "NPU"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7528\u6237\u6d3b\u8dc3\u5ea6"
-                },
-                {
-                    "value": 1,
+                    "value": 2,
                     "name": "\u6570\u636e\u5e93\u5f00\u53d1"
                 },
                 {
-                    "value": 1,
-                    "name": "\u9ad8\u7ea7\u6280\u672f\u7ba1\u7406"
+                    "value": 2,
+                    "name": "\u786c\u4ef6\u5f00\u53d1"
                 },
                 {
-                    "value": 1,
-                    "name": "Pyspark"
+                    "value": 2,
+                    "name": "\u7248\u9762\u5206\u6790"
                 },
                 {
-                    "value": 1,
-                    "name": "\u56fe\u5f62\u5b66"
+                    "value": 2,
+                    "name": "\u89c6\u89c9\u7b97\u6cd5"
                 },
                 {
-                    "value": 1,
-                    "name": "\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5"
+                    "value": 2,
+                    "name": "\u626b\u5730\u673a\u5668\u4eba"
                 },
                 {
-                    "value": 1,
-                    "name": "\u79d1\u6280\u5927\u725b\u516c\u53f8"
-                },
-                {
-                    "value": 1,
-                    "name": "\u53ec\u56de\u7b56\u7565"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4e09\u7ef4\u56fe\u5f62"
-                },
-                {
-                    "value": 1,
-                    "name": "\u56fe\u6587\u5206\u6790"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8ba1\u7b97\u673a\u56fe\u5f62"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4f20\u611f\u5668\u6216\u70b9\u4e91"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4f9b\u5e94\u94fe\u91d1\u878d"
-                },
-                {
-                    "value": 1,
-                    "name": "flow"
-                },
-                {
-                    "value": 1,
-                    "name": "\u611f\u77e5\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "RCNN"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8f68\u8ff9"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5149\u7ea4\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u63a7\u5236\u5668\u8bbe\u8ba1"
-                },
-                {
-                    "value": 1,
-                    "name": "Javascript"
-                },
-                {
-                    "value": 1,
-                    "name": "jaya"
-                },
-                {
-                    "value": 1,
-                    "name": "webGL"
-                },
-                {
-                    "value": 1,
-                    "name": "\u89c4\u5212\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5730\u56fe\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u97f3\u9891\u5904\u7406"
-                },
-                {
-                    "value": 1,
-                    "name": "\u51e0\u4f55\u5b66"
-                },
-                {
-                    "value": 1,
-                    "name": "3D\u6253\u5370"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5b9e\u4f53\u8bc6\u522b"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6709\u524d\u9014"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8d85\u957f\u5e26\u85aa\u5047\u671f"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5efa\u7b51\u8bbe\u8ba1"
-                },
-                {
-                    "value": 1,
-                    "name": "\u641c\u7d22\u5f15\u64ce"
-                },
-                {
-                    "value": 1,
-                    "name": "PP"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8bed\u97f3\u524d\u5904\u7406"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4f18\u5148\u4e0a\u6d77\u843d\u6237"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5bfc\u822a\u5f15\u64ce"
-                },
-                {
-                    "value": 1,
-                    "name": "\u773c\u52a8"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8c03\u62e8"
-                },
-                {
-                    "value": 1,
-                    "name": "\u865a\u5047\u6d41\u91cf"
-                },
-                {
-                    "value": 1,
-                    "name": "H.264/265"
-                },
-                {
-                    "value": 1,
-                    "name": "\u81ea\u52a8\u5316"
-                },
-                {
-                    "value": 1,
-                    "name": "SSD"
-                },
-                {
-                    "value": 1,
-                    "name": "query"
-                },
-                {
-                    "value": 1,
-                    "name": "\u59ff\u6001\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5956\u91d1\u591a\u591a\u591a"
-                },
-                {
-                    "value": 1,
-                    "name": "\u81ea\u52a8\u9a7e\u9a76\u5b9a\u4f4d"
-                },
-                {
-                    "value": 1,
-                    "name": "\u9ad8\u7cbe\u5ea6\u5730\u56fe"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7b97\u6cd5\u5e73\u53f0"
-                },
-                {
-                    "value": 1,
-                    "name": "MTL"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7cfb\u7edf\u5206\u6790"
-                },
-                {
-                    "value": 1,
-                    "name": "\u804c\u80fd\u5236\u9020"
-                },
-                {
-                    "value": 1,
-                    "name": "Gurobi"
-                },
-                {
-                    "value": 1,
-                    "name": "\u623f\u5730\u4ea7\uff5c\u5efa\u7b51\uff5c\u7269\u4e1a"
-                },
-                {
-                    "value": 1,
-                    "name": "MatLab"
-                },
-                {
-                    "value": 1,
-                    "name": "\u652f\u4ed8\u4e1a\u52a1"
-                },
-                {
-                    "value": 1,
-                    "name": "h264\uff0ch265\uff0cav1"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7279\u6548"
-                },
-                {
-                    "value": 1,
-                    "name": "\u9057\u4f20\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "Pulp"
-                },
-                {
-                    "value": 1,
-                    "name": "MXNet"
-                },
-                {
-                    "value": 1,
-                    "name": "\u9690\u79d8\u8ba1\u7b97\u672f"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4eba\u4f533D\u91cd\u5efa"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8bed\u4e49\u5206\u6790"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7f16\u7a0b"
-                },
-                {
-                    "value": 1,
-                    "name": "\u667a\u80fd\u4f18\u5316"
-                },
-                {
-                    "value": 1,
-                    "name": "\u79d1\u7814"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8c03\u5ea6\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u89c6\u89c9SLAM"
-                },
-                {
-                    "value": 1,
-                    "name": "\u641c\u7d22\u53ec\u56de"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7528\u6237\u884c\u4e3a\u6570\u636e"
-                },
-                {
-                    "value": 1,
-                    "name": "CCF"
-                },
-                {
-                    "value": 1,
-                    "name": "\u89c6\u9891\u7f16\u8f91"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6df1\u5ea6\u6a21\u578b"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6574\u6570\u89c4\u5212"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4e09\u7ef4"
-                },
-                {
-                    "value": 1,
-                    "name": "\u793e\u4ea4\u4ea7\u54c1"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7279\u5f81\u6316\u6398"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5b8c\u6210E\u8f6e\u878d\u8d44"
-                },
-                {
-                    "value": 1,
-                    "name": "JAVA"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6a21\u578b\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "KF/EKF"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5c0f\u6837\u672c\u5b66\u4e60"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5de5\u4e1a\u9886\u57df"
-                },
-                {
-                    "value": 1,
-                    "name": "RCN"
-                },
-                {
-                    "value": 1,
-                    "name": "\u89c6\u9891\u7406\u89e3"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5348\u9910\u4ea4\u901a\u8865\u52a9"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8fd0\u52a8\u63a7\u5236"
-                },
-                {
-                    "value": 1,
-                    "name": "\u65b0\u95fb/\u51fa\u7248"
+                    "value": 2,
+                    "name": "\u67b6\u6784\u5e08"
                 },
                 {
                     "value": 1,
@@ -8449,11 +7853,487 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 1,
+                    "name": "Database"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7528\u6237\u884c\u4e3a\u6570\u636e"
+                },
+                {
+                    "value": 1,
+                    "name": "ocr"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6280\u672f\u5927\u725b\u4f17\u591a"
+                },
+                {
+                    "value": 1,
+                    "name": "\u667a\u80fd\u9a7e\u9a76"
+                },
+                {
+                    "value": 1,
+                    "name": "\u98ce\u63a7\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "Windows"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5bfc\u822a\u907f\u969c"
+                },
+                {
+                    "value": 1,
+                    "name": "DNN"
+                },
+                {
+                    "value": 1,
+                    "name": "\u63a7\u5236\u5668\u8bbe\u8ba1"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4f20\u611f\u5668\u878d\u5408"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4e0b\u5348\u8336"
+                },
+                {
+                    "value": 1,
+                    "name": "HBase"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5e95\u5c42"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6a21\u578b\u538b\u7f29"
+                },
+                {
+                    "value": 1,
+                    "name": "Ai\u52a0\u901f\u5361"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6a21\u578b"
+                },
+                {
+                    "value": 1,
+                    "name": "mas"
+                },
+                {
+                    "value": 1,
+                    "name": "\u591a\u4f20\u611f\u5668"
+                },
+                {
+                    "value": 1,
+                    "name": "Cplex"
+                },
+                {
+                    "value": 1,
+                    "name": "SSL/TLS"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8bc1\u5238"
+                },
+                {
+                    "value": 1,
+                    "name": "Linux\u3001C+\u3001Pyth"
+                },
+                {
+                    "value": 1,
+                    "name": "\u56fe\u50cf\u89c6\u9891\u5904\u7406"
+                },
+                {
+                    "value": 1,
+                    "name": "\u751f\u4fe1"
+                },
+                {
+                    "value": 1,
+                    "name": "BIM+3D"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5f3a\u608d\u7684\u521b\u59cb\u4eba"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5c0f\u6ce2\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u624b\u52bf\u8bc6\u522b"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7535\u5546\u641c\u7d22"
+                },
+                {
+                    "value": 1,
+                    "name": "\u52a8\u4f5c\u6355\u6349"
+                },
+                {
+                    "value": 1,
+                    "name": "HADOOP"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5206\u5e03\u5f0f\u8bad\u7ec3"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5730\u7406\u8f68\u8ff9"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8fd0\u52a8\u63a7\u5236"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6570\u5b66\u5efa\u6a21"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7528\u6237\u589e\u957f"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8bed\u4e49\u7406\u89e3"
+                },
+                {
+                    "value": 1,
+                    "name": "\u65f6\u5e8f\u6570\u636e\u5e93"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8ba1\u7b97\u673a\u5b66\u4e60\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u542f\u53d1\u5f0f\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "JitterBuffer"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5348\u9910\u4ea4\u901a\u8865\u52a9"
+                },
+                {
+                    "value": 1,
+                    "name": "\u542f\u53d1\u5f0f\u89c4\u5219\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5e95\u76d8\u63a7\u5236"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u692d\u5706\u66f2\u7ebf"
+                },
+                {
+                    "value": 1,
+                    "name": "ACC/AEB/LKA"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6570\u5b57\u56fe\u50cf\u5904\u7406"
+                },
+                {
+                    "value": 1,
+                    "name": "\u81ea\u7136\u8bed\u8a00"
+                },
+                {
+                    "value": 1,
                     "name": "\u6241\u5e73\u5316\u7ba1\u7406"
                 },
                 {
                     "value": 1,
-                    "name": "\u591c\u62cd"
+                    "name": "\u5b9a\u4f4d\u5bfc\u822a"
+                },
+                {
+                    "value": 1,
+                    "name": "\u673a\u5668\u5b66\u4e60\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u9ad8\u7cbe\u5730\u56fe"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4e70\u624b\u6218\u7565"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8f66\u8054\u7f51"
+                },
+                {
+                    "value": 1,
+                    "name": "\u521b\u4e1a"
+                },
+                {
+                    "value": 1,
+                    "name": "PID"
+                },
+                {
+                    "value": 1,
+                    "name": "rgbd"
+                },
+                {
+                    "value": 1,
+                    "name": "ERP"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4e09\u7ef4\u91cd\u5efa"
+                },
+                {
+                    "value": 1,
+                    "name": "\u65c5\u6e38"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4ea4\u901a\u8fd0\u8f93"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6ee4\u6ce2\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5927\u5e73\u53f0"
+                },
+                {
+                    "value": 1,
+                    "name": "SVC"
+                },
+                {
+                    "value": 1,
+                    "name": "\u591a\u4f20\u611f\u5668\u878d\u5408"
+                },
+                {
+                    "value": 1,
+                    "name": "\u53cc\u76ee"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5b8c\u6210E\u8f6e\u878d\u8d44"
+                },
+                {
+                    "value": 1,
+                    "name": "\u878d\u5408\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u673a\u5668\u5b66\u4e60\u7b97\u6cd5\u673a"
+                },
+                {
+                    "value": 1,
+                    "name": "\u623f\u5730\u4ea7\uff5c\u5efa\u7b51\uff5c\u7269\u4e1a"
+                },
+                {
+                    "value": 1,
+                    "name": "\u539f\u578b\u8bbe\u8ba1"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5b9e\u65f6\u8def\u51b5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5206\u5e03\u5f0f"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4e09\u7ef4\u56fe\u5f62"
+                },
+                {
+                    "value": 1,
+                    "name": "TF"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5f3a\u5316\u5b66\u4e60"
+                },
+                {
+                    "value": 1,
+                    "name": "\u56fe\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4eff\u771f"
+                },
+                {
+                    "value": 1,
+                    "name": "Javascript"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6ee4\u955c"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5bc6\u7801\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u65b0\u80fd\u6e90"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7b97\u6cd5\u5e73\u53f0"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7279\u6548"
+                },
+                {
+                    "value": 1,
+                    "name": "LTE"
+                },
+                {
+                    "value": 1,
+                    "name": "3DGIS"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5de5\u4e1a\u89c6\u89c9\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5e26\u5bbd\u63a7\u5236"
+                },
+                {
+                    "value": 1,
+                    "name": "ISP"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6d88\u8d39\u91d1\u878d"
+                },
+                {
+                    "value": 1,
+                    "name": "\u9ad8\u7cbe\u5ea6\u5730\u56fe"
+                },
+                {
+                    "value": 1,
+                    "name": "\u641c\u7d22\u53ec\u56de"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5f02\u5e38\u8bca\u65ad"
+                },
+                {
+                    "value": 1,
+                    "name": "\u795e\u7ecf\u7f51\u7edc"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5de5\u7a0b\u80fd\u529b"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7f51\u7edc\u5b89\u5168"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8d44\u8baf"
+                },
+                {
+                    "value": 1,
+                    "name": "\u89c4\u5212\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "h264\uff0ch265\uff0cav1"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5e7f\u544a\u5e73\u53f0"
+                },
+                {
+                    "value": 1,
+                    "name": "\u79fb\u52a8\u7aef"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5e7f\u544aCTR/CVR"
+                },
+                {
+                    "value": 1,
+                    "name": "B2B"
+                },
+                {
+                    "value": 1,
+                    "name": "AI\u56fe\u50cf\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "KALDI"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8def\u51b5\u8ba1\u7b97"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5b89\u5168\u5927\u6570\u636e"
+                },
+                {
+                    "value": 1,
+                    "name": "Tensor"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7cfb\u7edf\u5206\u6790"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5355\u76ee"
+                },
+                {
+                    "value": 1,
+                    "name": "NPL"
+                },
+                {
+                    "value": 1,
+                    "name": "\u804c\u80fd\u5236\u9020"
+                },
+                {
+                    "value": 1,
+                    "name": "Caffe\u3001Pytorch\u3001"
+                },
+                {
+                    "value": 1,
+                    "name": "Storm"
+                },
+                {
+                    "value": 1,
+                    "name": "\u53cc\u76ee\u89c6\u89c9"
+                },
+                {
+                    "value": 1,
+                    "name": "AR/VR/MR"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4eba\u4f533D\u91cd\u5efa"
+                },
+                {
+                    "value": 1,
+                    "name": "pandas"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4f20\u611f\u5668\u6216\u70b9\u4e91"
                 },
                 {
                     "value": 1,
@@ -8465,255 +8345,7 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 1,
-                    "name": "\u6392\u7a0b"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7f51\u7edc\u4f20\u8f93\u534f\u8bae"
-                },
-                {
-                    "value": 1,
-                    "name": "webgl"
-                },
-                {
-                    "value": 1,
-                    "name": "\u63a8\u8350\u641c\u7d22"
-                },
-                {
-                    "value": 1,
-                    "name": "kalman"
-                },
-                {
-                    "value": 1,
-                    "name": "\u751f\u4ea7\u8c03\u5ea6"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7ecf\u5178\u63a7\u5236\u7406\u8bba"
-                },
-                {
-                    "value": 1,
-                    "name": "ECC"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5e74\u7ec8\u5956\u91d1"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5927\u5065\u5eb7"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7b97\u6cd5\u843d\u5730"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5b9a\u4f4d\u5bfc\u822a"
-                },
-                {
-                    "value": 1,
-                    "name": "\u9aa8\u79d1\u673a\u5668\u4eba"
-                },
-                {
-                    "value": 1,
-                    "name": "DNN"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5e26\u5bbd\u63a7\u5236"
-                },
-                {
-                    "value": 1,
-                    "name": "AR/VR/MR"
-                },
-                {
-                    "value": 1,
-                    "name": "DSP"
-                },
-                {
-                    "value": 1,
-                    "name": "HIve"
-                },
-                {
-                    "value": 1,
-                    "name": "\u81ea\u7136\u8bed\u8a00"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8ba1\u7b97\u673a\u5b66\u4e60\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6570\u636e\u6293\u53d6"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8fd0\u7b79"
-                },
-                {
-                    "value": 1,
-                    "name": "FLINK"
-                },
-                {
-                    "value": 1,
-                    "name": "c"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5bfc\u822a\u907f\u969c"
-                },
-                {
-                    "value": 1,
-                    "name": "3DGIS"
-                },
-                {
-                    "value": 1,
-                    "name": "CPU"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7b56\u7565"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8ba1\u7b97\u51e0\u4f55"
-                },
-                {
-                    "value": 1,
-                    "name": "Caffe\u3001Pytorch\u3001"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6d88\u8d39\u91d1\u878d"
-                },
-                {
-                    "value": 1,
-                    "name": "HBase"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6a21\u578b\u79fb\u690d\u4f18\u5316"
-                },
-                {
-                    "value": 1,
-                    "name": "ISP"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4e16\u754c500\u5f3a"
-                },
-                {
-                    "value": 1,
-                    "name": "\u9a6c\u5c14\u514b\u592b\u968f\u673a\u52a8"
-                },
-                {
-                    "value": 1,
-                    "name": "\u80a2\u4f53\u68c0\u6d4b"
-                },
-                {
-                    "value": 1,
-                    "name": "hive"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7ade\u54c1\u5206\u6790"
-                },
-                {
-                    "value": 1,
-                    "name": "AutoML"
-                },
-                {
-                    "value": 1,
-                    "name": "\u57fa\u7840\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8bc1\u5238"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4f17\u7b79\u4e1a\u52a1"
-                },
-                {
-                    "value": 1,
-                    "name": "\u56fe\u50cf\u89c6\u9891\u5904\u7406"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8f66\u8054\u7f51"
-                },
-                {
-                    "value": 1,
-                    "name": "PID"
-                },
-                {
-                    "value": 1,
-                    "name": "C++/go"
-                },
-                {
-                    "value": 1,
-                    "name": "\u68c0\u6d4b\u3001\u8bc6\u522b\u3001\u7f16\u8f91"
-                },
-                {
-                    "value": 1,
-                    "name": "\u70b9\u4e91\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8fd0\u7ef4\u7ba1\u7406"
-                },
-                {
-                    "value": 1,
-                    "name": "CRF"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5bfc\u822a"
-                },
-                {
-                    "value": 1,
-                    "name": "rtk"
-                },
-                {
-                    "value": 1,
-                    "name": "java"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6a21\u578b"
-                },
-                {
-                    "value": 1,
-                    "name": "SFM"
-                },
-                {
-                    "value": 1,
-                    "name": "\u91d1\u878d\u98ce\u63a7AI"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5468\u672b\u53cc\u4f11"
-                },
-                {
-                    "value": 1,
-                    "name": "\u81ea\u52a9\u4e09\u9910"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8fd0\u52a8\u63a7\u5236\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8f68\u8ff9\u89c4\u5212"
-                },
-                {
-                    "value": 1,
-                    "name": "3dmm"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4eba\u5de5\u667a\u80fd\u673a\u5668\u4eba"
+                    "name": "\u52a8\u529b\u5b66\u5efa\u6a21"
                 },
                 {
                     "value": 1,
@@ -8721,167 +8353,11 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 1,
-                    "name": "\u53cc\u76ee"
+                    "name": "\u7b97\u6cd5\u52a0\u901f"
                 },
                 {
                     "value": 1,
-                    "name": "\u964d\u566a"
-                },
-                {
-                    "value": 1,
-                    "name": "\u56fe\u50cf\u68c0\u6d4b"
-                },
-                {
-                    "value": 1,
-                    "name": "KALDI"
-                },
-                {
-                    "value": 1,
-                    "name": "HADOOP"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5de5\u5177\u793e\u533a"
-                },
-                {
-                    "value": 1,
-                    "name": "nlp\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5206\u5e03\u5f0f"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4f9b\u5e94\u94fe"
-                },
-                {
-                    "value": 1,
-                    "name": "\u751f\u4fe1"
-                },
-                {
-                    "value": 1,
-                    "name": "CAD\u56fe\u7eb8\u5206\u6790"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8bed\u4e49\u7406\u89e3"
-                },
-                {
-                    "value": 1,
-                    "name": "NPL"
-                },
-                {
-                    "value": 1,
-                    "name": "AEB"
-                },
-                {
-                    "value": 1,
-                    "name": "\u81ea\u52a8\u9a7e\u9a76\u4eff\u771f"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5b89\u5168\u5927\u6570\u636e"
-                },
-                {
-                    "value": 1,
-                    "name": "/Pytorch"
-                },
-                {
-                    "value": 1,
-                    "name": "ERP"
-                },
-                {
-                    "value": 1,
-                    "name": "\u65f6\u5e8f\u6570\u636e\u5e93"
-                },
-                {
-                    "value": 1,
-                    "name": "Rust"
-                },
-                {
-                    "value": 1,
-                    "name": "PPP"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5305\u5348\u9910\u665a\u9910"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6a21\u62df\u9000\u706b\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "Database"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8fd1\u7ea2\u5916"
-                },
-                {
-                    "value": 1,
-                    "name": "\u6280\u672f\u5927\u725b\u4f17\u591a"
-                },
-                {
-                    "value": 1,
-                    "name": "\u65f6\u95f4\u5e8f\u5217"
-                },
-                {
-                    "value": 1,
-                    "name": "\u77e5\u8bc6\u5e93"
-                },
-                {
-                    "value": 1,
-                    "name": "TypeScript"
-                },
-                {
-                    "value": 1,
-                    "name": "\u591a\u4f20\u611f\u5668\u878d\u5408"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5185\u5bb9\u7406\u89e3"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7cfb\u7edf\u6d4b\u8bd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8fd0\u52a8\u5065\u5eb7"
-                },
-                {
-                    "value": 1,
-                    "name": "\u7528\u6237\u589e\u957f"
-                },
-                {
-                    "value": 1,
-                    "name": "\u4e70\u624b\u6218\u7565"
-                },
-                {
-                    "value": 1,
-                    "name": "h264"
-                },
-                {
-                    "value": 1,
-                    "name": "ACC/AEB/LKA"
-                },
-                {
-                    "value": 1,
-                    "name": "\u65b0\u80fd\u6e90"
-                },
-                {
-                    "value": 1,
-                    "name": "\u542f\u53d1\u5f0f\u89c4\u5219\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5e7f\u544aCTR/CVR"
-                },
-                {
-                    "value": 1,
-                    "name": "Tensor"
+                    "name": "\u4f9b\u5e94\u94fe\u91d1\u878d"
                 },
                 {
                     "value": 1,
@@ -8889,15 +8365,39 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 1,
-                    "name": "Linux\u3001C+\u3001Pyth"
+                    "name": "\u9065\u611f"
                 },
                 {
                     "value": 1,
-                    "name": "SVC"
+                    "name": "\u56fe\u5f62\u56fe\u50cf\u7b97\u6cd5"
                 },
                 {
                     "value": 1,
-                    "name": "vr\u3002ar"
+                    "name": "\u4e13\u4e1a\u670d\u52a1\uff5c\u54a8\u8be2"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4ea7\u54c1\u7b56\u5212"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4f11\u95f2\uff5c\u5a31\u4e50"
+                },
+                {
+                    "value": 1,
+                    "name": "PPP"
+                },
+                {
+                    "value": 1,
+                    "name": "python/go"
+                },
+                {
+                    "value": 1,
+                    "name": "\u97f3\u9891\u5904\u7406"
+                },
+                {
+                    "value": 1,
+                    "name": "Linus"
                 },
                 {
                     "value": 1,
@@ -8905,31 +8405,11 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 1,
-                    "name": "\u89c6\u89c9slam"
+                    "name": "\u6a21\u62df\u9000\u706b\u7b97\u6cd5"
                 },
                 {
                     "value": 1,
-                    "name": "NLP/CV"
-                },
-                {
-                    "value": 1,
-                    "name": "numpy"
-                },
-                {
-                    "value": 1,
-                    "name": "\u65c5\u6e38"
-                },
-                {
-                    "value": 1,
-                    "name": "opencv"
-                },
-                {
-                    "value": 1,
-                    "name": "\u673a\u5668\u4eba\u5173\u952e\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8bed\u97f3\u8f6c\u6362"
+                    "name": "\u4e2a\u6027\u5316\u63a8\u8350"
                 },
                 {
                     "value": 1,
@@ -8937,115 +8417,71 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 1,
-                    "name": "\u9700\u6c42\u5206\u6790"
+                    "name": "query"
                 },
                 {
                     "value": 1,
-                    "name": "\u589e\u957f\u7b97\u6cd5"
+                    "name": "\u89c6\u9891\u7f16\u8f91"
                 },
                 {
                     "value": 1,
-                    "name": "\u7b97\u6cd5\u5bfc\u822a"
+                    "name": "\u5de5\u5177\u793e\u533a"
                 },
                 {
                     "value": 1,
-                    "name": "\u6392\u5e8f"
+                    "name": "\u536b\u661f\u9065\u611f"
                 },
                 {
                     "value": 1,
-                    "name": "GNSS"
+                    "name": "\u5468\u672b\u53cc\u4f11"
                 },
                 {
                     "value": 1,
-                    "name": "\u7b97\u6cd5\u52a0\u901f"
+                    "name": "\u8ba1\u7b97\u51e0\u4f55"
                 },
                 {
                     "value": 1,
-                    "name": "\u6570\u636e\u91c7\u96c6"
+                    "name": "\u51e0\u4f55\u5b66"
                 },
                 {
                     "value": 1,
-                    "name": "\u4ea4\u901a\u8fd0\u8f93"
+                    "name": "\u5de5\u4e1a\u6392\u7a0b"
                 },
                 {
                     "value": 1,
-                    "name": "NLP\u7b97\u6cd5"
+                    "name": "CRF"
                 },
                 {
                     "value": 1,
-                    "name": "\u7528\u6237\u7814\u7a76"
+                    "name": "SFM"
                 },
                 {
                     "value": 1,
-                    "name": "\u5e7f\u544a\u6295\u653e"
+                    "name": "\u9690\u79d8\u8ba1\u7b97\u672f"
                 },
                 {
                     "value": 1,
-                    "name": "\u514d\u8d39\u5348\u9910\u665a\u9910"
+                    "name": "\u6a21\u578b\u79fb\u690d\u4f18\u5316"
                 },
                 {
                     "value": 1,
-                    "name": "\u7b97\u6cd5\u63a8\u8350"
+                    "name": "\u641c\u7d22\u6392\u5e8f"
                 },
                 {
                     "value": 1,
-                    "name": "\u89c4\u5212"
+                    "name": "\u5185\u5bb9\u7406\u89e3"
                 },
                 {
                     "value": 1,
-                    "name": "NLP\u5904\u7406"
+                    "name": "3dmm"
                 },
                 {
                     "value": 1,
-                    "name": "/"
+                    "name": "Gurobi"
                 },
                 {
                     "value": 1,
-                    "name": "\u51e0\u4f55\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "\u795e\u7ecf\u7f51\u7edc"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5927\u6570\u636e\u5904\u7406\u6280\u672f"
-                },
-                {
-                    "value": 1,
-                    "name": "Linux\u5f00\u53d1"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8282\u65e5\u798f\u5229"
-                },
-                {
-                    "value": 1,
-                    "name": "\u624b\u52bf\u8bc6\u522b"
-                },
-                {
-                    "value": 1,
-                    "name": "libvpx"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8def\u5f84\u4f18\u5316"
-                },
-                {
-                    "value": 1,
-                    "name": "\u9065\u611f"
-                },
-                {
-                    "value": 1,
-                    "name": "JitterBuffer"
-                },
-                {
-                    "value": 1,
-                    "name": "\u96f6\u77e5\u8bc6\u8bc1\u660e"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5355\u76ee"
+                    "name": "\u98ce\u63a7"
                 },
                 {
                     "value": 1,
@@ -9053,75 +8489,7 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 1,
-                    "name": "\u52a8\u529b\u5b66\u5efa\u6a21"
-                },
-                {
-                    "value": 1,
-                    "name": "\u573a\u666f\u8bc6\u522b"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5927\u5e73\u53f0"
-                },
-                {
-                    "value": 1,
-                    "name": "B2B"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5149\u5b66"
-                },
-                {
-                    "value": 1,
-                    "name": "\u91d1\u878d\u98ce\u63a7"
-                },
-                {
-                    "value": 1,
-                    "name": "DeepFM"
-                },
-                {
-                    "value": 1,
-                    "name": "\u8fd0\u7b79\u4f18\u5316\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "android"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5e7f\u544a\u7b56\u7565"
-                },
-                {
-                    "value": 1,
-                    "name": "Ackerma"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5de5\u7a0b\u80fd\u529b"
-                },
-                {
-                    "value": 1,
-                    "name": "\u5bc6\u7801\u7b97\u6cd5"
-                },
-                {
-                    "value": 1,
-                    "name": "Storm"
-                },
-                {
-                    "value": 1,
-                    "name": "LTE"
-                },
-                {
-                    "value": 1,
-                    "name": "\u76ee\u6807\u5206\u5272"
-                },
-                {
-                    "value": 1,
-                    "name": "BIM+3D"
-                },
-                {
-                    "value": 1,
-                    "name": "VR"
+                    "name": "UWB"
                 },
                 {
                     "value": 1,
@@ -9129,59 +8497,79 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 1,
-                    "name": "SOA"
+                    "name": "\u89c6\u89c9slam"
                 },
                 {
                     "value": 1,
-                    "name": "\u91d1\u878d\u5238\u5546"
+                    "name": "\u8bed\u97f3\u524d\u5904\u7406"
                 },
                 {
                     "value": 1,
-                    "name": "\u692d\u5706\u66f2\u7ebf"
+                    "name": "\u591c\u62cd"
                 },
                 {
                     "value": 1,
-                    "name": "\u878d\u5408\u7b97\u6cd5"
+                    "name": "X264"
                 },
                 {
                     "value": 1,
-                    "name": "POI"
+                    "name": "\u5730\u56fe\u5f00\u53d1"
                 },
                 {
                     "value": 1,
-                    "name": "\u65e0\u76d1\u7763\u5b66\u4e60"
+                    "name": "NLP/CV"
                 },
                 {
                     "value": 1,
-                    "name": "neon"
+                    "name": "\u8def\u5f84\u4f18\u5316"
                 },
                 {
                     "value": 1,
-                    "name": "\u5730\u4ea7\u79d1\u6280"
+                    "name": "\u89c6\u89c9SLAM"
                 },
                 {
                     "value": 1,
-                    "name": "3DCAD"
+                    "name": "\u6ef4\u6ef4"
                 },
                 {
                     "value": 1,
-                    "name": "\u6570\u5b57\u56fe\u50cf\u5904\u7406"
+                    "name": "3D\u6253\u5370"
                 },
                 {
                     "value": 1,
-                    "name": "AIOPS"
+                    "name": "RCNN"
                 },
                 {
                     "value": 1,
-                    "name": "\u81ea\u7136\u8bed\u8a00\u5904"
+                    "name": "\u5149\u7ea4\u7b97\u6cd5"
                 },
                 {
                     "value": 1,
-                    "name": "\u5927\u6570\u636e\u8f6f\u4ef6"
+                    "name": "\u7b56\u7565"
                 },
                 {
                     "value": 1,
-                    "name": "flv\uff0cmp3\uff0cmp4"
+                    "name": "\u53cd\u6b3a\u8bc8"
+                },
+                {
+                    "value": 1,
+                    "name": "MatLab"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5927\u5065\u5eb7"
+                },
+                {
+                    "value": 1,
+                    "name": "jaya"
+                },
+                {
+                    "value": 1,
+                    "name": "DSP\u7f16\u7a0b"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6574\u6570\u89c4\u5212"
                 },
                 {
                     "value": 1,
@@ -9189,7 +8577,827 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "value": 1,
-                    "name": "SSL/TLS"
+                    "name": "x265"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8fd0\u7b79\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "SDK"
+                },
+                {
+                    "value": 1,
+                    "name": "\u81ea\u52a8\u9a7e\u9a76\u4eff\u771f"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4fe1\u53f7\u91c7\u96c6"
+                },
+                {
+                    "value": 1,
+                    "name": "MTL"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8f68\u8ff9"
+                },
+                {
+                    "value": 1,
+                    "name": "PHM"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8282\u65e5\u798f\u5229"
+                },
+                {
+                    "value": 1,
+                    "name": "\u81ea\u52a9\u4e09\u9910"
+                },
+                {
+                    "value": 1,
+                    "name": "DeepFM"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5185\u5bb9\u63a8\u8350"
+                },
+                {
+                    "value": 1,
+                    "name": "\u81ea\u52a8\u5316"
+                },
+                {
+                    "value": 1,
+                    "name": "/"
+                },
+                {
+                    "value": 1,
+                    "name": "KF/EKF"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7c92\u5b50\u7fa4"
+                },
+                {
+                    "value": 1,
+                    "name": "\u96f6\u77e5\u8bc6\u8bc1\u660e"
+                },
+                {
+                    "value": 1,
+                    "name": "\u91d1\u878d\u98ce\u63a7AI"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6280\u672f\u5927\u725b\u591a"
+                },
+                {
+                    "value": 1,
+                    "name": "Pulp"
+                },
+                {
+                    "value": 1,
+                    "name": "R\u8bed\u8a00"
+                },
+                {
+                    "value": 1,
+                    "name": "libvpx"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6570\u636e\u6293\u53d6"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8bed\u4e49\u5206\u6790"
+                },
+                {
+                    "value": 1,
+                    "name": "\u91d1\u878d\u98ce\u63a7"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8bba\u6587\u5199\u4f5c"
+                },
+                {
+                    "value": 1,
+                    "name": "\u641c\u7d22\u63a8\u8350\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u773c\u52a8"
+                },
+                {
+                    "value": 1,
+                    "name": "GNSS"
+                },
+                {
+                    "value": 1,
+                    "name": "NLP\u5904\u7406"
+                },
+                {
+                    "value": 1,
+                    "name": "POI"
+                },
+                {
+                    "value": 1,
+                    "name": "\u59ff\u6001\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5206\u7c7b\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u611f\u77e5\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5b9e\u4f53\u8bc6\u522b"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8f6f\u4ef6\u6d4b\u8bd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4e09\u7ef4"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8c03\u62e8"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7b97\u6cd5\u8c03\u7814"
+                },
+                {
+                    "value": 1,
+                    "name": "\u9ad8\u7ea7\u6280\u672f\u7ba1\u7406"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8681\u7fa4"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6587\u672c\u68c0\u6d4b"
+                },
+                {
+                    "value": 1,
+                    "name": "\u865a\u5047\u6d41\u91cf"
+                },
+                {
+                    "value": 1,
+                    "name": "rtk"
+                },
+                {
+                    "value": 1,
+                    "name": "\u89c6\u9891\u7406\u89e3"
+                },
+                {
+                    "value": 1,
+                    "name": "H.264/265"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5bfc\u822a\u89c4\u5212"
+                },
+                {
+                    "value": 1,
+                    "name": "\u56fe\u50cf\u68c0\u6d4b"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7f16\u7a0b"
+                },
+                {
+                    "value": 1,
+                    "name": "\u68c0\u6d4b\u3001\u8bc6\u522b\u3001\u7f16\u8f91"
+                },
+                {
+                    "value": 1,
+                    "name": "\u76ee\u6807\u5206\u5272"
+                },
+                {
+                    "value": 1,
+                    "name": "\u70b9\u4e91\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "Ackerma"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8d85\u957f\u5e26\u85aa\u5047\u671f"
+                },
+                {
+                    "value": 1,
+                    "name": "ROS\uff0cGazebo\u4eff\u771f"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8fd0\u7b79"
+                },
+                {
+                    "value": 1,
+                    "name": "\u540d\u6821\u540d\u4f01\u80cc\u666f"
+                },
+                {
+                    "value": 1,
+                    "name": "\u53ec\u56de\u7b56\u7565"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7269\u4f53\u8bc6\u522b"
+                },
+                {
+                    "value": 1,
+                    "name": "3DCAD"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8c03\u5ea6\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u514d\u8d39\u5348\u9910\u665a\u9910"
+                },
+                {
+                    "value": 1,
+                    "name": "AIOPS"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5168\u94fe\u8defSaaS\u5e73\u53f0"
+                },
+                {
+                    "value": 1,
+                    "name": "\u73af\u5883\u611f\u77e5\u4e0e\u878d\u5408"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8fd1\u7ea2\u5916"
+                },
+                {
+                    "value": 1,
+                    "name": "pytorch"
+                },
+                {
+                    "value": 1,
+                    "name": "C/C++/Python"
+                },
+                {
+                    "value": 1,
+                    "name": "\u573a\u666f\u8bc6\u522b"
+                },
+                {
+                    "value": 1,
+                    "name": "\u56fe\u50cf\u62fc\u63a5"
+                },
+                {
+                    "value": 1,
+                    "name": "flow"
+                },
+                {
+                    "value": 1,
+                    "name": "hive"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7528\u6237\u6d3b\u8dc3\u5ea6"
+                },
+                {
+                    "value": 1,
+                    "name": "\u652f\u4ed8\u4e1a\u52a1"
+                },
+                {
+                    "value": 1,
+                    "name": "MXNet"
+                },
+                {
+                    "value": 1,
+                    "name": "\u673a\u5668\u5b66\u4e60\u6a21\u578b"
+                },
+                {
+                    "value": 1,
+                    "name": "AEB"
+                },
+                {
+                    "value": 1,
+                    "name": "c"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5e74\u7ec8\u591a\u85aa"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5efa\u7b51\u8bbe\u8ba1"
+                },
+                {
+                    "value": 1,
+                    "name": "nlp\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7f51\u7edc\u4f20\u8f93\u534f\u8bae"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6279\u53d1\uff5c\u96f6\u552e"
+                },
+                {
+                    "value": 1,
+                    "name": "\u673a\u5668\u4eba\u5173\u952e\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8ba1\u7b97\u673a\u56fe\u5f62"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8054\u90a6\u5b66\u4e60"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7279\u5f81\u6316\u6398"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6392\u5e8f\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u77e5\u8bc6\u5e93"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5bfc\u822a"
+                },
+                {
+                    "value": 1,
+                    "name": "\u58f0\u7eb9\u8bc6\u522b"
+                },
+                {
+                    "value": 1,
+                    "name": "neon"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6a21\u578b\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "PP"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7b97\u6cd5\u63a8\u8350"
+                },
+                {
+                    "value": 1,
+                    "name": "\u9057\u4f20\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "Linux/Unix"
+                },
+                {
+                    "value": 1,
+                    "name": "kalman"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4eba\u5de5\u667a\u80fd\u673a\u5668\u4eba"
+                },
+                {
+                    "value": 1,
+                    "name": "\u9aa8\u79d1\u673a\u5668\u4eba"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5730\u4ea7\u79d1\u6280"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7528\u6237\u7814\u7a76"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5e7f\u544a\u63a8\u8350"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6587\u672c\u5206\u7c7b\uff0c"
+                },
+                {
+                    "value": 1,
+                    "name": "numpy"
+                },
+                {
+                    "value": 1,
+                    "name": "android"
+                },
+                {
+                    "value": 1,
+                    "name": "ACM"
+                },
+                {
+                    "value": 1,
+                    "name": "HIve"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5ba2\u7fa4\u5206\u7c7b\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8fd0\u7ef4\u7ba1\u7406"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5e74\u7ec8\u5956\u91d1"
+                },
+                {
+                    "value": 1,
+                    "name": "\u56fe\u5f62\u56fe"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5e7f\u544a\u7b56\u7565"
+                },
+                {
+                    "value": 1,
+                    "name": "\u65b0\u95fb/\u51fa\u7248"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8fd0\u7b79\u4f18\u5316\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u589e\u957f\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u81ea\u52a8\u9a7e\u9a76\u5b9a\u4f4d"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8bed\u97f3\u8f6c\u6362"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5c0f\u6837\u672c\u5b66\u4e60"
+                },
+                {
+                    "value": 1,
+                    "name": "\u836f\u7269\u7814\u53d1"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6216"
+                },
+                {
+                    "value": 1,
+                    "name": "CCF"
+                },
+                {
+                    "value": 1,
+                    "name": "GO"
+                },
+                {
+                    "value": 1,
+                    "name": "VR"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4e50\u7406\u8f6c\u6362"
+                },
+                {
+                    "value": 1,
+                    "name": "\u56fe\u50cf"
+                },
+                {
+                    "value": 1,
+                    "name": "Caffe\u3001Tensorfl"
+                },
+                {
+                    "value": 1,
+                    "name": "SOA"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8fd0\u52a8\u63a7\u5236\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8def\u51b5\u4f18\u5316"
+                },
+                {
+                    "value": 1,
+                    "name": "\u51e0\u4f55\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7b97\u6cd5\u5bfc\u822a"
+                },
+                {
+                    "value": 1,
+                    "name": "\u56fe\u6587\u5206\u6790"
+                },
+                {
+                    "value": 1,
+                    "name": "java"
+                },
+                {
+                    "value": 1,
+                    "name": "CTR"
+                },
+                {
+                    "value": 1,
+                    "name": "TypeScript"
+                },
+                {
+                    "value": 1,
+                    "name": "\u964d\u566a"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4e16\u754c500\u5f3a"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4e92\u8054\u7f51\u51fa\u884c"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7ecf\u5178\u63a7\u5236\u7406\u8bba"
+                },
+                {
+                    "value": 1,
+                    "name": "pil"
+                },
+                {
+                    "value": 1,
+                    "name": "FLINK"
+                },
+                {
+                    "value": 1,
+                    "name": "\u793e\u4ea4\u4ea7\u54c1"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8bed\u4e49\u5206\u5272"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5149\u5b66"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6df1\u5ea6\u6a21\u578b"
+                },
+                {
+                    "value": 1,
+                    "name": "golang"
+                },
+                {
+                    "value": 1,
+                    "name": "hybrid/end2end"
+                },
+                {
+                    "value": 1,
+                    "name": "\u91d1\u878d\u5238\u5546"
+                },
+                {
+                    "value": 1,
+                    "name": "JAVA"
+                },
+                {
+                    "value": 1,
+                    "name": "NPU"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5bfc\u822a\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u667a\u80fd\u4f18\u5316"
+                },
+                {
+                    "value": 1,
+                    "name": "\u56fe\u50cf\u5904\u7406\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "CPU"
+                },
+                {
+                    "value": 1,
+                    "name": "Rust"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6709\u524d\u9014"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4f18\u5148\u4e0a\u6d77\u843d\u6237"
+                },
+                {
+                    "value": 1,
+                    "name": "\u751f\u4ea7\u8c03\u5ea6"
+                },
+                {
+                    "value": 1,
+                    "name": "\u56fe\u5f62\u5b66"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5927\u6570\u636e\u5904\u7406\u6280\u672f"
+                },
+                {
+                    "value": 1,
+                    "name": "\u79d1\u6280\u5927\u725b\u516c\u53f8"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6392\u5e8f"
+                },
+                {
+                    "value": 1,
+                    "name": "CAD\u56fe\u7eb8\u5206\u6790"
+                },
+                {
+                    "value": 1,
+                    "name": "vr\u3002ar"
+                },
+                {
+                    "value": 1,
+                    "name": "\u901f\u5ea6\u63a7\u5236"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8fd0\u52a8\u5065\u5eb7"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7b97\u6cd5\u843d\u5730"
+                },
+                {
+                    "value": 1,
+                    "name": "\u9a6c\u5c14\u514b\u592b\u968f\u673a\u52a8"
+                },
+                {
+                    "value": 1,
+                    "name": "\u907f\u969c"
+                },
+                {
+                    "value": 1,
+                    "name": "h264"
+                },
+                {
+                    "value": 1,
+                    "name": "\u516c\u94a5"
+                },
+                {
+                    "value": 1,
+                    "name": "SSD"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5730\u56fe\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "ADAS"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6570\u636e\u91c7\u96c6"
+                },
+                {
+                    "value": 1,
+                    "name": "NLP\u7b97\u6cd5"
+                },
+                {
+                    "value": 1,
+                    "name": "C++/go"
+                },
+                {
+                    "value": 1,
+                    "name": "/Pytorch"
+                },
+                {
+                    "value": 1,
+                    "name": "\u81ea\u4e3b\u664b\u5347\u8ba1\u5212"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7b97\u6cd5\u7b56\u7565"
+                },
+                {
+                    "value": 1,
+                    "name": "3D\u59ff\u6001\u91cd\u5efa"
+                },
+                {
+                    "value": 1,
+                    "name": "hadoop"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6392\u7a0b"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5927\u6570\u636e\u8f6f\u4ef6"
+                },
+                {
+                    "value": 1,
+                    "name": "\u7cfb\u7edf\u6d4b\u8bd5"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4e92\u8054\u7f51\u4fdd\u9669"
+                },
+                {
+                    "value": 1,
+                    "name": "Pyspark"
+                },
+                {
+                    "value": 1,
+                    "name": "\u81ea\u52a8\u6458\u8981"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5de5\u4e1a\u9886\u57df"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4f9b\u5e94\u94fe"
+                },
+                {
+                    "value": 1,
+                    "name": "\u641c\u7d22\u5f15\u64ce"
+                },
+                {
+                    "value": 1,
+                    "name": "ECC"
+                },
+                {
+                    "value": 1,
+                    "name": "webgl"
+                },
+                {
+                    "value": 1,
+                    "name": "LR"
+                },
+                {
+                    "value": 1,
+                    "name": "\u5bfc\u822a\u5f15\u64ce"
+                },
+                {
+                    "value": 1,
+                    "name": "\u65e0\u76d1\u7763\u5b66\u4e60"
+                },
+                {
+                    "value": 1,
+                    "name": "\u65f6\u95f4\u5e8f\u5217"
+                },
+                {
+                    "value": 1,
+                    "name": "\u63a8\u8350\u641c\u7d22"
+                },
+                {
+                    "value": 1,
+                    "name": "\u80a2\u4f53\u68c0\u6d4b"
+                },
+                {
+                    "value": 1,
+                    "name": "flv\uff0cmp3\uff0cmp4"
+                },
+                {
+                    "value": 1,
+                    "name": "\u6df7\u54cd"
+                },
+                {
+                    "value": 1,
+                    "name": "\u8f68\u8ff9\u89c4\u5212"
+                },
+                {
+                    "value": 1,
+                    "name": "webGL"
+                },
+                {
+                    "value": 1,
+                    "name": "\u4f17\u7b79\u4e1a\u52a1"
                 }
             ],
             "width": "80%",
@@ -9252,13 +9460,13 @@ title: 算法招聘_技能与要求分析
         }
     ]
 };
-        chart_af6b1345ea3346b892fcfddf7f7c3283.setOption(option_af6b1345ea3346b892fcfddf7f7c3283);
+        chart_28df9b693201446aa6757d1ce4c66067.setOption(option_28df9b693201446aa6757d1ce4c66067);
     </script>
-                <div id="164ae0db96874b47af74ad064b096823" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="ae5024414d224654b9cfccf026bede85" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_164ae0db96874b47af74ad064b096823 = echarts.init(
-            document.getElementById('164ae0db96874b47af74ad064b096823'), 'white', {renderer: 'canvas'});
-        var option_164ae0db96874b47af74ad064b096823 = {
+        var chart_ae5024414d224654b9cfccf026bede85 = echarts.init(
+            document.getElementById('ae5024414d224654b9cfccf026bede85'), 'white', {renderer: 'canvas'});
+        var option_ae5024414d224654b9cfccf026bede85 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -9305,14 +9513,14 @@ title: 算法招聘_技能与要求分析
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                1044,
-                500,
-                104,
-                91,
-                54,
-                21,
-                16,
-                3
+                1058,
+                494,
+                109,
+                89,
+                56,
+                22,
+                15,
+                5
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -9337,35 +9545,35 @@ title: 算法招聘_技能与要求分析
             "data": [
                 {
                     "name": "\u672c\u79d1",
-                    "value": 1044
+                    "value": 1058
                 },
                 {
                     "name": "\u7855\u58eb",
-                    "value": 500
+                    "value": 494
                 },
                 {
                     "name": "\u5e94\u5c4a / \u672c\u79d1",
-                    "value": 104
+                    "value": 109
                 },
                 {
                     "name": "\u5e94\u5c4a / \u7855\u58eb",
-                    "value": 91
+                    "value": 89
                 },
                 {
                     "name": "\u4e0d\u9650",
-                    "value": 54
+                    "value": 56
                 },
                 {
                     "name": "\u535a\u58eb",
-                    "value": 21
+                    "value": 22
                 },
                 {
                     "name": "\u5e94\u5c4a / \u4e0d\u9650",
-                    "value": 16
+                    "value": 15
                 },
                 {
-                    "name": "\u5e94\u5c4a / \u535a\u58eb",
-                    "value": 3
+                    "name": "\u5927\u4e13",
+                    "value": 5
                 }
             ],
             "radius": [
@@ -9398,35 +9606,35 @@ title: 算法招聘_技能与要求分析
             "data": [
                 {
                     "name": "\u672c\u79d1",
-                    "value": 1044
+                    "value": 1058
                 },
                 {
                     "name": "\u7855\u58eb",
-                    "value": 500
+                    "value": 494
                 },
                 {
                     "name": "\u5e94\u5c4a / \u672c\u79d1",
-                    "value": 104
+                    "value": 109
                 },
                 {
                     "name": "\u5e94\u5c4a / \u7855\u58eb",
-                    "value": 91
+                    "value": 89
                 },
                 {
                     "name": "\u4e0d\u9650",
-                    "value": 54
+                    "value": 56
                 },
                 {
                     "name": "\u535a\u58eb",
-                    "value": 21
+                    "value": 22
                 },
                 {
                     "name": "\u5e94\u5c4a / \u4e0d\u9650",
-                    "value": 16
+                    "value": 15
                 },
                 {
-                    "name": "\u5e94\u5c4a / \u535a\u58eb",
-                    "value": 3
+                    "name": "\u5927\u4e13",
+                    "value": 5
                 }
             ],
             "radius": [
@@ -9476,7 +9684,7 @@ title: 算法招聘_技能与要求分析
                 "\u4e0d\u9650",
                 "\u535a\u58eb",
                 "\u5e94\u5c4a / \u4e0d\u9650",
-                "\u5e94\u5c4a / \u535a\u58eb"
+                "\u5927\u4e13"
             ],
             "selected": {},
             "show": false,
@@ -9535,7 +9743,7 @@ title: 算法招聘_技能与要求分析
                 "\u4e0d\u9650",
                 "\u535a\u58eb",
                 "\u5e94\u5c4a / \u4e0d\u9650",
-                "\u5e94\u5c4a / \u535a\u58eb"
+                "\u5927\u4e13"
             ]
         }
     ],
@@ -9597,13 +9805,13 @@ title: 算法招聘_技能与要求分析
         }
     ]
 };
-        chart_164ae0db96874b47af74ad064b096823.setOption(option_164ae0db96874b47af74ad064b096823);
+        chart_ae5024414d224654b9cfccf026bede85.setOption(option_ae5024414d224654b9cfccf026bede85);
     </script>
-                <div id="804422a2fb18472994b35e40e26be36a" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="08f9acda916940a68ecf3389bcc08905" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_804422a2fb18472994b35e40e26be36a = echarts.init(
-            document.getElementById('804422a2fb18472994b35e40e26be36a'), 'white', {renderer: 'canvas'});
-        var option_804422a2fb18472994b35e40e26be36a = {
+        var chart_08f9acda916940a68ecf3389bcc08905 = echarts.init(
+            document.getElementById('08f9acda916940a68ecf3389bcc08905'), 'white', {renderer: 'canvas'});
+        var option_08f9acda916940a68ecf3389bcc08905 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -9650,12 +9858,12 @@ title: 算法招聘_技能与要求分析
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                723,
-                383,
-                285,
-                214,
+                741,
+                374,
+                288,
+                216,
                 212,
-                13,
+                14,
                 6
             ],
             "showBackground": false,
@@ -9681,19 +9889,19 @@ title: 算法招聘_技能与要求分析
             "data": [
                 {
                     "name": "\u7ecf\u9a8c3-5\u5e74",
-                    "value": 723
+                    "value": 741
                 },
                 {
                     "name": "\u7ecf\u9a8c1-3\u5e74",
-                    "value": 383
+                    "value": 374
                 },
                 {
                     "name": "\u7ecf\u9a8c\u4e0d\u9650",
-                    "value": 285
+                    "value": 288
                 },
                 {
                     "name": "\u7ecf\u9a8c\u5728\u6821",
-                    "value": 214
+                    "value": 216
                 },
                 {
                     "name": "\u7ecf\u9a8c5-10\u5e74",
@@ -9701,7 +9909,7 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "name": "\u7ecf\u9a8c1\u5e74\u4ee5\u4e0b",
-                    "value": 13
+                    "value": 14
                 },
                 {
                     "name": "\u7ecf\u9a8c10\u5e74\u4ee5\u4e0a",
@@ -9738,19 +9946,19 @@ title: 算法招聘_技能与要求分析
             "data": [
                 {
                     "name": "\u7ecf\u9a8c3-5\u5e74",
-                    "value": 723
+                    "value": 741
                 },
                 {
                     "name": "\u7ecf\u9a8c1-3\u5e74",
-                    "value": 383
+                    "value": 374
                 },
                 {
                     "name": "\u7ecf\u9a8c\u4e0d\u9650",
-                    "value": 285
+                    "value": 288
                 },
                 {
                     "name": "\u7ecf\u9a8c\u5728\u6821",
-                    "value": 214
+                    "value": 216
                 },
                 {
                     "name": "\u7ecf\u9a8c5-10\u5e74",
@@ -9758,7 +9966,7 @@ title: 算法招聘_技能与要求分析
                 },
                 {
                     "name": "\u7ecf\u9a8c1\u5e74\u4ee5\u4e0b",
-                    "value": 13
+                    "value": 14
                 },
                 {
                     "name": "\u7ecf\u9a8c10\u5e74\u4ee5\u4e0a",
@@ -9931,12 +10139,12 @@ title: 算法招聘_技能与要求分析
         }
     ]
 };
-        chart_804422a2fb18472994b35e40e26be36a.setOption(option_804422a2fb18472994b35e40e26be36a);
+        chart_08f9acda916940a68ecf3389bcc08905.setOption(option_08f9acda916940a68ecf3389bcc08905);
     </script>
-                <div id="12862ce4b1e74e52b9068ac6fe0b9e06" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="e01044125ba24bbb99565afb8151c101" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_12862ce4b1e74e52b9068ac6fe0b9e06 = echarts.init(
-            document.getElementById('12862ce4b1e74e52b9068ac6fe0b9e06'), 'white', {renderer: 'canvas'});
+        var chart_e01044125ba24bbb99565afb8151c101 = echarts.init(
+            document.getElementById('e01044125ba24bbb99565afb8151c101'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -9951,7 +10159,7 @@ title: 算法招聘_技能与要求分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_12862ce4b1e74e52b9068ac6fe0b9e06 = {
+        var option_e01044125ba24bbb99565afb8151c101 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -10012,7 +10220,7 @@ title: 算法招聘_技能与要求分析
                     "value": 100,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(57,155,130)"
+                            "color": "rgb(7,47,92)"
                         }
                     }
                 },
@@ -10021,7 +10229,7 @@ title: 算法招聘_技能与要求分析
                     "value": 99,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(93,139,97)"
+                            "color": "rgb(20,53,56)"
                         }
                     }
                 },
@@ -10030,7 +10238,7 @@ title: 算法招聘_技能与要求分析
                     "value": 98,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(132,82,8)"
+                            "color": "rgb(158,65,118)"
                         }
                     }
                 },
@@ -10039,7 +10247,7 @@ title: 算法招聘_技能与要求分析
                     "value": 97,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(152,97,1)"
+                            "color": "rgb(19,35,70)"
                         }
                     }
                 },
@@ -10048,7 +10256,7 @@ title: 算法招聘_技能与要求分析
                     "value": 96,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(36,125,11)"
+                            "color": "rgb(82,55,50)"
                         }
                     }
                 },
@@ -10057,7 +10265,7 @@ title: 算法招聘_技能与要求分析
                     "value": 95,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(38,122,58)"
+                            "color": "rgb(50,137,57)"
                         }
                     }
                 },
@@ -10066,7 +10274,7 @@ title: 算法招聘_技能与要求分析
                     "value": 94,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(96,128,63)"
+                            "color": "rgb(45,38,158)"
                         }
                     }
                 },
@@ -10075,7 +10283,7 @@ title: 算法招聘_技能与要求分析
                     "value": 93,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(15,112,120)"
+                            "color": "rgb(81,137,75)"
                         }
                     }
                 },
@@ -10084,7 +10292,7 @@ title: 算法招聘_技能与要求分析
                     "value": 92,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(139,25,88)"
+                            "color": "rgb(135,18,85)"
                         }
                     }
                 },
@@ -10093,7 +10301,7 @@ title: 算法招聘_技能与要求分析
                     "value": 91,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(56,59,30)"
+                            "color": "rgb(135,41,73)"
                         }
                     }
                 },
@@ -10102,7 +10310,7 @@ title: 算法招聘_技能与要求分析
                     "value": 90,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(111,35,3)"
+                            "color": "rgb(11,147,89)"
                         }
                     }
                 },
@@ -10111,7 +10319,7 @@ title: 算法招聘_技能与要求分析
                     "value": 89,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(74,83,87)"
+                            "color": "rgb(23,24,158)"
                         }
                     }
                 },
@@ -10120,7 +10328,7 @@ title: 算法招聘_技能与要求分析
                     "value": 88,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(2,92,90)"
+                            "color": "rgb(114,1,46)"
                         }
                     }
                 },
@@ -10129,7 +10337,7 @@ title: 算法招聘_技能与要求分析
                     "value": 87,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(79,117,99)"
+                            "color": "rgb(159,156,31)"
                         }
                     }
                 },
@@ -10138,7 +10346,7 @@ title: 算法招聘_技能与要求分析
                     "value": 86,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(101,89,139)"
+                            "color": "rgb(28,100,72)"
                         }
                     }
                 },
@@ -10147,7 +10355,7 @@ title: 算法招聘_技能与要求分析
                     "value": 85,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(34,11,127)"
+                            "color": "rgb(88,63,144)"
                         }
                     }
                 },
@@ -10156,7 +10364,7 @@ title: 算法招聘_技能与要求分析
                     "value": 84,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(69,143,74)"
+                            "color": "rgb(113,50,60)"
                         }
                     }
                 },
@@ -10165,7 +10373,7 @@ title: 算法招聘_技能与要求分析
                     "value": 83,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(44,138,97)"
+                            "color": "rgb(73,5,143)"
                         }
                     }
                 },
@@ -10174,7 +10382,7 @@ title: 算法招聘_技能与要求分析
                     "value": 82,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(51,41,100)"
+                            "color": "rgb(91,4,99)"
                         }
                     }
                 },
@@ -10183,7 +10391,7 @@ title: 算法招聘_技能与要求分析
                     "value": 81,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(112,157,74)"
+                            "color": "rgb(57,100,13)"
                         }
                     }
                 },
@@ -10192,7 +10400,7 @@ title: 算法招聘_技能与要求分析
                     "value": 80,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(54,67,152)"
+                            "color": "rgb(154,54,62)"
                         }
                     }
                 },
@@ -10201,7 +10409,7 @@ title: 算法招聘_技能与要求分析
                     "value": 79,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(137,38,46)"
+                            "color": "rgb(111,109,158)"
                         }
                     }
                 },
@@ -10210,7 +10418,7 @@ title: 算法招聘_技能与要求分析
                     "value": 78,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(19,81,143)"
+                            "color": "rgb(29,123,156)"
                         }
                     }
                 },
@@ -10219,7 +10427,7 @@ title: 算法招聘_技能与要求分析
                     "value": 77,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(32,128,48)"
+                            "color": "rgb(32,135,23)"
                         }
                     }
                 },
@@ -10228,7 +10436,7 @@ title: 算法招聘_技能与要求分析
                     "value": 76,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(41,93,57)"
+                            "color": "rgb(23,16,87)"
                         }
                     }
                 },
@@ -10237,7 +10445,7 @@ title: 算法招聘_技能与要求分析
                     "value": 75,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(65,21,79)"
+                            "color": "rgb(101,81,26)"
                         }
                     }
                 },
@@ -10246,7 +10454,7 @@ title: 算法招聘_技能与要求分析
                     "value": 74,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(124,4,149)"
+                            "color": "rgb(47,152,104)"
                         }
                     }
                 },
@@ -10255,7 +10463,7 @@ title: 算法招聘_技能与要求分析
                     "value": 73,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(129,40,151)"
+                            "color": "rgb(51,53,21)"
                         }
                     }
                 },
@@ -10264,7 +10472,7 @@ title: 算法招聘_技能与要求分析
                     "value": 72,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(51,80,10)"
+                            "color": "rgb(108,97,57)"
                         }
                     }
                 },
@@ -10273,7 +10481,7 @@ title: 算法招聘_技能与要求分析
                     "value": 71,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(145,142,43)"
+                            "color": "rgb(69,85,160)"
                         }
                     }
                 },
@@ -10282,7 +10490,7 @@ title: 算法招聘_技能与要求分析
                     "value": 70,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(135,129,109)"
+                            "color": "rgb(149,152,129)"
                         }
                     }
                 },
@@ -10291,7 +10499,7 @@ title: 算法招聘_技能与要求分析
                     "value": 69,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(106,113,59)"
+                            "color": "rgb(35,108,100)"
                         }
                     }
                 },
@@ -10300,7 +10508,7 @@ title: 算法招聘_技能与要求分析
                     "value": 68,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(63,92,107)"
+                            "color": "rgb(157,96,90)"
                         }
                     }
                 },
@@ -10309,7 +10517,7 @@ title: 算法招聘_技能与要求分析
                     "value": 67,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(23,66,154)"
+                            "color": "rgb(102,14,45)"
                         }
                     }
                 },
@@ -10318,7 +10526,7 @@ title: 算法招聘_技能与要求分析
                     "value": 66,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(92,89,82)"
+                            "color": "rgb(55,47,73)"
                         }
                     }
                 },
@@ -10327,7 +10535,7 @@ title: 算法招聘_技能与要求分析
                     "value": 65,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(111,116,69)"
+                            "color": "rgb(17,117,26)"
                         }
                     }
                 },
@@ -10336,7 +10544,7 @@ title: 算法招聘_技能与要求分析
                     "value": 64,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(124,10,64)"
+                            "color": "rgb(117,85,114)"
                         }
                     }
                 },
@@ -10345,7 +10553,7 @@ title: 算法招聘_技能与要求分析
                     "value": 63,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(126,128,15)"
+                            "color": "rgb(58,88,133)"
                         }
                     }
                 },
@@ -10354,7 +10562,7 @@ title: 算法招聘_技能与要求分析
                     "value": 62,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(155,68,40)"
+                            "color": "rgb(56,25,93)"
                         }
                     }
                 },
@@ -10363,7 +10571,7 @@ title: 算法招聘_技能与要求分析
                     "value": 61,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(83,121,72)"
+                            "color": "rgb(29,129,77)"
                         }
                     }
                 }
@@ -10413,12 +10621,12 @@ title: 算法招聘_技能与要求分析
         }
     ]
 };
-        chart_12862ce4b1e74e52b9068ac6fe0b9e06.setOption(option_12862ce4b1e74e52b9068ac6fe0b9e06);
+        chart_e01044125ba24bbb99565afb8151c101.setOption(option_e01044125ba24bbb99565afb8151c101);
     </script>
-                <div id="4659f16188ec421abb058dd41d48082e" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="dc93e3bca1d04de6a39eb2c43dcc4c2a" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_4659f16188ec421abb058dd41d48082e = echarts.init(
-            document.getElementById('4659f16188ec421abb058dd41d48082e'), 'white', {renderer: 'canvas'});
+        var chart_dc93e3bca1d04de6a39eb2c43dcc4c2a = echarts.init(
+            document.getElementById('dc93e3bca1d04de6a39eb2c43dcc4c2a'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -10433,7 +10641,7 @@ title: 算法招聘_技能与要求分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_4659f16188ec421abb058dd41d48082e = {
+        var option_dc93e3bca1d04de6a39eb2c43dcc4c2a = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -10494,7 +10702,7 @@ title: 算法招聘_技能与要求分析
                     "value": 100,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(7,156,82)"
+                            "color": "rgb(130,148,77)"
                         }
                     }
                 },
@@ -10503,7 +10711,7 @@ title: 算法招聘_技能与要求分析
                     "value": 99,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(41,79,44)"
+                            "color": "rgb(157,33,5)"
                         }
                     }
                 },
@@ -10512,7 +10720,7 @@ title: 算法招聘_技能与要求分析
                     "value": 98,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(70,47,34)"
+                            "color": "rgb(98,89,28)"
                         }
                     }
                 },
@@ -10521,7 +10729,7 @@ title: 算法招聘_技能与要求分析
                     "value": 97,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(74,54,139)"
+                            "color": "rgb(87,21,16)"
                         }
                     }
                 },
@@ -10530,7 +10738,7 @@ title: 算法招聘_技能与要求分析
                     "value": 96,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(96,46,59)"
+                            "color": "rgb(25,18,1)"
                         }
                     }
                 },
@@ -10539,7 +10747,7 @@ title: 算法招聘_技能与要求分析
                     "value": 95,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(101,87,15)"
+                            "color": "rgb(64,55,67)"
                         }
                     }
                 },
@@ -10548,7 +10756,7 @@ title: 算法招聘_技能与要求分析
                     "value": 94,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(131,152,12)"
+                            "color": "rgb(98,116,144)"
                         }
                     }
                 },
@@ -10557,7 +10765,7 @@ title: 算法招聘_技能与要求分析
                     "value": 93,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(82,108,35)"
+                            "color": "rgb(73,73,78)"
                         }
                     }
                 },
@@ -10566,7 +10774,7 @@ title: 算法招聘_技能与要求分析
                     "value": 92,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(100,124,56)"
+                            "color": "rgb(92,38,101)"
                         }
                     }
                 },
@@ -10575,7 +10783,7 @@ title: 算法招聘_技能与要求分析
                     "value": 91,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(153,106,119)"
+                            "color": "rgb(71,26,98)"
                         }
                     }
                 },
@@ -10584,7 +10792,7 @@ title: 算法招聘_技能与要求分析
                     "value": 90,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(105,73,133)"
+                            "color": "rgb(64,141,77)"
                         }
                     }
                 },
@@ -10593,7 +10801,7 @@ title: 算法招聘_技能与要求分析
                     "value": 89,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(132,123,10)"
+                            "color": "rgb(111,63,98)"
                         }
                     }
                 },
@@ -10602,7 +10810,7 @@ title: 算法招聘_技能与要求分析
                     "value": 88,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(141,96,59)"
+                            "color": "rgb(5,131,106)"
                         }
                     }
                 },
@@ -10611,7 +10819,7 @@ title: 算法招聘_技能与要求分析
                     "value": 87,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(25,96,66)"
+                            "color": "rgb(85,39,146)"
                         }
                     }
                 },
@@ -10620,7 +10828,7 @@ title: 算法招聘_技能与要求分析
                     "value": 86,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(61,141,119)"
+                            "color": "rgb(113,128,20)"
                         }
                     }
                 },
@@ -10629,7 +10837,7 @@ title: 算法招聘_技能与要求分析
                     "value": 85,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(36,153,108)"
+                            "color": "rgb(97,1,73)"
                         }
                     }
                 },
@@ -10638,7 +10846,7 @@ title: 算法招聘_技能与要求分析
                     "value": 84,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(19,14,121)"
+                            "color": "rgb(51,38,98)"
                         }
                     }
                 },
@@ -10647,7 +10855,7 @@ title: 算法招聘_技能与要求分析
                     "value": 83,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(79,142,146)"
+                            "color": "rgb(157,69,147)"
                         }
                     }
                 },
@@ -10656,7 +10864,7 @@ title: 算法招聘_技能与要求分析
                     "value": 82,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(95,130,101)"
+                            "color": "rgb(151,159,81)"
                         }
                     }
                 },
@@ -10665,7 +10873,7 @@ title: 算法招聘_技能与要求分析
                     "value": 81,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(88,106,31)"
+                            "color": "rgb(31,94,129)"
                         }
                     }
                 },
@@ -10674,7 +10882,7 @@ title: 算法招聘_技能与要求分析
                     "value": 80,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(70,82,90)"
+                            "color": "rgb(148,92,109)"
                         }
                     }
                 },
@@ -10683,7 +10891,7 @@ title: 算法招聘_技能与要求分析
                     "value": 79,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(58,111,115)"
+                            "color": "rgb(37,60,67)"
                         }
                     }
                 },
@@ -10692,7 +10900,7 @@ title: 算法招聘_技能与要求分析
                     "value": 78,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(27,41,115)"
+                            "color": "rgb(140,130,42)"
                         }
                     }
                 },
@@ -10701,7 +10909,7 @@ title: 算法招聘_技能与要求分析
                     "value": 77,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(143,16,38)"
+                            "color": "rgb(24,89,106)"
                         }
                     }
                 },
@@ -10710,7 +10918,7 @@ title: 算法招聘_技能与要求分析
                     "value": 76,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(134,66,153)"
+                            "color": "rgb(78,107,42)"
                         }
                     }
                 },
@@ -10719,7 +10927,7 @@ title: 算法招聘_技能与要求分析
                     "value": 75,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(25,17,80)"
+                            "color": "rgb(5,155,61)"
                         }
                     }
                 },
@@ -10728,7 +10936,7 @@ title: 算法招聘_技能与要求分析
                     "value": 74,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(76,158,0)"
+                            "color": "rgb(115,115,70)"
                         }
                     }
                 },
@@ -10737,7 +10945,7 @@ title: 算法招聘_技能与要求分析
                     "value": 73,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(127,36,116)"
+                            "color": "rgb(82,142,17)"
                         }
                     }
                 },
@@ -10746,7 +10954,7 @@ title: 算法招聘_技能与要求分析
                     "value": 72,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(157,106,124)"
+                            "color": "rgb(49,51,13)"
                         }
                     }
                 },
@@ -10755,7 +10963,7 @@ title: 算法招聘_技能与要求分析
                     "value": 71,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(78,10,89)"
+                            "color": "rgb(158,146,114)"
                         }
                     }
                 },
@@ -10764,7 +10972,7 @@ title: 算法招聘_技能与要求分析
                     "value": 70,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(14,90,121)"
+                            "color": "rgb(23,58,143)"
                         }
                     }
                 },
@@ -10773,7 +10981,7 @@ title: 算法招聘_技能与要求分析
                     "value": 69,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(137,37,138)"
+                            "color": "rgb(57,100,13)"
                         }
                     }
                 },
@@ -10782,7 +10990,7 @@ title: 算法招聘_技能与要求分析
                     "value": 68,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(116,58,42)"
+                            "color": "rgb(28,90,123)"
                         }
                     }
                 },
@@ -10791,7 +10999,7 @@ title: 算法招聘_技能与要求分析
                     "value": 67,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(91,59,112)"
+                            "color": "rgb(151,26,128)"
                         }
                     }
                 },
@@ -10800,7 +11008,7 @@ title: 算法招聘_技能与要求分析
                     "value": 66,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(160,52,115)"
+                            "color": "rgb(80,151,122)"
                         }
                     }
                 },
@@ -10809,7 +11017,7 @@ title: 算法招聘_技能与要求分析
                     "value": 65,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(2,7,116)"
+                            "color": "rgb(151,69,61)"
                         }
                     }
                 },
@@ -10818,7 +11026,7 @@ title: 算法招聘_技能与要求分析
                     "value": 64,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(12,106,64)"
+                            "color": "rgb(160,11,59)"
                         }
                     }
                 },
@@ -10827,7 +11035,7 @@ title: 算法招聘_技能与要求分析
                     "value": 63,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(5,53,34)"
+                            "color": "rgb(150,93,58)"
                         }
                     }
                 },
@@ -10836,7 +11044,7 @@ title: 算法招聘_技能与要求分析
                     "value": 62,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(139,157,119)"
+                            "color": "rgb(77,123,71)"
                         }
                     }
                 },
@@ -10845,7 +11053,7 @@ title: 算法招聘_技能与要求分析
                     "value": 61,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(153,120,20)"
+                            "color": "rgb(0,62,0)"
                         }
                     }
                 }
@@ -10895,12 +11103,12 @@ title: 算法招聘_技能与要求分析
         }
     ]
 };
-        chart_4659f16188ec421abb058dd41d48082e.setOption(option_4659f16188ec421abb058dd41d48082e);
+        chart_dc93e3bca1d04de6a39eb2c43dcc4c2a.setOption(option_dc93e3bca1d04de6a39eb2c43dcc4c2a);
     </script>
-                <div id="a0bdbec0ee3342b8ae7236b42b3d9780" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="e7c2420cf0c448928917731fd8dbf88d" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_a0bdbec0ee3342b8ae7236b42b3d9780 = echarts.init(
-            document.getElementById('a0bdbec0ee3342b8ae7236b42b3d9780'), 'white', {renderer: 'canvas'});
+        var chart_e7c2420cf0c448928917731fd8dbf88d = echarts.init(
+            document.getElementById('e7c2420cf0c448928917731fd8dbf88d'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -10915,7 +11123,7 @@ title: 算法招聘_技能与要求分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_a0bdbec0ee3342b8ae7236b42b3d9780 = {
+        var option_e7c2420cf0c448928917731fd8dbf88d = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -10976,7 +11184,7 @@ title: 算法招聘_技能与要求分析
                     "value": 100,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(154,94,77)"
+                            "color": "rgb(25,38,142)"
                         }
                     }
                 },
@@ -10985,7 +11193,7 @@ title: 算法招聘_技能与要求分析
                     "value": 99,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(156,111,18)"
+                            "color": "rgb(6,12,145)"
                         }
                     }
                 },
@@ -10994,7 +11202,7 @@ title: 算法招聘_技能与要求分析
                     "value": 98,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(131,147,95)"
+                            "color": "rgb(122,114,21)"
                         }
                     }
                 },
@@ -11003,7 +11211,7 @@ title: 算法招聘_技能与要求分析
                     "value": 97,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(140,60,150)"
+                            "color": "rgb(101,83,110)"
                         }
                     }
                 },
@@ -11012,7 +11220,7 @@ title: 算法招聘_技能与要求分析
                     "value": 96,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(45,135,46)"
+                            "color": "rgb(28,39,69)"
                         }
                     }
                 },
@@ -11021,7 +11229,7 @@ title: 算法招聘_技能与要求分析
                     "value": 95,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(111,102,0)"
+                            "color": "rgb(57,143,142)"
                         }
                     }
                 },
@@ -11030,7 +11238,7 @@ title: 算法招聘_技能与要求分析
                     "value": 94,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(26,61,30)"
+                            "color": "rgb(129,141,12)"
                         }
                     }
                 },
@@ -11039,7 +11247,7 @@ title: 算法招聘_技能与要求分析
                     "value": 93,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(106,24,16)"
+                            "color": "rgb(106,11,29)"
                         }
                     }
                 },
@@ -11048,7 +11256,7 @@ title: 算法招聘_技能与要求分析
                     "value": 92,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(39,13,16)"
+                            "color": "rgb(20,45,121)"
                         }
                     }
                 },
@@ -11057,7 +11265,7 @@ title: 算法招聘_技能与要求分析
                     "value": 91,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(70,118,28)"
+                            "color": "rgb(85,68,51)"
                         }
                     }
                 },
@@ -11066,7 +11274,7 @@ title: 算法招聘_技能与要求分析
                     "value": 90,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(56,15,13)"
+                            "color": "rgb(32,68,28)"
                         }
                     }
                 },
@@ -11075,7 +11283,7 @@ title: 算法招聘_技能与要求分析
                     "value": 89,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(130,116,27)"
+                            "color": "rgb(77,53,77)"
                         }
                     }
                 },
@@ -11084,7 +11292,7 @@ title: 算法招聘_技能与要求分析
                     "value": 88,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(47,2,131)"
+                            "color": "rgb(35,123,126)"
                         }
                     }
                 },
@@ -11093,7 +11301,7 @@ title: 算法招聘_技能与要求分析
                     "value": 87,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(38,54,62)"
+                            "color": "rgb(7,89,137)"
                         }
                     }
                 },
@@ -11102,7 +11310,7 @@ title: 算法招聘_技能与要求分析
                     "value": 86,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(158,84,128)"
+                            "color": "rgb(40,44,35)"
                         }
                     }
                 },
@@ -11111,7 +11319,7 @@ title: 算法招聘_技能与要求分析
                     "value": 85,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(142,85,133)"
+                            "color": "rgb(141,100,103)"
                         }
                     }
                 },
@@ -11120,7 +11328,7 @@ title: 算法招聘_技能与要求分析
                     "value": 84,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(89,115,8)"
+                            "color": "rgb(138,29,109)"
                         }
                     }
                 },
@@ -11129,7 +11337,7 @@ title: 算法招聘_技能与要求分析
                     "value": 83,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(17,109,18)"
+                            "color": "rgb(32,138,133)"
                         }
                     }
                 },
@@ -11138,7 +11346,7 @@ title: 算法招聘_技能与要求分析
                     "value": 82,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(147,30,112)"
+                            "color": "rgb(16,58,65)"
                         }
                     }
                 },
@@ -11147,7 +11355,7 @@ title: 算法招聘_技能与要求分析
                     "value": 81,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(55,53,85)"
+                            "color": "rgb(78,66,64)"
                         }
                     }
                 },
@@ -11156,7 +11364,7 @@ title: 算法招聘_技能与要求分析
                     "value": 80,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(39,49,137)"
+                            "color": "rgb(47,21,15)"
                         }
                     }
                 },
@@ -11165,7 +11373,7 @@ title: 算法招聘_技能与要求分析
                     "value": 79,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(160,41,121)"
+                            "color": "rgb(133,40,39)"
                         }
                     }
                 },
@@ -11174,7 +11382,7 @@ title: 算法招聘_技能与要求分析
                     "value": 78,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(88,51,31)"
+                            "color": "rgb(17,72,116)"
                         }
                     }
                 },
@@ -11183,7 +11391,7 @@ title: 算法招聘_技能与要求分析
                     "value": 77,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(129,152,20)"
+                            "color": "rgb(106,66,155)"
                         }
                     }
                 },
@@ -11192,7 +11400,7 @@ title: 算法招聘_技能与要求分析
                     "value": 76,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(26,82,134)"
+                            "color": "rgb(148,92,46)"
                         }
                     }
                 },
@@ -11201,7 +11409,7 @@ title: 算法招聘_技能与要求分析
                     "value": 75,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(1,131,125)"
+                            "color": "rgb(106,72,88)"
                         }
                     }
                 },
@@ -11210,7 +11418,7 @@ title: 算法招聘_技能与要求分析
                     "value": 74,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(5,43,109)"
+                            "color": "rgb(56,75,141)"
                         }
                     }
                 },
@@ -11219,7 +11427,7 @@ title: 算法招聘_技能与要求分析
                     "value": 73,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(130,107,82)"
+                            "color": "rgb(89,25,42)"
                         }
                     }
                 },
@@ -11228,7 +11436,7 @@ title: 算法招聘_技能与要求分析
                     "value": 72,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(141,26,52)"
+                            "color": "rgb(15,25,154)"
                         }
                     }
                 },
@@ -11237,7 +11445,7 @@ title: 算法招聘_技能与要求分析
                     "value": 71,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(52,22,37)"
+                            "color": "rgb(124,70,139)"
                         }
                     }
                 },
@@ -11246,7 +11454,7 @@ title: 算法招聘_技能与要求分析
                     "value": 70,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(136,70,88)"
+                            "color": "rgb(42,129,160)"
                         }
                     }
                 },
@@ -11255,7 +11463,7 @@ title: 算法招聘_技能与要求分析
                     "value": 69,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(90,0,32)"
+                            "color": "rgb(81,3,11)"
                         }
                     }
                 },
@@ -11264,7 +11472,7 @@ title: 算法招聘_技能与要求分析
                     "value": 68,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(28,27,99)"
+                            "color": "rgb(73,49,155)"
                         }
                     }
                 },
@@ -11273,7 +11481,7 @@ title: 算法招聘_技能与要求分析
                     "value": 67,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(103,106,46)"
+                            "color": "rgb(42,35,22)"
                         }
                     }
                 },
@@ -11282,7 +11490,7 @@ title: 算法招聘_技能与要求分析
                     "value": 66,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(116,54,22)"
+                            "color": "rgb(131,75,21)"
                         }
                     }
                 },
@@ -11291,7 +11499,7 @@ title: 算法招聘_技能与要求分析
                     "value": 65,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(65,137,52)"
+                            "color": "rgb(66,147,38)"
                         }
                     }
                 },
@@ -11300,7 +11508,7 @@ title: 算法招聘_技能与要求分析
                     "value": 64,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(82,79,38)"
+                            "color": "rgb(131,101,125)"
                         }
                     }
                 },
@@ -11309,7 +11517,7 @@ title: 算法招聘_技能与要求分析
                     "value": 63,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(110,32,97)"
+                            "color": "rgb(24,16,76)"
                         }
                     }
                 },
@@ -11318,7 +11526,7 @@ title: 算法招聘_技能与要求分析
                     "value": 62,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(99,40,59)"
+                            "color": "rgb(30,24,48)"
                         }
                     }
                 },
@@ -11327,7 +11535,7 @@ title: 算法招聘_技能与要求分析
                     "value": 61,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(55,20,21)"
+                            "color": "rgb(129,14,156)"
                         }
                     }
                 }
@@ -11377,12 +11585,12 @@ title: 算法招聘_技能与要求分析
         }
     ]
 };
-        chart_a0bdbec0ee3342b8ae7236b42b3d9780.setOption(option_a0bdbec0ee3342b8ae7236b42b3d9780);
+        chart_e7c2420cf0c448928917731fd8dbf88d.setOption(option_e7c2420cf0c448928917731fd8dbf88d);
     </script>
-                <div id="67a98595bc664e43b4d6d20fd2118c03" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="3c77926b5fe644449ab6500ad0ed3b6c" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_67a98595bc664e43b4d6d20fd2118c03 = echarts.init(
-            document.getElementById('67a98595bc664e43b4d6d20fd2118c03'), 'white', {renderer: 'canvas'});
+        var chart_3c77926b5fe644449ab6500ad0ed3b6c = echarts.init(
+            document.getElementById('3c77926b5fe644449ab6500ad0ed3b6c'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -11397,7 +11605,7 @@ title: 算法招聘_技能与要求分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_67a98595bc664e43b4d6d20fd2118c03 = {
+        var option_3c77926b5fe644449ab6500ad0ed3b6c = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -11458,7 +11666,7 @@ title: 算法招聘_技能与要求分析
                     "value": 100,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(15,146,100)"
+                            "color": "rgb(137,131,135)"
                         }
                     }
                 },
@@ -11467,7 +11675,7 @@ title: 算法招聘_技能与要求分析
                     "value": 99,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(18,81,50)"
+                            "color": "rgb(116,121,22)"
                         }
                     }
                 },
@@ -11476,7 +11684,7 @@ title: 算法招聘_技能与要求分析
                     "value": 98,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(6,156,73)"
+                            "color": "rgb(152,49,132)"
                         }
                     }
                 },
@@ -11485,7 +11693,7 @@ title: 算法招聘_技能与要求分析
                     "value": 97,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(2,59,50)"
+                            "color": "rgb(92,134,76)"
                         }
                     }
                 },
@@ -11494,7 +11702,7 @@ title: 算法招聘_技能与要求分析
                     "value": 96,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(159,8,14)"
+                            "color": "rgb(122,93,74)"
                         }
                     }
                 },
@@ -11503,7 +11711,7 @@ title: 算法招聘_技能与要求分析
                     "value": 95,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(108,0,112)"
+                            "color": "rgb(133,116,154)"
                         }
                     }
                 },
@@ -11512,7 +11720,7 @@ title: 算法招聘_技能与要求分析
                     "value": 94,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(6,74,126)"
+                            "color": "rgb(61,157,49)"
                         }
                     }
                 },
@@ -11521,7 +11729,7 @@ title: 算法招聘_技能与要求分析
                     "value": 93,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(95,22,32)"
+                            "color": "rgb(81,23,98)"
                         }
                     }
                 },
@@ -11530,7 +11738,7 @@ title: 算法招聘_技能与要求分析
                     "value": 92,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(100,133,152)"
+                            "color": "rgb(160,151,145)"
                         }
                     }
                 },
@@ -11539,7 +11747,7 @@ title: 算法招聘_技能与要求分析
                     "value": 91,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(49,96,152)"
+                            "color": "rgb(39,65,94)"
                         }
                     }
                 },
@@ -11548,7 +11756,7 @@ title: 算法招聘_技能与要求分析
                     "value": 90,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(63,123,132)"
+                            "color": "rgb(122,116,11)"
                         }
                     }
                 },
@@ -11557,7 +11765,7 @@ title: 算法招聘_技能与要求分析
                     "value": 89,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(66,20,35)"
+                            "color": "rgb(156,8,13)"
                         }
                     }
                 },
@@ -11566,7 +11774,7 @@ title: 算法招聘_技能与要求分析
                     "value": 88,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(62,3,70)"
+                            "color": "rgb(145,94,26)"
                         }
                     }
                 },
@@ -11575,7 +11783,7 @@ title: 算法招聘_技能与要求分析
                     "value": 87,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(29,50,7)"
+                            "color": "rgb(139,122,70)"
                         }
                     }
                 },
@@ -11584,7 +11792,7 @@ title: 算法招聘_技能与要求分析
                     "value": 86,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(99,137,104)"
+                            "color": "rgb(55,43,120)"
                         }
                     }
                 },
@@ -11593,7 +11801,7 @@ title: 算法招聘_技能与要求分析
                     "value": 85,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(144,80,152)"
+                            "color": "rgb(159,17,82)"
                         }
                     }
                 },
@@ -11602,7 +11810,7 @@ title: 算法招聘_技能与要求分析
                     "value": 84,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(122,41,144)"
+                            "color": "rgb(42,34,94)"
                         }
                     }
                 },
@@ -11611,7 +11819,7 @@ title: 算法招聘_技能与要求分析
                     "value": 83,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(85,80,156)"
+                            "color": "rgb(150,6,124)"
                         }
                     }
                 },
@@ -11620,7 +11828,7 @@ title: 算法招聘_技能与要求分析
                     "value": 82,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(36,0,49)"
+                            "color": "rgb(94,81,15)"
                         }
                     }
                 },
@@ -11629,7 +11837,7 @@ title: 算法招聘_技能与要求分析
                     "value": 81,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(156,80,111)"
+                            "color": "rgb(98,49,39)"
                         }
                     }
                 },
@@ -11638,7 +11846,7 @@ title: 算法招聘_技能与要求分析
                     "value": 80,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(122,50,114)"
+                            "color": "rgb(94,93,143)"
                         }
                     }
                 },
@@ -11647,7 +11855,7 @@ title: 算法招聘_技能与要求分析
                     "value": 79,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(64,127,113)"
+                            "color": "rgb(60,51,23)"
                         }
                     }
                 },
@@ -11656,7 +11864,7 @@ title: 算法招聘_技能与要求分析
                     "value": 78,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(45,81,34)"
+                            "color": "rgb(50,129,120)"
                         }
                     }
                 },
@@ -11665,7 +11873,7 @@ title: 算法招聘_技能与要求分析
                     "value": 77,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(49,91,62)"
+                            "color": "rgb(41,122,37)"
                         }
                     }
                 },
@@ -11674,7 +11882,7 @@ title: 算法招聘_技能与要求分析
                     "value": 76,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(44,125,57)"
+                            "color": "rgb(63,160,83)"
                         }
                     }
                 },
@@ -11683,7 +11891,7 @@ title: 算法招聘_技能与要求分析
                     "value": 75,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(71,55,97)"
+                            "color": "rgb(105,122,2)"
                         }
                     }
                 },
@@ -11692,7 +11900,7 @@ title: 算法招聘_技能与要求分析
                     "value": 74,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(4,77,52)"
+                            "color": "rgb(48,26,10)"
                         }
                     }
                 },
@@ -11701,7 +11909,7 @@ title: 算法招聘_技能与要求分析
                     "value": 73,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(113,70,19)"
+                            "color": "rgb(119,126,99)"
                         }
                     }
                 },
@@ -11710,7 +11918,7 @@ title: 算法招聘_技能与要求分析
                     "value": 72,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(78,22,57)"
+                            "color": "rgb(91,40,68)"
                         }
                     }
                 },
@@ -11719,7 +11927,7 @@ title: 算法招聘_技能与要求分析
                     "value": 71,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(53,78,77)"
+                            "color": "rgb(90,2,149)"
                         }
                     }
                 },
@@ -11728,7 +11936,7 @@ title: 算法招聘_技能与要求分析
                     "value": 70,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(120,135,42)"
+                            "color": "rgb(79,47,137)"
                         }
                     }
                 },
@@ -11737,7 +11945,7 @@ title: 算法招聘_技能与要求分析
                     "value": 69,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(78,29,112)"
+                            "color": "rgb(44,111,108)"
                         }
                     }
                 },
@@ -11746,7 +11954,7 @@ title: 算法招聘_技能与要求分析
                     "value": 68,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(156,5,70)"
+                            "color": "rgb(18,58,155)"
                         }
                     }
                 },
@@ -11755,7 +11963,7 @@ title: 算法招聘_技能与要求分析
                     "value": 67,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(38,15,63)"
+                            "color": "rgb(157,144,22)"
                         }
                     }
                 },
@@ -11764,7 +11972,7 @@ title: 算法招聘_技能与要求分析
                     "value": 66,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(159,120,72)"
+                            "color": "rgb(42,18,144)"
                         }
                     }
                 },
@@ -11773,7 +11981,7 @@ title: 算法招聘_技能与要求分析
                     "value": 65,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(70,152,53)"
+                            "color": "rgb(67,35,50)"
                         }
                     }
                 },
@@ -11782,7 +11990,7 @@ title: 算法招聘_技能与要求分析
                     "value": 64,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(152,154,66)"
+                            "color": "rgb(22,131,115)"
                         }
                     }
                 },
@@ -11791,7 +11999,7 @@ title: 算法招聘_技能与要求分析
                     "value": 63,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(90,151,39)"
+                            "color": "rgb(64,42,114)"
                         }
                     }
                 },
@@ -11800,7 +12008,7 @@ title: 算法招聘_技能与要求分析
                     "value": 62,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(147,33,22)"
+                            "color": "rgb(27,22,113)"
                         }
                     }
                 },
@@ -11809,7 +12017,7 @@ title: 算法招聘_技能与要求分析
                     "value": 61,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(25,138,9)"
+                            "color": "rgb(33,111,123)"
                         }
                     }
                 }
@@ -11859,12 +12067,12 @@ title: 算法招聘_技能与要求分析
         }
     ]
 };
-        chart_67a98595bc664e43b4d6d20fd2118c03.setOption(option_67a98595bc664e43b4d6d20fd2118c03);
+        chart_3c77926b5fe644449ab6500ad0ed3b6c.setOption(option_3c77926b5fe644449ab6500ad0ed3b6c);
     </script>
-                <div id="6b926fa90a1a42bc8317f0c74b6c0ada" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="3a8156607c12430ca8785e7fba01c002" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_6b926fa90a1a42bc8317f0c74b6c0ada = echarts.init(
-            document.getElementById('6b926fa90a1a42bc8317f0c74b6c0ada'), 'white', {renderer: 'canvas'});
+        var chart_3a8156607c12430ca8785e7fba01c002 = echarts.init(
+            document.getElementById('3a8156607c12430ca8785e7fba01c002'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -11879,7 +12087,7 @@ title: 算法招聘_技能与要求分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_6b926fa90a1a42bc8317f0c74b6c0ada = {
+        var option_3a8156607c12430ca8785e7fba01c002 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -11940,7 +12148,7 @@ title: 算法招聘_技能与要求分析
                     "value": 100,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(100,76,98)"
+                            "color": "rgb(108,24,93)"
                         }
                     }
                 },
@@ -11949,7 +12157,7 @@ title: 算法招聘_技能与要求分析
                     "value": 99,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(64,102,72)"
+                            "color": "rgb(106,68,68)"
                         }
                     }
                 },
@@ -11958,7 +12166,7 @@ title: 算法招聘_技能与要求分析
                     "value": 98,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(144,46,117)"
+                            "color": "rgb(5,16,73)"
                         }
                     }
                 },
@@ -11967,7 +12175,7 @@ title: 算法招聘_技能与要求分析
                     "value": 97,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(5,80,32)"
+                            "color": "rgb(25,128,96)"
                         }
                     }
                 },
@@ -11976,7 +12184,7 @@ title: 算法招聘_技能与要求分析
                     "value": 96,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(96,118,123)"
+                            "color": "rgb(18,11,64)"
                         }
                     }
                 },
@@ -11985,7 +12193,7 @@ title: 算法招聘_技能与要求分析
                     "value": 95,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(32,7,45)"
+                            "color": "rgb(16,129,99)"
                         }
                     }
                 },
@@ -11994,7 +12202,7 @@ title: 算法招聘_技能与要求分析
                     "value": 94,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(21,23,142)"
+                            "color": "rgb(83,47,70)"
                         }
                     }
                 },
@@ -12003,7 +12211,7 @@ title: 算法招聘_技能与要求分析
                     "value": 93,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(50,158,13)"
+                            "color": "rgb(127,92,133)"
                         }
                     }
                 },
@@ -12012,7 +12220,7 @@ title: 算法招聘_技能与要求分析
                     "value": 92,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(128,24,72)"
+                            "color": "rgb(122,65,4)"
                         }
                     }
                 },
@@ -12021,7 +12229,7 @@ title: 算法招聘_技能与要求分析
                     "value": 91,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(73,5,131)"
+                            "color": "rgb(67,21,4)"
                         }
                     }
                 },
@@ -12030,7 +12238,7 @@ title: 算法招聘_技能与要求分析
                     "value": 90,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(52,95,90)"
+                            "color": "rgb(52,36,106)"
                         }
                     }
                 },
@@ -12039,7 +12247,7 @@ title: 算法招聘_技能与要求分析
                     "value": 89,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(45,86,79)"
+                            "color": "rgb(64,106,44)"
                         }
                     }
                 },
@@ -12048,7 +12256,7 @@ title: 算法招聘_技能与要求分析
                     "value": 88,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(135,80,138)"
+                            "color": "rgb(34,101,80)"
                         }
                     }
                 },
@@ -12057,7 +12265,7 @@ title: 算法招聘_技能与要求分析
                     "value": 87,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(91,30,102)"
+                            "color": "rgb(81,100,101)"
                         }
                     }
                 },
@@ -12066,7 +12274,7 @@ title: 算法招聘_技能与要求分析
                     "value": 86,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(7,86,149)"
+                            "color": "rgb(65,114,57)"
                         }
                     }
                 },
@@ -12075,7 +12283,7 @@ title: 算法招聘_技能与要求分析
                     "value": 85,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(115,131,9)"
+                            "color": "rgb(29,2,116)"
                         }
                     }
                 },
@@ -12084,7 +12292,7 @@ title: 算法招聘_技能与要求分析
                     "value": 84,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(113,153,30)"
+                            "color": "rgb(52,89,101)"
                         }
                     }
                 },
@@ -12093,7 +12301,7 @@ title: 算法招聘_技能与要求分析
                     "value": 83,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(42,26,115)"
+                            "color": "rgb(126,85,90)"
                         }
                     }
                 },
@@ -12102,7 +12310,7 @@ title: 算法招聘_技能与要求分析
                     "value": 82,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(47,147,145)"
+                            "color": "rgb(54,88,154)"
                         }
                     }
                 },
@@ -12111,7 +12319,7 @@ title: 算法招聘_技能与要求分析
                     "value": 81,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(135,100,14)"
+                            "color": "rgb(94,0,17)"
                         }
                     }
                 },
@@ -12120,7 +12328,7 @@ title: 算法招聘_技能与要求分析
                     "value": 80,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(86,24,58)"
+                            "color": "rgb(55,104,34)"
                         }
                     }
                 },
@@ -12129,7 +12337,7 @@ title: 算法招聘_技能与要求分析
                     "value": 79,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(108,59,28)"
+                            "color": "rgb(147,115,48)"
                         }
                     }
                 },
@@ -12138,7 +12346,7 @@ title: 算法招聘_技能与要求分析
                     "value": 78,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(153,70,112)"
+                            "color": "rgb(1,1,12)"
                         }
                     }
                 },
@@ -12147,7 +12355,7 @@ title: 算法招聘_技能与要求分析
                     "value": 77,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(146,30,65)"
+                            "color": "rgb(17,120,56)"
                         }
                     }
                 },
@@ -12156,7 +12364,7 @@ title: 算法招聘_技能与要求分析
                     "value": 76,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(90,8,94)"
+                            "color": "rgb(124,32,100)"
                         }
                     }
                 },
@@ -12165,7 +12373,7 @@ title: 算法招聘_技能与要求分析
                     "value": 75,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(28,105,142)"
+                            "color": "rgb(30,43,80)"
                         }
                     }
                 },
@@ -12174,7 +12382,7 @@ title: 算法招聘_技能与要求分析
                     "value": 74,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(135,114,31)"
+                            "color": "rgb(146,38,94)"
                         }
                     }
                 },
@@ -12183,7 +12391,7 @@ title: 算法招聘_技能与要求分析
                     "value": 73,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(1,87,77)"
+                            "color": "rgb(60,160,14)"
                         }
                     }
                 },
@@ -12192,7 +12400,7 @@ title: 算法招聘_技能与要求分析
                     "value": 72,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(75,94,57)"
+                            "color": "rgb(48,32,4)"
                         }
                     }
                 },
@@ -12201,7 +12409,7 @@ title: 算法招聘_技能与要求分析
                     "value": 71,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(149,36,48)"
+                            "color": "rgb(143,98,132)"
                         }
                     }
                 },
@@ -12210,7 +12418,7 @@ title: 算法招聘_技能与要求分析
                     "value": 70,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(115,40,113)"
+                            "color": "rgb(32,112,117)"
                         }
                     }
                 },
@@ -12219,7 +12427,7 @@ title: 算法招聘_技能与要求分析
                     "value": 69,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(140,41,13)"
+                            "color": "rgb(45,120,128)"
                         }
                     }
                 },
@@ -12228,7 +12436,7 @@ title: 算法招聘_技能与要求分析
                     "value": 68,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(58,95,40)"
+                            "color": "rgb(40,39,13)"
                         }
                     }
                 },
@@ -12237,7 +12445,7 @@ title: 算法招聘_技能与要求分析
                     "value": 67,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(133,112,101)"
+                            "color": "rgb(72,113,134)"
                         }
                     }
                 },
@@ -12246,7 +12454,7 @@ title: 算法招聘_技能与要求分析
                     "value": 66,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(44,155,3)"
+                            "color": "rgb(49,35,28)"
                         }
                     }
                 },
@@ -12255,7 +12463,7 @@ title: 算法招聘_技能与要求分析
                     "value": 65,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(33,45,159)"
+                            "color": "rgb(74,113,21)"
                         }
                     }
                 },
@@ -12264,7 +12472,7 @@ title: 算法招聘_技能与要求分析
                     "value": 64,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(38,44,122)"
+                            "color": "rgb(122,148,69)"
                         }
                     }
                 },
@@ -12273,7 +12481,7 @@ title: 算法招聘_技能与要求分析
                     "value": 63,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(19,147,122)"
+                            "color": "rgb(37,47,37)"
                         }
                     }
                 },
@@ -12282,7 +12490,7 @@ title: 算法招聘_技能与要求分析
                     "value": 62,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(55,76,158)"
+                            "color": "rgb(143,83,13)"
                         }
                     }
                 },
@@ -12291,7 +12499,7 @@ title: 算法招聘_技能与要求分析
                     "value": 61,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(44,131,33)"
+                            "color": "rgb(131,19,81)"
                         }
                     }
                 }
@@ -12341,12 +12549,12 @@ title: 算法招聘_技能与要求分析
         }
     ]
 };
-        chart_6b926fa90a1a42bc8317f0c74b6c0ada.setOption(option_6b926fa90a1a42bc8317f0c74b6c0ada);
+        chart_3a8156607c12430ca8785e7fba01c002.setOption(option_3a8156607c12430ca8785e7fba01c002);
     </script>
-                <div id="b439a2503efd4ed1b95f59fdd1ee1c8d" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="19b1de2f5cdf4d7cba0c64e04fc61bd2" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_b439a2503efd4ed1b95f59fdd1ee1c8d = echarts.init(
-            document.getElementById('b439a2503efd4ed1b95f59fdd1ee1c8d'), 'white', {renderer: 'canvas'});
+        var chart_19b1de2f5cdf4d7cba0c64e04fc61bd2 = echarts.init(
+            document.getElementById('19b1de2f5cdf4d7cba0c64e04fc61bd2'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -12361,7 +12569,7 @@ title: 算法招聘_技能与要求分析
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_b439a2503efd4ed1b95f59fdd1ee1c8d = {
+        var option_19b1de2f5cdf4d7cba0c64e04fc61bd2 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -12422,7 +12630,7 @@ title: 算法招聘_技能与要求分析
                     "value": 100,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(67,108,118)"
+                            "color": "rgb(137,8,30)"
                         }
                     }
                 },
@@ -12431,7 +12639,7 @@ title: 算法招聘_技能与要求分析
                     "value": 99,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(116,108,33)"
+                            "color": "rgb(36,12,155)"
                         }
                     }
                 },
@@ -12440,7 +12648,7 @@ title: 算法招聘_技能与要求分析
                     "value": 98,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(43,143,122)"
+                            "color": "rgb(31,44,99)"
                         }
                     }
                 },
@@ -12449,7 +12657,7 @@ title: 算法招聘_技能与要求分析
                     "value": 97,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(24,115,47)"
+                            "color": "rgb(104,72,119)"
                         }
                     }
                 },
@@ -12458,7 +12666,7 @@ title: 算法招聘_技能与要求分析
                     "value": 96,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(125,136,121)"
+                            "color": "rgb(58,25,138)"
                         }
                     }
                 },
@@ -12467,7 +12675,7 @@ title: 算法招聘_技能与要求分析
                     "value": 95,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(31,147,82)"
+                            "color": "rgb(23,145,78)"
                         }
                     }
                 },
@@ -12476,7 +12684,7 @@ title: 算法招聘_技能与要求分析
                     "value": 94,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(61,43,101)"
+                            "color": "rgb(152,57,93)"
                         }
                     }
                 },
@@ -12485,7 +12693,7 @@ title: 算法招聘_技能与要求分析
                     "value": 93,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(42,103,93)"
+                            "color": "rgb(118,14,84)"
                         }
                     }
                 },
@@ -12494,7 +12702,7 @@ title: 算法招聘_技能与要求分析
                     "value": 92,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(64,54,113)"
+                            "color": "rgb(108,39,156)"
                         }
                     }
                 },
@@ -12503,7 +12711,7 @@ title: 算法招聘_技能与要求分析
                     "value": 91,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(70,69,117)"
+                            "color": "rgb(108,13,125)"
                         }
                     }
                 },
@@ -12512,7 +12720,7 @@ title: 算法招聘_技能与要求分析
                     "value": 90,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(7,10,59)"
+                            "color": "rgb(126,112,102)"
                         }
                     }
                 },
@@ -12521,7 +12729,7 @@ title: 算法招聘_技能与要求分析
                     "value": 89,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(92,40,83)"
+                            "color": "rgb(115,93,84)"
                         }
                     }
                 },
@@ -12530,7 +12738,7 @@ title: 算法招聘_技能与要求分析
                     "value": 88,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(52,6,68)"
+                            "color": "rgb(63,47,122)"
                         }
                     }
                 },
@@ -12539,7 +12747,7 @@ title: 算法招聘_技能与要求分析
                     "value": 87,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(136,85,134)"
+                            "color": "rgb(21,37,69)"
                         }
                     }
                 },
@@ -12548,7 +12756,7 @@ title: 算法招聘_技能与要求分析
                     "value": 86,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(35,49,26)"
+                            "color": "rgb(14,105,142)"
                         }
                     }
                 },
@@ -12557,7 +12765,7 @@ title: 算法招聘_技能与要求分析
                     "value": 85,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(112,20,20)"
+                            "color": "rgb(110,155,73)"
                         }
                     }
                 },
@@ -12566,7 +12774,7 @@ title: 算法招聘_技能与要求分析
                     "value": 84,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(156,71,133)"
+                            "color": "rgb(66,102,99)"
                         }
                     }
                 },
@@ -12575,7 +12783,7 @@ title: 算法招聘_技能与要求分析
                     "value": 83,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(97,126,35)"
+                            "color": "rgb(114,65,4)"
                         }
                     }
                 },
@@ -12584,7 +12792,7 @@ title: 算法招聘_技能与要求分析
                     "value": 82,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(51,21,19)"
+                            "color": "rgb(106,76,137)"
                         }
                     }
                 },
@@ -12593,7 +12801,7 @@ title: 算法招聘_技能与要求分析
                     "value": 81,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(30,157,131)"
+                            "color": "rgb(58,11,63)"
                         }
                     }
                 },
@@ -12602,7 +12810,7 @@ title: 算法招聘_技能与要求分析
                     "value": 80,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(12,66,125)"
+                            "color": "rgb(84,125,154)"
                         }
                     }
                 },
@@ -12611,7 +12819,7 @@ title: 算法招聘_技能与要求分析
                     "value": 79,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(63,42,151)"
+                            "color": "rgb(147,150,47)"
                         }
                     }
                 },
@@ -12620,7 +12828,7 @@ title: 算法招聘_技能与要求分析
                     "value": 78,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(31,137,160)"
+                            "color": "rgb(41,145,33)"
                         }
                     }
                 },
@@ -12629,7 +12837,7 @@ title: 算法招聘_技能与要求分析
                     "value": 77,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(93,53,53)"
+                            "color": "rgb(94,18,2)"
                         }
                     }
                 },
@@ -12638,7 +12846,7 @@ title: 算法招聘_技能与要求分析
                     "value": 76,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(36,21,92)"
+                            "color": "rgb(66,47,119)"
                         }
                     }
                 },
@@ -12647,7 +12855,7 @@ title: 算法招聘_技能与要求分析
                     "value": 75,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(25,101,33)"
+                            "color": "rgb(118,52,104)"
                         }
                     }
                 },
@@ -12656,7 +12864,7 @@ title: 算法招聘_技能与要求分析
                     "value": 74,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(46,113,13)"
+                            "color": "rgb(76,146,44)"
                         }
                     }
                 },
@@ -12665,7 +12873,7 @@ title: 算法招聘_技能与要求分析
                     "value": 73,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(110,62,107)"
+                            "color": "rgb(47,133,100)"
                         }
                     }
                 },
@@ -12674,7 +12882,7 @@ title: 算法招聘_技能与要求分析
                     "value": 72,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(20,137,157)"
+                            "color": "rgb(43,43,30)"
                         }
                     }
                 },
@@ -12683,7 +12891,7 @@ title: 算法招聘_技能与要求分析
                     "value": 71,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(151,9,158)"
+                            "color": "rgb(156,68,124)"
                         }
                     }
                 },
@@ -12692,7 +12900,7 @@ title: 算法招聘_技能与要求分析
                     "value": 70,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(28,16,18)"
+                            "color": "rgb(86,100,14)"
                         }
                     }
                 },
@@ -12701,7 +12909,7 @@ title: 算法招聘_技能与要求分析
                     "value": 69,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(98,7,15)"
+                            "color": "rgb(13,65,139)"
                         }
                     }
                 },
@@ -12710,7 +12918,7 @@ title: 算法招聘_技能与要求分析
                     "value": 68,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(5,142,137)"
+                            "color": "rgb(116,122,8)"
                         }
                     }
                 },
@@ -12719,7 +12927,7 @@ title: 算法招聘_技能与要求分析
                     "value": 67,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(144,109,81)"
+                            "color": "rgb(151,130,90)"
                         }
                     }
                 },
@@ -12728,7 +12936,7 @@ title: 算法招聘_技能与要求分析
                     "value": 66,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(139,112,98)"
+                            "color": "rgb(133,24,15)"
                         }
                     }
                 },
@@ -12737,7 +12945,7 @@ title: 算法招聘_技能与要求分析
                     "value": 65,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(159,111,77)"
+                            "color": "rgb(37,146,72)"
                         }
                     }
                 },
@@ -12746,7 +12954,7 @@ title: 算法招聘_技能与要求分析
                     "value": 64,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(62,25,50)"
+                            "color": "rgb(2,152,2)"
                         }
                     }
                 },
@@ -12755,7 +12963,7 @@ title: 算法招聘_技能与要求分析
                     "value": 63,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(1,87,140)"
+                            "color": "rgb(13,45,48)"
                         }
                     }
                 },
@@ -12764,7 +12972,7 @@ title: 算法招聘_技能与要求分析
                     "value": 62,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(127,56,12)"
+                            "color": "rgb(123,63,66)"
                         }
                     }
                 },
@@ -12773,7 +12981,7 @@ title: 算法招聘_技能与要求分析
                     "value": 61,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(52,45,94)"
+                            "color": "rgb(86,136,43)"
                         }
                     }
                 }
@@ -12823,7 +13031,7 @@ title: 算法招聘_技能与要求分析
         }
     ]
 };
-        chart_b439a2503efd4ed1b95f59fdd1ee1c8d.setOption(option_b439a2503efd4ed1b95f59fdd1ee1c8d);
+        chart_19b1de2f5cdf4d7cba0c64e04fc61bd2.setOption(option_19b1de2f5cdf4d7cba0c64e04fc61bd2);
     </script>
     </div>
 
