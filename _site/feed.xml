@@ -5,9 +5,132 @@
     <description>world about machine learning and artificial intelligence</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Jun 2021 12:29:28 +0800</pubDate>
-    <lastBuildDate>Fri, 18 Jun 2021 12:29:28 +0800</lastBuildDate>
+    <pubDate>Fri, 18 Jun 2021 16:22:23 +0800</pubDate>
+    <lastBuildDate>Fri, 18 Jun 2021 16:22:23 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>AI速查表全集</title>
+        <description>&lt;h1 id=&quot;ai速查表全集&quot;&gt;AI速查表全集&lt;/h1&gt;
+&lt;p&gt;AI与数据科学各类工具库相关速查表与参考代码，可用于快速解决各类场景问题与建模应用。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;作者：&lt;a href=&quot;https://github.com/HanXinzi-AI&quot;&gt;韩信子&lt;/a&gt;@&lt;a href=&quot;https://github.com/ShowMeAI-Hub&quot;&gt;ShowMeAI&lt;/a&gt;&lt;/strong&gt;
+&lt;strong&gt;设计：南乔@&lt;a href=&quot;https://github.com/ShowMeAI-Hub&quot;&gt;ShowMeAI&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;目录&quot;&gt;目录&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#ai速查表全集&quot;&gt;AI速查表全集&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#速查表速览&quot;&gt;速查表速览&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#工具与平台&quot;&gt;工具与平台&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#jupyter-notebook&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/JupyterNotebook&quot;&gt;Jupyter Notebook&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#编程语言&quot;&gt;编程语言&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#python&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Python&quot;&gt;Python&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#科学计算&quot;&gt;科学计算&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#numpy&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Numpy&quot;&gt;Numpy&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#scipy&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scipy&quot;&gt;Scipy&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#数据分析与处理&quot;&gt;数据分析与处理&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#importing-data&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Importing%20Data&quot;&gt;Importing Data&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#pandas&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Pandas&quot;&gt;Pandas&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#数据可视化&quot;&gt;数据可视化&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#matplotlib&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Matplotlib&quot;&gt;Matplotlib&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#seaborn&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Seaborn&quot;&gt;Seaborn&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#bokeh&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Bokeh&quot;&gt;Bokeh&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#大数据&quot;&gt;大数据&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#spark&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Spark&quot;&gt;Spark&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#机器学习&quot;&gt;机器学习&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#scikit-learn&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scikit-Learn&quot;&gt;Scikit-Learn&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#深度学习&quot;&gt;深度学习&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#keras&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Keras&quot;&gt;Keras&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;速查表速览&quot;&gt;速查表速览&lt;/h2&gt;
+
+&lt;h3 id=&quot;工具与平台&quot;&gt;工具与平台&lt;/h3&gt;
+
+&lt;h4 id=&quot;jupyter-notebook&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/JupyterNotebook&quot;&gt;Jupyter Notebook&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmheh2b5lj31fm10ck71.jpg&quot; alt=&quot;jupyter.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;编程语言&quot;&gt;编程语言&lt;/h3&gt;
+
+&lt;h4 id=&quot;python&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Python&quot;&gt;Python&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhgnvlo8j31fi10stw2.jpg&quot; alt=&quot;python.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;科学计算&quot;&gt;科学计算&lt;/h3&gt;
+
+&lt;h4 id=&quot;numpy&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Numpy&quot;&gt;Numpy&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhh8jzscj31fg1021a4.jpg&quot; alt=&quot;numpy.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;scipy&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scipy&quot;&gt;Scipy&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi800noj31fe100h14.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;数据分析与处理&quot;&gt;数据分析与处理&lt;/h3&gt;
+
+&lt;h4 id=&quot;importing-data&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Importing%20Data&quot;&gt;Importing Data&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhjptab5j31fg0zy7gu.jpg&quot; alt=&quot;dataIO.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;pandas&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Pandas&quot;&gt;Pandas&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi3v8cvj31fg0zw4ck.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;数据可视化&quot;&gt;数据可视化&lt;/h3&gt;
+
+&lt;h4 id=&quot;matplotlib&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Matplotlib&quot;&gt;Matplotlib&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi3mnhjj31fe0zydwh.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;seaborn&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Seaborn&quot;&gt;Seaborn&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6s7adj31fi0zy4gd.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;bokeh&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Bokeh&quot;&gt;Bokeh&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi66xv4j31fi0zugyc.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;大数据&quot;&gt;大数据&lt;/h3&gt;
+&lt;h4 id=&quot;spark&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Spark&quot;&gt;Spark&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhlj26yoj31fe0t8gwr.jpg&quot; alt=&quot;spark.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;机器学习&quot;&gt;机器学习&lt;/h3&gt;
+&lt;h4 id=&quot;scikit-learn&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scikit-Learn&quot;&gt;Scikit-Learn&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhl9crtuj31fi0zqtjk.jpg&quot; alt=&quot;sklearn.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;深度学习&quot;&gt;深度学习&lt;/h3&gt;
+&lt;h4 id=&quot;keras&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Keras&quot;&gt;Keras&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6fd9nj31fe0zy175.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 18 Jun 2021 00:00:00 +0800</pubDate>
+        <link>/2021/06/18/awesome-ai-cheatsheets-resources.html</link>
+        <guid isPermaLink="true">/2021/06/18/awesome-ai-cheatsheets-resources.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>算法招聘_典型招聘信息</title>
