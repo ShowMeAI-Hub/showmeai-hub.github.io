@@ -5,7 +5,7 @@ title: AI速查表全集
 # AI速查表全集
 AI与数据科学各类工具库相关速查表与参考代码，可用于快速解决各类场景问题与建模应用。
 
-**作者：[韩信子](https://github.com/HanXinzi-AI)@[ShowMeAI](https://github.com/ShowMeAI-Hub)**
+**作者：[韩信子](https://github.com/HanXinzi-AI)@[ShowMeAI](https://github.com/ShowMeAI-Hub)**</br>
 **设计：南乔@[ShowMeAI](https://github.com/ShowMeAI-Hub)**
 
 目录

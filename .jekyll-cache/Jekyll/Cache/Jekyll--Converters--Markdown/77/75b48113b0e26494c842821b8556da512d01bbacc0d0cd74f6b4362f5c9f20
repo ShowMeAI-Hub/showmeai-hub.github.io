@@ -1,12 +1,6 @@
----
-title: 算法招聘_技能与要求分析
----
-
-
-
-<html>
+I"3�<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Awesome-pyecharts</title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
         <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-wordcloud.min.js"></script>
@@ -53,7 +47,7 @@ title: 算法招聘_技能与要求分析
     <button class="button">典型JD</button>
 </a>
 
-<p style="clear:both"><br></p>
+<p style="clear:both"><br /></p>
 
 
 </body>
@@ -13686,3 +13680,4 @@ title: 算法招聘_技能与要求分析
     </script>
 </body>
 </html>
+:ET
