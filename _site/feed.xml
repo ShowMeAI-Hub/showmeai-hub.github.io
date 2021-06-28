@@ -5,9 +5,161 @@
     <description>world about machine learning and artificial intelligence</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Jun 2021 20:21:02 +0800</pubDate>
-    <lastBuildDate>Thu, 24 Jun 2021 20:21:02 +0800</lastBuildDate>
+    <pubDate>Mon, 28 Jun 2021 16:11:24 +0800</pubDate>
+    <lastBuildDate>Mon, 28 Jun 2021 16:11:24 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>斯坦福CS230深度学习课程笔记</title>
+        <description>&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;generator&quot; content=&quot;pandoc&quot; /&gt;
+  &lt;title&gt;cs230&lt;/title&gt;
+  &lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+  &lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/reveal.js@^4//dist/reset.css&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/reveal.js@^4//dist/reveal.css&quot; /&gt;
+  &lt;style&gt;
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  &lt;/style&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/reveal.js@^4//dist/theme/black.css&quot; id=&quot;theme&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;reveal&quot;&gt;
+    &lt;div class=&quot;slides&quot;&gt;
+
+
+&lt;section&gt;
+&lt;section id=&quot;section&quot; class=&quot;title-slide slide level1&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0sj6cv4j319u0zfwyi.jpg&quot; alt=&quot;0001.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0001.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-1&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0shahilj319u0zfwz1.jpg&quot; alt=&quot;0002.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0002.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-2&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0sk75jmj319u0zfqn6.jpg&quot; alt=&quot;0003.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0003.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-3&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0sijahsj319u0zfx0h.jpg&quot; alt=&quot;0004.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0004.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-4&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0sjpih6j319u0zfh7o.jpg&quot; alt=&quot;0005.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0005.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-5&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0sh2t6oj319u0zfaof.jpg&quot; alt=&quot;0006.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0006.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-6&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0smwod7j319u0zfqog.jpg&quot; alt=&quot;0007.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0007.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;&lt;/section&gt;
+&lt;section&gt;
+&lt;section id=&quot;section-7&quot; class=&quot;title-slide slide level1&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0uscdjcj319u0zf7k9.jpg&quot; alt=&quot;0001.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0001.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-8&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0usqhfrj319u0zfqm0.jpg&quot; alt=&quot;0002.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0002.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-9&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0utnkvbj319u0zftrc.jpg&quot; alt=&quot;0003.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0003.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-10&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0uqicucj319u0zfqio.jpg&quot; alt=&quot;0004.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0004.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-11&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0uyuo8ij319u0zfk8z.jpg&quot; alt=&quot;0005.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0005.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-12&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0uuqxdzj319u0zfavk.jpg&quot; alt=&quot;0006.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0006.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;&lt;/section&gt;
+&lt;section&gt;
+&lt;section id=&quot;section-13&quot; class=&quot;title-slide slide level1&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0vqs9qgj319u0zfav7.jpg&quot; alt=&quot;0001.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0001.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-14&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0vvfvinj319u0zfh77.jpg&quot; alt=&quot;0002.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0002.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-15&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0vux2qjj319u0zfkbq.jpg&quot; alt=&quot;0003.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0003.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;section-16&quot; class=&quot;slide level2&quot;&gt;
+&lt;figure&gt;
+&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0vqfhbaj319u0zf7pu.jpg&quot; alt=&quot;0004.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0004.jpg&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;&lt;/section&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;script src=&quot;https://unpkg.com/reveal.js@^4//dist/reveal.js&quot;&gt;&lt;/script&gt;
+
+  // reveal.js plugins
+  &lt;script src=&quot;https://unpkg.com/reveal.js@^4//plugin/notes/notes.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://unpkg.com/reveal.js@^4//plugin/search/search.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js&quot;&gt;&lt;/script&gt;
+
+  &lt;script&gt;
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    &lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</description>
+        <pubDate>Sun, 27 Jun 2021 00:00:00 +0800</pubDate>
+        <link>/2021/06/27/cs230-notes.html</link>
+        <guid isPermaLink="true">/2021/06/27/cs230-notes.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>AI速查表全集</title>
