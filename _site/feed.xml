@@ -5,8 +5,8 @@
     <description>world about machine learning and artificial intelligence</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Jun 2021 16:11:24 +0800</pubDate>
-    <lastBuildDate>Mon, 28 Jun 2021 16:11:24 +0800</lastBuildDate>
+    <pubDate>Mon, 28 Jun 2021 16:20:18 +0800</pubDate>
+    <lastBuildDate>Mon, 28 Jun 2021 16:20:18 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -15,7 +15,7 @@
 &lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot; /&gt;
   &lt;meta name=&quot;generator&quot; content=&quot;pandoc&quot; /&gt;
-  &lt;title&gt;cs230&lt;/title&gt;
+  &lt;title&gt;cs230-1&lt;/title&gt;
   &lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
   &lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
   &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui&quot; /&gt;
@@ -40,89 +40,89 @@
 &lt;section&gt;
 &lt;section id=&quot;section&quot; class=&quot;title-slide slide level1&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0sj6cv4j319u0zfwyi.jpg&quot; alt=&quot;0001.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0001.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Convolutional-Neural-Networks/image/0001.jpg&quot; alt=&quot;0001.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0001.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-1&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0shahilj319u0zfwz1.jpg&quot; alt=&quot;0002.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0002.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Convolutional-Neural-Networks/image/0002.jpg&quot; alt=&quot;0002.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0002.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-2&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0sk75jmj319u0zfqn6.jpg&quot; alt=&quot;0003.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0003.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Convolutional-Neural-Networks/image/0003.jpg&quot; alt=&quot;0003.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0003.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-3&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0sijahsj319u0zfx0h.jpg&quot; alt=&quot;0004.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0004.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Convolutional-Neural-Networks/image/0004.jpg&quot; alt=&quot;0004.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0004.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-4&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0sjpih6j319u0zfh7o.jpg&quot; alt=&quot;0005.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0005.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Convolutional-Neural-Networks/image/0005.jpg&quot; alt=&quot;0005.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0005.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-5&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0sh2t6oj319u0zfaof.jpg&quot; alt=&quot;0006.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0006.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Convolutional-Neural-Networks/image/0006.jpg&quot; alt=&quot;0006.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0006.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-6&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0smwod7j319u0zfqog.jpg&quot; alt=&quot;0007.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0007.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Convolutional-Neural-Networks/image/0007.jpg&quot; alt=&quot;0007.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0007.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;&lt;/section&gt;
 &lt;section&gt;
 &lt;section id=&quot;section-7&quot; class=&quot;title-slide slide level1&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0uscdjcj319u0zf7k9.jpg&quot; alt=&quot;0001.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0001.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Recurrent-Neural-Networks/image/0001.jpg&quot; alt=&quot;0001.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0001.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-8&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0usqhfrj319u0zfqm0.jpg&quot; alt=&quot;0002.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0002.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Recurrent-Neural-Networks/image/0002.jpg&quot; alt=&quot;0002.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0002.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-9&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0utnkvbj319u0zftrc.jpg&quot; alt=&quot;0003.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0003.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Recurrent-Neural-Networks/image/0003.jpg&quot; alt=&quot;0003.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0003.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-10&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0uqicucj319u0zfqio.jpg&quot; alt=&quot;0004.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0004.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Recurrent-Neural-Networks/image/0004.jpg&quot; alt=&quot;0004.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0004.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-11&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0uyuo8ij319u0zfk8z.jpg&quot; alt=&quot;0005.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0005.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Recurrent-Neural-Networks/image/0005.jpg&quot; alt=&quot;0005.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0005.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-12&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0uuqxdzj319u0zfavk.jpg&quot; alt=&quot;0006.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0006.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Recurrent-Neural-Networks/image/0006.jpg&quot; alt=&quot;0006.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0006.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;&lt;/section&gt;
 &lt;section&gt;
 &lt;section id=&quot;section-13&quot; class=&quot;title-slide slide level1&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0vqs9qgj319u0zfav7.jpg&quot; alt=&quot;0001.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0001.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Deep-Learning-Tips-and-Tricks/image/0001.jpg&quot; alt=&quot;0001.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0001.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-14&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0vvfvinj319u0zfh77.jpg&quot; alt=&quot;0002.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0002.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Deep-Learning-Tips-and-Tricks/image/0002.jpg&quot; alt=&quot;0002.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0002.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-15&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0vux2qjj319u0zfkbq.jpg&quot; alt=&quot;0003.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0003.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Deep-Learning-Tips-and-Tricks/image/0003.jpg&quot; alt=&quot;0003.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0003.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id=&quot;section-16&quot; class=&quot;slide level2&quot;&gt;
 &lt;figure&gt;
-&lt;img data-src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gry0vqfhbaj319u0zf7pu.jpg&quot; alt=&quot;0004.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0004.jpg&lt;/figcaption&gt;
+&lt;img data-src=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/raw/main/CS230-Deep-Learning/Deep-Learning-Tips-and-Tricks/image/0004.jpg&quot; alt=&quot;0004.jpg&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;0004.jpg&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;&lt;/section&gt;
     &lt;/div&gt;
