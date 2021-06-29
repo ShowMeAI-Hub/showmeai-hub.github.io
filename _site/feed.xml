@@ -3,11 +3,11 @@
   <channel>
     <title>Algorithm</title>
     <description>world about machine learning and artificial intelligence</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Jun 2021 16:29:07 +0800</pubDate>
-    <lastBuildDate>Mon, 28 Jun 2021 16:29:07 +0800</lastBuildDate>
-    <generator>Jekyll v4.2.0</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 29 Jun 2021 01:09:04 +0800</pubDate>
+    <lastBuildDate>Tue, 29 Jun 2021 01:09:04 +0800</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>AI速查表全集</title>
@@ -126,8 +126,8 @@
 &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6fd9nj31fe0zy175.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 18 Jun 2021 00:00:00 +0800</pubDate>
-        <link>/2021/06/18/awesome-ai-cheatsheets-resources.html</link>
-        <guid isPermaLink="true">/2021/06/18/awesome-ai-cheatsheets-resources.html</guid>
+        <link>http://localhost:4000/2021/06/18/awesome-ai-cheatsheets-resources.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/06/18/awesome-ai-cheatsheets-resources.html</guid>
         
         
       </item>
@@ -1051,8 +1051,8 @@
 &lt;/html&gt;
 </description>
         <pubDate>Thu, 13 May 2021 00:00:00 +0800</pubDate>
-        <link>/2021/05/13/recent_jds.html</link>
-        <guid isPermaLink="true">/2021/05/13/recent_jds.html</guid>
+        <link>http://localhost:4000/2021/05/13/recent_jds.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/05/13/recent_jds.html</guid>
         
         
       </item>
@@ -4754,8 +4754,8 @@
 &lt;/html&gt;
 </description>
         <pubDate>Thu, 13 May 2021 00:00:00 +0800</pubDate>
-        <link>/2021/05/13/job_data_analysis.html</link>
-        <guid isPermaLink="true">/2021/05/13/job_data_analysis.html</guid>
+        <link>http://localhost:4000/2021/05/13/job_data_analysis.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/05/13/job_data_analysis.html</guid>
         
         
       </item>
@@ -18069,8 +18069,8 @@
 &lt;/html&gt;
 </description>
         <pubDate>Thu, 13 May 2021 00:00:00 +0800</pubDate>
-        <link>/2021/05/13/job_analysis_skills.html</link>
-        <guid isPermaLink="true">/2021/05/13/job_analysis_skills.html</guid>
+        <link>http://localhost:4000/2021/05/13/job_analysis_skills.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/05/13/job_analysis_skills.html</guid>
         
         
       </item>
@@ -49637,8 +49637,8 @@
 &lt;/html&gt;
 </description>
         <pubDate>Thu, 13 May 2021 00:00:00 +0800</pubDate>
-        <link>/2021/05/13/job_analysis_company.html</link>
-        <guid isPermaLink="true">/2021/05/13/job_analysis_company.html</guid>
+        <link>http://localhost:4000/2021/05/13/job_analysis_company.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/05/13/job_analysis_company.html</guid>
         
         
       </item>
@@ -60799,8 +60799,8 @@ _用于连接，操作和查询数据库的库。_
 &lt;/code&gt;&lt;/summary&gt;&lt;/details&gt;
 </description>
         <pubDate>Sun, 25 Apr 2021 10:55:00 +0800</pubDate>
-        <link>/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/python%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</link>
-        <guid isPermaLink="true">/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/python%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</guid>
+        <link>http://localhost:4000/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/python%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/python%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</guid>
         
         <category>工具库与资源</category>
         
@@ -64606,8 +64606,8 @@ _用于连接，操作和查询数据库的库。_
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 25 Apr 2021 10:55:00 +0800</pubDate>
-        <link>/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/jupyter%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</link>
-        <guid isPermaLink="true">/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/jupyter%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</guid>
+        <link>http://localhost:4000/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/jupyter%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/jupyter%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html</guid>
         
         <category>工具库与资源</category>
         
