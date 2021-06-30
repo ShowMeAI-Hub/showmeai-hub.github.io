@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>cs229-notes</title>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section ><section data-markdown><script type="text/template"><img src="http://hub.show-me-ai.com/cs229-Supervised-Learning/0001.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<img src="http://hub.show-me-ai.com/cs229-Supervised-Learning/0002.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/cs229-Supervised-Learning/0003.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/cs229-Supervised-Learning/0004.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/cs229-Supervised-Learning/0005.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/cs229-Supervised-Learning/0006.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/cs229-Supervised-Learning/0007.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<img src="http://hub.show-me-ai.com/cs229-Unsupervised-Learning/0001.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/cs229-Unsupervised-Learning/0002.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/cs229-Unsupervised-Learning/0003.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/cs229-Unsupervised-Learning/0004.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<img src="http://hub.show-me-ai.com/cs229-deep-learning/0001.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/cs229-deep-learning/0002.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/cs229-deep-learning/0003.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/cs229-deep-learning/0004.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<img src="http://hub.show-me-ai.com/ml-tips/0001.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/ml-tips/0002.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/ml-tips/0003.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://hub.show-me-ai.com/ml-tips/0004.jpg" style="width:800px;" referrerpolicy="no-referrer"/></script></section></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
