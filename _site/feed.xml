@@ -3,10 +3,10 @@
   <channel>
     <title>Algorithm</title>
     <description>world about machine learning and artificial intelligence</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Jul 2021 12:50:04 +0800</pubDate>
-    <lastBuildDate>Thu, 01 Jul 2021 12:50:04 +0800</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 01 Jul 2021 12:51:34 +0800</pubDate>
+    <lastBuildDate>Thu, 01 Jul 2021 12:51:34 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -126,8 +126,8 @@
 &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6fd9nj31fe0zy175.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 18 Jun 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/awesome-ai-cheatsheets-resources/</link>
-        <guid isPermaLink="true">http://localhost:4000/awesome-ai-cheatsheets-resources/</guid>
+        <link>/awesome-ai-cheatsheets-resources/</link>
+        <guid isPermaLink="true">/awesome-ai-cheatsheets-resources/</guid>
         
         <category>工具库与资源</category>
         
@@ -11292,8 +11292,8 @@ _用于连接，操作和查询数据库的库。_
 &lt;/code&gt;&lt;/summary&gt;&lt;/details&gt;
 </description>
         <pubDate>Sun, 25 Apr 2021 10:55:00 +0800</pubDate>
-        <link>http://localhost:4000/python-machine-learning-resources/</link>
-        <guid isPermaLink="true">http://localhost:4000/python-machine-learning-resources/</guid>
+        <link>/python-machine-learning-resources/</link>
+        <guid isPermaLink="true">/python-machine-learning-resources/</guid>
         
         <category>工具库与资源</category>
         
@@ -15099,8 +15099,8 @@ _用于连接，操作和查询数据库的库。_
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 25 Apr 2021 10:55:00 +0800</pubDate>
-        <link>http://localhost:4000/jupyter-resources/</link>
-        <guid isPermaLink="true">http://localhost:4000/jupyter-resources/</guid>
+        <link>/jupyter-resources/</link>
+        <guid isPermaLink="true">/jupyter-resources/</guid>
         
         <category>工具库与资源</category>
         
