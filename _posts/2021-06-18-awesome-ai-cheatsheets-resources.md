@@ -1,5 +1,9 @@
 ---
 title: AI速查表全集
+author: HanXinzi@ShowMeAI
+author_url: https://github.com/HanXinzi-AI
+categories: [工具库与资源]
+tags: [工具库与资源]
 ---
 
 # AI速查表全集

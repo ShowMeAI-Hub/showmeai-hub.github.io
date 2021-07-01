@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2021/06/18/awesome-ai-cheatsheets-resources.html/</loc>
+      <loc>http://localhost:4000/awesome-ai-cheatsheets-resources//</loc>
       
         <lastmod>2021-06-18T00:00:00+08:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/python%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html/</loc>
+      <loc>http://localhost:4000/python-machine-learning-resources//</loc>
       
         <lastmod>2021-04-25T10:55:00+08:00</lastmod>
       
@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/%E5%B7%A5%E5%85%B7%E5%BA%93%E4%B8%8E%E8%B5%84%E6%BA%90/2021/04/25/jupyter%E8%B5%84%E6%BA%90%E5%A4%A7%E5%85%A8.html/</loc>
+      <loc>http://localhost:4000/jupyter-resources//</loc>
       
         <lastmod>2021-04-25T10:55:00+08:00</lastmod>
       
@@ -53,7 +53,7 @@
     <url>
       <loc>http://localhost:4000/categories/AI算法/</loc>
       
-        <lastmod>2021-07-01T11:40:18+08:00</lastmod>
+        <lastmod>2021-07-01T12:47:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -68,7 +68,7 @@
     <url>
       <loc>http://localhost:4000/categories/AI项目/</loc>
       
-        <lastmod>2021-07-01T11:40:18+08:00</lastmod>
+        <lastmod>2021-07-01T12:47:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -83,7 +83,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2021-07-01T11:40:18+08:00</lastmod>
+        <lastmod>2021-07-01T12:47:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -98,9 +98,24 @@
   
     
     <url>
+      <loc>http://localhost:4000/index.bak/</loc>
+      
+        <lastmod>2021-07-01T12:47:19+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.9</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2021-07-01T11:40:18+08:00</lastmod>
+        <lastmod>2021-07-01T12:47:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -121,7 +136,7 @@
     <url>
       <loc>http://localhost:4000/categories/工具库与资源/</loc>
       
-        <lastmod>2021-07-01T11:40:18+08:00</lastmod>
+        <lastmod>2021-07-01T12:47:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -136,7 +151,7 @@
     <url>
       <loc>http://localhost:4000/categories/面试求职/</loc>
       
-        <lastmod>2021-07-01T11:40:18+08:00</lastmod>
+        <lastmod>2021-07-01T12:47:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

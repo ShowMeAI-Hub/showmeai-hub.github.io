@@ -1,6 +1,7 @@
 ---
 title: Jupyter资源与工具库大全
-author: ShowMeAI
+author: HanXinzi@ShowMeAI
+author_url: https://github.com/HanXinzi-AI
 date: 2021-04-25 10:55:00 +0800
 categories: [工具库与资源]
 tags: [工具库与资源]

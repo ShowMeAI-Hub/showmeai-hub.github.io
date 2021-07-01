@@ -134,6 +134,12 @@ strong {
   font-size: 22px;
   color: #333333; }
 
+.post-teaser__author {
+  font-size: 20px;
+  float: right;
+  vertical-align: middle;
+  color: #828282; }
+
 .post-teaser__date {
   font-size: 16px;
   float: right;
