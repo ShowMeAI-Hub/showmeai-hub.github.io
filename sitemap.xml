@@ -55,7 +55,7 @@ sitemap:
   {% endfor %}
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/
+  /cs224n
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -66,7 +66,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture01-Introduction-and-Word-Vectors
+  /cs224n/lecture01-Introduction-and-Word-Vectors
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -77,7 +77,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture02-Word-Vectors-2-and-Word-Senses
+  /cs224n/lecture02-Word-Vectors-2-and-Word-Senses
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -88,7 +88,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture03-Neural-Networks
+  /cs224n/lecture03-Neural-Networks
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -99,7 +99,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture04-Backpropagation-and-Computation-Graphs
+  /cs224n/lecture04-Backpropagation-and-Computation-Graphs
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -110,7 +110,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture05-Linguistic-Structure-Dependency-Parsing
+  /cs224n/lecture05-Linguistic-Structure-Dependency-Parsing
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -121,7 +121,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture06-Recurrent-Neural-Networks-and-Language-Models
+  /cs224n/lecture06-Recurrent-Neural-Networks-and-Language-Models
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -132,7 +132,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture07-Vanishing-Gradients-and-Fancy-RNNs
+  /cs224n/lecture07-Vanishing-Gradients-and-Fancy-RNNs
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -143,7 +143,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture08-Machine-Translation-Seq2Seq-and-Attention
+  /cs224n/lecture08-Machine-Translation-Seq2Seq-and-Attention
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -154,7 +154,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture09-Practical-Tips-for-Final-Projects
+  /cs224n/lecture09-Practical-Tips-for-Final-Projects
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -165,7 +165,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture10-Question-Answering
+  /cs224n/lecture10-Question-Answering
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -176,7 +176,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture11-ConvNets-for-NLP
+  /cs224n/lecture11-ConvNets-for-NLP
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -187,7 +187,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture12-Subword-Models
+  /cs224n/lecture12-Subword-Models
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -198,7 +198,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture13-Contextual-Representations-and-Pretraining
+  /cs224n/lecture13-Contextual-Representations-and-Pretraining
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -209,7 +209,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture14-Transformers-and-Self-Attention-For-Generative-Models
+  /cs224n/lecture14-Transformers-and-Self-Attention-For-Generative-Models
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -220,7 +220,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture15-Natural-Language-Generation
+  /cs224n/lecture15-Natural-Language-Generation
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -231,7 +231,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture16-Reference-in-Language-and-Coreference-Resolution
+  /cs224n/lecture16-Reference-in-Language-and-Coreference-Resolution
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -242,7 +242,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture18-Constituency-Parsing-and-Tree-Recursive-Neural-Networks
+  /cs224n/lecture18-Constituency-Parsing-and-Tree-Recursive-Neural-Networks
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -253,7 +253,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture19-Safety-Bias-and-Fairness
+  /cs224n/lecture19-Safety-Bias-and-Fairness
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -264,7 +264,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/lecture20-Future-of-NLP-and-Deep-Learning
+  /cs224n/lecture20-Future-of-NLP-and-Deep-Learning
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -275,7 +275,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/note01-Introduction-SVD-and-Word2Vec/
+  /cs224n/note01-Introduction-SVD-and-Word2Vec/
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -286,7 +286,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/note02-GloVe-Training-and-Evaluation/
+  /cs224n/note02-GloVe-Training-and-Evaluation/
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -297,7 +297,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/note03-Neural-Networks-and-Backpropagation/
+  /cs224n/note03-Neural-Networks-and-Backpropagation/
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -308,7 +308,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/note04-Dependency-Parsing/
+  /cs224n/note04-Dependency-Parsing/
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -319,7 +319,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/note05-Language-Models-RNN-GRU-and-LSTM/
+  /cs224n/note05-Language-Models-RNN-GRU-and-LSTM/
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -330,7 +330,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/note06-Neural-Machine-Translation-Seq2seq-and-Attention/
+  /cs224n/note06-Neural-Machine-Translation-Seq2seq-and-Attention/
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -341,7 +341,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/note07-Question-Answering/
+  /cs224n/note07-Question-Answering/
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -352,7 +352,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/note08-CNN-in-NLP/
+  /cs224n/note08-CNN-in-NLP/
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -363,7 +363,7 @@ sitemap:
 </url> 
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs224n/note09-Recursive-Neural-Networks-and-Constituency-Parsing/
+  /cs224n/note09-Recursive-Neural-Networks-and-Constituency-Parsing/
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -374,7 +374,7 @@ sitemap:
 </url>
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs230/
+  /cs230/
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -385,7 +385,7 @@ sitemap:
 </url>
 <url> 
  <loc>
-  https://showmeai-hub.github.io/cs229/
+  /cs229/
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
@@ -396,7 +396,7 @@ sitemap:
 </url>
 <url> 
  <loc>
-  https://showmeai-hub.github.io/job_analysis/
+  /job_analysis/
  </loc> 
  <lastmod>
   2021-07-30T09:31:14+00:00
