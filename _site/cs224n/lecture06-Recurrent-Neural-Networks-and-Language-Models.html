@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>lecture06-Recurrent-Neural-Networks-and-Language-Models</title>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwadyd5pj31lq0q8ql8.jpg" referrerpolicy="no-referrer"/>
+</script></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwae3x8gj31lq0q87wh.jpg" referrerpolicy="no-referrer"/>
+</script></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwae3fvvj31lq0q84ef.jpg" referrerpolicy="no-referrer"/>
+</script></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaeepijj31lq0q8wst.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaefscwj31lq0q8ast.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwagdts0j31lq0q8naj.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaehuxzj31lq0q87kt.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaei91pj31lq0q848j.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaenqu6j31lq0q8k34.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaeuqiuj31lq0q8to7.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwag16sxj31lq0q84jd.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwagaa6aj31lq0q8h1b.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaf3518j31lq0q81at.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwagpo9uj31lq0q8toy.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwafe9inj31lq0q8qpk.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaflhc6j31lq0q8kcj.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwagyzkqj31lq0q8nll.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwag4738j31lq0q84nh.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwagzqftj31lq0q87i8.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwageccyj31lq0q84de.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwagv0r2j31lq0q84gy.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwagww2wj31lq0q8qnt.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwah2a5gj31lq0q8tly.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaheinsj31lq0q8tlr.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwah87l9j31lq0q8gyu.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwahgbtij31lq0q8k2o.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwair8j7j31lq0q81ba.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaj6oawj31lq0q8qnd.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaivz93j31lq0q84lv.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwahrncmj31lq0q819m.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwai7o6zj31lq0q81ao.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwai2u4ij31lq0q849l.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaimnkoj31lq0q84cx.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaj43tij31lq0q8k9k.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaj7b50j31lq0q87pi.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaj6645j31lq0q8h6t.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwajvbj8j31lq0q8ws9.jpg" referrerpolicy="no-referrer"/>
+</script></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwakjctvj31lq0q8qk3.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwakoianj31lq0q8x0y.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwalfrqxj31lq0q8qqb.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwakhcg0j31lq0q81e5.jpg" referrerpolicy="no-referrer"/>
+</script></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwajzx62j31lq0q87jq.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwakx4n3j31lq0q8wtx.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwakmqkuj31lq0q84dx.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwam84mzj31lq0q8k6t.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwalprf0j31lq0q8dv2.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaloiibj31lq0q8dvr.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwalox69j31lq0q8atq.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwalq8i4j31lq0q818v.jpg" referrerpolicy="no-referrer"/>
+</script></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwanl5k1j31lq0q8wur.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwan4foej31lq0q8dyi.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwanonwaj31lq0q8neu.jpg" referrerpolicy="no-referrer"/>
+</script></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwankcysj31lq0q8tqu.jpg" referrerpolicy="no-referrer"/>
+</script></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwao8lg0j31lq0q81gi.jpg" referrerpolicy="no-referrer"/>
+</script></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaod157j31lq0q8x2t.jpg" referrerpolicy="no-referrer"/>
+</script></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwanogpxj31lq0q8kft.jpg" referrerpolicy="no-referrer"/>
+</script></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaokqugj31lq0q8qui.jpg" referrerpolicy="no-referrer"/>
+</script></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaogrpmj31lq0q8ape.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaom7gwj31lq0q84en.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaodr6qj31lq0q8k7y.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaphh44j31lq0q8tmp.jpg" referrerpolicy="no-referrer"/>
+</script></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwapeae7j31lq0q8aso.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaovhdxj31lq0q8tv1.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwapcrx8j31lq0q8wy0.jpg" referrerpolicy="no-referrer"/>
+</script></section><section ><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwapbl70j31lq0q814b.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwap9onmj31lq0q8tm2.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwapfzevj31lq0q87j4.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwapk5d1j31lq0q84ej.jpg" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-transition="fade-in fade-out" data-transition-speed="fast" -->
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaqz1qnj31lq0q8ndu.jpg" referrerpolicy="no-referrer"/>
+</script></section></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaqffg3j31lq0q8x1y.jpg" referrerpolicy="no-referrer"/>
+</script></section><section  data-markdown><script type="text/template">
+<img class="r-stretch"  src="http://ww1.sinaimg.cn/large/0060yMmAly1gsrwaq4dtsj31lq0q87wh.jpg" referrerpolicy="no-referrer"/></script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>

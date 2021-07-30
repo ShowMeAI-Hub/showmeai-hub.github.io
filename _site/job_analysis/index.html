@@ -31,7 +31,7 @@
 </head>
 <body>
 
-<h2>（2021-07-01更新）</h2>
+<h2>（2021-07-21更新）</h2>
 
 <h2>点击按钮查看招聘数据分析详情</h2>
     
@@ -87,24 +87,24 @@
         }
     </style>
     <div class="tab">
-            <button class="tablinks" onclick="showChart(event, 'a3f951e996354b86b9027c7d4defbf14')">薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'b5ef7e6e2db241c3ab532f08216ada0f')">实习薪资分布</button>
-            <button class="tablinks" onclick="showChart(event, '873efdc501374c2d8ea003eaddfa6e2e')">社招薪资分布</button>
-            <button class="tablinks" onclick="showChart(event, 'da154d6400c342c58d1cb6c5147cec70')">城市&薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'b318b0f34fae418f82e50b07edb64dcd')">薪资地图</button>
-            <button class="tablinks" onclick="showChart(event, 'da7771deb81a4d199e4e42c4c7d4c168')">区域&薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'f378d03232854c73afb6b85b20844297')">行业&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '4f2a2f65cc6e42fb91892e9cc2863cb5')">方向关键词&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '0d0853e894df43d595e1a6121204381c')">学历&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '51c44e21b2304823a503536db9908ee4')">经验&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '8a1e092582dc4d9da44d4c3c6a46967b')">top10薪资招聘</button>
+            <button class="tablinks" onclick="showChart(event, 'c35c684d4f0f469fa9cec2467402fa18')">薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'c2d5887457ac4aa7b310a8f248a7b1a4')">实习薪资分布</button>
+            <button class="tablinks" onclick="showChart(event, '9dbd8e1b47be49caa80a6a2c04fa1e13')">社招薪资分布</button>
+            <button class="tablinks" onclick="showChart(event, 'f298dcefa2e745f88250b414e6652487')">城市&薪资</button>
+            <button class="tablinks" onclick="showChart(event, '78458f94dc3343699bcaa2f8fd0ee7c3')">薪资地图</button>
+            <button class="tablinks" onclick="showChart(event, 'c2b8e8b6c25249f7bb15e74dde281044')">区域&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'cc39960413664213b0627e8ed0c5ea0a')">行业&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'cade40ed183246eaa532eeff0f774be0')">方向关键词&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'e35c6591d4064a50832c143191932338')">学历&薪资</button>
+            <button class="tablinks" onclick="showChart(event, '505975070c14488e96f1b260a08fe485')">经验&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'ffa5ff080e954c999d87038bf79810b4')">top10薪资招聘</button>
     </div>
 
     <div class="box">
-                <div id="a3f951e996354b86b9027c7d4defbf14" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="c35c684d4f0f469fa9cec2467402fa18" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_a3f951e996354b86b9027c7d4defbf14 = echarts.init(
-            document.getElementById('a3f951e996354b86b9027c7d4defbf14'), 'white', {renderer: 'canvas'});
+        var chart_c35c684d4f0f469fa9cec2467402fa18 = echarts.init(
+            document.getElementById('c35c684d4f0f469fa9cec2467402fa18'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -119,7 +119,7 @@
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_a3f951e996354b86b9027c7d4defbf14 = {
+        var option_c35c684d4f0f469fa9cec2467402fa18 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -166,16 +166,16 @@
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                320,
-                212,
-                161,
-                141,
+                330,
+                222,
+                164,
+                162,
                 111,
-                83,
-                76,
+                84,
+                82,
+                67,
                 64,
-                62,
-                49
+                48
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -200,19 +200,19 @@
             "data": [
                 {
                     "name": "20k-40k",
-                    "value": 320
+                    "value": 330
                 },
                 {
                     "name": "25k-50k",
-                    "value": 212
+                    "value": 222
                 },
                 {
                     "name": "15k-30k",
-                    "value": 161
+                    "value": 164
                 },
                 {
                     "name": "30k-60k",
-                    "value": 141
+                    "value": 162
                 },
                 {
                     "name": "30k-50k",
@@ -220,23 +220,23 @@
                 },
                 {
                     "name": "15k-25k",
-                    "value": 83
+                    "value": 84
                 },
                 {
                     "name": "20k-30k",
-                    "value": 76
+                    "value": 82
+                },
+                {
+                    "name": "25k-40k",
+                    "value": 67
                 },
                 {
                     "name": "20k-35k",
                     "value": 64
                 },
                 {
-                    "name": "25k-40k",
-                    "value": 62
-                },
-                {
                     "name": "25k-45k",
-                    "value": 49
+                    "value": 48
                 }
             ],
             "radius": [
@@ -269,19 +269,19 @@
             "data": [
                 {
                     "name": "20k-40k",
-                    "value": 320
+                    "value": 330
                 },
                 {
                     "name": "25k-50k",
-                    "value": 212
+                    "value": 222
                 },
                 {
                     "name": "15k-30k",
-                    "value": 161
+                    "value": 164
                 },
                 {
                     "name": "30k-60k",
-                    "value": 141
+                    "value": 162
                 },
                 {
                     "name": "30k-50k",
@@ -289,23 +289,23 @@
                 },
                 {
                     "name": "15k-25k",
-                    "value": 83
+                    "value": 84
                 },
                 {
                     "name": "20k-30k",
-                    "value": 76
+                    "value": 82
+                },
+                {
+                    "name": "25k-40k",
+                    "value": 67
                 },
                 {
                     "name": "20k-35k",
                     "value": 64
                 },
                 {
-                    "name": "25k-40k",
-                    "value": 62
-                },
-                {
                     "name": "25k-45k",
-                    "value": 49
+                    "value": 48
                 }
             ],
             "radius": [
@@ -355,8 +355,8 @@
                 "30k-50k",
                 "15k-25k",
                 "20k-30k",
-                "20k-35k",
                 "25k-40k",
+                "20k-35k",
                 "25k-45k"
             ],
             "selected": {},
@@ -416,8 +416,8 @@
                 "30k-50k",
                 "15k-25k",
                 "20k-30k",
-                "20k-35k",
                 "25k-40k",
+                "20k-35k",
                 "25k-45k"
             ]
         }
@@ -481,12 +481,12 @@
         }
     ]
 };
-        chart_a3f951e996354b86b9027c7d4defbf14.setOption(option_a3f951e996354b86b9027c7d4defbf14);
+        chart_c35c684d4f0f469fa9cec2467402fa18.setOption(option_c35c684d4f0f469fa9cec2467402fa18);
     </script>
-                <div id="b5ef7e6e2db241c3ab532f08216ada0f" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="c2d5887457ac4aa7b310a8f248a7b1a4" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_b5ef7e6e2db241c3ab532f08216ada0f = echarts.init(
-            document.getElementById('b5ef7e6e2db241c3ab532f08216ada0f'), 'white', {renderer: 'canvas'});
+        var chart_c2d5887457ac4aa7b310a8f248a7b1a4 = echarts.init(
+            document.getElementById('c2d5887457ac4aa7b310a8f248a7b1a4'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -501,7 +501,7 @@
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_b5ef7e6e2db241c3ab532f08216ada0f = {
+        var option_c2d5887457ac4aa7b310a8f248a7b1a4 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -583,9 +583,9 @@
             "data": [
                 [
                     3,
-                    6.25,
-                    11.5,
-                    19.5,
+                    6.5,
+                    12,
+                    22.0,
                     50
                 ]
             ],
@@ -618,9 +618,9 @@
             "data": [
                 [
                     2.5,
-                    4.5,
-                    5.75,
-                    8.0,
+                    5.0,
+                    6.0,
+                    8.125,
                     40.0
                 ]
             ],
@@ -741,12 +741,12 @@
         }
     ]
 };
-        chart_b5ef7e6e2db241c3ab532f08216ada0f.setOption(option_b5ef7e6e2db241c3ab532f08216ada0f);
+        chart_c2d5887457ac4aa7b310a8f248a7b1a4.setOption(option_c2d5887457ac4aa7b310a8f248a7b1a4);
     </script>
-                <div id="873efdc501374c2d8ea003eaddfa6e2e" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="9dbd8e1b47be49caa80a6a2c04fa1e13" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_873efdc501374c2d8ea003eaddfa6e2e = echarts.init(
-            document.getElementById('873efdc501374c2d8ea003eaddfa6e2e'), 'white', {renderer: 'canvas'});
+        var chart_9dbd8e1b47be49caa80a6a2c04fa1e13 = echarts.init(
+            document.getElementById('9dbd8e1b47be49caa80a6a2c04fa1e13'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -761,7 +761,7 @@
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_873efdc501374c2d8ea003eaddfa6e2e = {
+        var option_9dbd8e1b47be49caa80a6a2c04fa1e13 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -842,10 +842,10 @@
             "name": "\u85aa\u8d44\u4e0a\u9650",
             "data": [
                 [
-                    15,
-                    27.5,
+                    14,
+                    27,
                     42,
-                    64.5,
+                    64,
                     120
                 ]
             ],
@@ -1001,13 +1001,13 @@
         }
     ]
 };
-        chart_873efdc501374c2d8ea003eaddfa6e2e.setOption(option_873efdc501374c2d8ea003eaddfa6e2e);
+        chart_9dbd8e1b47be49caa80a6a2c04fa1e13.setOption(option_9dbd8e1b47be49caa80a6a2c04fa1e13);
     </script>
-                <div id="da154d6400c342c58d1cb6c5147cec70" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="f298dcefa2e745f88250b414e6652487" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_da154d6400c342c58d1cb6c5147cec70 = echarts.init(
-            document.getElementById('da154d6400c342c58d1cb6c5147cec70'), 'white', {renderer: 'canvas'});
-        var option_da154d6400c342c58d1cb6c5147cec70 = {
+        var chart_f298dcefa2e745f88250b414e6652487 = echarts.init(
+            document.getElementById('f298dcefa2e745f88250b414e6652487'), 'white', {renderer: 'canvas'});
+        var option_f298dcefa2e745f88250b414e6652487 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -1057,15 +1057,15 @@
             "data": [
                 37.5,
                 30.0,
-                30.0,
+                32.5,
                 30.0,
                 25.0,
                 22.5,
                 22.5,
-                30.0,
+                22.5,
                 20.0,
-                16.5,
-                15.0
+                30.0,
+                24.5
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -1099,7 +1099,7 @@
                 ],
                 [
                     12.0,
-                    26.5,
+                    25.0,
                     30.0,
                     37.5,
                     90.0
@@ -1107,13 +1107,13 @@
                 [
                     12.5,
                     25.0,
-                    30.0,
-                    40.0,
+                    32.5,
+                    45.0,
                     85.0
                 ],
                 [
-                    15.0,
-                    23.0,
+                    12.5,
+                    23.375,
                     30.0,
                     40.0,
                     90.0
@@ -1129,35 +1129,35 @@
                     12.5,
                     20.0,
                     22.5,
-                    26.75,
+                    30.0,
                     50.0
                 ],
                 [
                     12.5,
-                    17.75,
-                    21.25,
-                    27.375,
+                    17.5,
+                    22.5,
+                    25.75,
                     37.5
                 ],
                 [
                     15.0,
-                    20.0,
+                    19.625,
                     22.5,
                     30.0,
                     50.0
                 ],
                 [
                     15.0,
-                    19.625,
-                    21.25,
+                    17.25,
+                    20.0,
                     22.5,
                     35.0
                 ],
                 [
                     21.0,
+                    26.25,
                     30.0,
-                    30.0,
-                    37.5,
+                    35.625,
                     37.5
                 ]
             ],
@@ -1261,11 +1261,11 @@
                 "\u676d\u5dde",
                 "\u5e7f\u5dde",
                 "\u6210\u90fd",
+                "\u6b66\u6c49",
                 "\u5357\u4eac",
+                "\u82cf\u5dde",
                 "\u4f5b\u5c71",
-                "\u897f\u5b89",
-                "\u957f\u6c99",
-                "\u90d1\u5dde"
+                "\u53a6\u95e8"
             ]
         },
         {
@@ -1379,12 +1379,12 @@
         }
     ]
 };
-        chart_da154d6400c342c58d1cb6c5147cec70.setOption(option_da154d6400c342c58d1cb6c5147cec70);
+        chart_f298dcefa2e745f88250b414e6652487.setOption(option_f298dcefa2e745f88250b414e6652487);
     </script>
-                <div id="b318b0f34fae418f82e50b07edb64dcd" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="78458f94dc3343699bcaa2f8fd0ee7c3" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_b318b0f34fae418f82e50b07edb64dcd = echarts.init(
-            document.getElementById('b318b0f34fae418f82e50b07edb64dcd'), 'white', {renderer: 'canvas'});
+        var chart_78458f94dc3343699bcaa2f8fd0ee7c3 = echarts.init(
+            document.getElementById('78458f94dc3343699bcaa2f8fd0ee7c3'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -1399,7 +1399,7 @@
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_b318b0f34fae418f82e50b07edb64dcd = {
+        var option_78458f94dc3343699bcaa2f8fd0ee7c3 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -1474,7 +1474,7 @@
                     "value": [
                         121.473701,
                         31.230416,
-                        30.0
+                        32.5
                     ]
                 },
                 {
@@ -1502,6 +1502,14 @@
                     ]
                 },
                 {
+                    "name": "\u6b66\u6c49",
+                    "value": [
+                        114.31,
+                        30.52,
+                        22.5
+                    ]
+                },
+                {
                     "name": "\u5357\u4eac",
                     "value": [
                         118.78,
@@ -1510,11 +1518,27 @@
                     ]
                 },
                 {
+                    "name": "\u82cf\u5dde",
+                    "value": [
+                        120.62,
+                        31.32,
+                        20.0
+                    ]
+                },
+                {
                     "name": "\u4f5b\u5c71",
                     "value": [
                         113.11,
                         23.05,
                         30.0
+                    ]
+                },
+                {
+                    "name": "\u53a6\u95e8",
+                    "value": [
+                        118.1,
+                        24.46,
+                        24.5
                     ]
                 },
                 {
@@ -1530,7 +1554,15 @@
                     "value": [
                         113,
                         28.21,
-                        16.5
+                        22.5
+                    ]
+                },
+                {
+                    "name": "\u91cd\u5e86",
+                    "value": [
+                        106.551556,
+                        29.563009,
+                        13.0
                     ]
                 },
                 {
@@ -1550,6 +1582,14 @@
                     ]
                 },
                 {
+                    "name": "\u9752\u5c9b",
+                    "value": [
+                        120.33,
+                        36.07,
+                        17.5
+                    ]
+                },
+                {
                     "name": "\u60e0\u5dde",
                     "value": [
                         114.4,
@@ -1558,19 +1598,19 @@
                     ]
                 },
                 {
-                    "name": "\u65e0\u9521",
-                    "value": [
-                        120.29,
-                        31.59,
-                        16.0
-                    ]
-                },
-                {
                     "name": "\u5b81\u6ce2",
                     "value": [
                         121.56,
                         29.86,
                         27.5
+                    ]
+                },
+                {
+                    "name": "\u65e0\u9521",
+                    "value": [
+                        120.29,
+                        31.59,
+                        16.0
                     ]
                 },
                 {
@@ -1654,13 +1694,13 @@
         "emphasis": {}
     }
 };
-        chart_b318b0f34fae418f82e50b07edb64dcd.setOption(option_b318b0f34fae418f82e50b07edb64dcd);
+        chart_78458f94dc3343699bcaa2f8fd0ee7c3.setOption(option_78458f94dc3343699bcaa2f8fd0ee7c3);
     </script>
-                <div id="da7771deb81a4d199e4e42c4c7d4c168" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="c2b8e8b6c25249f7bb15e74dde281044" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_da7771deb81a4d199e4e42c4c7d4c168 = echarts.init(
-            document.getElementById('da7771deb81a4d199e4e42c4c7d4c168'), 'white', {renderer: 'canvas'});
-        var option_da7771deb81a4d199e4e42c4c7d4c168 = {
+        var chart_c2b8e8b6c25249f7bb15e74dde281044 = echarts.init(
+            document.getElementById('c2b8e8b6c25249f7bb15e74dde281044'), 'white', {renderer: 'canvas'});
+        var option_c2b8e8b6c25249f7bb15e74dde281044 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -1716,8 +1756,8 @@
                 37.5,
                 37.5,
                 30.0,
-                37.5,
                 40.0,
+                37.5,
                 30.0
             ],
             "showBackground": false,
@@ -1755,7 +1795,7 @@
                     30.0,
                     37.5,
                     45.0,
-                    85.0
+                    90.0
                 ],
                 [
                     12.5,
@@ -1773,7 +1813,7 @@
                 ],
                 [
                     18.0,
-                    24.0,
+                    25.0,
                     37.5,
                     40.0,
                     60.0
@@ -1782,22 +1822,22 @@
                     20.0,
                     30.0,
                     37.5,
-                    45.0,
+                    43.75,
                     75.0
                 ],
                 [
-                    12.0,
-                    28.125,
+                    20.0,
+                    30.0,
                     37.5,
                     45.0,
                     60.0
                 ],
                 [
                     17.5,
-                    30.0,
-                    37.5,
-                    40.625,
-                    70.0
+                    32.5,
+                    40.0,
+                    48.75,
+                    65.0
                 ],
                 [
                     19.5,
@@ -1808,10 +1848,10 @@
                 ],
                 [
                     17.5,
-                    32.5,
+                    30.0,
+                    37.5,
                     40.0,
-                    48.75,
-                    65.0
+                    70.0
                 ]
             ],
             "label": {
@@ -1916,8 +1956,8 @@
                 "\u897f\u5317\u65fa",
                 "\u671b\u4eac",
                 "\u6d66\u4e1c\u65b0\u2026",
-                "\u4e2d\u5173\u6751",
                 "\u95f5\u884c\u533a",
+                "\u4e2d\u5173\u6751",
                 "\u5b9d\u5b89\u533a"
             ]
         },
@@ -1949,9 +1989,9 @@
                 "\u4f59\u676d\u533a",
                 "\u897f\u5317\u65fa",
                 "\u671b\u4eac",
-                "\u4e2d\u5173\u6751",
+                "\u95f5\u884c\u533a",
                 "\u6d66\u4e1c\u65b0\u2026",
-                "\u95f5\u884c\u533a"
+                "\u4e2d\u5173\u6751"
             ]
         }
     ],
@@ -2032,13 +2072,13 @@
         }
     ]
 };
-        chart_da7771deb81a4d199e4e42c4c7d4c168.setOption(option_da7771deb81a4d199e4e42c4c7d4c168);
+        chart_c2b8e8b6c25249f7bb15e74dde281044.setOption(option_c2b8e8b6c25249f7bb15e74dde281044);
     </script>
-                <div id="f378d03232854c73afb6b85b20844297" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="cc39960413664213b0627e8ed0c5ea0a" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_f378d03232854c73afb6b85b20844297 = echarts.init(
-            document.getElementById('f378d03232854c73afb6b85b20844297'), 'white', {renderer: 'canvas'});
-        var option_f378d03232854c73afb6b85b20844297 = {
+        var chart_cc39960413664213b0627e8ed0c5ea0a = echarts.init(
+            document.getElementById('cc39960413664213b0627e8ed0c5ea0a'), 'white', {renderer: 'canvas'});
+        var option_cc39960413664213b0627e8ed0c5ea0a = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -2086,13 +2126,13 @@
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                45.0,
                 37.5,
-                32.5,
+                37.5,
+                37.5,
+                33.75,
                 30.0,
                 30.0,
-                28.75,
-                25.0
+                22.5
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -2139,9 +2179,9 @@
                     85.0
                 ],
                 [
-                    12.0,
+                    12.5,
                     22.5,
-                    27.5,
+                    30.0,
                     35.0,
                     70.0
                 ],
@@ -2153,7 +2193,7 @@
                     70.0
                 ],
                 [
-                    16.0,
+                    14.0,
                     25.0,
                     30.0,
                     37.5,
@@ -2261,12 +2301,12 @@
                 }
             },
             "data": [
+                "\u77ff\u4ea7",
                 "\u77ed\u89c6\u9891",
                 "\u7535\u5546\u5e73\u53f0",
                 "\u76f4\u64ad\u5e73\u53f0",
                 "\u7269\u8054\u7f51",
                 "IT\u6280\u672f\u670d\u52a1",
-                "\u77ff\u4ea7",
                 "\u786c\u4ef6"
             ]
         },
@@ -2378,13 +2418,13 @@
         }
     ]
 };
-        chart_f378d03232854c73afb6b85b20844297.setOption(option_f378d03232854c73afb6b85b20844297);
+        chart_cc39960413664213b0627e8ed0c5ea0a.setOption(option_cc39960413664213b0627e8ed0c5ea0a);
     </script>
-                <div id="4f2a2f65cc6e42fb91892e9cc2863cb5" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="cade40ed183246eaa532eeff0f774be0" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_4f2a2f65cc6e42fb91892e9cc2863cb5 = echarts.init(
-            document.getElementById('4f2a2f65cc6e42fb91892e9cc2863cb5'), 'white', {renderer: 'canvas'});
-        var option_4f2a2f65cc6e42fb91892e9cc2863cb5 = {
+        var chart_cade40ed183246eaa532eeff0f774be0 = echarts.init(
+            document.getElementById('cade40ed183246eaa532eeff0f774be0'), 'white', {renderer: 'canvas'});
+        var option_cade40ed183246eaa532eeff0f774be0 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -2432,8 +2472,8 @@
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
+                37.5,
                 35.0,
-                33.75,
                 30.0,
                 30.0,
                 30.0,
@@ -2465,52 +2505,52 @@
             "data": [
                 [
                     12.5,
-                    22.5,
+                    23.5,
                     30.0,
-                    32.875,
+                    35.0,
                     55.0
                 ],
                 [
                     12.0,
                     22.5,
                     30.0,
-                    34.75,
+                    35.0,
                     75.0
                 ],
                 [
-                    12.0,
-                    24.0,
+                    12.5,
+                    23.5,
                     30.0,
                     37.5,
                     90.0
                 ],
                 [
                     15.0,
-                    28.0,
-                    35.0,
+                    29.5,
+                    37.5,
                     45.0,
                     85.0
                 ],
                 [
                     14.0,
-                    22.875,
+                    23.0,
                     30.0,
                     37.5,
                     70.0
                 ],
                 [
-                    15.0,
+                    14.0,
                     25.0,
-                    33.75,
-                    40.0,
-                    90.0
+                    35.0,
+                    40.25,
+                    65.0
                 ],
                 [
                     12.5,
                     24.0,
                     30.0,
-                    37.5,
-                    90.0
+                    39.0,
+                    75.0
                 ]
             ],
             "label": {
@@ -2609,11 +2649,11 @@
             "data": [
                 "\u63a8\u8350\u7b97\u6cd5",
                 "\u673a\u5668\u5b66\u4e60",
-                "Python",
-                "C/C++",
                 "\u6570\u636e\u6316\u6398",
+                "\u6df1\u5ea6\u5b66\u4e60",
                 "\u4eba\u5de5\u667a\u80fd\u670d\u52a1",
-                "\u6df1\u5ea6\u5b66\u4e60"
+                "C/C++",
+                "Python"
             ]
         },
         {
@@ -2724,13 +2764,13 @@
         }
     ]
 };
-        chart_4f2a2f65cc6e42fb91892e9cc2863cb5.setOption(option_4f2a2f65cc6e42fb91892e9cc2863cb5);
+        chart_cade40ed183246eaa532eeff0f774be0.setOption(option_cade40ed183246eaa532eeff0f774be0);
     </script>
-                <div id="0d0853e894df43d595e1a6121204381c" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="e35c6591d4064a50832c143191932338" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_0d0853e894df43d595e1a6121204381c = echarts.init(
-            document.getElementById('0d0853e894df43d595e1a6121204381c'), 'white', {renderer: 'canvas'});
-        var option_0d0853e894df43d595e1a6121204381c = {
+        var chart_e35c6591d4064a50832c143191932338 = echarts.init(
+            document.getElementById('e35c6591d4064a50832c143191932338'), 'white', {renderer: 'canvas'});
+        var option_e35c6591d4064a50832c143191932338 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -2826,9 +2866,9 @@
                 ],
                 [
                     14.5,
-                    15.0,
-                    16.5,
-                    25.0,
+                    14.875,
+                    17.5,
+                    26.875,
                     32.5
                 ],
                 [
@@ -2840,13 +2880,13 @@
                 ],
                 [
                     12.0,
-                    17.75,
+                    17.5,
                     22.5,
                     26.5,
                     40.0
                 ],
                 [
-                    12.0,
+                    12.5,
                     16.0,
                     22.5,
                     30.0,
@@ -2861,7 +2901,7 @@
                 ],
                 [
                     12.5,
-                    26.75,
+                    26.875,
                     30.0,
                     40.0,
                     90.0
@@ -3080,13 +3120,13 @@
         }
     ]
 };
-        chart_0d0853e894df43d595e1a6121204381c.setOption(option_0d0853e894df43d595e1a6121204381c);
+        chart_e35c6591d4064a50832c143191932338.setOption(option_e35c6591d4064a50832c143191932338);
     </script>
-                <div id="51c44e21b2304823a503536db9908ee4" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="505975070c14488e96f1b260a08fe485" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_51c44e21b2304823a503536db9908ee4 = echarts.init(
-            document.getElementById('51c44e21b2304823a503536db9908ee4'), 'white', {renderer: 'canvas'});
-        var option_51c44e21b2304823a503536db9908ee4 = {
+        var chart_505975070c14488e96f1b260a08fe485 = echarts.init(
+            document.getElementById('505975070c14488e96f1b260a08fe485'), 'white', {renderer: 'canvas'});
+        var option_505975070c14488e96f1b260a08fe485 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -3134,7 +3174,7 @@
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                60.0,
+                55.0,
                 45.0,
                 32.5,
                 30.0,
@@ -3173,13 +3213,6 @@
                     80.0
                 ],
                 [
-                    30.0,
-                    37.5,
-                    60.0,
-                    70.0,
-                    85.0
-                ],
-                [
                     13.5,
                     16.25,
                     22.5,
@@ -3190,19 +3223,19 @@
                     15.0,
                     27.5,
                     32.5,
-                    37.5,
+                    40.0,
                     90.0
                 ],
                 [
                     12.5,
-                    35.0,
+                    35.625,
                     45.0,
                     52.5,
                     90.0
                 ],
                 [
                     12.5,
-                    25.0,
+                    26.5,
                     30.0,
                     40.0,
                     75.0
@@ -3340,7 +3373,6 @@
             },
             "data": [
                 "\u7ecf\u9a8c1-3\u5e74",
-                "\u7ecf\u9a8c10\u5e74\u4ee5\u4e0a",
                 "\u7ecf\u9a8c1\u5e74\u4ee5\u4e0b",
                 "\u7ecf\u9a8c3-5\u5e74",
                 "\u7ecf\u9a8c5-10\u5e74",
@@ -3426,7 +3458,7 @@
         }
     ]
 };
-        chart_51c44e21b2304823a503536db9908ee4.setOption(option_51c44e21b2304823a503536db9908ee4);
+        chart_505975070c14488e96f1b260a08fe485.setOption(option_505975070c14488e96f1b260a08fe485);
     </script>
                         <style>
             .fl-table {
@@ -3480,7 +3512,7 @@
                 background: #F8F8F8;
             }
         </style>
-        <div id="8a1e092582dc4d9da44d4c3c6a46967b" class="chart-container" style="">
+        <div id="ffa5ff080e954c999d87038bf79810b4" class="chart-container" style="">
             <p class="title" style="font-size: 18px; font-weight:bold;" > top10高薪岗位</p>
             <p class="subtitle" style="font-size: 12px;" > </p>
             <table class="fl-table">
@@ -3507,6 +3539,17 @@
         <td>80k-100k</td>
     </tr>
     <tr>
+        <td>CV算法总监</td>
+        <td>北京·朝阳区</td>
+        <td>龙湖集团</td>
+        <td>本科</td>
+        <td>经验5-10年</td>
+        <td>房地产｜建筑｜物业</td>
+        <td>上市公司</td>
+        <td>2000人以上</td>
+        <td>60k-120k</td>
+    </tr>
+    <tr>
         <td>视觉算法工程师</td>
         <td>深圳·南油</td>
         <td>华为</td>
@@ -3516,17 +3559,6 @@
         <td>不需要融资</td>
         <td>2000人以上</td>
         <td>80k-100k</td>
-    </tr>
-    <tr>
-        <td>算法工程师</td>
-        <td>北京·通州区</td>
-        <td>京东集团</td>
-        <td>本科</td>
-        <td>经验5-10年</td>
-        <td>电商平台</td>
-        <td>上市公司</td>
-        <td>2000人以上</td>
-        <td>60k-120k</td>
     </tr>
     <tr>
         <td>算法工程师</td>
@@ -3551,17 +3583,6 @@
         <td>70k-100k</td>
     </tr>
     <tr>
-        <td>算法负责人（总监）</td>
-        <td>上海·静安区</td>
-        <td>逸兴遄飞</td>
-        <td>本科</td>
-        <td>经验5-10年</td>
-        <td>专业服务｜咨询</td>
-        <td>未融资</td>
-        <td>50-150人</td>
-        <td>70k-90k</td>
-    </tr>
-    <tr>
         <td>搜索高级算法工程师</td>
         <td>北京·朝阳区</td>
         <td>寺库</td>
@@ -3584,26 +3605,37 @@
         <td>60k-100k</td>
     </tr>
     <tr>
-        <td>增长专家算法工程师</td>
-        <td>北京·海淀区</td>
-        <td>滴滴</td>
+        <td>算法leader</td>
+        <td>北京·学院路</td>
+        <td>最右</td>
         <td>本科</td>
         <td>经验5-10年</td>
-        <td>旅游｜出行</td>
-        <td>不需要融资</td>
-        <td>2000人以上</td>
-        <td>50k-100k</td>
+        <td>社交平台,内容社区</td>
+        <td>D轮及以上</td>
+        <td>500-2000人</td>
+        <td>60k-100k</td>
     </tr>
     <tr>
-        <td>资深算法和大数据工程师/专家【岗位编号003】</td>
-        <td>北京·宣武门</td>
-        <td>UMU</td>
+        <td>算法负责人（总监）</td>
+        <td>上海·静安区</td>
+        <td>逸兴遄飞</td>
         <td>本科</td>
         <td>经验5-10年</td>
-        <td>社交平台</td>
-        <td>C轮</td>
+        <td>专业服务｜咨询</td>
+        <td>未融资</td>
         <td>50-150人</td>
-        <td>50k-100k</td>
+        <td>70k-90k</td>
+    </tr>
+    <tr>
+        <td>算法leader</td>
+        <td>北京·海淀区</td>
+        <td>音娱时光</td>
+        <td>本科</td>
+        <td>经验5-10年</td>
+        <td>MCN｜直播平台</td>
+        <td>B轮</td>
+        <td>50-150人</td>
+        <td>60k-90k</td>
     </tr>
     <tr>
         <td>算法工程师-jd零售</td>
@@ -3617,24 +3649,13 @@
         <td>50k-100k</td>
     </tr>
     <tr>
-        <td>资深算法和大数据工程师/专...</td>
-        <td>北京·宣武门</td>
-        <td>UMU</td>
+        <td>高级/资深图像算法工程师</td>
+        <td>北京·西北旺</td>
+        <td>网易</td>
         <td>本科</td>
-        <td>经验5-10年</td>
-        <td>社交平台</td>
-        <td>C轮</td>
-        <td>50-150人</td>
-        <td>50k-100k</td>
-    </tr>
-    <tr>
-        <td>调度算法工程师</td>
-        <td>北京·大兴区</td>
-        <td>京东物流</td>
-        <td>硕士</td>
         <td>经验3-5年</td>
-        <td>物流｜运输</td>
-        <td>A轮</td>
+        <td>内容资讯,游戏,音频｜视频媒体</td>
+        <td>上市公司</td>
         <td>2000人以上</td>
         <td>50k-100k</td>
     </tr>
@@ -3650,14 +3671,25 @@
         <td>50k-100k</td>
     </tr>
     <tr>
-        <td>机器学习算法leader — 反作弊</td>
-        <td>北京·海淀区</td>
-        <td>字节跳动</td>
-        <td>本科</td>
-        <td>经验不限</td>
-        <td>内容资讯,短视频</td>
-        <td>D轮及以上</td>
+        <td>调度算法工程师</td>
+        <td>北京·大兴区</td>
+        <td>京东物流</td>
+        <td>硕士</td>
+        <td>经验3-5年</td>
+        <td>物流｜运输</td>
+        <td>A轮</td>
         <td>2000人以上</td>
+        <td>50k-100k</td>
+    </tr>
+    <tr>
+        <td>资深算法和大数据工程师/专家【岗位编号003】</td>
+        <td>北京·宣武门</td>
+        <td>UMU</td>
+        <td>本科</td>
+        <td>经验5-10年</td>
+        <td>社交平台</td>
+        <td>C轮</td>
+        <td>50-150人</td>
         <td>50k-100k</td>
     </tr>
 </table>

@@ -3,11 +3,82 @@
   <channel>
     <title>Algorithm</title>
     <description>world about machine learning and artificial intelligence</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Jul 2021 16:36:31 +0800</pubDate>
-    <lastBuildDate>Thu, 01 Jul 2021 16:36:31 +0800</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 30 Jul 2021 12:17:33 +0800</pubDate>
+    <lastBuildDate>Fri, 30 Jul 2021 12:17:33 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Cs224n Course Materials Info</title>
+        <description>&lt;h1 align=&quot;center&quot;&gt;
+    《CS224n深度学习与自然语言处理》课程学习资料
+    &lt;br /&gt;
+&lt;/h1&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;strong&gt;斯坦福CS224n深度学习与自然语言处理课程，内容覆盖NLP中常用算法模型与典型应用&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
+&lt;p&gt;课程主页：&lt;a href=&quot;https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/&quot;&gt;CS224n: Natural Language Processing with Deep Learning（winter 2019）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;自然语言处理（NLP）是信息时代最重要的技术之一，也是人工智能的重要组成部分。NLP的应用无处不在，因为人们几乎用语言交流一切：网络信息浏览、搜索引擎、电子邮件、智能语音助手、智能客服、语言翻译、医疗报告等。近年来，深度学习方法在许多不同的NLP任务中获得了极佳的效果。&lt;/p&gt;
+
+&lt;p&gt;斯坦福大学的课程CS224n——自然语言处理与深度学习，正是围绕使用深度学习解决NLP问题为主题构建的高质量课程，主讲人是斯坦福大学Chris Manning，他是斯坦福大学机器学习教授，语言学和计算机科学教授，斯坦福人工智能实验室（SAIL）主任，以人为本的人工智能研究所副所长。&lt;/p&gt;
+
+&lt;p&gt;课程内容覆盖：字词句等文本编码方法、循环神经网络（RNN、LSTM及变种）、卷积神经网络（textCNN及变种）、transformer自注意力与BERT、自然语言处理预训练模型等知识。课程也讲解了文本分类、命名实体识别、句法解析、指代消解、问答系统、神经网络文本生成、摘要生成等NLP应用领域相关方法和案例。&lt;/p&gt;
+
+&lt;h2 id=&quot;前置课程&quot;&gt;前置课程&lt;/h2&gt;
+&lt;p&gt;学生应具有以下背景：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ciml.info/&quot;&gt;机器学习基础&lt;/a&gt;。&lt;/li&gt;
+  &lt;li&gt;熟悉概率理论（CS 109、MATH151 或 STAT116）。&lt;/li&gt;
+  &lt;li&gt;熟悉多变量微积分和线性代数，熟悉(多变量)求导,理解矩阵/向量符号和操作。&lt;/li&gt;
+  &lt;li&gt;精通Python&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;课程课件-课件动态注解&quot;&gt;课程课件 |【课件动态注解】&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/https://showmeai-hub.github.io/cs224n/lecture01-Introduction-and-Word-Vectors&quot;&gt;lecture01-Introduction-and-Word-Vectors&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture02-Word-Vectors-2-and-Word-Senses&quot;&gt;lecture02-Word-Vectors-2-and-Word-Senses&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture03-Neural-Networks&quot;&gt;lecture03-Neural-Networks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture04-Backpropagation-and-Computation-Graphs&quot;&gt;lecture04-Backpropagation-and-Computation-Graphs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture05-Linguistic-Structure-Dependency-Parsing&quot;&gt;lecture05-Linguistic-Structure-Dependency-Parsing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture06-Recurrent-Neural-Networks-and-Language-Models&quot;&gt;lecture06-Recurrent-Neural-Networks-and-Language-Models&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture07-Vanishing-Gradients-and-Fancy-RNNs&quot;&gt;lecture07-Vanishing-Gradients-and-Fancy-RNNs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture08-Machine-Translation-Seq2Seq-and-Attention&quot;&gt;lecture08-Machine-Translation-Seq2Seq-and-Attention&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture09-Practical-Tips-for-Final-Projects&quot;&gt;lecture09-Practical-Tips-for-Final-Projects&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture10-Question-Answering&quot;&gt;lecture10-Question-Answering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture11-ConvNets-for-NLP&quot;&gt;lecture11-ConvNets-for-NLP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture12-Subword-Models&quot;&gt;lecture12-Subword-Models&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture13-Contextual-Representations-and-Pretraining&quot;&gt;lecture13-Contextual-Representations-and-Pretraining&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture14-Transformers-and-Self-Attention-For-Generative-Models&quot;&gt;lecture14-Transformers-and-Self-Attention-For-Generative-Models&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture15-Natural-Language-Generation&quot;&gt;lecture15-Natural-Language-Generation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture16-Reference-in-Language-and-Coreference-Resolution&quot;&gt;lecture16-Reference-in-Language-and-Coreference-Resolution&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture09-Multitask-Learning&quot;&gt;lecture09-Multitask-Learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture18-Constituency-Parsing-and-Tree-Recursive-Neural-Networks&quot;&gt;lecture18-Constituency-Parsing-and-Tree-Recursive-Neural-Networks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture19-Safety-Bias-and-Fairness&quot;&gt;lecture19-Safety-Bias-and-Fairness&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture20-Future-of-NLP-and-Deep-Learning&quot;&gt;lecture20-Future-of-NLP-and-Deep-Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;课程视频-中英字幕视频&quot;&gt;课程视频 |【中英字幕视频】&lt;/h2&gt;
+
+&lt;h2 id=&quot;课程笔记-官方笔记翻译&quot;&gt;课程笔记 |【官方笔记翻译】&lt;/h2&gt;
+
+&lt;h2 id=&quot;课程作业-作业代码解析&quot;&gt;课程作业 |【作业代码解析】&lt;/h2&gt;
+
+&lt;h2 id=&quot;课程项目-综合项目参考&quot;&gt;课程项目 |【综合项目参考】&lt;/h2&gt;
+
+</description>
+        <pubDate>Sat, 24 Jul 2021 00:00:00 +0800</pubDate>
+        <link>/cs224n-course-materials-info/</link>
+        <guid isPermaLink="true">/cs224n-course-materials-info/</guid>
+        
+        
+      </item>
     
       <item>
         <title>AI速查表全集</title>
@@ -126,8 +197,8 @@
 &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6fd9nj31fe0zy175.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 18 Jun 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/awesome-ai-cheatsheets-resources/</link>
-        <guid isPermaLink="true">http://localhost:4000/awesome-ai-cheatsheets-resources/</guid>
+        <link>/awesome-ai-cheatsheets-resources/</link>
+        <guid isPermaLink="true">/awesome-ai-cheatsheets-resources/</guid>
         
         <category>工具库与资源</category>
         
@@ -11292,8 +11363,8 @@ _用于连接，操作和查询数据库的库。_
 &lt;/code&gt;&lt;/summary&gt;&lt;/details&gt;
 </description>
         <pubDate>Sun, 25 Apr 2021 10:55:00 +0800</pubDate>
-        <link>http://localhost:4000/python-machine-learning-resources/</link>
-        <guid isPermaLink="true">http://localhost:4000/python-machine-learning-resources/</guid>
+        <link>/python-machine-learning-resources/</link>
+        <guid isPermaLink="true">/python-machine-learning-resources/</guid>
         
         <category>工具库与资源</category>
         
@@ -15099,8 +15170,8 @@ _用于连接，操作和查询数据库的库。_
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 25 Apr 2021 10:55:00 +0800</pubDate>
-        <link>http://localhost:4000/jupyter-resources/</link>
-        <guid isPermaLink="true">http://localhost:4000/jupyter-resources/</guid>
+        <link>/jupyter-resources/</link>
+        <guid isPermaLink="true">/jupyter-resources/</guid>
         
         <category>工具库与资源</category>
         
