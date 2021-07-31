@@ -15,6 +15,7 @@ pin: false
     <title>Awesome-pyecharts</title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
         <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+    <link rel="shortcut icon" href="../../favicon.ico"/>
 
     
 
