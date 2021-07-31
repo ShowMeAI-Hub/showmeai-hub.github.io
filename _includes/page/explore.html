@@ -1,6 +1,6 @@
 <div class="explore">
     <div class="explore__devider">*****</div>
-    <div class="explore__label">根据文章标签选择</div>
+    <div class="explore__label">根据文章类别标签选择</div>
     <ul class="categories">
         {% for category in site.data.categories %}
             <li class="categories__item"><a href="{{ '/categories/' | append: category.slug | prepend: site.baseurl }}">{{ category.name }}</a></li>

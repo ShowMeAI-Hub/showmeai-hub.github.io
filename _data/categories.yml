@@ -1,11 +1,14 @@
-- slug: AI算法
+- slug: AI-courses
+  name: AI课程
+
+- slug: AI-algorithms
   name: AI算法
 
-- slug: 面试求职
+- slug: job-and-career
   name: 面试求职
 
-- slug: AI项目
+- slug: AI-projects
   name: AI项目
 
-- slug: 工具库与资源
+- slug: tools-and-resources
   name: 工具库与资源
