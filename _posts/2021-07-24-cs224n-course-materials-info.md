@@ -1,5 +1,6 @@
 ---
 title: 《CS224n深度学习与自然语言处理》课程学习资料
+subtitle: 斯坦福CS224n深度学习与自然语言处理课程，内容覆盖NLP中常用算法模型与典型应用
 author: HanXinzi@ShowMeAI
 author_url: https://github.com/HanXinzi-AI
 categories: [AI课程]
@@ -9,18 +10,9 @@ pin: false
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 
-<h1 align="center">
-    《CS224n深度学习与自然语言处理》课程学习资料
-    <br />
-</h1>
-
-<p align="center">
-    <strong>斯坦福CS224n深度学习与自然语言处理课程，内容覆盖NLP中常用算法模型与典型应用</strong>
-</p>
-
 <h2 id="课程介绍">课程介绍</h2>
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvcxr4rl3j319j0cpnen.jpg" referrerpolicy="no-referrer" width = "80%" />
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvcxr4rl3j319j0cpnen.jpg" referrerpolicy="no-referrer" width = "100%" />
 </div>
 
 <p>课程主页：<a href="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/">CS224n: Natural Language Processing with Deep Learning（winter 2019）</a></p>
@@ -44,21 +36,21 @@ pin: false
 <hr />
 <h2 id="ShowMeAI课程解读">ShowMeAI课程解读：全套资料</h2>
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvcym18fpj311y0akaek.jpg" referrerpolicy="no-referrer" width = "70%" alt="cs224n" />
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvcym18fpj311y0akaek.jpg" referrerpolicy="no-referrer" width = "100%" alt="cs224n" />
 </div>
 
 
 <h2 id="课程课件-课件动态注解">课程课件 |【课件动态注解】| 【点击课时】</h2>
 
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvd9xjmgdg311q0epqvd.gif" referrerpolicy="no-referrer" width = "80%"/>
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvd9xjmgdg311q0epqvd.gif" referrerpolicy="no-referrer" width = "90%"/>
 </div>
 
 <style>
 #customers {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 50%;
+  width: 80%;
 }
 
 #customers td, #customers th {
@@ -169,12 +161,12 @@ pin: false
 <h2 id="课程视频-中英字幕视频">课程视频 |【中英字幕视频】| <a href="https://www.bilibili.com/video/BV1Yo4y1D7FW">【点击查看】</a></h2>
 
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvj6umc9ag31300iqu0s.gif" referrerpolicy="no-referrer" width = "50%" height="auto" />
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvj6umc9ag31300iqu0s.gif" referrerpolicy="no-referrer" width = "90%" height="auto" />
 </div>
 
 <h2 id="课程笔记-官方笔记翻译">课程笔记 |【官方笔记翻译】|【点击编号】</h2>
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvivkniarg310e0ia1id.gif" referrerpolicy="no-referrer" width = "50%" />
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvivkniarg310e0ia1id.gif" referrerpolicy="no-referrer" width = "90%" />
 </div>
 <br>
 <table id="customers" align="center">
@@ -222,7 +214,7 @@ pin: false
 
 <h2 id="课程作业-作业代码解析">课程作业 |【作业代码解析】| <a href="https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS224n-Natural-Language-Processing-with-Deep-Learning/assignment-solutions">【点击编号】</a></h2>
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvjfay0q5g313m0hmk1z.gif" referrerpolicy="no-referrer" width = "50%" />
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvjfay0q5g313m0hmk1z.gif" referrerpolicy="no-referrer" width = "90%" />
 </div>
 <br>
 <table id="customers" align="center">
@@ -254,9 +246,9 @@ pin: false
 
 <h2 id="课程项目-综合项目参考">课程项目 |【综合项目参考】| <a href="https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS224n-Natural-Language-Processing-with-Deep-Learning/projects">【点击查看】</a></h2>
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvk53wrvcg31100h11kx.gif" referrerpolicy="no-referrer" width = "55%" />
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvk53wrvcg31100h11kx.gif" referrerpolicy="no-referrer" width = "90%" />
 </div>
 
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvd18uawcj311y0akwu0.jpg" referrerpolicy="no-referrer" width = "55%" alt="end" align=center />
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvd18uawcj311y0akwu0.jpg" referrerpolicy="no-referrer" width = "90%" alt="end" align=center />
 </div>
