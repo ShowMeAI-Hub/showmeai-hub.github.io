@@ -3,23 +3,28 @@
   <channel>
     <title>Algorithm</title>
     <description>world about machine learning and artificial intelligence</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 31 Jul 2021 16:47:31 +0800</pubDate>
-    <lastBuildDate>Sat, 31 Jul 2021 16:47:31 +0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 31 Jul 2021 18:56:06 +0800</pubDate>
+    <lastBuildDate>Sat, 31 Jul 2021 18:56:06 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>算法求职市场现状与需求数据分析</title>
         <description>&lt;html&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0&quot; /&gt;
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
 &lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot; /&gt;
     &lt;title&gt;Awesome-pyecharts&lt;/title&gt;
             &lt;script type=&quot;text/javascript&quot; src=&quot;https://assets.pyecharts.org/assets/echarts.min.js&quot;&gt;&lt;/script&gt;
         &lt;script type=&quot;text/javascript&quot; src=&quot;https://assets.pyecharts.org/assets/maps/china.js&quot;&gt;&lt;/script&gt;
-    &lt;link rel=&quot;shortcut icon&quot; href=&quot;../../favicon.ico&quot; /&gt;
 
     
 
@@ -50,16 +55,16 @@
 
 &lt;h2&gt;点击按钮查看招聘数据分析详情&lt;/h2&gt;
     
-&lt;a href=&quot;https://showmeai-hub.github.io/job_analysis&quot;&gt;
+&lt;a href=&quot;/job_analysis&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看薪资&lt;/button&gt;
 &lt;/a&gt;
-&lt;a href=&quot;https://showmeai-hub.github.io/job_analysis/company&quot;&gt;
+&lt;a href=&quot;/job_analysis/company&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看公司&lt;/button&gt;
 &lt;/a&gt;
-&lt;a href=&quot;https://showmeai-hub.github.io/job_analysis/skills&quot;&gt;
+&lt;a href=&quot;/job_analysis/skills&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看要求&lt;/button&gt;
 &lt;/a&gt;
-&lt;a href=&quot;https://showmeai-hub.github.io/job_analysis/recent_jds&quot;&gt;
+&lt;a href=&quot;/job_analysis/recent_jds&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;典型JD&lt;/button&gt;
 &lt;/a&gt;
 
@@ -3740,8 +3745,8 @@
 &lt;/body&gt;&lt;/html&gt;
 </description>
         <pubDate>Sat, 31 Jul 2021 00:00:00 +0800</pubDate>
-        <link>/job-and-hiring/</link>
-        <guid isPermaLink="true">/job-and-hiring/</guid>
+        <link>http://localhost:4000/job-and-hiring/</link>
+        <guid isPermaLink="true">http://localhost:4000/job-and-hiring/</guid>
         
         <category>job</category>
         
@@ -3756,7 +3761,19 @@
     
       <item>
         <title>《CS224n深度学习与自然语言处理》课程学习资料</title>
-        <description>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0&quot; /&gt;
+        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
 
 &lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
 
@@ -3828,83 +3845,83 @@
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;第01讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture01-Introduction-and-Word-Vectors&quot;&gt;课程介绍与词向量初步&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture01-Introduction-and-Word-Vectors&quot;&gt;课程介绍与词向量初步&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第02讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture02-Word-Vectors-2-and-Word-Senses&quot;&gt;词向量进阶&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture02-Word-Vectors-2-and-Word-Senses&quot;&gt;词向量进阶&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第03讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture03-Neural-Networks&quot;&gt;神经网络知识回顾&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture03-Neural-Networks&quot;&gt;神经网络知识回顾&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第04讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture04-Backpropagation-and-Computation-Graphs&quot;&gt;反向传播与计算图&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture04-Backpropagation-and-Computation-Graphs&quot;&gt;反向传播与计算图&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第05讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture05-Linguistic-Structure-Dependency-Parsing&quot;&gt;句法分析与依存解析&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture05-Linguistic-Structure-Dependency-Parsing&quot;&gt;句法分析与依存解析&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第06讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture06-Recurrent-Neural-Networks-and-Language-Models&quot;&gt;循环神经网络与语言模型&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture06-Recurrent-Neural-Networks-and-Language-Models&quot;&gt;循环神经网络与语言模型&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第07讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture07-Vanishing-Gradients-and-Fancy-RNNs&quot;&gt;梯度消失问题与RNN变种&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture07-Vanishing-Gradients-and-Fancy-RNNs&quot;&gt;梯度消失问题与RNN变种&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第08讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture08-Machine-Translation-Seq2Seq-and-Attention&quot;&gt;机器翻译、seq2seq与注意力机制&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture08-Machine-Translation-Seq2Seq-and-Attention&quot;&gt;机器翻译、seq2seq与注意力机制&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第09讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture09-Practical-Tips-for-Final-Projects&quot;&gt;课程大项目实用技巧与经验&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture09-Practical-Tips-for-Final-Projects&quot;&gt;课程大项目实用技巧与经验&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第10讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture10-Question-Answering&quot;&gt;问答系统&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture10-Question-Answering&quot;&gt;问答系统&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第11讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture11-ConvNets-for-NLP&quot;&gt;NLP中的卷积神经网络&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture11-ConvNets-for-NLP&quot;&gt;NLP中的卷积神经网络&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第12讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture12-Subword-Models&quot;&gt;子词模型&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture12-Subword-Models&quot;&gt;子词模型&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第13讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture13-Contextual-Representations-and-Pretraining&quot;&gt;基于上下文的表征与NLP预训练模型(ELMo, transformer)&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture13-Contextual-Representations-and-Pretraining&quot;&gt;基于上下文的表征与NLP预训练模型(ELMo, transformer)&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第14讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture14-Transformers-and-Self-Attention-For-Generative-Models&quot;&gt;Transformers自注意力与生成模型&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture14-Transformers-and-Self-Attention-For-Generative-Models&quot;&gt;Transformers自注意力与生成模型&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第15讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture15-Natural-Language-Generation&quot;&gt;NLP文本生成任务&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture15-Natural-Language-Generation&quot;&gt;NLP文本生成任务&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第16讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture16-Reference-in-Language-and-Coreference-Resolution&quot;&gt;指代消解问题与神经网络方法&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture16-Reference-in-Language-and-Coreference-Resolution&quot;&gt;指代消解问题与神经网络方法&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第09讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture09-Multitask-Learning&quot;&gt;多任务学习&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture09-Multitask-Learning&quot;&gt;多任务学习&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第18讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture18-Constituency-Parsing-and-Tree-Recursive-Neural-Networks&quot;&gt;句法分析与树形递归神经网络&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture18-Constituency-Parsing-and-Tree-Recursive-Neural-Networks&quot;&gt;句法分析与树形递归神经网络&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第19讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture19-Safety-Bias-and-Fairness&quot;&gt;AI安全偏见与公平&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture19-Safety-Bias-and-Fairness&quot;&gt;AI安全偏见与公平&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;第20讲&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/lecture20-Future-of-NLP-and-Deep-Learning&quot;&gt;NLP与深度学习的未来&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs224n/lecture20-Future-of-NLP-and-Deep-Learning&quot;&gt;NLP与深度学习的未来&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -3925,39 +3942,39 @@
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td&gt;笔记1&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/note01-Introduction-SVD-and-Word2Vec&quot;&gt;词向量、SVD分解与word2vec&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/cs224n/note01-Introduction-SVD-and-Word2Vec&quot;&gt;词向量、SVD分解与word2vec&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td&gt;笔记2&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/note02-GloVe-Training-and-Evaluation&quot;&gt;GloVe及词向量的训练与评估&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/cs224n/note02-GloVe-Training-and-Evaluation&quot;&gt;GloVe及词向量的训练与评估&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td&gt;笔记3&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/note03-Neural-Networks-and-Backpropagation&quot;&gt;神经网络与反向传播&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/cs224n/note03-Neural-Networks-and-Backpropagation&quot;&gt;神经网络与反向传播&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td&gt;笔记4&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/note04-Dependency-Parsing&quot;&gt;句法分析与依存解析&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/cs224n/note04-Dependency-Parsing&quot;&gt;句法分析与依存解析&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td&gt;笔记5&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/note05-Language-Models-RNN-GRU-and-LSTM&quot;&gt;语言模型、RNN、GRU与LSTM&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/cs224n/note05-Language-Models-RNN-GRU-and-LSTM&quot;&gt;语言模型、RNN、GRU与LSTM&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td&gt;笔记6&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/note06-Neural-Machine-Translation-Seq2seq-and-Attention&quot;&gt;神经机器翻译、seq2seq与注意力机制&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/cs224n/note06-Neural-Machine-Translation-Seq2seq-and-Attention&quot;&gt;神经机器翻译、seq2seq与注意力机制&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td&gt;笔记7&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/note07-Question-Answering&quot;&gt;问答系统&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/cs224n/note07-Question-Answering&quot;&gt;问答系统&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td&gt;笔记8&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/note08-CNN-in-NLP&quot;&gt;NLP中的卷积神经网络&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/cs224n/note08-CNN-in-NLP&quot;&gt;NLP中的卷积神经网络&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td&gt;笔记9&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://showmeai-hub.github.io/cs224n/note09-Recursive-Neural-Networks-and-Constituency-Parsing&quot;&gt;句法分析与树形递归神经网络&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/cs224n/note09-Recursive-Neural-Networks-and-Constituency-Parsing&quot;&gt;句法分析与树形递归神经网络&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -4002,8 +4019,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 24 Jul 2021 00:00:00 +0800</pubDate>
-        <link>/cs224n-course-materials-info/</link>
-        <guid isPermaLink="true">/cs224n-course-materials-info/</guid>
+        <link>http://localhost:4000/cs224n-course-materials-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs224n-course-materials-info/</guid>
         
         <category>cs224n</category>
         
@@ -4020,7 +4037,21 @@
     
       <item>
         <title>AI速查表全集</title>
-        <description>&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
+
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
 
 &lt;p&gt;&lt;strong&gt;作者：&lt;a href=&quot;https://github.com/HanXinzi-AI&quot;&gt;韩信子&lt;/a&gt;@&lt;a href=&quot;https://github.com/ShowMeAI-Hub&quot;&gt;ShowMeAI&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt;设计：南乔@&lt;a href=&quot;https://github.com/ShowMeAI-Hub&quot;&gt;ShowMeAI&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -4134,8 +4165,8 @@
 &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6fd9nj31fe0zy175.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 18 Jun 2021 00:00:00 +0800</pubDate>
-        <link>/awesome-ai-cheatsheets-resources/</link>
-        <guid isPermaLink="true">/awesome-ai-cheatsheets-resources/</guid>
+        <link>http://localhost:4000/awesome-ai-cheatsheets-resources/</link>
+        <guid isPermaLink="true">http://localhost:4000/awesome-ai-cheatsheets-resources/</guid>
         
         <category>工具库与资源</category>
         
@@ -4146,7 +4177,21 @@
     
       <item>
         <title>python机器学习资源与工具库大全</title>
-        <description>&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
+
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
 
 &lt;h1 align=&quot;center&quot;&gt;
     python机器学习资源与工具库大全
@@ -15302,8 +15347,8 @@ _用于连接，操作和查询数据库的库。_
 &lt;/code&gt;&lt;/summary&gt;&lt;/details&gt;
 </description>
         <pubDate>Sun, 25 Apr 2021 10:55:00 +0800</pubDate>
-        <link>/python-machine-learning-resources/</link>
-        <guid isPermaLink="true">/python-machine-learning-resources/</guid>
+        <link>http://localhost:4000/python-machine-learning-resources/</link>
+        <guid isPermaLink="true">http://localhost:4000/python-machine-learning-resources/</guid>
         
         <category>工具库与资源</category>
         
@@ -15314,7 +15359,21 @@ _用于连接，操作和查询数据库的库。_
     
       <item>
         <title>Jupyter资源与工具库大全</title>
-        <description>&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
+
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
 
 &lt;h1 align=&quot;center&quot;&gt;
     Jupyter资源与工具库大全
@@ -19111,8 +19170,8 @@ _用于连接，操作和查询数据库的库。_
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 25 Apr 2021 10:55:00 +0800</pubDate>
-        <link>/jupyter-resources/</link>
-        <guid isPermaLink="true">/jupyter-resources/</guid>
+        <link>http://localhost:4000/jupyter-resources/</link>
+        <guid isPermaLink="true">http://localhost:4000/jupyter-resources/</guid>
         
         <category>工具库与资源</category>
         

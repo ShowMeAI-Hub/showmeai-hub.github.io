@@ -7,6 +7,13 @@ categories: [工具库与资源]
 tags: [工具库与资源]
 ---
 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/assets/vendor/highlight/styles/solarized_dark.css">
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
 <link rel="shortcut icon" href="/favicon.ico"/>
 
 **作者：[韩信子](https://github.com/HanXinzi-AI)@[ShowMeAI](https://github.com/ShowMeAI-Hub)**<br>

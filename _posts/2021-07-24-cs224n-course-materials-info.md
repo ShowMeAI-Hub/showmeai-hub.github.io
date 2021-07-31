@@ -8,7 +8,13 @@ tags: [cs224n, NLP, deep learning, AI课程]
 pin: false
 ---
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/assets/vendor/highlight/styles/solarized_dark.css">
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
 <link rel="shortcut icon" href="/favicon.ico"/>
 
 <h2 id="课程介绍">课程介绍</h2>
@@ -79,83 +85,83 @@ pin: false
   </tr>
   <tr>
     <td>第01讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture01-Introduction-and-Word-Vectors">课程介绍与词向量初步</a></td>
+    <td><a href="/cs224n/lecture01-Introduction-and-Word-Vectors">课程介绍与词向量初步</a></td>
 </tr>
 <tr>
     <td>第02讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture02-Word-Vectors-2-and-Word-Senses">词向量进阶</a></td>
+    <td><a href="/cs224n/lecture02-Word-Vectors-2-and-Word-Senses">词向量进阶</a></td>
 </tr>
 <tr>
     <td>第03讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture03-Neural-Networks">神经网络知识回顾</a></td>
+    <td><a href="/cs224n/lecture03-Neural-Networks">神经网络知识回顾</a></td>
 </tr>
 <tr>
     <td>第04讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture04-Backpropagation-and-Computation-Graphs">反向传播与计算图</a></td>
+    <td><a href="/cs224n/lecture04-Backpropagation-and-Computation-Graphs">反向传播与计算图</a></td>
 </tr>
 <tr>
     <td>第05讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture05-Linguistic-Structure-Dependency-Parsing">句法分析与依存解析</a></td>
+    <td><a href="/cs224n/lecture05-Linguistic-Structure-Dependency-Parsing">句法分析与依存解析</a></td>
 </tr>
 <tr>
     <td>第06讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture06-Recurrent-Neural-Networks-and-Language-Models">循环神经网络与语言模型</a></td>
+    <td><a href="/cs224n/lecture06-Recurrent-Neural-Networks-and-Language-Models">循环神经网络与语言模型</a></td>
 </tr>
 <tr>
     <td>第07讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture07-Vanishing-Gradients-and-Fancy-RNNs">梯度消失问题与RNN变种</a></td>
+    <td><a href="/cs224n/lecture07-Vanishing-Gradients-and-Fancy-RNNs">梯度消失问题与RNN变种</a></td>
 </tr>
 <tr>
     <td>第08讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture08-Machine-Translation-Seq2Seq-and-Attention">机器翻译、seq2seq与注意力机制</a></td>
+    <td><a href="/cs224n/lecture08-Machine-Translation-Seq2Seq-and-Attention">机器翻译、seq2seq与注意力机制</a></td>
 </tr>
 <tr>
     <td>第09讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture09-Practical-Tips-for-Final-Projects">课程大项目实用技巧与经验</a></td>
+    <td><a href="/cs224n/lecture09-Practical-Tips-for-Final-Projects">课程大项目实用技巧与经验</a></td>
 </tr>
 <tr>
     <td>第10讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture10-Question-Answering">问答系统</a></td>
+    <td><a href="/cs224n/lecture10-Question-Answering">问答系统</a></td>
 </tr>
 <tr>
     <td>第11讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture11-ConvNets-for-NLP">NLP中的卷积神经网络</a></td>
+    <td><a href="/cs224n/lecture11-ConvNets-for-NLP">NLP中的卷积神经网络</a></td>
 </tr>
 <tr>
     <td>第12讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture12-Subword-Models">子词模型</a></td>
+    <td><a href="/cs224n/lecture12-Subword-Models">子词模型</a></td>
 </tr>
 <tr>
     <td>第13讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture13-Contextual-Representations-and-Pretraining">基于上下文的表征与NLP预训练模型(ELMo, transformer)</a></td>
+    <td><a href="/cs224n/lecture13-Contextual-Representations-and-Pretraining">基于上下文的表征与NLP预训练模型(ELMo, transformer)</a></td>
 </tr>
 <tr>
     <td>第14讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture14-Transformers-and-Self-Attention-For-Generative-Models">Transformers自注意力与生成模型</a></td>
+    <td><a href="/cs224n/lecture14-Transformers-and-Self-Attention-For-Generative-Models">Transformers自注意力与生成模型</a></td>
 </tr>
 <tr>
     <td>第15讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture15-Natural-Language-Generation">NLP文本生成任务</a></td>
+    <td><a href="/cs224n/lecture15-Natural-Language-Generation">NLP文本生成任务</a></td>
 </tr>
 <tr>
     <td>第16讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture16-Reference-in-Language-and-Coreference-Resolution">指代消解问题与神经网络方法</a></td>
+    <td><a href="/cs224n/lecture16-Reference-in-Language-and-Coreference-Resolution">指代消解问题与神经网络方法</a></td>
 </tr>
 <tr>
     <td>第09讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture09-Multitask-Learning">多任务学习</a></td>
+    <td><a href="/cs224n/lecture09-Multitask-Learning">多任务学习</a></td>
 </tr>
 <tr>
     <td>第18讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture18-Constituency-Parsing-and-Tree-Recursive-Neural-Networks">句法分析与树形递归神经网络</a></td>
+    <td><a href="/cs224n/lecture18-Constituency-Parsing-and-Tree-Recursive-Neural-Networks">句法分析与树形递归神经网络</a></td>
 </tr>
 <tr>
     <td>第19讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture19-Safety-Bias-and-Fairness">AI安全偏见与公平</a></td>
+    <td><a href="/cs224n/lecture19-Safety-Bias-and-Fairness">AI安全偏见与公平</a></td>
 </tr>
 <tr>
     <td>第20讲</td>
-    <td><a href="https://showmeai-hub.github.io/cs224n/lecture20-Future-of-NLP-and-Deep-Learning">NLP与深度学习的未来</a></td>
+    <td><a href="/cs224n/lecture20-Future-of-NLP-and-Deep-Learning">NLP与深度学习的未来</a></td>
 </tr>
 </table>
 
@@ -176,39 +182,39 @@ pin: false
   </tr>
   <tr>
       <td>笔记1</td>
-      <td><a href="https://showmeai-hub.github.io/cs224n/note01-Introduction-SVD-and-Word2Vec">词向量、SVD分解与word2vec</a></td>
+      <td><a href="/cs224n/note01-Introduction-SVD-and-Word2Vec">词向量、SVD分解与word2vec</a></td>
   </tr>
   <tr>
       <td>笔记2</td>
-      <td><a href="https://showmeai-hub.github.io/cs224n/note02-GloVe-Training-and-Evaluation">GloVe及词向量的训练与评估</a></td>
+      <td><a href="/cs224n/note02-GloVe-Training-and-Evaluation">GloVe及词向量的训练与评估</a></td>
   </tr>
   <tr>
       <td>笔记3</td>
-      <td><a href="https://showmeai-hub.github.io/cs224n/note03-Neural-Networks-and-Backpropagation">神经网络与反向传播</a></td>
+      <td><a href="/cs224n/note03-Neural-Networks-and-Backpropagation">神经网络与反向传播</a></td>
   </tr>
   <tr>
       <td>笔记4</td>
-      <td><a href="https://showmeai-hub.github.io/cs224n/note04-Dependency-Parsing">句法分析与依存解析</a></td>
+      <td><a href="/cs224n/note04-Dependency-Parsing">句法分析与依存解析</a></td>
   </tr>
   <tr>
       <td>笔记5</td>
-      <td><a href="https://showmeai-hub.github.io/cs224n/note05-Language-Models-RNN-GRU-and-LSTM">语言模型、RNN、GRU与LSTM</a></td>
+      <td><a href="/cs224n/note05-Language-Models-RNN-GRU-and-LSTM">语言模型、RNN、GRU与LSTM</a></td>
   </tr>
   <tr>
       <td>笔记6</td>
-      <td><a href="https://showmeai-hub.github.io/cs224n/note06-Neural-Machine-Translation-Seq2seq-and-Attention">神经机器翻译、seq2seq与注意力机制</a></td>
+      <td><a href="/cs224n/note06-Neural-Machine-Translation-Seq2seq-and-Attention">神经机器翻译、seq2seq与注意力机制</a></td>
   </tr>
   <tr>
       <td>笔记7</td>
-      <td><a href="https://showmeai-hub.github.io/cs224n/note07-Question-Answering">问答系统</a></td>
+      <td><a href="/cs224n/note07-Question-Answering">问答系统</a></td>
   </tr>
   <tr>
       <td>笔记8</td>
-      <td><a href="https://showmeai-hub.github.io/cs224n/note08-CNN-in-NLP">NLP中的卷积神经网络</a></td>
+      <td><a href="/cs224n/note08-CNN-in-NLP">NLP中的卷积神经网络</a></td>
   </tr>
   <tr>
       <td>笔记9</td>
-      <td><a href="https://showmeai-hub.github.io/cs224n/note09-Recursive-Neural-Networks-and-Constituency-Parsing">句法分析与树形递归神经网络</a></td>
+      <td><a href="/cs224n/note09-Recursive-Neural-Networks-and-Constituency-Parsing">句法分析与树形递归神经网络</a></td>
   </tr>
 </table>
 
