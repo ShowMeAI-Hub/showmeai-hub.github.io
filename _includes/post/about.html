@@ -1,7 +1,7 @@
 <div class="about">
     <div class="about__devider">*****</div>
     <div class="about__text">
-        Written by <strong> {% if page.author.fullname %} {{ page.author.fullname }} {% else %} {{ site.author.fullname }} {% endif %}</strong>
-        on <strong>{{ page.date | date: "%d %B %Y" }}</strong>
+        本文作者 <strong> {% if page.author %} {{ page.author }} {% else %} {{ site.author }} {% endif %}</strong>
+        欢迎关注公众号<strong> ShowMeAI研究中心 </strong>获取更多资源！
     </div>
 </div>

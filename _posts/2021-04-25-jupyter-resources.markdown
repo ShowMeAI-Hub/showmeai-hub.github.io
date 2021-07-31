@@ -8,6 +8,8 @@ tags: [工具库与资源]
 pin: false
 ---
 
+<link rel="shortcut icon" href="/favicon.ico"/>
+
 <h1 align="center">
     Jupyter资源与工具库大全
     <br>

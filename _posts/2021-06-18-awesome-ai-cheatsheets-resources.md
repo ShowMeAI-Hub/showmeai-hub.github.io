@@ -7,6 +7,7 @@ categories: [工具库与资源]
 tags: [工具库与资源]
 ---
 
+<link rel="shortcut icon" href="/favicon.ico"/>
 
 **作者：[韩信子](https://github.com/HanXinzi-AI)@[ShowMeAI](https://github.com/ShowMeAI-Hub)**<br>
 **设计：南乔@[ShowMeAI](https://github.com/ShowMeAI-Hub)**

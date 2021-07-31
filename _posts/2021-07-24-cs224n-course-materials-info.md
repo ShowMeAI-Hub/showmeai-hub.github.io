@@ -9,6 +9,7 @@ pin: false
 ---
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+<link rel="shortcut icon" href="/favicon.ico"/>
 
 <h2 id="课程介绍">课程介绍</h2>
 <div align="center">

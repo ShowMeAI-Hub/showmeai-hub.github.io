@@ -5,14 +5,15 @@
     <description>world about machine learning and artificial intelligence</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 31 Jul 2021 16:03:15 +0800</pubDate>
-    <lastBuildDate>Sat, 31 Jul 2021 16:03:15 +0800</lastBuildDate>
+    <pubDate>Sat, 31 Jul 2021 16:42:35 +0800</pubDate>
+    <lastBuildDate>Sat, 31 Jul 2021 16:42:35 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>算法求职市场现状与需求数据分析</title>
         <description>&lt;html&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0&quot; /&gt;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot; /&gt;
     &lt;title&gt;Awesome-pyecharts&lt;/title&gt;
@@ -3757,6 +3758,8 @@
         <title>《CS224n深度学习与自然语言处理》课程学习资料</title>
         <description>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0&quot; /&gt;
 
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+
 &lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
 &lt;div align=&quot;center&quot;&gt;
 &lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gsvcxr4rl3j319j0cpnen.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
@@ -4017,7 +4020,9 @@
     
       <item>
         <title>AI速查表全集</title>
-        <description>&lt;p&gt;&lt;strong&gt;作者：&lt;a href=&quot;https://github.com/HanXinzi-AI&quot;&gt;韩信子&lt;/a&gt;@&lt;a href=&quot;https://github.com/ShowMeAI-Hub&quot;&gt;ShowMeAI&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+        <description>&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+
+&lt;p&gt;&lt;strong&gt;作者：&lt;a href=&quot;https://github.com/HanXinzi-AI&quot;&gt;韩信子&lt;/a&gt;@&lt;a href=&quot;https://github.com/ShowMeAI-Hub&quot;&gt;ShowMeAI&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt;设计：南乔@&lt;a href=&quot;https://github.com/ShowMeAI-Hub&quot;&gt;ShowMeAI&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;目录&quot;&gt;目录&lt;/h1&gt;
@@ -4141,7 +4146,9 @@
     
       <item>
         <title>python机器学习资源与工具库大全</title>
-        <description>&lt;h1 align=&quot;center&quot;&gt;
+        <description>&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+
+&lt;h1 align=&quot;center&quot;&gt;
     python机器学习资源与工具库大全
     &lt;br /&gt;
 &lt;/h1&gt;
@@ -15307,7 +15314,9 @@ _用于连接，操作和查询数据库的库。_
     
       <item>
         <title>Jupyter资源与工具库大全</title>
-        <description>&lt;h1 align=&quot;center&quot;&gt;
+        <description>&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+
+&lt;h1 align=&quot;center&quot;&gt;
     Jupyter资源与工具库大全
     &lt;br /&gt;
 &lt;/h1&gt;
