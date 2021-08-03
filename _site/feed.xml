@@ -3,10 +3,10 @@
   <channel>
     <title>Algorithm</title>
     <description>world about machine learning and artificial intelligence</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 31 Jul 2021 18:56:06 +0800</pubDate>
-    <lastBuildDate>Sat, 31 Jul 2021 18:56:06 +0800</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 03 Aug 2021 16:05:02 +0800</pubDate>
+    <lastBuildDate>Tue, 03 Aug 2021 16:05:02 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -3745,8 +3745,8 @@
 &lt;/body&gt;&lt;/html&gt;
 </description>
         <pubDate>Sat, 31 Jul 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/job-and-hiring/</link>
-        <guid isPermaLink="true">http://localhost:4000/job-and-hiring/</guid>
+        <link>/job-and-hiring/</link>
+        <guid isPermaLink="true">/job-and-hiring/</guid>
         
         <category>job</category>
         
@@ -4019,14 +4019,378 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 24 Jul 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs224n-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs224n-course-materials-info/</guid>
+        <link>/cs224n-course-materials-info/</link>
+        <guid isPermaLink="true">/cs224n-course-materials-info/</guid>
         
         <category>cs224n</category>
         
         <category>NLP</category>
         
         <category>deep learning</category>
+        
+        <category>AI课程</category>
+        
+        
+        <category>AI课程</category>
+        
+      </item>
+    
+      <item>
+        <title>《CS230深度学习》课程学习资料</title>
+        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
+
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+
+&lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
+&lt;p&gt;课程主页：&lt;a href=&quot;http://cs230.stanford.edu/&quot;&gt;CS230: Deep Learning&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;深度学习是AI领域中最受欢迎的技能之一，斯坦福CS230深度学习课程由吴恩达教授和他的助教Kian Katanforoosh讲授。课程内容覆盖：深度学习的基础，理解如何构建神经网络，卷积神经网络（CNN）、循环神经网络（RNN）、长短期记忆网络（LSTM）、Adam 优化器、Dropout 方法、BatchNorm 方法、Xavier/He 初始化方法等。课程也涉及了深度学习在医疗、自动驾驶、手语识别、音乐生成和自然语言处理等领域的应用案例。&lt;/p&gt;
+
+&lt;h2 id=&quot;前置课程&quot;&gt;前置课程&lt;/h2&gt;
+&lt;p&gt;学生应具有以下背景：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;掌握计算机科学基本原理和技能，编程能力达到一个水平足以编写一个相对比较复杂的计算机程序 Python/Numpy （CS106A、CS106B、CS106X）。&lt;/li&gt;
+  &lt;li&gt;熟悉概率理论（CS 109、MATH151 或 STAT116）。&lt;/li&gt;
+  &lt;li&gt;熟悉多变量微积分和线性代数。包括但不限于 MATH51、MATH104、MATH113、CS205、CME100）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gsvcym18fpj311y0akaek.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;课程速查表--点击链接&quot;&gt;课程速查表 | &lt;a href=&quot;http://blog.showmeai.tech/cs230/cheatsheet-slides&quot;&gt;【点击链接】&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;课程重点笔记--点击板块&quot;&gt;课程重点笔记 | 【点击板块】&lt;/h2&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gsvd9xjmgdg311q0epqvd.gif&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#customers td, #customers th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #F5B041;
+  color: white;
+}
+&lt;/style&gt;
+
+&lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;板块编号&lt;/th&gt;
+    &lt;th&gt;笔记链接&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;板块1&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs230/CNN&quot;&gt;卷积神经网络&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;板块2&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs230/RNN&quot;&gt;循环神经网络&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;板块3&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs230/DL-Tips-and-Tricks&quot;&gt;深度学习技巧与经验&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;课程作业-作业代码解析点击编号&quot;&gt;课程作业 |【作业代码解析】|【点击编号】&lt;/h2&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gsvjfay0q5g313m0hmk1z.gif&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+&lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;作业编号&lt;/th&gt;
+    &lt;th&gt;solution地址&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第1门-作业1&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment1&quot;&gt;无作业&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第1门-作业2&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment1&quot;&gt;神经网络基础&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第1门-作业3&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment1&quot;&gt;浅层神经网络&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第1门-作业4&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment1&quot;&gt;深层神经网络&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第2门-作业1&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment2&quot;&gt;神经网络实践(初始化、正则化、梯度检查)&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第2门-作业2&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment2&quot;&gt;神经网络优化算法&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第2门-作业3&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment2&quot;&gt;超参数调优、BN与Tensorflow实践&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第3门-作业&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment3&quot;&gt;无作业&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第4门-作业1&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment4&quot;&gt;卷积神经网络基础&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第4门-作业2&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment4&quot;&gt;深度卷积神经网络&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第4门-作业3&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment4&quot;&gt;目标检测实现&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第4门-作业4&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment4&quot;&gt;图像风格转换与人脸识别&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第4门-作业1&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment5&quot;&gt;循环神经网络与LSTM&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第4门-作业2&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment5&quot;&gt;自然语言处理与词嵌入&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;第4门-作业3&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS230-Deep-Learning/assignment-solutions/Assignment5&quot;&gt;序列模型与注意力机制&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gsvd18uawcj311y0akwu0.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; alt=&quot;end&quot; align=&quot;center&quot; /&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 18 Jun 2021 00:00:00 +0800</pubDate>
+        <link>/cs230-course-materials-info/</link>
+        <guid isPermaLink="true">/cs230-course-materials-info/</guid>
+        
+        <category>cs229</category>
+        
+        <category>machine learning</category>
+        
+        <category>AI课程</category>
+        
+        
+        <category>AI课程</category>
+        
+      </item>
+    
+      <item>
+        <title>《CS229机器学习》课程学习资料</title>
+        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
+
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+
+&lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
+&lt;p&gt;课程主页：&lt;a href=&quot;http://cs229.stanford.edu/&quot;&gt;CS229: Machine Learning&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;斯坦福CS229机器学习课程由吴恩达教授和其他几位教授一起主讲，是机器学习领域里一门非常重要的课程。由于课程质量非常高，是许多人进入人工智能、机器学习领域的基石。&lt;/p&gt;
+
+&lt;p&gt;本课程广泛介绍机器学习和统计模式识别。主题包括：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;监督学习（生成/判别学习、参数化/非参数化学习、神经网络、支持向量机）&lt;/li&gt;
+  &lt;li&gt;无监督学习（聚类、维度缩减、核方法）&lt;/li&gt;
+  &lt;li&gt;学习理论（偏差/方差权衡，实用建议）&lt;/li&gt;
+  &lt;li&gt;强化学习和自适应控制&lt;/li&gt;
+  &lt;li&gt;机器学习的最新应用，如机器人控制、数据挖掘、自主导航、生物信息学、语音识别以及文本和网页数据处理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;前置课程&quot;&gt;前置课程&lt;/h2&gt;
+&lt;p&gt;学生应具有以下背景：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;掌握计算机科学基本原理和技能，编程能力达到一个水平足以编写一个相对比较复杂的计算机程序 Python/Numpy （CS106A、CS106B、CS106X）。&lt;/li&gt;
+  &lt;li&gt;熟悉概率理论（CS 109、MATH151 或 STAT116）。&lt;/li&gt;
+  &lt;li&gt;熟悉多变量微积分和线性代数。包括但不限于 MATH51、MATH104、MATH113、CS205、CME100）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;课程主题&quot;&gt;课程主题&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;有监督学习：线性回归、逻辑回归、梯度下降、广义线性模型、高斯判别分析、朴素贝叶斯、支持向量机、核方法、决策树与集成方法、神经网络&lt;/li&gt;
+  &lt;li&gt;无监督学习：K 均值、高斯混合模型与期望最大算法、因子分析、主成分分析、独立成分分析&lt;/li&gt;
+  &lt;li&gt;强化学习：马尔可夫决策过程、值/策略迭代、梯度策略&lt;/li&gt;
+  &lt;li&gt;学习理论：偏差/方差权衡，实用建议&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gsvcym18fpj311y0akaek.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;课程速查表--点击链接&quot;&gt;课程速查表 | &lt;a href=&quot;http://blog.showmeai.tech/cs229/cheatsheet-slides&quot;&gt;【点击链接】&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;课程重点笔记--点击板块&quot;&gt;课程重点笔记 | 【点击板块】&lt;/h2&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gsvd9xjmgdg311q0epqvd.gif&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#customers td, #customers th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #F5B041;
+  color: white;
+}
+&lt;/style&gt;
+
+&lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;板块编号&lt;/th&gt;
+    &lt;th&gt;笔记链接&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;板块1&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs229/Supervised-Learning&quot;&gt;监督学习速查表&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;板块2&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs229/Unsupervised-Learning&quot;&gt;无监督学习速查表&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;板块3&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs229/Deep-Learning&quot;&gt;深度学习速查表&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;板块4&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs229/ML-Tips-and-Tricks&quot;&gt;机器学习技巧与经验&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;板块5&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs229/Probabilities-and-Statistics&quot;&gt;概率与统计基础&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;板块6&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;/cs229/Linear-Algebra-and-Calculus&quot;&gt;线性代数与微积分基础&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;课程作业-作业代码解析点击编号&quot;&gt;课程作业 |【作业代码解析】|【点击编号】&lt;/h2&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gsvjfay0q5g313m0hmk1z.gif&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+&lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;作业编号&lt;/th&gt;
+    &lt;th&gt;solution地址&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;作业1&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS229-Machine-Learning/assignment-solutions/Assignment1&quot;&gt;线性回归与梯度下降&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;作业2&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS229-Machine-Learning/assignment-solutions/Assignment2&quot;&gt;逻辑回归与梯度下降&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;作业3&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS229-Machine-Learning/assignment-solutions/Assignment3&quot;&gt;多分类与神经网络预估&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;作业4&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS229-Machine-Learning/assignment-solutions/Assignment4&quot;&gt;神经网络学习&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;作业5&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS229-Machine-Learning/assignment-solutions/Assignment5&quot;&gt;高偏差/高方差与正则化&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;作业6&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS229-Machine-Learning/assignment-solutions/Assignment6&quot;&gt;SVM与垃圾邮件分类&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;作业7&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS229-Machine-Learning/assignment-solutions/Assignment7&quot;&gt;K-means与PCA&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td&gt;作业8&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-courses-notes-cheatsheets/tree/main/CS229-Machine-Learning/assignment-solutions/Assignment8&quot;&gt;异态检测与推荐系统&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gsvd18uawcj311y0akwu0.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; alt=&quot;end&quot; align=&quot;center&quot; /&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 18 Jun 2021 00:00:00 +0800</pubDate>
+        <link>/cs229-course-materials-info/</link>
+        <guid isPermaLink="true">/cs229-course-materials-info/</guid>
+        
+        <category>cs229</category>
+        
+        <category>machine learning</category>
         
         <category>AI课程</category>
         
@@ -4165,8 +4529,8 @@
 &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6fd9nj31fe0zy175.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 18 Jun 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/awesome-ai-cheatsheets-resources/</link>
-        <guid isPermaLink="true">http://localhost:4000/awesome-ai-cheatsheets-resources/</guid>
+        <link>/awesome-ai-cheatsheets-resources/</link>
+        <guid isPermaLink="true">/awesome-ai-cheatsheets-resources/</guid>
         
         <category>工具库与资源</category>
         
@@ -15347,8 +15711,8 @@ _用于连接，操作和查询数据库的库。_
 &lt;/code&gt;&lt;/summary&gt;&lt;/details&gt;
 </description>
         <pubDate>Sun, 25 Apr 2021 10:55:00 +0800</pubDate>
-        <link>http://localhost:4000/python-machine-learning-resources/</link>
-        <guid isPermaLink="true">http://localhost:4000/python-machine-learning-resources/</guid>
+        <link>/python-machine-learning-resources/</link>
+        <guid isPermaLink="true">/python-machine-learning-resources/</guid>
         
         <category>工具库与资源</category>
         
@@ -19170,8 +19534,8 @@ _用于连接，操作和查询数据库的库。_
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 25 Apr 2021 10:55:00 +0800</pubDate>
-        <link>http://localhost:4000/jupyter-resources/</link>
-        <guid isPermaLink="true">http://localhost:4000/jupyter-resources/</guid>
+        <link>/jupyter-resources/</link>
+        <guid isPermaLink="true">/jupyter-resources/</guid>
         
         <category>工具库与资源</category>
         

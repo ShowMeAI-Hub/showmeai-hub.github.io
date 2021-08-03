@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>cs230-notes</title>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="shortcut icon" href="/favicon.ico"/>
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section ><section data-markdown><script type="text/template"><img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6bil4tcj319u0zfwyi.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6bdsizxj319u0zfwz1.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6bec4iaj319u0zfqn6.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6bf3izkj319u0zfx0h.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6bi8uyyj319u0zfh7o.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6bhy69sj319u0zfaof.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6bijq6zj319u0zfqog.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6czlc3sj319u0zf7k9.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6cw4n9jj319u0zfqm0.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6czz6g7j319u0zftrc.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6cwb2x0j319u0zfqio.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template">
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6cy64vmj319u0zfk8z.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6d0vog7j319u0zfavk.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6e46gqwj319u0zfav7.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6e3xfm7j319u0zfh77.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6e52rrvj319u0zfkbq.jpg" style="width:800px;" referrerpolicy="no-referrer"/>
+</script></section><section data-markdown><script type="text/template"> 
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grz6e77fxij319u0zf7pu.jpg" style="width:800px;" referrerpolicy="no-referrer"/></script></section></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
