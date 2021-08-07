@@ -5,8 +5,8 @@
     <description>world about machine learning and artificial intelligence</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Aug 2021 12:03:05 +0800</pubDate>
-    <lastBuildDate>Sat, 07 Aug 2021 12:03:05 +0800</lastBuildDate>
+    <pubDate>Sat, 07 Aug 2021 12:05:53 +0800</pubDate>
+    <lastBuildDate>Sat, 07 Aug 2021 12:05:53 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -325,12 +325,11 @@
 &lt;/div&gt;
 
 &lt;h2 id=&quot;课程速查表--点击链接&quot;&gt;课程速查表 | &lt;a href=&quot;http://blog.showmeai.tech/cs230/cheatsheet-slides&quot;&gt;【点击链接】&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h2 id=&quot;课程重点笔记--点击板块&quot;&gt;课程重点笔记 | 【点击板块】&lt;/h2&gt;
-
 &lt;div align=&quot;center&quot;&gt;
 &lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt81bppeltg30mw0hbnpg.gif&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
 &lt;/div&gt;
+
+&lt;h2 id=&quot;课程重点笔记--点击板块&quot;&gt;课程重点笔记 | 【点击板块】&lt;/h2&gt;
 
 &lt;style&gt;
 #customers {
@@ -529,11 +528,11 @@
 
 &lt;h2 id=&quot;课程速查表--点击链接&quot;&gt;课程速查表 | &lt;a href=&quot;http://blog.showmeai.tech/cs229/cheatsheet-slides&quot;&gt;【点击链接】&lt;/a&gt;&lt;/h2&gt;
 
-&lt;h2 id=&quot;课程重点笔记--点击板块&quot;&gt;课程重点笔记 | 【点击板块】&lt;/h2&gt;
-
 &lt;div align=&quot;center&quot;&gt;
 &lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt81bppeltg30mw0hbnpg.gif&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;80%&quot; /&gt;
 &lt;/div&gt;
+
+&lt;h2 id=&quot;课程重点笔记--点击板块&quot;&gt;课程重点笔记 | 【点击板块】&lt;/h2&gt;
 
 &lt;style&gt;
 #customers {

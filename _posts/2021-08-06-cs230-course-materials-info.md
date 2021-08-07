@@ -37,13 +37,12 @@ pin: false
 
 
 ## 课程速查表 | [【点击链接】](http://blog.showmeai.tech/cs230/cheatsheet-slides)
-
-
-## 课程重点笔记 | 【点击板块】
-
 <div align="center">
 <img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt81bppeltg30mw0hbnpg.gif" referrerpolicy="no-referrer" width = "100%"/>
 </div>
+
+
+## 课程重点笔记 | 【点击板块】
 
 <style>
 #customers {
