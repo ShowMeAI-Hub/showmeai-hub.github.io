@@ -1,5 +1,5 @@
 ---
-title: 《CS230深度学习》课程学习资料
+title: 斯坦福CS230深度学习-课程学习资料
 subtitle: 斯坦福CS230深度学习课程，内容覆盖卷积神经网络、循环神经网络、网络训练技巧与经验等
 author: HanXinzi@ShowMeAI
 author_url: https://github.com/HanXinzi-AI
@@ -32,7 +32,7 @@ pin: false
 <hr />
 <h2 id="ShowMeAI课程解读">ShowMeAI课程解读：全套资料</h2>
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvcym18fpj311y0akaek.jpg" referrerpolicy="no-referrer" width = "100%" />
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt813qif68j31kx0fuqia.jpg" referrerpolicy="no-referrer" width = "100%" />
 </div>
 
 
@@ -42,7 +42,7 @@ pin: false
 ## 课程重点笔记 | 【点击板块】
 
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvd9xjmgdg311q0epqvd.gif" referrerpolicy="no-referrer" width = "100%"/>
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt81bppeltg30mw0hbnpg.gif" referrerpolicy="no-referrer" width = "100%"/>
 </div>
 
 <style>
@@ -163,5 +163,9 @@ pin: false
 
 
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvd18uawcj311y0akwu0.jpg" referrerpolicy="no-referrer" width = "100%" alt="end" align=center />
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt813qbj1mj31kx0fugtn.jpg" referrerpolicy="no-referrer" width = "100%" alt="end" align=center />
+</div>
+
+<div align="center">
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt813qqfpvj31kx0funp9.jpg" referrerpolicy="no-referrer" width = "100%" alt="end" align=center />
 </div>

@@ -1,0 +1,76 @@
+---
+title: 斯坦福CS520知识图谱-课程学习资料
+subtitle: 斯坦福CS520知识图谱课程，内容覆盖知识图谱研究和企业应用的细节
+author: HanXinzi@ShowMeAI
+author_url: https://github.com/HanXinzi-AI
+categories: [AI课程]
+tags: [CS520, 知识图谱, 知识推理, 图谱应用, AI课程]
+pin: false
+---
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/assets/vendor/highlight/styles/solarized_dark.css">
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
+<link rel="shortcut icon" href="/favicon.ico"/>
+
+## 课程介绍
+
+<div align="center">
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt810n1mtej31ky0fudp5.jpg" referrerpolicy="no-referrer" width = "100%" />
+</div>
+
+课程主页：[Stanford·CS520·Knowledge Graphs](https://web.stanford.edu/class/cs520/)
+
+知识图谱在当今互联网时代的知识存储连接和应用中起着巨大的作用，CS520是顶级院校斯坦福出品的知识图谱方向专业课程，核心内容覆盖各种数据形态下的知识抽取、图谱构建、图谱的推断应用等，课程有部分lecture邀请企业专家分享工业界应用现状与方法，有很好的启发性和实用性。
+
+## 课程主题与大纲
+
+- 知识图谱简介
+- 知识图谱的what和why
+- 图数据模型
+- 应用Cypher进行图谱查询
+- 分布式RDF数据管理与查询
+- 如何设计知识图谱schema
+- 把维基百科数据构建成维基知识库
+- 给维基数据添加Convid信息
+- 维基数据中的实体schema和形状语言
+- 如何从结构化数据中构建知识图谱
+- 自监督实体识别与消歧
+- 网络知识图谱中的指代消解
+- 如何从文本数据中构建知识图谱
+- 构建用于语言理解的因果知识图谱
+- 可用于图像理解的场景图谱
+- 知识图谱知识推理算法介绍
+- 知识图谱的高价值应用案例介绍
+- 图谱关系学习与管理
+- 知识图谱介绍
+- 知识图谱交互方式
+- 为搜索引擎构建知识面板
+- 逻辑语言(英语)计算
+- 问答系统中基于语言模型和知识图谱的知识推理
+- 从0到亿的Rich Product图谱构建之路
+- 构建知识图谱
+- 如何拓展知识图谱
+- 针对递归查询的增量视图维护
+- 知识图谱工业实践应用
+- 工业大规模知识图谱：实时观察与预估
+- 因果图
+- 金融数据用例的通用预测计算建模：应用本体作为金融数据预处理工具
+- 构建知识图谱的开源工具调研
+- 从知识图谱到AI，两者如何关联
+- 用于扩展知识图谱的 Hendler 语义
+- 知识图谱++
+
+<hr />
+<h2 id="ShowMeAI课程解读">ShowMeAI课程解读：全套资料</h2>
+<div align="center">
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt810mszd2j31kx0fu7cd.jpg" referrerpolicy="no-referrer" width = "100%" />
+</div>
+
+<div align="center">
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt810nfs68j31kx0fu1kx.jpg" referrerpolicy="no-referrer" width = "100%" />
+</div>

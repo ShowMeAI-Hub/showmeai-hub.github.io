@@ -1,5 +1,5 @@
 ---
-title: 《CS229机器学习》课程学习资料
+title: 斯坦福CS229机器学习-课程学习资料
 subtitle: 斯坦福CS229机器学习课程，内容覆盖监督/无监督学习、强化学习、学习理论
 author: HanXinzi@ShowMeAI
 author_url: https://github.com/HanXinzi-AI
@@ -46,7 +46,7 @@ pin: false
 <hr />
 <h2 id="ShowMeAI课程解读">ShowMeAI课程解读：全套资料</h2>
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvcym18fpj311y0akaek.jpg" referrerpolicy="no-referrer" width = "100%" />
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt812wkeh5j31kx0fu18r.jpg" referrerpolicy="no-referrer" width = "100%" />
 </div>
 
 
@@ -56,7 +56,7 @@ pin: false
 ## 课程重点笔记 | 【点击板块】
 
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvd9xjmgdg311q0epqvd.gif" referrerpolicy="no-referrer" width = "100%"/>
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt81bppeltg30mw0hbnpg.gif" referrerpolicy="no-referrer" width = "80%"/>
 </div>
 
 <style>
@@ -161,5 +161,9 @@ pin: false
 
 
 <div align="center">
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gsvd18uawcj311y0akwu0.jpg" referrerpolicy="no-referrer" width = "100%" alt="end" align=center />
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt812wav61j31kx0fujzf.jpg" referrerpolicy="no-referrer" width = "100%" alt="end" align=center />
+</div>
+
+<div align="center">
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt812woxlfj31kx0funp9.jpg" referrerpolicy="no-referrer" width = "100%" alt="end" align=center />
 </div>
