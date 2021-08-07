@@ -3,10 +3,10 @@
   <channel>
     <title>Algorithm</title>
     <description>world about machine learning and artificial intelligence</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Aug 2021 10:58:52 +0800</pubDate>
-    <lastBuildDate>Sat, 07 Aug 2021 10:58:52 +0800</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 07 Aug 2021 12:03:05 +0800</pubDate>
+    <lastBuildDate>Sat, 07 Aug 2021 12:03:05 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -269,8 +269,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 07 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs224n-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs224n-course-materials-info/</guid>
+        <link>/cs224n-course-materials-info/</link>
+        <guid isPermaLink="true">/cs224n-course-materials-info/</guid>
         
         <category>cs224n</category>
         
@@ -456,8 +456,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 06 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs230-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs230-course-materials-info/</guid>
+        <link>/cs230-course-materials-info/</link>
+        <guid isPermaLink="true">/cs230-course-materials-info/</guid>
         
         <category>cs229</category>
         
@@ -643,8 +643,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 06 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs229-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs229-course-materials-info/</guid>
+        <link>/cs229-course-materials-info/</link>
+        <guid isPermaLink="true">/cs229-course-materials-info/</guid>
         
         <category>cs229</category>
         
@@ -654,6 +654,3896 @@
         
         
         <category>AI课程</category>
+        
+      </item>
+    
+      <item>
+        <title>算法求职市场现状与需求数据分析</title>
+        <description>&lt;html&gt;
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;title&gt;Awesome-pyecharts&lt;/title&gt;
+            &lt;script type=&quot;text/javascript&quot; src=&quot;https://assets.pyecharts.org/assets/echarts.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script type=&quot;text/javascript&quot; src=&quot;https://assets.pyecharts.org/assets/maps/china.js&quot;&gt;&lt;/script&gt;
+
+    
+
+&lt;style&gt;
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid pink;
+  background-color: #f4511e;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 16px;
+  transition: all 0.1s;
+  cursor: pointer;
+  float: left;
+}
+
+
+.button:hover {
+    background-color: #3e8e41;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h2&gt;（2021-07-21更新）&lt;/h2&gt;
+
+&lt;h2&gt;点击按钮查看招聘数据分析详情&lt;/h2&gt;
+    
+&lt;a href=&quot;/job_analysis&quot;&gt;
+    &lt;button class=&quot;button&quot;&gt;看薪资&lt;/button&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/job_analysis/company&quot;&gt;
+    &lt;button class=&quot;button&quot;&gt;看公司&lt;/button&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/job_analysis/skills&quot;&gt;
+    &lt;button class=&quot;button&quot;&gt;看要求&lt;/button&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/job_analysis/recent_jds&quot;&gt;
+    &lt;button class=&quot;button&quot;&gt;典型JD&lt;/button&gt;
+&lt;/a&gt;
+
+&lt;p style=&quot;clear:both&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+
+
+&lt;/body&gt;
+
+
+&lt;body&gt;
+        &lt;style&gt;
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 12px 16px;
+            transition: 0.3s;
+        }
+
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        .chart-container {
+            display: none;
+            padding: 6px 12px;
+            border-top: none;
+        }
+    &lt;/style&gt;
+    &lt;div class=&quot;tab&quot;&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'c35c684d4f0f469fa9cec2467402fa18')&quot;&gt;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'c2d5887457ac4aa7b310a8f248a7b1a4')&quot;&gt;实习薪资分布&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, '9dbd8e1b47be49caa80a6a2c04fa1e13')&quot;&gt;社招薪资分布&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'f298dcefa2e745f88250b414e6652487')&quot;&gt;城市&amp;amp;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, '78458f94dc3343699bcaa2f8fd0ee7c3')&quot;&gt;薪资地图&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'c2b8e8b6c25249f7bb15e74dde281044')&quot;&gt;区域&amp;amp;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'cc39960413664213b0627e8ed0c5ea0a')&quot;&gt;行业&amp;amp;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'cade40ed183246eaa532eeff0f774be0')&quot;&gt;方向关键词&amp;amp;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'e35c6591d4064a50832c143191932338')&quot;&gt;学历&amp;amp;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, '505975070c14488e96f1b260a08fe485')&quot;&gt;经验&amp;amp;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'ffa5ff080e954c999d87038bf79810b4')&quot;&gt;top10薪资招聘&lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;box&quot;&gt;
+                &lt;div id=&quot;c35c684d4f0f469fa9cec2467402fa18&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px;&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+        var chart_c35c684d4f0f469fa9cec2467402fa18 = echarts.init(
+            document.getElementById('c35c684d4f0f469fa9cec2467402fa18'), 'white', {renderer: 'canvas'});
+            
+    var waterMarkText = 'ShowMeAI';
+    var canvas = document.createElement('canvas');
+    var ctx = canvas.getContext('2d');
+    canvas.width = canvas.height = 300;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.globalAlpha = 0.03;
+    ctx.font = '50px Microsoft Yahei';
+    ctx.translate(100, 100);
+    ctx.rotate(-Math.PI / 4);
+    ctx.fillText(waterMarkText, 0, 0);
+    img = canvas;
+    
+        var option_c35c684d4f0f469fa9cec2467402fa18 = {
+    &quot;backgroundColor&quot;: {
+        &quot;type&quot;: &quot;pattern&quot;,
+        &quot;image&quot;: img,
+        &quot;repeat&quot;: &quot;repeat&quot;
+    },
+    &quot;animation&quot;: true,
+    &quot;animationThreshold&quot;: 2000,
+    &quot;animationDuration&quot;: 1000,
+    &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelay&quot;: 0,
+    &quot;animationDurationUpdate&quot;: 300,
+    &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelayUpdate&quot;: 0,
+    &quot;color&quot;: [
+        &quot;#c23531&quot;,
+        &quot;#2f4554&quot;,
+        &quot;#61a0a8&quot;,
+        &quot;#d48265&quot;,
+        &quot;#749f83&quot;,
+        &quot;#ca8622&quot;,
+        &quot;#bda29a&quot;,
+        &quot;#6e7074&quot;,
+        &quot;#546570&quot;,
+        &quot;#c4ccd3&quot;,
+        &quot;#f05b72&quot;,
+        &quot;#ef5b9c&quot;,
+        &quot;#f47920&quot;,
+        &quot;#905a3d&quot;,
+        &quot;#fab27b&quot;,
+        &quot;#2a5caa&quot;,
+        &quot;#444693&quot;,
+        &quot;#726930&quot;,
+        &quot;#b2d235&quot;,
+        &quot;#6d8346&quot;,
+        &quot;#ac6767&quot;,
+        &quot;#1d953f&quot;,
+        &quot;#6950a1&quot;,
+        &quot;#918597&quot;
+    ],
+    &quot;series&quot;: [
+        {
+            &quot;type&quot;: &quot;bar&quot;,
+            &quot;xAxisIndex&quot;: 0,
+            &quot;yAxisIndex&quot;: 0,
+            &quot;legendHoverLink&quot;: true,
+            &quot;data&quot;: [
+                330,
+                222,
+                164,
+                162,
+                111,
+                84,
+                82,
+                67,
+                64,
+                48
+            ],
+            &quot;showBackground&quot;: false,
+            &quot;barMinHeight&quot;: 0,
+            &quot;barCategoryGap&quot;: &quot;20%&quot;,
+            &quot;barGap&quot;: &quot;30%&quot;,
+            &quot;large&quot;: false,
+            &quot;largeThreshold&quot;: 400,
+            &quot;seriesLayoutBy&quot;: &quot;column&quot;,
+            &quot;datasetIndex&quot;: 0,
+            &quot;clip&quot;: true,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            }
+        },
+        {
+            &quot;type&quot;: &quot;pie&quot;,
+            &quot;clockwise&quot;: true,
+            &quot;data&quot;: [
+                {
+                    &quot;name&quot;: &quot;20k-40k&quot;,
+                    &quot;value&quot;: 330
+                },
+                {
+                    &quot;name&quot;: &quot;25k-50k&quot;,
+                    &quot;value&quot;: 222
+                },
+                {
+                    &quot;name&quot;: &quot;15k-30k&quot;,
+                    &quot;value&quot;: 164
+                },
+                {
+                    &quot;name&quot;: &quot;30k-60k&quot;,
+                    &quot;value&quot;: 162
+                },
+                {
+                    &quot;name&quot;: &quot;30k-50k&quot;,
+                    &quot;value&quot;: 111
+                },
+                {
+                    &quot;name&quot;: &quot;15k-25k&quot;,
+                    &quot;value&quot;: 84
+                },
+                {
+                    &quot;name&quot;: &quot;20k-30k&quot;,
+                    &quot;value&quot;: 82
+                },
+                {
+                    &quot;name&quot;: &quot;25k-40k&quot;,
+                    &quot;value&quot;: 67
+                },
+                {
+                    &quot;name&quot;: &quot;20k-35k&quot;,
+                    &quot;value&quot;: 64
+                },
+                {
+                    &quot;name&quot;: &quot;25k-45k&quot;,
+                    &quot;value&quot;: 48
+                }
+            ],
+            &quot;radius&quot;: [
+                &quot;10%&quot;,
+                &quot;35%&quot;
+            ],
+            &quot;center&quot;: [
+                &quot;70%&quot;,
+                &quot;25%&quot;
+            ],
+            &quot;roseType&quot;: &quot;radius&quot;,
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8,
+                &quot;formatter&quot;: &quot;{b}: {d}%&quot;
+            },
+            &quot;rippleEffect&quot;: {
+                &quot;show&quot;: true,
+                &quot;brushType&quot;: &quot;stroke&quot;,
+                &quot;scale&quot;: 2.5,
+                &quot;period&quot;: 4
+            },
+            &quot;xAxisIndex&quot;: 1,
+            &quot;yAxisIndex&quot;: 1
+        },
+        {
+            &quot;type&quot;: &quot;pie&quot;,
+            &quot;clockwise&quot;: true,
+            &quot;data&quot;: [
+                {
+                    &quot;name&quot;: &quot;20k-40k&quot;,
+                    &quot;value&quot;: 330
+                },
+                {
+                    &quot;name&quot;: &quot;25k-50k&quot;,
+                    &quot;value&quot;: 222
+                },
+                {
+                    &quot;name&quot;: &quot;15k-30k&quot;,
+                    &quot;value&quot;: 164
+                },
+                {
+                    &quot;name&quot;: &quot;30k-60k&quot;,
+                    &quot;value&quot;: 162
+                },
+                {
+                    &quot;name&quot;: &quot;30k-50k&quot;,
+                    &quot;value&quot;: 111
+                },
+                {
+                    &quot;name&quot;: &quot;15k-25k&quot;,
+                    &quot;value&quot;: 84
+                },
+                {
+                    &quot;name&quot;: &quot;20k-30k&quot;,
+                    &quot;value&quot;: 82
+                },
+                {
+                    &quot;name&quot;: &quot;25k-40k&quot;,
+                    &quot;value&quot;: 67
+                },
+                {
+                    &quot;name&quot;: &quot;20k-35k&quot;,
+                    &quot;value&quot;: 64
+                },
+                {
+                    &quot;name&quot;: &quot;25k-45k&quot;,
+                    &quot;value&quot;: 48
+                }
+            ],
+            &quot;radius&quot;: [
+                &quot;10%&quot;,
+                &quot;35%&quot;
+            ],
+            &quot;center&quot;: [
+                &quot;70%&quot;,
+                &quot;75%&quot;
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8,
+                &quot;formatter&quot;: &quot;{b}: {d}%&quot;
+            },
+            &quot;rippleEffect&quot;: {
+                &quot;show&quot;: true,
+                &quot;brushType&quot;: &quot;stroke&quot;,
+                &quot;scale&quot;: 2.5,
+                &quot;period&quot;: 4
+            },
+            &quot;xAxisIndex&quot;: 1,
+            &quot;yAxisIndex&quot;: 1
+        }
+    ],
+    &quot;legend&quot;: [
+        {
+            &quot;data&quot;: [
+                &quot;&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        },
+        {
+            &quot;data&quot;: [
+                &quot;20k-40k&quot;,
+                &quot;25k-50k&quot;,
+                &quot;15k-30k&quot;,
+                &quot;30k-60k&quot;,
+                &quot;30k-50k&quot;,
+                &quot;15k-25k&quot;,
+                &quot;20k-30k&quot;,
+                &quot;25k-40k&quot;,
+                &quot;20k-35k&quot;,
+                &quot;25k-45k&quot;
+            ],
+            &quot;selected&quot;: {},
+            &quot;show&quot;: false,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        }
+    ],
+    &quot;tooltip&quot;: {
+        &quot;show&quot;: true,
+        &quot;trigger&quot;: &quot;item&quot;,
+        &quot;triggerOn&quot;: &quot;mousemove|click&quot;,
+        &quot;axisPointer&quot;: {
+            &quot;type&quot;: &quot;line&quot;
+        },
+        &quot;showContent&quot;: true,
+        &quot;alwaysShowContent&quot;: false,
+        &quot;showDelay&quot;: 0,
+        &quot;hideDelay&quot;: 100,
+        &quot;textStyle&quot;: {
+            &quot;fontSize&quot;: 14
+        },
+        &quot;borderWidth&quot;: 0,
+        &quot;padding&quot;: 5
+    },
+    &quot;xAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;axisLabel&quot;: {
+                &quot;rotate&quot;: 35
+            },
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;20k-40k&quot;,
+                &quot;25k-50k&quot;,
+                &quot;15k-30k&quot;,
+                &quot;30k-60k&quot;,
+                &quot;30k-50k&quot;,
+                &quot;15k-25k&quot;,
+                &quot;20k-30k&quot;,
+                &quot;25k-40k&quot;,
+                &quot;20k-35k&quot;,
+                &quot;25k-45k&quot;
+            ]
+        }
+    ],
+    &quot;yAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        }
+    ],
+    &quot;title&quot;: [
+        {
+            &quot;text&quot;: &quot;\u85aa\u8d44\u5206\u5e03&quot;,
+            &quot;subtext&quot;: &quot;\u9ad8\u9891\u533a\u95f4\u6bb5\u5206\u5e03&quot;,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        },
+        {
+            &quot;text&quot;: &quot; &quot;,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        }
+    ],
+    &quot;grid&quot;: [
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;right&quot;: &quot;60%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        },
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;left&quot;: &quot;40%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        }
+    ]
+};
+        chart_c35c684d4f0f469fa9cec2467402fa18.setOption(option_c35c684d4f0f469fa9cec2467402fa18);
+    &lt;/script&gt;
+                &lt;div id=&quot;c2d5887457ac4aa7b310a8f248a7b1a4&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px;&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+        var chart_c2d5887457ac4aa7b310a8f248a7b1a4 = echarts.init(
+            document.getElementById('c2d5887457ac4aa7b310a8f248a7b1a4'), 'white', {renderer: 'canvas'});
+            
+    var waterMarkText = 'ShowMeAI';
+    var canvas = document.createElement('canvas');
+    var ctx = canvas.getContext('2d');
+    canvas.width = canvas.height = 300;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.globalAlpha = 0.03;
+    ctx.font = '50px Microsoft Yahei';
+    ctx.translate(100, 100);
+    ctx.rotate(-Math.PI / 4);
+    ctx.fillText(waterMarkText, 0, 0);
+    img = canvas;
+    
+        var option_c2d5887457ac4aa7b310a8f248a7b1a4 = {
+    &quot;backgroundColor&quot;: {
+        &quot;type&quot;: &quot;pattern&quot;,
+        &quot;image&quot;: img,
+        &quot;repeat&quot;: &quot;repeat&quot;
+    },
+    &quot;animation&quot;: true,
+    &quot;animationThreshold&quot;: 2000,
+    &quot;animationDuration&quot;: 1000,
+    &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelay&quot;: 0,
+    &quot;animationDurationUpdate&quot;: 300,
+    &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelayUpdate&quot;: 0,
+    &quot;color&quot;: [
+        &quot;#c23531&quot;,
+        &quot;#2f4554&quot;,
+        &quot;#61a0a8&quot;,
+        &quot;#d48265&quot;,
+        &quot;#749f83&quot;,
+        &quot;#ca8622&quot;,
+        &quot;#bda29a&quot;,
+        &quot;#6e7074&quot;,
+        &quot;#546570&quot;,
+        &quot;#c4ccd3&quot;,
+        &quot;#f05b72&quot;,
+        &quot;#ef5b9c&quot;,
+        &quot;#f47920&quot;,
+        &quot;#905a3d&quot;,
+        &quot;#fab27b&quot;,
+        &quot;#2a5caa&quot;,
+        &quot;#444693&quot;,
+        &quot;#726930&quot;,
+        &quot;#b2d235&quot;,
+        &quot;#6d8346&quot;,
+        &quot;#ac6767&quot;,
+        &quot;#1d953f&quot;,
+        &quot;#6950a1&quot;,
+        &quot;#918597&quot;
+    ],
+    &quot;series&quot;: [
+        {
+            &quot;type&quot;: &quot;boxplot&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44\u4e0b\u9650&quot;,
+            &quot;data&quot;: [
+                [
+                    2,
+                    4.5,
+                    8,
+                    13.5,
+                    30
+                ]
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            },
+            &quot;markPoint&quot;: {
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;inside&quot;,
+                    &quot;color&quot;: &quot;#fff&quot;,
+                    &quot;margin&quot;: 8
+                }
+            },
+            &quot;markLine&quot;: {
+                &quot;silent&quot;: false,
+                &quot;precision&quot;: 2,
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;top&quot;,
+                    &quot;margin&quot;: 8
+                }
+            }
+        },
+        {
+            &quot;type&quot;: &quot;boxplot&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44\u4e0a\u9650&quot;,
+            &quot;data&quot;: [
+                [
+                    3,
+                    6.5,
+                    12,
+                    22.0,
+                    50
+                ]
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            },
+            &quot;markPoint&quot;: {
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;inside&quot;,
+                    &quot;color&quot;: &quot;#fff&quot;,
+                    &quot;margin&quot;: 8
+                }
+            },
+            &quot;markLine&quot;: {
+                &quot;silent&quot;: false,
+                &quot;precision&quot;: 2,
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;top&quot;,
+                    &quot;margin&quot;: 8
+                }
+            }
+        },
+        {
+            &quot;type&quot;: &quot;boxplot&quot;,
+            &quot;name&quot;: &quot;\u5e73\u5747\u85aa\u8d44&quot;,
+            &quot;data&quot;: [
+                [
+                    2.5,
+                    5.0,
+                    6.0,
+                    8.125,
+                    40.0
+                ]
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            },
+            &quot;markPoint&quot;: {
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;inside&quot;,
+                    &quot;color&quot;: &quot;#fff&quot;,
+                    &quot;margin&quot;: 8
+                }
+            },
+            &quot;markLine&quot;: {
+                &quot;silent&quot;: false,
+                &quot;precision&quot;: 2,
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;top&quot;,
+                    &quot;margin&quot;: 8
+                }
+            }
+        }
+    ],
+    &quot;legend&quot;: [
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44\u4e0b\u9650&quot;,
+                &quot;\u85aa\u8d44\u4e0a\u9650&quot;,
+                &quot;\u5e73\u5747\u85aa\u8d44&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44\u4e0b\u9650&quot;: true,
+                &quot;\u85aa\u8d44\u4e0a\u9650&quot;: true,
+                &quot;\u5e73\u5747\u85aa\u8d44&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        }
+    ],
+    &quot;tooltip&quot;: {
+        &quot;show&quot;: true,
+        &quot;trigger&quot;: &quot;item&quot;,
+        &quot;triggerOn&quot;: &quot;mousemove|click&quot;,
+        &quot;axisPointer&quot;: {
+            &quot;type&quot;: &quot;line&quot;
+        },
+        &quot;showContent&quot;: true,
+        &quot;alwaysShowContent&quot;: false,
+        &quot;showDelay&quot;: 0,
+        &quot;hideDelay&quot;: 100,
+        &quot;textStyle&quot;: {
+            &quot;fontSize&quot;: 14
+        },
+        &quot;borderWidth&quot;: 0,
+        &quot;padding&quot;: 5
+    },
+    &quot;xAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;\u5b9e\u4e60\u85aa\u8d44&quot;
+            ]
+        }
+    ],
+    &quot;yAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        }
+    ],
+    &quot;title&quot;: [
+        {
+            &quot;text&quot;: &quot;\u85aa\u8d44\u5206\u5e03&quot;,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        }
+    ]
+};
+        chart_c2d5887457ac4aa7b310a8f248a7b1a4.setOption(option_c2d5887457ac4aa7b310a8f248a7b1a4);
+    &lt;/script&gt;
+                &lt;div id=&quot;9dbd8e1b47be49caa80a6a2c04fa1e13&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px;&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+        var chart_9dbd8e1b47be49caa80a6a2c04fa1e13 = echarts.init(
+            document.getElementById('9dbd8e1b47be49caa80a6a2c04fa1e13'), 'white', {renderer: 'canvas'});
+            
+    var waterMarkText = 'ShowMeAI';
+    var canvas = document.createElement('canvas');
+    var ctx = canvas.getContext('2d');
+    canvas.width = canvas.height = 300;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.globalAlpha = 0.03;
+    ctx.font = '50px Microsoft Yahei';
+    ctx.translate(100, 100);
+    ctx.rotate(-Math.PI / 4);
+    ctx.fillText(waterMarkText, 0, 0);
+    img = canvas;
+    
+        var option_9dbd8e1b47be49caa80a6a2c04fa1e13 = {
+    &quot;backgroundColor&quot;: {
+        &quot;type&quot;: &quot;pattern&quot;,
+        &quot;image&quot;: img,
+        &quot;repeat&quot;: &quot;repeat&quot;
+    },
+    &quot;animation&quot;: true,
+    &quot;animationThreshold&quot;: 2000,
+    &quot;animationDuration&quot;: 1000,
+    &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelay&quot;: 0,
+    &quot;animationDurationUpdate&quot;: 300,
+    &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelayUpdate&quot;: 0,
+    &quot;color&quot;: [
+        &quot;#c23531&quot;,
+        &quot;#2f4554&quot;,
+        &quot;#61a0a8&quot;,
+        &quot;#d48265&quot;,
+        &quot;#749f83&quot;,
+        &quot;#ca8622&quot;,
+        &quot;#bda29a&quot;,
+        &quot;#6e7074&quot;,
+        &quot;#546570&quot;,
+        &quot;#c4ccd3&quot;,
+        &quot;#f05b72&quot;,
+        &quot;#ef5b9c&quot;,
+        &quot;#f47920&quot;,
+        &quot;#905a3d&quot;,
+        &quot;#fab27b&quot;,
+        &quot;#2a5caa&quot;,
+        &quot;#444693&quot;,
+        &quot;#726930&quot;,
+        &quot;#b2d235&quot;,
+        &quot;#6d8346&quot;,
+        &quot;#ac6767&quot;,
+        &quot;#1d953f&quot;,
+        &quot;#6950a1&quot;,
+        &quot;#918597&quot;
+    ],
+    &quot;series&quot;: [
+        {
+            &quot;type&quot;: &quot;boxplot&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44\u4e0b\u9650&quot;,
+            &quot;data&quot;: [
+                [
+                    8,
+                    15.5,
+                    24,
+                    37.5,
+                    80
+                ]
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            },
+            &quot;markPoint&quot;: {
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;inside&quot;,
+                    &quot;color&quot;: &quot;#fff&quot;,
+                    &quot;margin&quot;: 8
+                }
+            },
+            &quot;markLine&quot;: {
+                &quot;silent&quot;: false,
+                &quot;precision&quot;: 2,
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;top&quot;,
+                    &quot;margin&quot;: 8
+                }
+            }
+        },
+        {
+            &quot;type&quot;: &quot;boxplot&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44\u4e0a\u9650&quot;,
+            &quot;data&quot;: [
+                [
+                    14,
+                    27,
+                    42,
+                    64,
+                    120
+                ]
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            },
+            &quot;markPoint&quot;: {
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;inside&quot;,
+                    &quot;color&quot;: &quot;#fff&quot;,
+                    &quot;margin&quot;: 8
+                }
+            },
+            &quot;markLine&quot;: {
+                &quot;silent&quot;: false,
+                &quot;precision&quot;: 2,
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;top&quot;,
+                    &quot;margin&quot;: 8
+                }
+            }
+        },
+        {
+            &quot;type&quot;: &quot;boxplot&quot;,
+            &quot;name&quot;: &quot;\u5e73\u5747\u85aa\u8d44&quot;,
+            &quot;data&quot;: [
+                [
+                    12.0,
+                    25.0,
+                    30.0,
+                    40.0,
+                    90.0
+                ]
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            },
+            &quot;markPoint&quot;: {
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;inside&quot;,
+                    &quot;color&quot;: &quot;#fff&quot;,
+                    &quot;margin&quot;: 8
+                }
+            },
+            &quot;markLine&quot;: {
+                &quot;silent&quot;: false,
+                &quot;precision&quot;: 2,
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;top&quot;,
+                    &quot;margin&quot;: 8
+                }
+            }
+        }
+    ],
+    &quot;legend&quot;: [
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44\u4e0b\u9650&quot;,
+                &quot;\u85aa\u8d44\u4e0a\u9650&quot;,
+                &quot;\u5e73\u5747\u85aa\u8d44&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44\u4e0b\u9650&quot;: true,
+                &quot;\u85aa\u8d44\u4e0a\u9650&quot;: true,
+                &quot;\u5e73\u5747\u85aa\u8d44&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        }
+    ],
+    &quot;tooltip&quot;: {
+        &quot;show&quot;: true,
+        &quot;trigger&quot;: &quot;item&quot;,
+        &quot;triggerOn&quot;: &quot;mousemove|click&quot;,
+        &quot;axisPointer&quot;: {
+            &quot;type&quot;: &quot;line&quot;
+        },
+        &quot;showContent&quot;: true,
+        &quot;alwaysShowContent&quot;: false,
+        &quot;showDelay&quot;: 0,
+        &quot;hideDelay&quot;: 100,
+        &quot;textStyle&quot;: {
+            &quot;fontSize&quot;: 14
+        },
+        &quot;borderWidth&quot;: 0,
+        &quot;padding&quot;: 5
+    },
+    &quot;xAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;\u793e\u62db\u85aa\u8d44&quot;
+            ]
+        }
+    ],
+    &quot;yAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        }
+    ],
+    &quot;title&quot;: [
+        {
+            &quot;text&quot;: &quot;\u85aa\u8d44\u5206\u5e03&quot;,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        }
+    ]
+};
+        chart_9dbd8e1b47be49caa80a6a2c04fa1e13.setOption(option_9dbd8e1b47be49caa80a6a2c04fa1e13);
+    &lt;/script&gt;
+                &lt;div id=&quot;f298dcefa2e745f88250b414e6652487&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+        var chart_f298dcefa2e745f88250b414e6652487 = echarts.init(
+            document.getElementById('f298dcefa2e745f88250b414e6652487'), 'white', {renderer: 'canvas'});
+        var option_f298dcefa2e745f88250b414e6652487 = {
+    &quot;backgroundColor&quot;: {
+        &quot;type&quot;: &quot;pattern&quot;,
+        &quot;image&quot;: img,
+        &quot;repeat&quot;: &quot;repeat&quot;
+    },
+    &quot;animation&quot;: true,
+    &quot;animationThreshold&quot;: 2000,
+    &quot;animationDuration&quot;: 1000,
+    &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelay&quot;: 0,
+    &quot;animationDurationUpdate&quot;: 300,
+    &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelayUpdate&quot;: 0,
+    &quot;color&quot;: [
+        &quot;#c23531&quot;,
+        &quot;#2f4554&quot;,
+        &quot;#61a0a8&quot;,
+        &quot;#d48265&quot;,
+        &quot;#749f83&quot;,
+        &quot;#ca8622&quot;,
+        &quot;#bda29a&quot;,
+        &quot;#6e7074&quot;,
+        &quot;#546570&quot;,
+        &quot;#c4ccd3&quot;,
+        &quot;#f05b72&quot;,
+        &quot;#ef5b9c&quot;,
+        &quot;#f47920&quot;,
+        &quot;#905a3d&quot;,
+        &quot;#fab27b&quot;,
+        &quot;#2a5caa&quot;,
+        &quot;#444693&quot;,
+        &quot;#726930&quot;,
+        &quot;#b2d235&quot;,
+        &quot;#6d8346&quot;,
+        &quot;#ac6767&quot;,
+        &quot;#1d953f&quot;,
+        &quot;#6950a1&quot;,
+        &quot;#918597&quot;
+    ],
+    &quot;series&quot;: [
+        {
+            &quot;type&quot;: &quot;bar&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44(k)&quot;,
+            &quot;xAxisIndex&quot;: 0,
+            &quot;yAxisIndex&quot;: 0,
+            &quot;legendHoverLink&quot;: true,
+            &quot;data&quot;: [
+                37.5,
+                30.0,
+                32.5,
+                30.0,
+                25.0,
+                22.5,
+                22.5,
+                22.5,
+                20.0,
+                30.0,
+                24.5
+            ],
+            &quot;showBackground&quot;: false,
+            &quot;barMinHeight&quot;: 0,
+            &quot;barCategoryGap&quot;: &quot;20%&quot;,
+            &quot;barGap&quot;: &quot;30%&quot;,
+            &quot;large&quot;: false,
+            &quot;largeThreshold&quot;: 400,
+            &quot;seriesLayoutBy&quot;: &quot;column&quot;,
+            &quot;datasetIndex&quot;: 0,
+            &quot;clip&quot;: true,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            }
+        },
+        {
+            &quot;type&quot;: &quot;boxplot&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44(k)&quot;,
+            &quot;xAxisIndex&quot;: 1,
+            &quot;yAxisIndex&quot;: 1,
+            &quot;data&quot;: [
+                [
+                    12.0,
+                    30.0,
+                    37.5,
+                    45.0,
+                    90.0
+                ],
+                [
+                    12.0,
+                    25.0,
+                    30.0,
+                    37.5,
+                    90.0
+                ],
+                [
+                    12.5,
+                    25.0,
+                    32.5,
+                    45.0,
+                    85.0
+                ],
+                [
+                    12.5,
+                    23.375,
+                    30.0,
+                    40.0,
+                    90.0
+                ],
+                [
+                    12.5,
+                    22.5,
+                    25.0,
+                    30.0,
+                    70.0
+                ],
+                [
+                    12.5,
+                    20.0,
+                    22.5,
+                    30.0,
+                    50.0
+                ],
+                [
+                    12.5,
+                    17.5,
+                    22.5,
+                    25.75,
+                    37.5
+                ],
+                [
+                    15.0,
+                    19.625,
+                    22.5,
+                    30.0,
+                    50.0
+                ],
+                [
+                    15.0,
+                    17.25,
+                    20.0,
+                    22.5,
+                    35.0
+                ],
+                [
+                    21.0,
+                    26.25,
+                    30.0,
+                    35.625,
+                    37.5
+                ]
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            },
+            &quot;markPoint&quot;: {
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;inside&quot;,
+                    &quot;color&quot;: &quot;#fff&quot;,
+                    &quot;margin&quot;: 8
+                }
+            },
+            &quot;markLine&quot;: {
+                &quot;silent&quot;: false,
+                &quot;precision&quot;: 2,
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;top&quot;,
+                    &quot;margin&quot;: 8
+                }
+            }
+        }
+    ],
+    &quot;legend&quot;: [
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44(k)&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44(k)&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        },
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44(k)&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44(k)&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        }
+    ],
+    &quot;tooltip&quot;: {
+        &quot;show&quot;: true,
+        &quot;trigger&quot;: &quot;item&quot;,
+        &quot;triggerOn&quot;: &quot;mousemove|click&quot;,
+        &quot;axisPointer&quot;: {
+            &quot;type&quot;: &quot;line&quot;
+        },
+        &quot;showContent&quot;: true,
+        &quot;alwaysShowContent&quot;: false,
+        &quot;showDelay&quot;: 0,
+        &quot;hideDelay&quot;: 100,
+        &quot;textStyle&quot;: {
+            &quot;fontSize&quot;: 14
+        },
+        &quot;borderWidth&quot;: 0,
+        &quot;padding&quot;: 5
+    },
+    &quot;xAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;axisLabel&quot;: {
+                &quot;rotate&quot;: 35
+            },
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;\u5317\u4eac&quot;,
+                &quot;\u6df1\u5733&quot;,
+                &quot;\u4e0a\u6d77&quot;,
+                &quot;\u676d\u5dde&quot;,
+                &quot;\u5e7f\u5dde&quot;,
+                &quot;\u6210\u90fd&quot;,
+                &quot;\u6b66\u6c49&quot;,
+                &quot;\u5357\u4eac&quot;,
+                &quot;\u82cf\u5dde&quot;,
+                &quot;\u4f5b\u5c71&quot;,
+                &quot;\u53a6\u95e8&quot;
+            ]
+        },
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 1,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;\u5317\u4eac&quot;,
+                &quot;\u6df1\u5733&quot;,
+                &quot;\u4e0a\u6d77&quot;,
+                &quot;\u676d\u5dde&quot;,
+                &quot;\u5e7f\u5dde&quot;,
+                &quot;\u6210\u90fd&quot;,
+                &quot;\u6b66\u6c49&quot;,
+                &quot;\u5357\u4eac&quot;,
+                &quot;\u82cf\u5dde&quot;,
+                &quot;\u4f5b\u5c71&quot;
+            ]
+        }
+    ],
+    &quot;yAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        },
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 1,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        }
+    ],
+    &quot;title&quot;: [
+        {
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        },
+        {
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        }
+    ],
+    &quot;grid&quot;: [
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;bottom&quot;: &quot;60%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        },
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;top&quot;: &quot;45%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        }
+    ]
+};
+        chart_f298dcefa2e745f88250b414e6652487.setOption(option_f298dcefa2e745f88250b414e6652487);
+    &lt;/script&gt;
+                &lt;div id=&quot;78458f94dc3343699bcaa2f8fd0ee7c3&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px;&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+        var chart_78458f94dc3343699bcaa2f8fd0ee7c3 = echarts.init(
+            document.getElementById('78458f94dc3343699bcaa2f8fd0ee7c3'), 'white', {renderer: 'canvas'});
+            
+    var waterMarkText = 'ShowMeAI';
+    var canvas = document.createElement('canvas');
+    var ctx = canvas.getContext('2d');
+    canvas.width = canvas.height = 300;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.globalAlpha = 0.03;
+    ctx.font = '50px Microsoft Yahei';
+    ctx.translate(100, 100);
+    ctx.rotate(-Math.PI / 4);
+    ctx.fillText(waterMarkText, 0, 0);
+    img = canvas;
+    
+        var option_78458f94dc3343699bcaa2f8fd0ee7c3 = {
+    &quot;backgroundColor&quot;: {
+        &quot;type&quot;: &quot;pattern&quot;,
+        &quot;image&quot;: img,
+        &quot;repeat&quot;: &quot;repeat&quot;
+    },
+    &quot;animation&quot;: true,
+    &quot;animationThreshold&quot;: 2000,
+    &quot;animationDuration&quot;: 1000,
+    &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelay&quot;: 0,
+    &quot;animationDurationUpdate&quot;: 300,
+    &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelayUpdate&quot;: 0,
+    &quot;color&quot;: [
+        &quot;#c23531&quot;,
+        &quot;#2f4554&quot;,
+        &quot;#61a0a8&quot;,
+        &quot;#d48265&quot;,
+        &quot;#749f83&quot;,
+        &quot;#ca8622&quot;,
+        &quot;#bda29a&quot;,
+        &quot;#6e7074&quot;,
+        &quot;#546570&quot;,
+        &quot;#c4ccd3&quot;,
+        &quot;#f05b72&quot;,
+        &quot;#ef5b9c&quot;,
+        &quot;#f47920&quot;,
+        &quot;#905a3d&quot;,
+        &quot;#fab27b&quot;,
+        &quot;#2a5caa&quot;,
+        &quot;#444693&quot;,
+        &quot;#726930&quot;,
+        &quot;#b2d235&quot;,
+        &quot;#6d8346&quot;,
+        &quot;#ac6767&quot;,
+        &quot;#1d953f&quot;,
+        &quot;#6950a1&quot;,
+        &quot;#918597&quot;
+    ],
+    &quot;series&quot;: [
+        {
+            &quot;type&quot;: &quot;effectScatter&quot;,
+            &quot;name&quot;: &quot;\u57ce\u5e02\u85aa\u8d44\u5206\u5e03&quot;,
+            &quot;coordinateSystem&quot;: &quot;geo&quot;,
+            &quot;showEffectOn&quot;: &quot;render&quot;,
+            &quot;rippleEffect&quot;: {
+                &quot;show&quot;: true,
+                &quot;brushType&quot;: &quot;stroke&quot;,
+                &quot;scale&quot;: 2.5,
+                &quot;period&quot;: 4
+            },
+            &quot;symbolSize&quot;: 12,
+            &quot;data&quot;: [
+                {
+                    &quot;name&quot;: &quot;\u5317\u4eac&quot;,
+                    &quot;value&quot;: [
+                        116.407526,
+                        39.90403,
+                        37.5
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u6df1\u5733&quot;,
+                    &quot;value&quot;: [
+                        114.07,
+                        22.62,
+                        30.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u4e0a\u6d77&quot;,
+                    &quot;value&quot;: [
+                        121.473701,
+                        31.230416,
+                        32.5
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u676d\u5dde&quot;,
+                    &quot;value&quot;: [
+                        120.19,
+                        30.26,
+                        30.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u5e7f\u5dde&quot;,
+                    &quot;value&quot;: [
+                        113.23,
+                        23.16,
+                        25.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u6210\u90fd&quot;,
+                    &quot;value&quot;: [
+                        104.06,
+                        30.67,
+                        22.5
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u6b66\u6c49&quot;,
+                    &quot;value&quot;: [
+                        114.31,
+                        30.52,
+                        22.5
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u5357\u4eac&quot;,
+                    &quot;value&quot;: [
+                        118.78,
+                        32.04,
+                        22.5
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u82cf\u5dde&quot;,
+                    &quot;value&quot;: [
+                        120.62,
+                        31.32,
+                        20.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u4f5b\u5c71&quot;,
+                    &quot;value&quot;: [
+                        113.11,
+                        23.05,
+                        30.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u53a6\u95e8&quot;,
+                    &quot;value&quot;: [
+                        118.1,
+                        24.46,
+                        24.5
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u897f\u5b89&quot;,
+                    &quot;value&quot;: [
+                        108.95,
+                        34.27,
+                        20.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u957f\u6c99&quot;,
+                    &quot;value&quot;: [
+                        113,
+                        28.21,
+                        22.5
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u91cd\u5e86&quot;,
+                    &quot;value&quot;: [
+                        106.551556,
+                        29.563009,
+                        13.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u90d1\u5dde&quot;,
+                    &quot;value&quot;: [
+                        113.65,
+                        34.76,
+                        15.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u5609\u5174&quot;,
+                    &quot;value&quot;: [
+                        120.76,
+                        30.77,
+                        30.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u9752\u5c9b&quot;,
+                    &quot;value&quot;: [
+                        120.33,
+                        36.07,
+                        17.5
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u60e0\u5dde&quot;,
+                    &quot;value&quot;: [
+                        114.4,
+                        23.09,
+                        30.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u5b81\u6ce2&quot;,
+                    &quot;value&quot;: [
+                        121.56,
+                        29.86,
+                        27.5
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u65e0\u9521&quot;,
+                    &quot;value&quot;: [
+                        120.29,
+                        31.59,
+                        16.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u6c88\u9633&quot;,
+                    &quot;value&quot;: [
+                        123.38,
+                        41.8,
+                        20.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u5929\u6d25&quot;,
+                    &quot;value&quot;: [
+                        117.200983,
+                        39.084158,
+                        22.5
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u6d4e\u5357&quot;,
+                    &quot;value&quot;: [
+                        117,
+                        36.65,
+                        17.5
+                    ]
+                }
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            }
+        }
+    ],
+    &quot;legend&quot;: [
+        {
+            &quot;data&quot;: [
+                &quot;\u57ce\u5e02\u85aa\u8d44\u5206\u5e03&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u57ce\u5e02\u85aa\u8d44\u5206\u5e03&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        }
+    ],
+    &quot;tooltip&quot;: {
+        &quot;show&quot;: true,
+        &quot;trigger&quot;: &quot;item&quot;,
+        &quot;triggerOn&quot;: &quot;mousemove|click&quot;,
+        &quot;axisPointer&quot;: {
+            &quot;type&quot;: &quot;line&quot;
+        },
+        &quot;showContent&quot;: true,
+        &quot;alwaysShowContent&quot;: false,
+        &quot;showDelay&quot;: 0,
+        &quot;hideDelay&quot;: 100,
+        &quot;formatter&quot;: function (params) {        return params.name + ' : ' + params.value[2];    },
+        &quot;textStyle&quot;: {
+            &quot;fontSize&quot;: 14
+        },
+        &quot;borderWidth&quot;: 0,
+        &quot;padding&quot;: 5
+    },
+    &quot;title&quot;: [
+        {
+            &quot;text&quot;: &quot;\u57ce\u5e02\u85aa\u8d44\u5206\u5e03&quot;,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        }
+    ],
+    &quot;geo&quot;: {
+        &quot;map&quot;: &quot;china&quot;,
+        &quot;roam&quot;: true,
+        &quot;aspectScale&quot;: 0.75,
+        &quot;nameProperty&quot;: &quot;name&quot;,
+        &quot;selectedMode&quot;: false,
+        &quot;emphasis&quot;: {}
+    }
+};
+        chart_78458f94dc3343699bcaa2f8fd0ee7c3.setOption(option_78458f94dc3343699bcaa2f8fd0ee7c3);
+    &lt;/script&gt;
+                &lt;div id=&quot;c2b8e8b6c25249f7bb15e74dde281044&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+        var chart_c2b8e8b6c25249f7bb15e74dde281044 = echarts.init(
+            document.getElementById('c2b8e8b6c25249f7bb15e74dde281044'), 'white', {renderer: 'canvas'});
+        var option_c2b8e8b6c25249f7bb15e74dde281044 = {
+    &quot;backgroundColor&quot;: {
+        &quot;type&quot;: &quot;pattern&quot;,
+        &quot;image&quot;: img,
+        &quot;repeat&quot;: &quot;repeat&quot;
+    },
+    &quot;animation&quot;: true,
+    &quot;animationThreshold&quot;: 2000,
+    &quot;animationDuration&quot;: 1000,
+    &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelay&quot;: 0,
+    &quot;animationDurationUpdate&quot;: 300,
+    &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelayUpdate&quot;: 0,
+    &quot;color&quot;: [
+        &quot;#c23531&quot;,
+        &quot;#2f4554&quot;,
+        &quot;#61a0a8&quot;,
+        &quot;#d48265&quot;,
+        &quot;#749f83&quot;,
+        &quot;#ca8622&quot;,
+        &quot;#bda29a&quot;,
+        &quot;#6e7074&quot;,
+        &quot;#546570&quot;,
+        &quot;#c4ccd3&quot;,
+        &quot;#f05b72&quot;,
+        &quot;#ef5b9c&quot;,
+        &quot;#f47920&quot;,
+        &quot;#905a3d&quot;,
+        &quot;#fab27b&quot;,
+        &quot;#2a5caa&quot;,
+        &quot;#444693&quot;,
+        &quot;#726930&quot;,
+        &quot;#b2d235&quot;,
+        &quot;#6d8346&quot;,
+        &quot;#ac6767&quot;,
+        &quot;#1d953f&quot;,
+        &quot;#6950a1&quot;,
+        &quot;#918597&quot;
+    ],
+    &quot;series&quot;: [
+        {
+            &quot;type&quot;: &quot;bar&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44(k)&quot;,
+            &quot;xAxisIndex&quot;: 0,
+            &quot;yAxisIndex&quot;: 0,
+            &quot;legendHoverLink&quot;: true,
+            &quot;data&quot;: [
+                35.0,
+                37.5,
+                32.5,
+                30.0,
+                37.5,
+                37.5,
+                37.5,
+                30.0,
+                40.0,
+                37.5,
+                30.0
+            ],
+            &quot;showBackground&quot;: false,
+            &quot;barMinHeight&quot;: 0,
+            &quot;barCategoryGap&quot;: &quot;20%&quot;,
+            &quot;barGap&quot;: &quot;30%&quot;,
+            &quot;large&quot;: false,
+            &quot;largeThreshold&quot;: 400,
+            &quot;seriesLayoutBy&quot;: &quot;column&quot;,
+            &quot;datasetIndex&quot;: 0,
+            &quot;clip&quot;: true,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            }
+        },
+        {
+            &quot;type&quot;: &quot;boxplot&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44(k)&quot;,
+            &quot;xAxisIndex&quot;: 1,
+            &quot;yAxisIndex&quot;: 1,
+            &quot;data&quot;: [
+                [
+                    12.0,
+                    30.0,
+                    35.0,
+                    45.0,
+                    75.0
+                ],
+                [
+                    13.5,
+                    30.0,
+                    37.5,
+                    45.0,
+                    90.0
+                ],
+                [
+                    12.5,
+                    30.0,
+                    32.5,
+                    37.5,
+                    67.5
+                ],
+                [
+                    12.5,
+                    27.5,
+                    30.0,
+                    37.5,
+                    80.0
+                ],
+                [
+                    18.0,
+                    25.0,
+                    37.5,
+                    40.0,
+                    60.0
+                ],
+                [
+                    20.0,
+                    30.0,
+                    37.5,
+                    43.75,
+                    75.0
+                ],
+                [
+                    20.0,
+                    30.0,
+                    37.5,
+                    45.0,
+                    60.0
+                ],
+                [
+                    17.5,
+                    32.5,
+                    40.0,
+                    48.75,
+                    65.0
+                ],
+                [
+                    19.5,
+                    22.5,
+                    30.0,
+                    39.0,
+                    52.5
+                ],
+                [
+                    17.5,
+                    30.0,
+                    37.5,
+                    40.0,
+                    70.0
+                ]
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            },
+            &quot;markPoint&quot;: {
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;inside&quot;,
+                    &quot;color&quot;: &quot;#fff&quot;,
+                    &quot;margin&quot;: 8
+                }
+            },
+            &quot;markLine&quot;: {
+                &quot;silent&quot;: false,
+                &quot;precision&quot;: 2,
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;top&quot;,
+                    &quot;margin&quot;: 8
+                }
+            }
+        }
+    ],
+    &quot;legend&quot;: [
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44(k)&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44(k)&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        },
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44(k)&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44(k)&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        }
+    ],
+    &quot;tooltip&quot;: {
+        &quot;show&quot;: true,
+        &quot;trigger&quot;: &quot;item&quot;,
+        &quot;triggerOn&quot;: &quot;mousemove|click&quot;,
+        &quot;axisPointer&quot;: {
+            &quot;type&quot;: &quot;line&quot;
+        },
+        &quot;showContent&quot;: true,
+        &quot;alwaysShowContent&quot;: false,
+        &quot;showDelay&quot;: 0,
+        &quot;hideDelay&quot;: 100,
+        &quot;textStyle&quot;: {
+            &quot;fontSize&quot;: 14
+        },
+        &quot;borderWidth&quot;: 0,
+        &quot;padding&quot;: 5
+    },
+    &quot;xAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;axisLabel&quot;: {
+                &quot;rotate&quot;: 35
+            },
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;\u6d77\u6dc0\u533a&quot;,
+                &quot;\u671d\u9633\u533a&quot;,
+                &quot;\u5357\u5c71\u533a&quot;,
+                &quot;\u79d1\u6280\u56ed&quot;,
+                &quot;\u4f59\u676d\u533a&quot;,
+                &quot;\u897f\u5317\u65fa&quot;,
+                &quot;\u671b\u4eac&quot;,
+                &quot;\u6d66\u4e1c\u65b0\u2026&quot;,
+                &quot;\u95f5\u884c\u533a&quot;,
+                &quot;\u4e2d\u5173\u6751&quot;,
+                &quot;\u5b9d\u5b89\u533a&quot;
+            ]
+        },
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 1,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;\u6d77\u6dc0\u533a&quot;,
+                &quot;\u671d\u9633\u533a&quot;,
+                &quot;\u5357\u5c71\u533a&quot;,
+                &quot;\u79d1\u6280\u56ed&quot;,
+                &quot;\u4f59\u676d\u533a&quot;,
+                &quot;\u897f\u5317\u65fa&quot;,
+                &quot;\u671b\u4eac&quot;,
+                &quot;\u95f5\u884c\u533a&quot;,
+                &quot;\u6d66\u4e1c\u65b0\u2026&quot;,
+                &quot;\u4e2d\u5173\u6751&quot;
+            ]
+        }
+    ],
+    &quot;yAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        },
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 1,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        }
+    ],
+    &quot;title&quot;: [
+        {
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        },
+        {
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        }
+    ],
+    &quot;grid&quot;: [
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;bottom&quot;: &quot;60%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        },
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;top&quot;: &quot;45%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        }
+    ]
+};
+        chart_c2b8e8b6c25249f7bb15e74dde281044.setOption(option_c2b8e8b6c25249f7bb15e74dde281044);
+    &lt;/script&gt;
+                &lt;div id=&quot;cc39960413664213b0627e8ed0c5ea0a&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+        var chart_cc39960413664213b0627e8ed0c5ea0a = echarts.init(
+            document.getElementById('cc39960413664213b0627e8ed0c5ea0a'), 'white', {renderer: 'canvas'});
+        var option_cc39960413664213b0627e8ed0c5ea0a = {
+    &quot;backgroundColor&quot;: {
+        &quot;type&quot;: &quot;pattern&quot;,
+        &quot;image&quot;: img,
+        &quot;repeat&quot;: &quot;repeat&quot;
+    },
+    &quot;animation&quot;: true,
+    &quot;animationThreshold&quot;: 2000,
+    &quot;animationDuration&quot;: 1000,
+    &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelay&quot;: 0,
+    &quot;animationDurationUpdate&quot;: 300,
+    &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelayUpdate&quot;: 0,
+    &quot;color&quot;: [
+        &quot;#c23531&quot;,
+        &quot;#2f4554&quot;,
+        &quot;#61a0a8&quot;,
+        &quot;#d48265&quot;,
+        &quot;#749f83&quot;,
+        &quot;#ca8622&quot;,
+        &quot;#bda29a&quot;,
+        &quot;#6e7074&quot;,
+        &quot;#546570&quot;,
+        &quot;#c4ccd3&quot;,
+        &quot;#f05b72&quot;,
+        &quot;#ef5b9c&quot;,
+        &quot;#f47920&quot;,
+        &quot;#905a3d&quot;,
+        &quot;#fab27b&quot;,
+        &quot;#2a5caa&quot;,
+        &quot;#444693&quot;,
+        &quot;#726930&quot;,
+        &quot;#b2d235&quot;,
+        &quot;#6d8346&quot;,
+        &quot;#ac6767&quot;,
+        &quot;#1d953f&quot;,
+        &quot;#6950a1&quot;,
+        &quot;#918597&quot;
+    ],
+    &quot;series&quot;: [
+        {
+            &quot;type&quot;: &quot;bar&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44(k)&quot;,
+            &quot;xAxisIndex&quot;: 0,
+            &quot;yAxisIndex&quot;: 0,
+            &quot;legendHoverLink&quot;: true,
+            &quot;data&quot;: [
+                37.5,
+                37.5,
+                37.5,
+                33.75,
+                30.0,
+                30.0,
+                22.5
+            ],
+            &quot;showBackground&quot;: false,
+            &quot;barMinHeight&quot;: 0,
+            &quot;barCategoryGap&quot;: &quot;20%&quot;,
+            &quot;barGap&quot;: &quot;30%&quot;,
+            &quot;large&quot;: false,
+            &quot;largeThreshold&quot;: 400,
+            &quot;seriesLayoutBy&quot;: &quot;column&quot;,
+            &quot;datasetIndex&quot;: 0,
+            &quot;clip&quot;: true,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            }
+        },
+        {
+            &quot;type&quot;: &quot;boxplot&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44(k)&quot;,
+            &quot;xAxisIndex&quot;: 1,
+            &quot;yAxisIndex&quot;: 1,
+            &quot;data&quot;: [
+                [
+                    12.0,
+                    22.5,
+                    30.0,
+                    37.5,
+                    85.0
+                ],
+                [
+                    12.5,
+                    25.0,
+                    30.0,
+                    37.5,
+                    70.0
+                ],
+                [
+                    12.0,
+                    22.5,
+                    30.0,
+                    37.5,
+                    85.0
+                ],
+                [
+                    12.5,
+                    22.5,
+                    30.0,
+                    35.0,
+                    70.0
+                ],
+                [
+                    12.0,
+                    24.0,
+                    30.0,
+                    37.5,
+                    70.0
+                ],
+                [
+                    14.0,
+                    25.0,
+                    30.0,
+                    37.5,
+                    65.0
+                ],
+                [
+                    12.0,
+                    22.5,
+                    30.0,
+                    37.5,
+                    70.0
+                ]
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            },
+            &quot;markPoint&quot;: {
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;inside&quot;,
+                    &quot;color&quot;: &quot;#fff&quot;,
+                    &quot;margin&quot;: 8
+                }
+            },
+            &quot;markLine&quot;: {
+                &quot;silent&quot;: false,
+                &quot;precision&quot;: 2,
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;top&quot;,
+                    &quot;margin&quot;: 8
+                }
+            }
+        }
+    ],
+    &quot;legend&quot;: [
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44(k)&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44(k)&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        },
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44(k)&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44(k)&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        }
+    ],
+    &quot;tooltip&quot;: {
+        &quot;show&quot;: true,
+        &quot;trigger&quot;: &quot;item&quot;,
+        &quot;triggerOn&quot;: &quot;mousemove|click&quot;,
+        &quot;axisPointer&quot;: {
+            &quot;type&quot;: &quot;line&quot;
+        },
+        &quot;showContent&quot;: true,
+        &quot;alwaysShowContent&quot;: false,
+        &quot;showDelay&quot;: 0,
+        &quot;hideDelay&quot;: 100,
+        &quot;textStyle&quot;: {
+            &quot;fontSize&quot;: 14
+        },
+        &quot;borderWidth&quot;: 0,
+        &quot;padding&quot;: 5
+    },
+    &quot;xAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;axisLabel&quot;: {
+                &quot;rotate&quot;: 35
+            },
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;\u77ff\u4ea7&quot;,
+                &quot;\u77ed\u89c6\u9891&quot;,
+                &quot;\u7535\u5546\u5e73\u53f0&quot;,
+                &quot;\u76f4\u64ad\u5e73\u53f0&quot;,
+                &quot;\u7269\u8054\u7f51&quot;,
+                &quot;IT\u6280\u672f\u670d\u52a1&quot;,
+                &quot;\u786c\u4ef6&quot;
+            ]
+        },
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 1,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;IT\u6280\u672f\u670d\u52a1&quot;,
+                &quot;\u4eba\u5de5\u667a\u80fd\u670d\u52a1&quot;,
+                &quot;\u54a8\u8be2&quot;,
+                &quot;\u6570\u636e\u670d\u52a1&quot;,
+                &quot;\u667a\u80fd\u786c\u4ef6&quot;,
+                &quot;\u79d1\u6280\u91d1\u878d&quot;,
+                &quot;\u8f6f\u4ef6\u670d\u52a1&quot;
+            ]
+        }
+    ],
+    &quot;yAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        },
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 1,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        }
+    ],
+    &quot;title&quot;: [
+        {
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        },
+        {
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        }
+    ],
+    &quot;grid&quot;: [
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;bottom&quot;: &quot;60%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        },
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;top&quot;: &quot;45%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        }
+    ]
+};
+        chart_cc39960413664213b0627e8ed0c5ea0a.setOption(option_cc39960413664213b0627e8ed0c5ea0a);
+    &lt;/script&gt;
+                &lt;div id=&quot;cade40ed183246eaa532eeff0f774be0&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+        var chart_cade40ed183246eaa532eeff0f774be0 = echarts.init(
+            document.getElementById('cade40ed183246eaa532eeff0f774be0'), 'white', {renderer: 'canvas'});
+        var option_cade40ed183246eaa532eeff0f774be0 = {
+    &quot;backgroundColor&quot;: {
+        &quot;type&quot;: &quot;pattern&quot;,
+        &quot;image&quot;: img,
+        &quot;repeat&quot;: &quot;repeat&quot;
+    },
+    &quot;animation&quot;: true,
+    &quot;animationThreshold&quot;: 2000,
+    &quot;animationDuration&quot;: 1000,
+    &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelay&quot;: 0,
+    &quot;animationDurationUpdate&quot;: 300,
+    &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelayUpdate&quot;: 0,
+    &quot;color&quot;: [
+        &quot;#c23531&quot;,
+        &quot;#2f4554&quot;,
+        &quot;#61a0a8&quot;,
+        &quot;#d48265&quot;,
+        &quot;#749f83&quot;,
+        &quot;#ca8622&quot;,
+        &quot;#bda29a&quot;,
+        &quot;#6e7074&quot;,
+        &quot;#546570&quot;,
+        &quot;#c4ccd3&quot;,
+        &quot;#f05b72&quot;,
+        &quot;#ef5b9c&quot;,
+        &quot;#f47920&quot;,
+        &quot;#905a3d&quot;,
+        &quot;#fab27b&quot;,
+        &quot;#2a5caa&quot;,
+        &quot;#444693&quot;,
+        &quot;#726930&quot;,
+        &quot;#b2d235&quot;,
+        &quot;#6d8346&quot;,
+        &quot;#ac6767&quot;,
+        &quot;#1d953f&quot;,
+        &quot;#6950a1&quot;,
+        &quot;#918597&quot;
+    ],
+    &quot;series&quot;: [
+        {
+            &quot;type&quot;: &quot;bar&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44(k)&quot;,
+            &quot;xAxisIndex&quot;: 0,
+            &quot;yAxisIndex&quot;: 0,
+            &quot;legendHoverLink&quot;: true,
+            &quot;data&quot;: [
+                37.5,
+                35.0,
+                30.0,
+                30.0,
+                30.0,
+                30.0,
+                30.0
+            ],
+            &quot;showBackground&quot;: false,
+            &quot;barMinHeight&quot;: 0,
+            &quot;barCategoryGap&quot;: &quot;20%&quot;,
+            &quot;barGap&quot;: &quot;30%&quot;,
+            &quot;large&quot;: false,
+            &quot;largeThreshold&quot;: 400,
+            &quot;seriesLayoutBy&quot;: &quot;column&quot;,
+            &quot;datasetIndex&quot;: 0,
+            &quot;clip&quot;: true,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            }
+        },
+        {
+            &quot;type&quot;: &quot;boxplot&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44(k)&quot;,
+            &quot;xAxisIndex&quot;: 1,
+            &quot;yAxisIndex&quot;: 1,
+            &quot;data&quot;: [
+                [
+                    12.5,
+                    23.5,
+                    30.0,
+                    35.0,
+                    55.0
+                ],
+                [
+                    12.0,
+                    22.5,
+                    30.0,
+                    35.0,
+                    75.0
+                ],
+                [
+                    12.5,
+                    23.5,
+                    30.0,
+                    37.5,
+                    90.0
+                ],
+                [
+                    15.0,
+                    29.5,
+                    37.5,
+                    45.0,
+                    85.0
+                ],
+                [
+                    14.0,
+                    23.0,
+                    30.0,
+                    37.5,
+                    70.0
+                ],
+                [
+                    14.0,
+                    25.0,
+                    35.0,
+                    40.25,
+                    65.0
+                ],
+                [
+                    12.5,
+                    24.0,
+                    30.0,
+                    39.0,
+                    75.0
+                ]
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            },
+            &quot;markPoint&quot;: {
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;inside&quot;,
+                    &quot;color&quot;: &quot;#fff&quot;,
+                    &quot;margin&quot;: 8
+                }
+            },
+            &quot;markLine&quot;: {
+                &quot;silent&quot;: false,
+                &quot;precision&quot;: 2,
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;top&quot;,
+                    &quot;margin&quot;: 8
+                }
+            }
+        }
+    ],
+    &quot;legend&quot;: [
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44(k)&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44(k)&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        },
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44(k)&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44(k)&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        }
+    ],
+    &quot;tooltip&quot;: {
+        &quot;show&quot;: true,
+        &quot;trigger&quot;: &quot;item&quot;,
+        &quot;triggerOn&quot;: &quot;mousemove|click&quot;,
+        &quot;axisPointer&quot;: {
+            &quot;type&quot;: &quot;line&quot;
+        },
+        &quot;showContent&quot;: true,
+        &quot;alwaysShowContent&quot;: false,
+        &quot;showDelay&quot;: 0,
+        &quot;hideDelay&quot;: 100,
+        &quot;textStyle&quot;: {
+            &quot;fontSize&quot;: 14
+        },
+        &quot;borderWidth&quot;: 0,
+        &quot;padding&quot;: 5
+    },
+    &quot;xAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;axisLabel&quot;: {
+                &quot;rotate&quot;: 35
+            },
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;\u63a8\u8350\u7b97\u6cd5&quot;,
+                &quot;\u673a\u5668\u5b66\u4e60&quot;,
+                &quot;\u6570\u636e\u6316\u6398&quot;,
+                &quot;\u6df1\u5ea6\u5b66\u4e60&quot;,
+                &quot;\u4eba\u5de5\u667a\u80fd\u670d\u52a1&quot;,
+                &quot;C/C++&quot;,
+                &quot;Python&quot;
+            ]
+        },
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 1,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;C/C++&quot;,
+                &quot;Python&quot;,
+                &quot;\u4eba\u5de5\u667a\u80fd\u670d\u52a1&quot;,
+                &quot;\u63a8\u8350\u7b97\u6cd5&quot;,
+                &quot;\u6570\u636e\u6316\u6398&quot;,
+                &quot;\u673a\u5668\u5b66\u4e60&quot;,
+                &quot;\u6df1\u5ea6\u5b66\u4e60&quot;
+            ]
+        }
+    ],
+    &quot;yAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        },
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 1,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        }
+    ],
+    &quot;title&quot;: [
+        {
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        },
+        {
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        }
+    ],
+    &quot;grid&quot;: [
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;bottom&quot;: &quot;60%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        },
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;top&quot;: &quot;45%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        }
+    ]
+};
+        chart_cade40ed183246eaa532eeff0f774be0.setOption(option_cade40ed183246eaa532eeff0f774be0);
+    &lt;/script&gt;
+                &lt;div id=&quot;e35c6591d4064a50832c143191932338&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+        var chart_e35c6591d4064a50832c143191932338 = echarts.init(
+            document.getElementById('e35c6591d4064a50832c143191932338'), 'white', {renderer: 'canvas'});
+        var option_e35c6591d4064a50832c143191932338 = {
+    &quot;backgroundColor&quot;: {
+        &quot;type&quot;: &quot;pattern&quot;,
+        &quot;image&quot;: img,
+        &quot;repeat&quot;: &quot;repeat&quot;
+    },
+    &quot;animation&quot;: true,
+    &quot;animationThreshold&quot;: 2000,
+    &quot;animationDuration&quot;: 1000,
+    &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelay&quot;: 0,
+    &quot;animationDurationUpdate&quot;: 300,
+    &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelayUpdate&quot;: 0,
+    &quot;color&quot;: [
+        &quot;#c23531&quot;,
+        &quot;#2f4554&quot;,
+        &quot;#61a0a8&quot;,
+        &quot;#d48265&quot;,
+        &quot;#749f83&quot;,
+        &quot;#ca8622&quot;,
+        &quot;#bda29a&quot;,
+        &quot;#6e7074&quot;,
+        &quot;#546570&quot;,
+        &quot;#c4ccd3&quot;,
+        &quot;#f05b72&quot;,
+        &quot;#ef5b9c&quot;,
+        &quot;#f47920&quot;,
+        &quot;#905a3d&quot;,
+        &quot;#fab27b&quot;,
+        &quot;#2a5caa&quot;,
+        &quot;#444693&quot;,
+        &quot;#726930&quot;,
+        &quot;#b2d235&quot;,
+        &quot;#6d8346&quot;,
+        &quot;#ac6767&quot;,
+        &quot;#1d953f&quot;,
+        &quot;#6950a1&quot;,
+        &quot;#918597&quot;
+    ],
+    &quot;series&quot;: [
+        {
+            &quot;type&quot;: &quot;bar&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44(k)&quot;,
+            &quot;xAxisIndex&quot;: 0,
+            &quot;yAxisIndex&quot;: 0,
+            &quot;legendHoverLink&quot;: true,
+            &quot;data&quot;: [
+                47.5,
+                35.0,
+                35.0,
+                30.0,
+                30.0,
+                22.5,
+                22.5,
+                22.5
+            ],
+            &quot;showBackground&quot;: false,
+            &quot;barMinHeight&quot;: 0,
+            &quot;barCategoryGap&quot;: &quot;20%&quot;,
+            &quot;barGap&quot;: &quot;30%&quot;,
+            &quot;large&quot;: false,
+            &quot;largeThreshold&quot;: 400,
+            &quot;seriesLayoutBy&quot;: &quot;column&quot;,
+            &quot;datasetIndex&quot;: 0,
+            &quot;clip&quot;: true,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            }
+        },
+        {
+            &quot;type&quot;: &quot;boxplot&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44(k)&quot;,
+            &quot;xAxisIndex&quot;: 1,
+            &quot;yAxisIndex&quot;: 1,
+            &quot;data&quot;: [
+                [
+                    16.0,
+                    30.0,
+                    35.0,
+                    45.0,
+                    85.0
+                ],
+                [
+                    24.0,
+                    40.0,
+                    47.5,
+                    50.0,
+                    80.0
+                ],
+                [
+                    14.5,
+                    14.875,
+                    17.5,
+                    26.875,
+                    32.5
+                ],
+                [
+                    15.0,
+                    18.0,
+                    22.5,
+                    23.0,
+                    24.5
+                ],
+                [
+                    12.0,
+                    17.5,
+                    22.5,
+                    26.5,
+                    40.0
+                ],
+                [
+                    12.5,
+                    16.0,
+                    22.5,
+                    30.0,
+                    40.0
+                ],
+                [
+                    12.0,
+                    25.0,
+                    30.0,
+                    40.0,
+                    90.0
+                ],
+                [
+                    12.5,
+                    26.875,
+                    30.0,
+                    40.0,
+                    90.0
+                ]
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            },
+            &quot;markPoint&quot;: {
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;inside&quot;,
+                    &quot;color&quot;: &quot;#fff&quot;,
+                    &quot;margin&quot;: 8
+                }
+            },
+            &quot;markLine&quot;: {
+                &quot;silent&quot;: false,
+                &quot;precision&quot;: 2,
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;top&quot;,
+                    &quot;margin&quot;: 8
+                }
+            }
+        }
+    ],
+    &quot;legend&quot;: [
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44(k)&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44(k)&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        },
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44(k)&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44(k)&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        }
+    ],
+    &quot;tooltip&quot;: {
+        &quot;show&quot;: true,
+        &quot;trigger&quot;: &quot;item&quot;,
+        &quot;triggerOn&quot;: &quot;mousemove|click&quot;,
+        &quot;axisPointer&quot;: {
+            &quot;type&quot;: &quot;line&quot;
+        },
+        &quot;showContent&quot;: true,
+        &quot;alwaysShowContent&quot;: false,
+        &quot;showDelay&quot;: 0,
+        &quot;hideDelay&quot;: 100,
+        &quot;textStyle&quot;: {
+            &quot;fontSize&quot;: 14
+        },
+        &quot;borderWidth&quot;: 0,
+        &quot;padding&quot;: 5
+    },
+    &quot;xAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;axisLabel&quot;: {
+                &quot;rotate&quot;: 35
+            },
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;\u535a\u58eb&quot;,
+                &quot;\u4e0d\u9650&quot;,
+                &quot;\u5e94\u5c4a / \u535a\u58eb&quot;,
+                &quot;\u672c\u79d1&quot;,
+                &quot;\u7855\u58eb&quot;,
+                &quot;\u5e94\u5c4a / \u4e0d\u9650&quot;,
+                &quot;\u5e94\u5c4a / \u672c\u79d1&quot;,
+                &quot;\u5e94\u5c4a / \u7855\u58eb&quot;
+            ]
+        },
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 1,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;\u4e0d\u9650&quot;,
+                &quot;\u535a\u58eb&quot;,
+                &quot;\u5927\u4e13&quot;,
+                &quot;\u5e94\u5c4a / \u4e0d\u9650&quot;,
+                &quot;\u5e94\u5c4a / \u672c\u79d1&quot;,
+                &quot;\u5e94\u5c4a / \u7855\u58eb&quot;,
+                &quot;\u672c\u79d1&quot;,
+                &quot;\u7855\u58eb&quot;
+            ]
+        }
+    ],
+    &quot;yAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        },
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 1,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        }
+    ],
+    &quot;title&quot;: [
+        {
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        },
+        {
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        }
+    ],
+    &quot;grid&quot;: [
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;bottom&quot;: &quot;60%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        },
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;top&quot;: &quot;45%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        }
+    ]
+};
+        chart_e35c6591d4064a50832c143191932338.setOption(option_e35c6591d4064a50832c143191932338);
+    &lt;/script&gt;
+                &lt;div id=&quot;505975070c14488e96f1b260a08fe485&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+        var chart_505975070c14488e96f1b260a08fe485 = echarts.init(
+            document.getElementById('505975070c14488e96f1b260a08fe485'), 'white', {renderer: 'canvas'});
+        var option_505975070c14488e96f1b260a08fe485 = {
+    &quot;backgroundColor&quot;: {
+        &quot;type&quot;: &quot;pattern&quot;,
+        &quot;image&quot;: img,
+        &quot;repeat&quot;: &quot;repeat&quot;
+    },
+    &quot;animation&quot;: true,
+    &quot;animationThreshold&quot;: 2000,
+    &quot;animationDuration&quot;: 1000,
+    &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelay&quot;: 0,
+    &quot;animationDurationUpdate&quot;: 300,
+    &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelayUpdate&quot;: 0,
+    &quot;color&quot;: [
+        &quot;#c23531&quot;,
+        &quot;#2f4554&quot;,
+        &quot;#61a0a8&quot;,
+        &quot;#d48265&quot;,
+        &quot;#749f83&quot;,
+        &quot;#ca8622&quot;,
+        &quot;#bda29a&quot;,
+        &quot;#6e7074&quot;,
+        &quot;#546570&quot;,
+        &quot;#c4ccd3&quot;,
+        &quot;#f05b72&quot;,
+        &quot;#ef5b9c&quot;,
+        &quot;#f47920&quot;,
+        &quot;#905a3d&quot;,
+        &quot;#fab27b&quot;,
+        &quot;#2a5caa&quot;,
+        &quot;#444693&quot;,
+        &quot;#726930&quot;,
+        &quot;#b2d235&quot;,
+        &quot;#6d8346&quot;,
+        &quot;#ac6767&quot;,
+        &quot;#1d953f&quot;,
+        &quot;#6950a1&quot;,
+        &quot;#918597&quot;
+    ],
+    &quot;series&quot;: [
+        {
+            &quot;type&quot;: &quot;bar&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44(k)&quot;,
+            &quot;xAxisIndex&quot;: 0,
+            &quot;yAxisIndex&quot;: 0,
+            &quot;legendHoverLink&quot;: true,
+            &quot;data&quot;: [
+                55.0,
+                45.0,
+                32.5,
+                30.0,
+                27.5,
+                22.5,
+                22.5
+            ],
+            &quot;showBackground&quot;: false,
+            &quot;barMinHeight&quot;: 0,
+            &quot;barCategoryGap&quot;: &quot;20%&quot;,
+            &quot;barGap&quot;: &quot;30%&quot;,
+            &quot;large&quot;: false,
+            &quot;largeThreshold&quot;: 400,
+            &quot;seriesLayoutBy&quot;: &quot;column&quot;,
+            &quot;datasetIndex&quot;: 0,
+            &quot;clip&quot;: true,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            }
+        },
+        {
+            &quot;type&quot;: &quot;boxplot&quot;,
+            &quot;name&quot;: &quot;\u85aa\u8d44(k)&quot;,
+            &quot;xAxisIndex&quot;: 1,
+            &quot;yAxisIndex&quot;: 1,
+            &quot;data&quot;: [
+                [
+                    12.0,
+                    22.5,
+                    27.5,
+                    32.5,
+                    80.0
+                ],
+                [
+                    13.5,
+                    16.25,
+                    22.5,
+                    25.0,
+                    40.0
+                ],
+                [
+                    15.0,
+                    27.5,
+                    32.5,
+                    40.0,
+                    90.0
+                ],
+                [
+                    12.5,
+                    35.625,
+                    45.0,
+                    52.5,
+                    90.0
+                ],
+                [
+                    12.5,
+                    26.5,
+                    30.0,
+                    40.0,
+                    75.0
+                ],
+                [
+                    12.0,
+                    17.5,
+                    22.5,
+                    26.5,
+                    40.0
+                ]
+            ],
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;position&quot;: &quot;top&quot;,
+                &quot;margin&quot;: 8
+            },
+            &quot;markPoint&quot;: {
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;inside&quot;,
+                    &quot;color&quot;: &quot;#fff&quot;,
+                    &quot;margin&quot;: 8
+                }
+            },
+            &quot;markLine&quot;: {
+                &quot;silent&quot;: false,
+                &quot;precision&quot;: 2,
+                &quot;label&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;position&quot;: &quot;top&quot;,
+                    &quot;margin&quot;: 8
+                }
+            }
+        }
+    ],
+    &quot;legend&quot;: [
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44(k)&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44(k)&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        },
+        {
+            &quot;data&quot;: [
+                &quot;\u85aa\u8d44(k)&quot;
+            ],
+            &quot;selected&quot;: {
+                &quot;\u85aa\u8d44(k)&quot;: true
+            },
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14
+        }
+    ],
+    &quot;tooltip&quot;: {
+        &quot;show&quot;: true,
+        &quot;trigger&quot;: &quot;item&quot;,
+        &quot;triggerOn&quot;: &quot;mousemove|click&quot;,
+        &quot;axisPointer&quot;: {
+            &quot;type&quot;: &quot;line&quot;
+        },
+        &quot;showContent&quot;: true,
+        &quot;alwaysShowContent&quot;: false,
+        &quot;showDelay&quot;: 0,
+        &quot;hideDelay&quot;: 100,
+        &quot;textStyle&quot;: {
+            &quot;fontSize&quot;: 14
+        },
+        &quot;borderWidth&quot;: 0,
+        &quot;padding&quot;: 5
+    },
+    &quot;xAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;axisLabel&quot;: {
+                &quot;rotate&quot;: 35
+            },
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;\u7ecf\u9a8c10\u5e74\u4ee5\u4e0a&quot;,
+                &quot;\u7ecf\u9a8c5-10\u5e74&quot;,
+                &quot;\u7ecf\u9a8c3-5\u5e74&quot;,
+                &quot;\u7ecf\u9a8c\u4e0d\u9650&quot;,
+                &quot;\u7ecf\u9a8c1-3\u5e74&quot;,
+                &quot;\u7ecf\u9a8c1\u5e74\u4ee5\u4e0b&quot;,
+                &quot;\u7ecf\u9a8c\u5728\u6821&quot;
+            ]
+        },
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 1,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;data&quot;: [
+                &quot;\u7ecf\u9a8c1-3\u5e74&quot;,
+                &quot;\u7ecf\u9a8c1\u5e74\u4ee5\u4e0b&quot;,
+                &quot;\u7ecf\u9a8c3-5\u5e74&quot;,
+                &quot;\u7ecf\u9a8c5-10\u5e74&quot;,
+                &quot;\u7ecf\u9a8c\u4e0d\u9650&quot;,
+                &quot;\u7ecf\u9a8c\u5728\u6821&quot;
+            ]
+        }
+    ],
+    &quot;yAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 0,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        },
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;gridIndex&quot;: 1,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: false,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            }
+        }
+    ],
+    &quot;title&quot;: [
+        {
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        },
+        {
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10
+        }
+    ],
+    &quot;grid&quot;: [
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;bottom&quot;: &quot;60%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        },
+        {
+            &quot;show&quot;: false,
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 2,
+            &quot;top&quot;: &quot;45%&quot;,
+            &quot;containLabel&quot;: false,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderWidth&quot;: 1
+        }
+    ]
+};
+        chart_505975070c14488e96f1b260a08fe485.setOption(option_505975070c14488e96f1b260a08fe485);
+    &lt;/script&gt;
+                        &lt;style&gt;
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        &lt;/style&gt;
+        &lt;div id=&quot;ffa5ff080e954c999d87038bf79810b4&quot; class=&quot;chart-container&quot; style=&quot;&quot;&gt;
+            &lt;p class=&quot;title&quot; style=&quot;font-size: 18px; font-weight:bold;&quot;&gt; top10高薪岗位&lt;/p&gt;
+            &lt;p class=&quot;subtitle&quot; style=&quot;font-size: 12px;&quot;&gt; &lt;/p&gt;
+            &lt;table class=&quot;fl-table&quot;&gt;
+    &lt;tr&gt;
+        &lt;th&gt;标题&lt;/th&gt;
+        &lt;th&gt;公司地址&lt;/th&gt;
+        &lt;th&gt;公司名&lt;/th&gt;
+        &lt;th&gt;学历要求&lt;/th&gt;
+        &lt;th&gt;经验年限&lt;/th&gt;
+        &lt;th&gt;公司行业&lt;/th&gt;
+        &lt;th&gt;公司规模&lt;/th&gt;
+        &lt;th&gt;人员规模&lt;/th&gt;
+        &lt;th&gt;薪资&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;高级算法专家 - 机器学习(J210628045)&lt;/td&gt;
+        &lt;td&gt;杭州·西湖区&lt;/td&gt;
+        &lt;td&gt;滴滴&lt;/td&gt;
+        &lt;td&gt;硕士&lt;/td&gt;
+        &lt;td&gt;经验5-10年&lt;/td&gt;
+        &lt;td&gt;旅游｜出行&lt;/td&gt;
+        &lt;td&gt;不需要融资&lt;/td&gt;
+        &lt;td&gt;2000人以上&lt;/td&gt;
+        &lt;td&gt;80k-100k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;CV算法总监&lt;/td&gt;
+        &lt;td&gt;北京·朝阳区&lt;/td&gt;
+        &lt;td&gt;龙湖集团&lt;/td&gt;
+        &lt;td&gt;本科&lt;/td&gt;
+        &lt;td&gt;经验5-10年&lt;/td&gt;
+        &lt;td&gt;房地产｜建筑｜物业&lt;/td&gt;
+        &lt;td&gt;上市公司&lt;/td&gt;
+        &lt;td&gt;2000人以上&lt;/td&gt;
+        &lt;td&gt;60k-120k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;视觉算法工程师&lt;/td&gt;
+        &lt;td&gt;深圳·南油&lt;/td&gt;
+        &lt;td&gt;华为&lt;/td&gt;
+        &lt;td&gt;硕士&lt;/td&gt;
+        &lt;td&gt;经验3-5年&lt;/td&gt;
+        &lt;td&gt;通讯电子&lt;/td&gt;
+        &lt;td&gt;不需要融资&lt;/td&gt;
+        &lt;td&gt;2000人以上&lt;/td&gt;
+        &lt;td&gt;80k-100k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;算法工程师&lt;/td&gt;
+        &lt;td&gt;上海·杨浦区&lt;/td&gt;
+        &lt;td&gt;北京如秄&lt;/td&gt;
+        &lt;td&gt;本科&lt;/td&gt;
+        &lt;td&gt;经验5-10年&lt;/td&gt;
+        &lt;td&gt;工具类产品,IT技术服务｜咨询,专业服务｜咨询&lt;/td&gt;
+        &lt;td&gt;不需要融资&lt;/td&gt;
+        &lt;td&gt;50-150人&lt;/td&gt;
+        &lt;td&gt;70k-100k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分发算法总监 (MJ001652)&lt;/td&gt;
+        &lt;td&gt;北京·朝阳区&lt;/td&gt;
+        &lt;td&gt;Keep&lt;/td&gt;
+        &lt;td&gt;不限&lt;/td&gt;
+        &lt;td&gt;经验10年以上&lt;/td&gt;
+        &lt;td&gt;社交平台,内容社区&lt;/td&gt;
+        &lt;td&gt;D轮及以上&lt;/td&gt;
+        &lt;td&gt;500-2000人&lt;/td&gt;
+        &lt;td&gt;70k-100k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;搜索高级算法工程师&lt;/td&gt;
+        &lt;td&gt;北京·朝阳区&lt;/td&gt;
+        &lt;td&gt;寺库&lt;/td&gt;
+        &lt;td&gt;本科&lt;/td&gt;
+        &lt;td&gt;经验3-5年&lt;/td&gt;
+        &lt;td&gt;电商,消费生活&lt;/td&gt;
+        &lt;td&gt;D轮及以上&lt;/td&gt;
+        &lt;td&gt;500-2000人&lt;/td&gt;
+        &lt;td&gt;60k-100k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;算法专家（3D视觉方向）&lt;/td&gt;
+        &lt;td&gt;深圳·科技园&lt;/td&gt;
+        &lt;td&gt;信润富联&lt;/td&gt;
+        &lt;td&gt;博士&lt;/td&gt;
+        &lt;td&gt;经验1-3年&lt;/td&gt;
+        &lt;td&gt;软件开发&lt;/td&gt;
+        &lt;td&gt;不需要融资&lt;/td&gt;
+        &lt;td&gt;50-150人&lt;/td&gt;
+        &lt;td&gt;60k-100k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;算法leader&lt;/td&gt;
+        &lt;td&gt;北京·学院路&lt;/td&gt;
+        &lt;td&gt;最右&lt;/td&gt;
+        &lt;td&gt;本科&lt;/td&gt;
+        &lt;td&gt;经验5-10年&lt;/td&gt;
+        &lt;td&gt;社交平台,内容社区&lt;/td&gt;
+        &lt;td&gt;D轮及以上&lt;/td&gt;
+        &lt;td&gt;500-2000人&lt;/td&gt;
+        &lt;td&gt;60k-100k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;算法负责人（总监）&lt;/td&gt;
+        &lt;td&gt;上海·静安区&lt;/td&gt;
+        &lt;td&gt;逸兴遄飞&lt;/td&gt;
+        &lt;td&gt;本科&lt;/td&gt;
+        &lt;td&gt;经验5-10年&lt;/td&gt;
+        &lt;td&gt;专业服务｜咨询&lt;/td&gt;
+        &lt;td&gt;未融资&lt;/td&gt;
+        &lt;td&gt;50-150人&lt;/td&gt;
+        &lt;td&gt;70k-90k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;算法leader&lt;/td&gt;
+        &lt;td&gt;北京·海淀区&lt;/td&gt;
+        &lt;td&gt;音娱时光&lt;/td&gt;
+        &lt;td&gt;本科&lt;/td&gt;
+        &lt;td&gt;经验5-10年&lt;/td&gt;
+        &lt;td&gt;MCN｜直播平台&lt;/td&gt;
+        &lt;td&gt;B轮&lt;/td&gt;
+        &lt;td&gt;50-150人&lt;/td&gt;
+        &lt;td&gt;60k-90k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;算法工程师-jd零售&lt;/td&gt;
+        &lt;td&gt;北京·朝阳区&lt;/td&gt;
+        &lt;td&gt;仕佳&lt;/td&gt;
+        &lt;td&gt;本科&lt;/td&gt;
+        &lt;td&gt;经验5-10年&lt;/td&gt;
+        &lt;td&gt;移动互联网,企业服务&lt;/td&gt;
+        &lt;td&gt;未融资&lt;/td&gt;
+        &lt;td&gt;150-500人&lt;/td&gt;
+        &lt;td&gt;50k-100k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;高级/资深图像算法工程师&lt;/td&gt;
+        &lt;td&gt;北京·西北旺&lt;/td&gt;
+        &lt;td&gt;网易&lt;/td&gt;
+        &lt;td&gt;本科&lt;/td&gt;
+        &lt;td&gt;经验3-5年&lt;/td&gt;
+        &lt;td&gt;内容资讯,游戏,音频｜视频媒体&lt;/td&gt;
+        &lt;td&gt;上市公司&lt;/td&gt;
+        &lt;td&gt;2000人以上&lt;/td&gt;
+        &lt;td&gt;50k-100k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;算法总监&lt;/td&gt;
+        &lt;td&gt;上海·徐汇区&lt;/td&gt;
+        &lt;td&gt;Versa&lt;/td&gt;
+        &lt;td&gt;硕士&lt;/td&gt;
+        &lt;td&gt;经验3-5年&lt;/td&gt;
+        &lt;td&gt;工具类产品&lt;/td&gt;
+        &lt;td&gt;B轮&lt;/td&gt;
+        &lt;td&gt;50-150人&lt;/td&gt;
+        &lt;td&gt;50k-100k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;调度算法工程师&lt;/td&gt;
+        &lt;td&gt;北京·大兴区&lt;/td&gt;
+        &lt;td&gt;京东物流&lt;/td&gt;
+        &lt;td&gt;硕士&lt;/td&gt;
+        &lt;td&gt;经验3-5年&lt;/td&gt;
+        &lt;td&gt;物流｜运输&lt;/td&gt;
+        &lt;td&gt;A轮&lt;/td&gt;
+        &lt;td&gt;2000人以上&lt;/td&gt;
+        &lt;td&gt;50k-100k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;资深算法和大数据工程师/专家【岗位编号003】&lt;/td&gt;
+        &lt;td&gt;北京·宣武门&lt;/td&gt;
+        &lt;td&gt;UMU&lt;/td&gt;
+        &lt;td&gt;本科&lt;/td&gt;
+        &lt;td&gt;经验5-10年&lt;/td&gt;
+        &lt;td&gt;社交平台&lt;/td&gt;
+        &lt;td&gt;C轮&lt;/td&gt;
+        &lt;td&gt;50-150人&lt;/td&gt;
+        &lt;td&gt;50k-100k&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;script&gt;
+    &lt;/script&gt;
+    &lt;script&gt;
+        (function() {
+            containers = document.getElementsByClassName(&quot;chart-container&quot;);
+            if(containers.length &gt; 0) {
+                containers[0].style.display = &quot;block&quot;;
+            }
+        })()
+
+        function showChart(evt, chartID) {
+            let containers = document.getElementsByClassName(&quot;chart-container&quot;);
+            for (let i = 0; i &lt; containers.length; i++) {
+                containers[i].style.display = &quot;none&quot;;
+            }
+
+            let tablinks = document.getElementsByClassName(&quot;tablinks&quot;);
+            for (let i = 0; i &lt; tablinks.length; i++) {
+                tablinks[i].className = &quot;tablinks&quot;;
+            }
+
+            document.getElementById(chartID).style.display = &quot;block&quot;;
+            evt.currentTarget.className += &quot; active&quot;;
+        }
+    &lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</description>
+        <pubDate>Thu, 05 Aug 2021 00:00:00 +0800</pubDate>
+        <link>/job-and-hiring/</link>
+        <guid isPermaLink="true">/job-and-hiring/</guid>
+        
+        <category>job</category>
+        
+        <category>hire</category>
+        
+        <category>career</category>
+        
+        
+        <category>面试求职</category>
+        
+      </item>
+    
+      <item>
+        <title>AI速查表全集</title>
+        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
+
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+
+&lt;p&gt;&lt;strong&gt;作者：&lt;a href=&quot;https://github.com/HanXinzi-AI&quot;&gt;韩信子&lt;/a&gt;@&lt;a href=&quot;https://github.com/ShowMeAI-Hub&quot;&gt;ShowMeAI&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;设计：南乔@&lt;a href=&quot;https://github.com/ShowMeAI-Hub&quot;&gt;ShowMeAI&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;目录&quot;&gt;目录&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#ai速查表全集&quot;&gt;AI速查表全集&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#速查表速览&quot;&gt;速查表速览&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#工具与平台&quot;&gt;工具与平台&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#jupyter-notebook&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/JupyterNotebook&quot;&gt;Jupyter Notebook&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#编程语言&quot;&gt;编程语言&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#python&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Python&quot;&gt;Python&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#科学计算&quot;&gt;科学计算&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#numpy&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Numpy&quot;&gt;Numpy&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#scipy&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scipy&quot;&gt;Scipy&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#数据分析与处理&quot;&gt;数据分析与处理&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#importing-data&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Importing%20Data&quot;&gt;Importing Data&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#pandas&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Pandas&quot;&gt;Pandas&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#数据可视化&quot;&gt;数据可视化&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#matplotlib&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Matplotlib&quot;&gt;Matplotlib&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#seaborn&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Seaborn&quot;&gt;Seaborn&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#bokeh&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Bokeh&quot;&gt;Bokeh&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#大数据&quot;&gt;大数据&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#spark&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Spark&quot;&gt;Spark&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#机器学习&quot;&gt;机器学习&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#scikit-learn&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scikit-Learn&quot;&gt;Scikit-Learn&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#深度学习&quot;&gt;深度学习&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#keras&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Keras&quot;&gt;Keras&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;速查表速览&quot;&gt;速查表速览&lt;/h2&gt;
+
+&lt;h3 id=&quot;工具与平台&quot;&gt;工具与平台&lt;/h3&gt;
+
+&lt;h4 id=&quot;jupyter-notebook&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/JupyterNotebook&quot;&gt;Jupyter Notebook&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmheh2b5lj31fm10ck71.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;编程语言&quot;&gt;编程语言&lt;/h3&gt;
+
+&lt;h4 id=&quot;python&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Python&quot;&gt;Python&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhgnvlo8j31fi10stw2.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;科学计算&quot;&gt;科学计算&lt;/h3&gt;
+
+&lt;h4 id=&quot;numpy&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Numpy&quot;&gt;Numpy&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhh8jzscj31fg1021a4.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;scipy&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scipy&quot;&gt;Scipy&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi800noj31fe100h14.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;数据分析与处理&quot;&gt;数据分析与处理&lt;/h3&gt;
+
+&lt;h4 id=&quot;importing-data&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Importing%20Data&quot;&gt;Importing Data&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhjptab5j31fg0zy7gu.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;pandas&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Pandas&quot;&gt;Pandas&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi3v8cvj31fg0zw4ck.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;数据可视化&quot;&gt;数据可视化&lt;/h3&gt;
+
+&lt;h4 id=&quot;matplotlib&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Matplotlib&quot;&gt;Matplotlib&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi3mnhjj31fe0zydwh.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;seaborn&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Seaborn&quot;&gt;Seaborn&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6s7adj31fi0zy4gd.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;bokeh&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Bokeh&quot;&gt;Bokeh&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi66xv4j31fi0zugyc.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;大数据&quot;&gt;大数据&lt;/h3&gt;
+&lt;h4 id=&quot;spark&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Spark&quot;&gt;Spark&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhlj26yoj31fe0t8gwr.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;机器学习&quot;&gt;机器学习&lt;/h3&gt;
+&lt;h4 id=&quot;scikit-learn&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scikit-Learn&quot;&gt;Scikit-Learn&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhl9crtuj31fi0zqtjk.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;深度学习&quot;&gt;深度学习&lt;/h3&gt;
+&lt;h4 id=&quot;keras&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Keras&quot;&gt;Keras&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6fd9nj31fe0zy175.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Aug 2021 00:00:00 +0800</pubDate>
+        <link>/awesome-ai-cheatsheets-resources/</link>
+        <guid isPermaLink="true">/awesome-ai-cheatsheets-resources/</guid>
+        
+        <category>工具库与资源</category>
+        
+        
+        <category>工具库与资源</category>
         
       </item>
     
@@ -721,8 +4611,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/eecs498-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/eecs498-course-materials-info/</guid>
+        <link>/eecs498-course-materials-info/</link>
+        <guid isPermaLink="true">/eecs498-course-materials-info/</guid>
         
         <category>CS231n</category>
         
@@ -817,8 +4707,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs520-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs520-course-materials-info/</guid>
+        <link>/cs520-course-materials-info/</link>
+        <guid isPermaLink="true">/cs520-course-materials-info/</guid>
         
         <category>CS520</category>
         
@@ -900,8 +4790,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs285-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs285-course-materials-info/</guid>
+        <link>/cs285-course-materials-info/</link>
+        <guid isPermaLink="true">/cs285-course-materials-info/</guid>
         
         <category>CS285</category>
         
@@ -975,8 +4865,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs234-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs234-course-materials-info/</guid>
+        <link>/cs234-course-materials-info/</link>
+        <guid isPermaLink="true">/cs234-course-materials-info/</guid>
         
         <category>cs234</category>
         
@@ -1061,8 +4951,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs231n-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs231n-course-materials-info/</guid>
+        <link>/cs231n-course-materials-info/</link>
+        <guid isPermaLink="true">/cs231n-course-materials-info/</guid>
         
         <category>cs231n</category>
         
@@ -1071,163 +4961,6 @@
         <category>deep learning</category>
         
         <category>AI课程</category>
-        
-        
-        <category>AI课程</category>
-        
-      </item>
-    
-      <item>
-        <title>斯坦福CS224w图机器学习-课程学习资料</title>
-        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
-
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
-
-&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
-
-&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
-
-&lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt80xcxs2bj31kx0fuwqu.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;课程主页：&lt;a href=&quot;http://web.stanford.edu/class/cs224w/&quot;&gt;Stanford CS224W · Machine Learning with Graphs&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;CS224w是顶级院校斯坦福出品的图机器学习方向专业课程，核心内容覆盖图数据挖掘、Node embedding、PageRank、标签传播、图神经网络、知识图谱、知识推理、子图挖掘、社区发现、生成模型等主题。对于graph方向的数据挖掘和机器学习(神经网络)有全面的知识覆盖和很高的权威度。如果大家想学习非结构化的图数据上的各类算法，本课程是最适合的课程之一。&lt;/p&gt;
-
-&lt;h2 id=&quot;课程主题与大纲&quot;&gt;课程主题与大纲&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Introduction; Machine Learning for Graphs&lt;/li&gt;
-  &lt;li&gt;Traditional Methods for ML on Graphs&lt;/li&gt;
-  &lt;li&gt;Node Embeddings&lt;/li&gt;
-  &lt;li&gt;Link Analysis: PageRank&lt;/li&gt;
-  &lt;li&gt;Label Propagation for Node Classification&lt;/li&gt;
-  &lt;li&gt;Graph Neural Networks 1: GNN Model&lt;/li&gt;
-  &lt;li&gt;Graph Neural Networks 2: Design Space&lt;/li&gt;
-  &lt;li&gt;Applications of Graph Neural Networks&lt;/li&gt;
-  &lt;li&gt;Theory of Graph Neural Networks&lt;/li&gt;
-  &lt;li&gt;Knowledge Graph Embeddings&lt;/li&gt;
-  &lt;li&gt;Reasoning over Knowledge Graphs&lt;/li&gt;
-  &lt;li&gt;Frequent Subgraph Mining with GNNs&lt;/li&gt;
-  &lt;li&gt;Community Structure in Networks&lt;/li&gt;
-  &lt;li&gt;Traditional Generative Models for Graphs&lt;/li&gt;
-  &lt;li&gt;Deep Generative Models for Graphs&lt;/li&gt;
-  &lt;li&gt;Advanced Topics on GNNs&lt;/li&gt;
-  &lt;li&gt;Scaling Up GNNs&lt;/li&gt;
-  &lt;li&gt;Guest Lecture: GNNs for Computational Biology&lt;/li&gt;
-  &lt;li&gt;Guest Lecture: Industrial Applications of GNNs&lt;/li&gt;
-  &lt;li&gt;GNNs for Science&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt80xclsqyj31kx0fuqb0.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt80xcybozj311y0aknco.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; alt=&quot;end&quot; align=&quot;center&quot; /&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs224w-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs224w-course-materials-info/</guid>
-        
-        <category>cs224w</category>
-        
-        <category>图挖掘</category>
-        
-        <category>图神经网络</category>
-        
-        <category>知识图谱</category>
-        
-        
-        <category>AI课程</category>
-        
-      </item>
-    
-      <item>
-        <title>慕尼黑工大计算机视觉深度学习进阶课-学习资料</title>
-        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
-
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
-
-&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
-
-&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
-
-&lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt80vvj25dj31kx0fu1kx.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;课程主页：&lt;a href=&quot;https://dvl.in.tum.de/teaching/adl4cv-ss20/&quot;&gt;TUM-Advanced Deep Learning for Computer Vision&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ADL4CV是慕尼黑工大讲授的计算机视觉方向进阶课程，课程覆盖在深度学习计算机视觉基础之上的进阶深度内容，包括神经网络可解释性、相似度与度量学习、自注意力与transformer、图神经网络、生成模型与GAN、无监督学习、视频处理、迁移学习等。&lt;/p&gt;
-
-&lt;p&gt;由于疫情影响，慕尼黑工业大学的最新课程《Advanced Deep Learning for Computer vision》是网上授课模式，课程对应的资料和视频也公开放出。&lt;/p&gt;
-
-&lt;p&gt;课程主要面向深度学习计算机视觉进阶内容，有深度学习和计算机视觉基础的同学可以通过本课程进阶，学习到更深入的CV研究方向和内容。&lt;/p&gt;
-
-&lt;h2 id=&quot;课程主题与大纲&quot;&gt;课程主题与大纲&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;课程与项目介绍&lt;/li&gt;
-  &lt;li&gt;神经网络可视化与可解释性&lt;/li&gt;
-  &lt;li&gt;相似度与度量学习&lt;/li&gt;
-  &lt;li&gt;注意力与transformer&lt;/li&gt;
-  &lt;li&gt;图神经网络&lt;/li&gt;
-  &lt;li&gt;自编码器与VAE&lt;/li&gt;
-  &lt;li&gt;生成模型与GAN I&lt;/li&gt;
-  &lt;li&gt;生成模型与GAN II&lt;/li&gt;
-  &lt;li&gt;视频处理、自回归模型、高维自适应与迁移学习&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt80vuohtkj31kx0fudoy.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt80vv4wctj31kx0fu1kx.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; alt=&quot;end&quot; align=&quot;center&quot; /&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/adl4cv-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/adl4cv-course-materials-info/</guid>
-        
-        <category>慕尼黑工大</category>
-        
-        <category>计算机视觉</category>
-        
-        <category>deep learning</category>
-        
-        <category>Transformer</category>
-        
-        <category>AGN</category>
         
         
         <category>AI课程</category>

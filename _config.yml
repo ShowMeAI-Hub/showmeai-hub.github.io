@@ -30,4 +30,8 @@ exclude: ["README.md", "README.html"]
 highlighter: null
 markdown: kramdown
 
+plugins: [jekyll-paginate]
+paginate: 8
+paginate_path: "/page:num/"
+
 permalink: /:title/

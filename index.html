@@ -4,14 +4,25 @@ title: ShowMeAI
 subtitle: 专注数据算法与应用
 ---
 <link rel="shortcut icon" href="/favicon.ico"/>
-
-<ul class="list-posts">
-    {% for post in site.posts %}
-        <li class="post-teaser">
+<ul>
+    {% for post in paginator.posts %}
+    <li class="post-teaser">
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <span class="post-teaser__title">{{ post.title }}</span>
                 <span class="post-teaser__author">{{ post.author }}</span>
             </a>
-        </li>
+    </li>
     {% endfor %}
 </ul>
+
+<center>
+<nav class="pagination" role="navigation">
+    {% if paginator.previous_page %}
+    <a class="previous pagination__newer btn btn-small btn-tertiary" href="{{ paginator.previous_page_path }}">&larr; 上一页</a>
+    {% endif %}
+    <span class="page_num pagination__page-number">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a class="next pagination__older btn btn-small btn-tertiary" href="{{ paginator.next_page_path }}">下一页 &rarr;</a>
+    {% endif %}
+</nav>
+</center>
