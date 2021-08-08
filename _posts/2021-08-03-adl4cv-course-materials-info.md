@@ -50,6 +50,77 @@ ADL4CV是慕尼黑工大讲授的计算机视觉方向进阶课程，课程覆�
 <img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt80vuohtkj31kx0fudoy.jpg" referrerpolicy="no-referrer" width = "100%" />
 </div>
 
+## 更多技术与课程清单 | 点击查看详细课程
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#customers td, #customers th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #F5B041;
+  color: white;
+}
+
+</style>
+
+<table id="customers" align="center">
+	<tr>
+	    <th>技术方向</th>
+	    <th>课程及链接</th>
+  	</tr>
+  	<tr>
+        <td >机器学习</td>
+        <td><a href="/cs229-course-materials-info">斯坦福CS229</a></td>
+    </tr>
+    <tr>
+        <td >深度学习</td>
+        <td><a href="/cs230-course-materials-info">斯坦福CS230</a></td>
+    </tr>
+    <tr>
+        <td rowspan="2">自然语言处理</td>
+        <td><a href="/cs224n-course-materials-info">斯坦福CS224n（深度学习与NLP）</a></td>
+    </tr>
+    <tr>
+        <td><a href="/cs520-course-materials-info">斯坦福CS520（知识图谱）</a></td>
+    </tr>
+    <tr>
+        <td rowspan="3">计算机视觉</td>
+        <td><a href="/cs231n-course-materials-info">斯坦福CS231n（深度学习与CV）</a></td>
+    </tr>
+    <tr>
+        <td><a href="/eecs498-course-materials-info">密歇根eecs498（CS231n进阶课）</a></td>
+    </tr>
+    <tr>
+        <td><a href="/adl4cv-course-materials-info">慕尼黑工大adl4cv（深度学习与CV高阶课）</a></td>
+    </tr>
+    <tr>
+    	<td >图机器学习</td>
+        <td><a href="/cs224w-course-materials-info">斯坦福CS224w</a></td>
+    </tr>
+    <tr>
+        <td rowspan="2">强化学习</td>
+        <td><a href="/cs234-course-materials-info">斯坦福CS234（强化学习）</a></td>
+    </tr>
+    <tr>
+        <td><a href="/cs285-course-materials-info">伯克利CS285（深度强化学习）</a></td>
+    </tr>
+    <tr>
+    	<td>无监督学习</td>
+        <td><a href="/cs294-158-course-materials-info">伯克利CS294-158（深度无监督学习）</a></td>
+    </tr>
+</table>
 
 <div align="center">
 <img src="http://ww1.sinaimg.cn/large/0060yMmAly1gt80vv4wctj31kx0fu1kx.jpg" referrerpolicy="no-referrer" width = "100%" alt="end" align=center />
