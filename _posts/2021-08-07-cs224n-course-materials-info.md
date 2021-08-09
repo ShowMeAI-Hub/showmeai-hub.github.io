@@ -286,43 +286,43 @@ pin: false
     </tr>
     <tr>
         <td >机器学习</td>
-        <td><a href="/cs229-course-materials-info">斯坦福CS229</a></td>
+        <td><a href="/cs229">斯坦福CS229</a></td>
     </tr>
     <tr>
         <td >深度学习</td>
-        <td><a href="/cs230-course-materials-info">斯坦福CS230</a></td>
+        <td><a href="/cs230">斯坦福CS230</a></td>
     </tr>
     <tr>
         <td rowspan="2">自然语言处理</td>
-        <td><a href="/cs224n-course-materials-info">斯坦福CS224n（深度学习与NLP）</a></td>
+        <td><a href="/cs224n">斯坦福CS224n（深度学习与NLP）</a></td>
     </tr>
     <tr>
-        <td><a href="/cs520-course-materials-info">斯坦福CS520（知识图谱）</a></td>
+        <td><a href="/cs520">斯坦福CS520（知识图谱）</a></td>
     </tr>
     <tr>
         <td rowspan="3">计算机视觉</td>
-        <td><a href="/cs231n-course-materials-info">斯坦福CS231n（深度学习与CV）</a></td>
+        <td><a href="/cs231n">斯坦福CS231n（深度学习与CV）</a></td>
     </tr>
     <tr>
-        <td><a href="/eecs498-course-materials-info">密歇根eecs498（CS231n进阶课）</a></td>
+        <td><a href="/eecs498">密歇根eecs498（CS231n进阶课）</a></td>
     </tr>
     <tr>
-        <td><a href="/adl4cv-course-materials-info">慕尼黑工大adl4cv（深度学习与CV高阶课）</a></td>
+        <td><a href="/adl4cv">慕尼黑工大adl4cv（深度学习与CV高阶课）</a></td>
     </tr>
     <tr>
       <td >图机器学习</td>
-        <td><a href="/cs224w-course-materials-info">斯坦福CS224w</a></td>
+        <td><a href="/cs224w">斯坦福CS224w</a></td>
     </tr>
     <tr>
         <td rowspan="2">强化学习</td>
-        <td><a href="/cs234-course-materials-info">斯坦福CS234（强化学习）</a></td>
+        <td><a href="/cs234">斯坦福CS234（强化学习）</a></td>
     </tr>
     <tr>
-        <td><a href="/cs285-course-materials-info">伯克利CS285（深度强化学习）</a></td>
+        <td><a href="/cs285">伯克利CS285（深度强化学习）</a></td>
     </tr>
     <tr>
       <td>无监督学习</td>
-        <td><a href="/cs294-158-course-materials-info">伯克利CS294-158（深度无监督学习）</a></td>
+        <td><a href="/cs294-158">伯克利CS294-158（深度无监督学习）</a></td>
     </tr>
 </table>
 

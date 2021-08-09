@@ -5,8 +5,8 @@
     <description>world about machine learning and artificial intelligence</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Aug 2021 10:10:14 +0800</pubDate>
-    <lastBuildDate>Mon, 09 Aug 2021 10:10:14 +0800</lastBuildDate>
+    <pubDate>Mon, 09 Aug 2021 11:34:57 +0800</pubDate>
+    <lastBuildDate>Mon, 09 Aug 2021 11:34:57 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -296,43 +296,43 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs229-course-materials-info&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;深度学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs230-course-materials-info&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;自然语言处理&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224n-course-materials-info&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs520-course-materials-info&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs231n-course-materials-info&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/eecs498-course-materials-info&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/adl4cv-course-materials-info&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;图机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224w-course-materials-info&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs234-course-materials-info&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs285-course-materials-info&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;无监督学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs294-158-course-materials-info&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -554,43 +554,43 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs229-course-materials-info&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;深度学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs230-course-materials-info&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;自然语言处理&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224n-course-materials-info&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs520-course-materials-info&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs231n-course-materials-info&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/eecs498-course-materials-info&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/adl4cv-course-materials-info&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;图机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224w-course-materials-info&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs234-course-materials-info&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs285-course-materials-info&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;无监督学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs294-158-course-materials-info&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -813,43 +813,43 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs229-course-materials-info&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;深度学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs230-course-materials-info&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;自然语言处理&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224n-course-materials-info&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs520-course-materials-info&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs231n-course-materials-info&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/eecs498-course-materials-info&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/adl4cv-course-materials-info&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;图机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224w-course-materials-info&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs234-course-materials-info&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs285-course-materials-info&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;无监督学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs294-158-course-materials-info&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -4853,43 +4853,43 @@
   	&lt;/tr&gt;
   	&lt;tr&gt;
         &lt;td&gt;机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs229-course-materials-info&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;深度学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs230-course-materials-info&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;自然语言处理&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224n-course-materials-info&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs520-course-materials-info&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs231n-course-materials-info&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/eecs498-course-materials-info&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/adl4cv-course-materials-info&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
     	&lt;td&gt;图机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224w-course-materials-info&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs234-course-materials-info&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs285-course-materials-info&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
     	&lt;td&gt;无监督学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs294-158-course-materials-info&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -4898,8 +4898,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/eecs498-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/eecs498-course-materials-info/</guid>
+        <link>http://localhost:4000/eecs498/</link>
+        <guid isPermaLink="true">http://localhost:4000/eecs498/</guid>
         
         <category>CS231n</category>
         
@@ -5021,43 +5021,43 @@
   	&lt;/tr&gt;
   	&lt;tr&gt;
         &lt;td&gt;机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs229-course-materials-info&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;深度学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs230-course-materials-info&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;自然语言处理&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224n-course-materials-info&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs520-course-materials-info&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs231n-course-materials-info&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/eecs498-course-materials-info&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/adl4cv-course-materials-info&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
     	&lt;td&gt;图机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224w-course-materials-info&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs234-course-materials-info&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs285-course-materials-info&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
     	&lt;td&gt;无监督学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs294-158-course-materials-info&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -5066,8 +5066,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs520-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs520-course-materials-info/</guid>
+        <link>http://localhost:4000/cs520/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs520/</guid>
         
         <category>CS520</category>
         
@@ -5164,43 +5164,43 @@
   	&lt;/tr&gt;
   	&lt;tr&gt;
         &lt;td&gt;机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs229-course-materials-info&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;深度学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs230-course-materials-info&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;自然语言处理&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224n-course-materials-info&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs520-course-materials-info&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs231n-course-materials-info&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/eecs498-course-materials-info&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/adl4cv-course-materials-info&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
     	&lt;td&gt;图机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224w-course-materials-info&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs234-course-materials-info&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs285-course-materials-info&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
     	&lt;td&gt;无监督学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs294-158-course-materials-info&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -5209,8 +5209,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs294-158-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs294-158-course-materials-info/</guid>
+        <link>http://localhost:4000/cs294-158/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs294-158/</guid>
         
         <category>伯克利</category>
         
@@ -5319,43 +5319,43 @@
   	&lt;/tr&gt;
   	&lt;tr&gt;
         &lt;td&gt;机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs229-course-materials-info&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;深度学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs230-course-materials-info&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;自然语言处理&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224n-course-materials-info&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs520-course-materials-info&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs231n-course-materials-info&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/eecs498-course-materials-info&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/adl4cv-course-materials-info&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
     	&lt;td&gt;图机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224w-course-materials-info&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs234-course-materials-info&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs285-course-materials-info&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
     	&lt;td&gt;无监督学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs294-158-course-materials-info&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -5364,8 +5364,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs285-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs285-course-materials-info/</guid>
+        <link>http://localhost:4000/cs285/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs285/</guid>
         
         <category>CS285</category>
         
@@ -5466,43 +5466,43 @@
   	&lt;/tr&gt;
   	&lt;tr&gt;
         &lt;td&gt;机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs229-course-materials-info&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;深度学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs230-course-materials-info&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;自然语言处理&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224n-course-materials-info&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs520-course-materials-info&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs231n-course-materials-info&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/eecs498-course-materials-info&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/adl4cv-course-materials-info&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
     	&lt;td&gt;图机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224w-course-materials-info&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs234-course-materials-info&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs285-course-materials-info&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
     	&lt;td&gt;无监督学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs294-158-course-materials-info&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -5511,8 +5511,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs234-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs234-course-materials-info/</guid>
+        <link>http://localhost:4000/cs234/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs234/</guid>
         
         <category>cs234</category>
         
