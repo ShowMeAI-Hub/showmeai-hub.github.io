@@ -1,0 +1,121 @@
+---
+title: 伯克利深度无监督学习课程-学习资料
+subtitle: 伯克利深度无监督学习课程，内容覆盖深度学习与无监督学习前沿算法模型与典型应用
+author: HanXinzi@ShowMeAI
+author_url: https://github.com/HanXinzi-AI
+categories: [AI课程]
+tags: [伯克利, 深度学习, 无监督学习, 计算机视觉, AI课程]
+pin: false
+---
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/assets/vendor/highlight/styles/solarized_dark.css">
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
+<link rel="shortcut icon" href="/favicon.ico"/>
+
+## 课程介绍
+
+<div align="center">
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gtabb7yfdjj31kx0fu4fz.jpg" referrerpolicy="no-referrer" width = "100%" />
+</div>
+
+课程主页：[UC Berkeley CS294-158 · Deep Unsupervised Learning](https://sites.google.com/view/berkeley-cs294-158-sp20/home)
+
+深度学习的研究方向包括一个非常重要的主题：对无标签数据的应用。UC伯克利的这门课程，针对无监督学习的场景展开，包括深度生成模型和自监督学习两大主题。其中生成模型使得对自然图像、音频波形和文本语料库等高维原始数据进行真实建模成为可能，而自监督学习算法在逐步缩小监督表示学习和非监督表示学习之间的差距。对无监督学习和深度学习感兴趣的小伙伴可以重点关注这门课程。
+
+## 课程主题与大纲
+
+- 自回归模型（Autoregressive Models）
+- 流模型（Flow Models）
+- 变分自动编码器（Variational Autoencoders）
+- 半监督学习（Semi-supervised Learning）
+- 生成对抗网络（Generative Adversarial Networks）
+- 基于能量的模型（Energy based Models）
+- 压缩（Compression）
+- 自监督学习（Self-supervised Learning）、
+
+<hr />
+<h2 id="ShowMeAI课程解读">ShowMeAI课程解读：全套资料</h2>
+<div align="center">
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gtabb7yozzj31kx0fudnw.jpg" referrerpolicy="no-referrer" width = "100%" />
+</div>
+
+## 更多技术与课程清单 | 点击查看详细课程
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#customers td, #customers th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #F5B041;
+  color: white;
+}
+
+</style>
+
+<table id="customers" align="center">
+	<tr>
+	    <th>技术方向</th>
+	    <th>课程及链接</th>
+  	</tr>
+  	<tr>
+        <td >机器学习</td>
+        <td><a href="/cs229-course-materials-info">斯坦福CS229</a></td>
+    </tr>
+    <tr>
+        <td >深度学习</td>
+        <td><a href="/cs230-course-materials-info">斯坦福CS230</a></td>
+    </tr>
+    <tr>
+        <td rowspan="2">自然语言处理</td>
+        <td><a href="/cs224n-course-materials-info">斯坦福CS224n（深度学习与NLP）</a></td>
+    </tr>
+    <tr>
+        <td><a href="/cs520-course-materials-info">斯坦福CS520（知识图谱）</a></td>
+    </tr>
+    <tr>
+        <td rowspan="3">计算机视觉</td>
+        <td><a href="/cs231n-course-materials-info">斯坦福CS231n（深度学习与CV）</a></td>
+    </tr>
+    <tr>
+        <td><a href="/eecs498-course-materials-info">密歇根eecs498（CS231n进阶课）</a></td>
+    </tr>
+    <tr>
+        <td><a href="/adl4cv-course-materials-info">慕尼黑工大adl4cv（深度学习与CV高阶课）</a></td>
+    </tr>
+    <tr>
+    	<td >图机器学习</td>
+        <td><a href="/cs224w-course-materials-info">斯坦福CS224w</a></td>
+    </tr>
+    <tr>
+        <td rowspan="2">强化学习</td>
+        <td><a href="/cs234-course-materials-info">斯坦福CS234（强化学习）</a></td>
+    </tr>
+    <tr>
+        <td><a href="/cs285-course-materials-info">伯克利CS285（深度强化学习）</a></td>
+    </tr>
+    <tr>
+    	<td>无监督学习</td>
+        <td><a href="/cs294-158-course-materials-info">伯克利CS294-158（深度无监督学习）</a></td>
+    </tr>
+</table>
+
+<div align="center">
+<img src="http://ww1.sinaimg.cn/large/0060yMmAly1gtabb89iboj31kx0fu1kx.jpg" referrerpolicy="no-referrer" width = "100%" />
+</div>

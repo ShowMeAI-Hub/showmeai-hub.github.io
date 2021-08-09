@@ -3,10 +3,10 @@
   <channel>
     <title>Algorithm</title>
     <description>world about machine learning and artificial intelligence</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Aug 2021 23:05:12 +0800</pubDate>
-    <lastBuildDate>Sun, 08 Aug 2021 23:05:12 +0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 09 Aug 2021 10:10:14 +0800</pubDate>
+    <lastBuildDate>Mon, 09 Aug 2021 10:10:14 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -341,8 +341,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 07 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs224n-course-materials-info/</link>
-        <guid isPermaLink="true">/cs224n-course-materials-info/</guid>
+        <link>http://localhost:4000/cs224n-course-materials-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs224n-course-materials-info/</guid>
         
         <category>cs224n</category>
         
@@ -599,8 +599,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 06 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs230-course-materials-info/</link>
-        <guid isPermaLink="true">/cs230-course-materials-info/</guid>
+        <link>http://localhost:4000/cs230-course-materials-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs230-course-materials-info/</guid>
         
         <category>cs229</category>
         
@@ -858,8 +858,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 06 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs229-course-materials-info/</link>
-        <guid isPermaLink="true">/cs229-course-materials-info/</guid>
+        <link>http://localhost:4000/cs229-course-materials-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs229-course-materials-info/</guid>
         
         <category>cs229</category>
         
@@ -4608,8 +4608,8 @@
 &lt;/body&gt;&lt;/html&gt;
 </description>
         <pubDate>Thu, 05 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/job-and-hiring/</link>
-        <guid isPermaLink="true">/job-and-hiring/</guid>
+        <link>http://localhost:4000/job-and-hiring/</link>
+        <guid isPermaLink="true">http://localhost:4000/job-and-hiring/</guid>
         
         <category>job</category>
         
@@ -4752,8 +4752,8 @@
 &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6fd9nj31fe0zy175.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 05 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/awesome-ai-cheatsheets-resources/</link>
-        <guid isPermaLink="true">/awesome-ai-cheatsheets-resources/</guid>
+        <link>http://localhost:4000/awesome-ai-cheatsheets-resources/</link>
+        <guid isPermaLink="true">http://localhost:4000/awesome-ai-cheatsheets-resources/</guid>
         
         <category>工具库与资源</category>
         
@@ -4898,8 +4898,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/eecs498-course-materials-info/</link>
-        <guid isPermaLink="true">/eecs498-course-materials-info/</guid>
+        <link>http://localhost:4000/eecs498-course-materials-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/eecs498-course-materials-info/</guid>
         
         <category>CS231n</category>
         
@@ -5066,8 +5066,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs520-course-materials-info/</link>
-        <guid isPermaLink="true">/cs520-course-materials-info/</guid>
+        <link>http://localhost:4000/cs520-course-materials-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs520-course-materials-info/</guid>
         
         <category>CS520</category>
         
@@ -5076,6 +5076,149 @@
         <category>知识推理</category>
         
         <category>图谱应用</category>
+        
+        <category>AI课程</category>
+        
+        
+        <category>AI课程</category>
+        
+      </item>
+    
+      <item>
+        <title>伯克利深度无监督学习课程-学习资料</title>
+        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
+
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+
+&lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gtabb7yfdjj31kx0fu4fz.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;课程主页：&lt;a href=&quot;https://sites.google.com/view/berkeley-cs294-158-sp20/home&quot;&gt;UC Berkeley CS294-158 · Deep Unsupervised Learning&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;深度学习的研究方向包括一个非常重要的主题：对无标签数据的应用。UC伯克利的这门课程，针对无监督学习的场景展开，包括深度生成模型和自监督学习两大主题。其中生成模型使得对自然图像、音频波形和文本语料库等高维原始数据进行真实建模成为可能，而自监督学习算法在逐步缩小监督表示学习和非监督表示学习之间的差距。对无监督学习和深度学习感兴趣的小伙伴可以重点关注这门课程。&lt;/p&gt;
+
+&lt;h2 id=&quot;课程主题与大纲&quot;&gt;课程主题与大纲&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;自回归模型（Autoregressive Models）&lt;/li&gt;
+  &lt;li&gt;流模型（Flow Models）&lt;/li&gt;
+  &lt;li&gt;变分自动编码器（Variational Autoencoders）&lt;/li&gt;
+  &lt;li&gt;半监督学习（Semi-supervised Learning）&lt;/li&gt;
+  &lt;li&gt;生成对抗网络（Generative Adversarial Networks）&lt;/li&gt;
+  &lt;li&gt;基于能量的模型（Energy based Models）&lt;/li&gt;
+  &lt;li&gt;压缩（Compression）&lt;/li&gt;
+  &lt;li&gt;自监督学习（Self-supervised Learning）、&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gtabb7yozzj31kx0fudnw.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;更多技术与课程清单--点击查看详细课程&quot;&gt;更多技术与课程清单 | 点击查看详细课程&lt;/h2&gt;
+&lt;style&gt;
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#customers td, #customers th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #F5B041;
+  color: white;
+}
+
+&lt;/style&gt;
+
+&lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
+	&lt;tr&gt;
+	    &lt;th&gt;技术方向&lt;/th&gt;
+	    &lt;th&gt;课程及链接&lt;/th&gt;
+  	&lt;/tr&gt;
+  	&lt;tr&gt;
+        &lt;td&gt;机器学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs229-course-materials-info&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;深度学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs230-course-materials-info&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;自然语言处理&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224n-course-materials-info&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs520-course-materials-info&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs231n-course-materials-info&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/eecs498-course-materials-info&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/adl4cv-course-materials-info&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+    	&lt;td&gt;图机器学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224w-course-materials-info&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs234-course-materials-info&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs285-course-materials-info&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+    	&lt;td&gt;无监督学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs294-158-course-materials-info&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gtabb89iboj31kx0fu1kx.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/cs294-158-course-materials-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs294-158-course-materials-info/</guid>
+        
+        <category>伯克利</category>
+        
+        <category>深度学习</category>
+        
+        <category>无监督学习</category>
+        
+        <category>计算机视觉</category>
         
         <category>AI课程</category>
         
@@ -5221,8 +5364,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs285-course-materials-info/</link>
-        <guid isPermaLink="true">/cs285-course-materials-info/</guid>
+        <link>http://localhost:4000/cs285-course-materials-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs285-course-materials-info/</guid>
         
         <category>CS285</category>
         
@@ -5368,172 +5511,14 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs234-course-materials-info/</link>
-        <guid isPermaLink="true">/cs234-course-materials-info/</guid>
+        <link>http://localhost:4000/cs234-course-materials-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs234-course-materials-info/</guid>
         
         <category>cs234</category>
         
         <category>强化学习</category>
         
         <category>机器学习</category>
-        
-        <category>AI课程</category>
-        
-        
-        <category>AI课程</category>
-        
-      </item>
-    
-      <item>
-        <title>斯坦福CS231n深度学习与计算机视觉-学习资料</title>
-        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
-
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
-
-&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
-
-&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
-
-&lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt80y91n1fj31ky0fu7wh.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;课程主页：&lt;a href=&quot;http://cs231n.stanford.edu/&quot;&gt;Stanford CS231n · Convolutional Neural Networks for Visual Recognition&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;CS231n是顶级院校斯坦福出品的深度学习与计算机视觉方向专业课程，核心内容覆盖神经网络、CNN、图像识别、RNN、神经网络训练、注意力机制、生成模型、目标检测、图像分割等内容。课程最后一版公开课视频为2017版，需要最新进阶技术内容的同学可以关注我们发布的&lt;a href=&quot;http://blog.showmeai.tech/eecs498-course-materials-info&quot;&gt;cs231n进阶课程&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;课程内容介绍&quot;&gt;课程内容介绍&lt;/h2&gt;
-
-&lt;h3 id=&quot;第1部分-lecture1-3-深度学习背景知识简单介绍&quot;&gt;第1部分 Lecture1-3 深度学习背景知识简单介绍&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;课程引入与介绍&lt;/li&gt;
-  &lt;li&gt;softmax和svm两种损失函数&lt;/li&gt;
-  &lt;li&gt;优化算法（SGD等）&lt;/li&gt;
-  &lt;li&gt;KNN和线性分类器&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;第2部分-lecture4-9-卷积神经网络&quot;&gt;第2部分 Lecture4-9 卷积神经网络&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;CNN及各种层次结构（卷积、池化、全连接）&lt;/li&gt;
-  &lt;li&gt;Backpropagation计算方法&lt;/li&gt;
-  &lt;li&gt;优化的训练方法（Adam, Momentum, Dropout, Batch-Normalization）&lt;/li&gt;
-  &lt;li&gt;训练 CNN 的注意事项（参数初始化与调优）&lt;/li&gt;
-  &lt;li&gt;深度学习框架（TensorFlow, Caffe, Pytorch）&lt;/li&gt;
-  &lt;li&gt;线性CNN结构（AlexNet, VGGNet, GoogLeNet, ResNet）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;第3部分-lecture10-16-计算机视觉应用&quot;&gt;第3部分 Lecture10-16 计算机视觉应用&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;RNN（image captioning等）&lt;/li&gt;
-  &lt;li&gt;目标检测（R-CNN、Fast/Faster R-CNN ）&lt;/li&gt;
-  &lt;li&gt;语义分割&lt;/li&gt;
-  &lt;li&gt;神经网络可视化与可解释性&lt;/li&gt;
-  &lt;li&gt;生成模型与GAN&lt;/li&gt;
-  &lt;li&gt;深度强化学习&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt80y89zdzj31kx0fu7c9.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;更多技术与课程清单--点击查看详细课程&quot;&gt;更多技术与课程清单 | 点击查看详细课程&lt;/h2&gt;
-&lt;style&gt;
-#customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 80%;
-}
-
-#customers td, #customers th {
-  border: 2px solid #ddd;
-  padding: 8px;
-}
-
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #F5B041;
-  color: white;
-}
-
-&lt;/style&gt;
-
-&lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
-	&lt;tr&gt;
-	    &lt;th&gt;技术方向&lt;/th&gt;
-	    &lt;th&gt;课程及链接&lt;/th&gt;
-  	&lt;/tr&gt;
-  	&lt;tr&gt;
-        &lt;td&gt;机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs229-course-materials-info&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;深度学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs230-course-materials-info&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td rowspan=&quot;2&quot;&gt;自然语言处理&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224n-course-materials-info&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs520-course-materials-info&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs231n-course-materials-info&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/eecs498-course-materials-info&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/adl4cv-course-materials-info&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-    	&lt;td&gt;图机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224w-course-materials-info&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs234-course-materials-info&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs285-course-materials-info&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-    	&lt;td&gt;无监督学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs294-158-course-materials-info&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt80y8kopqj311y0akwu0.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs231n-course-materials-info/</link>
-        <guid isPermaLink="true">/cs231n-course-materials-info/</guid>
-        
-        <category>cs231n</category>
-        
-        <category>CV</category>
-        
-        <category>deep learning</category>
         
         <category>AI课程</category>
         
