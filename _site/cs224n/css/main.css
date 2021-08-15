@@ -104,7 +104,7 @@ strong { color: #333333; }
   .explore { margin-top: 80px; }
   .post-title__text { font-size: 28px; }
   .post-title__subtitle { font-size: 18px; } }
-.tag-cloud { list-style: none; padding: 0; text-align: justify; font-size: 24px; }
+.tag-cloud { list-style: none; padding: 0; text-align: justify; font-size: 18px; }
 .tag-cloud li { display: inline-block; margin: 0 12px 12px 0; }
 
 #archives { padding: 5px; }
