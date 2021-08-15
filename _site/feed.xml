@@ -3,10 +3,10 @@
   <channel>
     <title>ShowMeAI</title>
     <description>探索机器学习与人工智能的世界</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Aug 2021 18:07:55 +0800</pubDate>
-    <lastBuildDate>Sun, 15 Aug 2021 18:07:55 +0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 15 Aug 2021 18:11:17 +0800</pubDate>
+    <lastBuildDate>Sun, 15 Aug 2021 18:11:17 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -344,8 +344,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 07 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs224n-course-materials-info/</link>
-        <guid isPermaLink="true">/cs224n-course-materials-info/</guid>
+        <link>http://localhost:4000/cs224n-course-materials-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs224n-course-materials-info/</guid>
         
         <category>cs224n</category>
         
@@ -619,8 +619,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 06 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs230-course-materials-info/</link>
-        <guid isPermaLink="true">/cs230-course-materials-info/</guid>
+        <link>http://localhost:4000/cs230-course-materials-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs230-course-materials-info/</guid>
         
         <category>cs229</category>
         
@@ -891,8 +891,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 06 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs229-course-materials-info/</link>
-        <guid isPermaLink="true">/cs229-course-materials-info/</guid>
+        <link>http://localhost:4000/cs229-course-materials-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs229-course-materials-info/</guid>
         
         <category>cs229</category>
         
@@ -4645,8 +4645,8 @@
 &lt;/body&gt;&lt;/html&gt;
 </description>
         <pubDate>Thu, 05 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/job-and-hiring/</link>
-        <guid isPermaLink="true">/job-and-hiring/</guid>
+        <link>http://localhost:4000/job-and-hiring/</link>
+        <guid isPermaLink="true">http://localhost:4000/job-and-hiring/</guid>
         
         <category>job</category>
         
@@ -4789,8 +4789,8 @@
 &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6fd9nj31fe0zy175.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 05 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/awesome-ai-cheatsheets-resources/</link>
-        <guid isPermaLink="true">/awesome-ai-cheatsheets-resources/</guid>
+        <link>http://localhost:4000/awesome-ai-cheatsheets-resources/</link>
+        <guid isPermaLink="true">http://localhost:4000/awesome-ai-cheatsheets-resources/</guid>
         
         <category>工具库与资源</category>
         
@@ -4980,8 +4980,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 04 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs124/</link>
-        <guid isPermaLink="true">/cs124/</guid>
+        <link>http://localhost:4000/cs124/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs124/</guid>
         
         <category>CS124</category>
         
@@ -5149,8 +5149,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/eecs498/</link>
-        <guid isPermaLink="true">/eecs498/</guid>
+        <link>http://localhost:4000/eecs498/</link>
+        <guid isPermaLink="true">http://localhost:4000/eecs498/</guid>
         
         <category>CS231n</category>
         
@@ -5338,8 +5338,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs520/</link>
-        <guid isPermaLink="true">/cs520/</guid>
+        <link>http://localhost:4000/cs520/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs520/</guid>
         
         <category>CS520</category>
         
@@ -5490,8 +5490,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs294-158/</link>
-        <guid isPermaLink="true">/cs294-158/</guid>
+        <link>http://localhost:4000/cs294-158/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs294-158/</guid>
         
         <category>伯克利</category>
         
@@ -5654,8 +5654,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs285/</link>
-        <guid isPermaLink="true">/cs285/</guid>
+        <link>http://localhost:4000/cs285/</link>
+        <guid isPermaLink="true">http://localhost:4000/cs285/</guid>
         
         <category>CS285</category>
         
