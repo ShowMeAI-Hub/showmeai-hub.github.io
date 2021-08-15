@@ -1,10 +1,10 @@
 ---
 title: 斯坦福CS229机器学习-课程学习资料
 subtitle: 斯坦福CS229机器学习课程，内容覆盖监督/无监督学习、强化学习、学习理论
-author: HanXinzi@ShowMeAI
+author: 韩信子
 author_url: https://github.com/HanXinzi-AI
 categories: [AI课程]
-tags: [cs229, machine learning, AI课程]
+tags: [cs229, machine learning, 监督学习, 无监督学习, 吴恩达]
 pin: false
 ---
 

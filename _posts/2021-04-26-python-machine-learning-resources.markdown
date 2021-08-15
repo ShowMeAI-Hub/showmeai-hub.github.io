@@ -1,10 +1,10 @@
 ---
 title: python机器学习资源与工具库大全
-author: HanXinzi@ShowMeAI
+author: 韩信子
 author_url: https://github.com/HanXinzi-AI
 date: 2021-04-25 10:55:00 +0800
 categories: [工具库与资源]
-tags: [工具库与资源]
+tags: [Python, 机器学习, 可视化, NLP, CV, 时间序列, 推荐系统, tensorflow, pytorch]
 pin: false
 ---
 

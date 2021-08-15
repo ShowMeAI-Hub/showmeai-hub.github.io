@@ -5,8 +5,8 @@ lang: zh-CN
 timezone: Asia/Shanghai
 
 # Site settings
-title: Algorithm
-description: world about machine learning and artificial intelligence
+title: ShowMeAI
+description: 探索机器学习与人工智能的世界
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
@@ -14,6 +14,9 @@ url: "" # the base hostname & protocol for your site
 author:
   fullname: ShowMeAI
   github: showmeai-hub
+  weibo:
+  bilibili: 479444931
+  zhihu:
   # twitter: electrik_frog
   # disqus: your_disqus_forum_shortname
 
@@ -30,8 +33,15 @@ exclude: ["README.md", "README.html"]
 highlighter: null
 markdown: kramdown
 
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-archives]
 paginate: 8
 paginate_path: "/page:num/"
+
+asset_dir:
+  javascripts: assets/javascripts
+
+tag_site: tags
+
+slug_mode: none
 
 permalink: /:title/

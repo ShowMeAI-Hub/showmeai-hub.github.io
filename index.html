@@ -1,9 +1,14 @@
 ---
-layout: page
+layout: index_page
 title: ShowMeAI
 subtitle: 专注数据算法与应用
 ---
 <link rel="shortcut icon" href="/favicon.ico"/>
+
+<aside id="sidebar">
+    {% include asides/tags_info.html %}
+</aside>
+
 <ul>
     {% for post in paginator.posts %}
     <li class="post-teaser">

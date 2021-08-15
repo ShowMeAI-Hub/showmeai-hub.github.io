@@ -1,6 +1,6 @@
 ---
 title: 算法求职市场现状与需求数据分析
-author: HanXinzi@ShowMeAI
+author: 韩信子
 author_url: https://github.com/HanXinzi-AI
 categories: [面试求职]
 tags: [job, hire, career]

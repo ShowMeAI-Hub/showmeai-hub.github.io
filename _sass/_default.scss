@@ -160,7 +160,7 @@ strong {
 }
 
 .post-teaser__title {
-    font-size: 22px;
+    font-size: 20px;
     color: $iron;
 }
 
@@ -308,4 +308,35 @@ strong {
     .post-title__subtitle {
         font-size: 18px;
     }
+}
+
+// for tag cloud and archives
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  text-align: justify; 
+  font-size: 24px;
+  li {
+    display: inline-block;
+    margin: 0 12px 12px 0; 
+  }
+}
+#archives {
+  padding: 5px;
+}
+.archive-group {
+  margin: 5px;
+  border-top: 1px solid #ddd;
+}
+.archive-item {
+  margin-left: 5px;
+}
+.post-tags {
+  text-align: left;
+  font-size: 24px;
+}
+
+.index-tags {
+  text-align: left;
+  font-size: 20px;
 }

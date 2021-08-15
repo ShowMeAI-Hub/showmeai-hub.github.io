@@ -1,10 +1,10 @@
 ---
 title: 斯坦福CS230深度学习-课程学习资料
 subtitle: 斯坦福CS230深度学习课程，内容覆盖卷积神经网络、循环神经网络、网络训练技巧与经验等
-author: HanXinzi@ShowMeAI
+author: 韩信子
 author_url: https://github.com/HanXinzi-AI
 categories: [AI课程]
-tags: [cs229, machine learning, AI课程]
+tags: [cs229, machine learning, 卷积神经网络, 循环神经网络, 注意力, 目标检测, 人脸识别, 图像风格转换]
 pin: false
 ---
 

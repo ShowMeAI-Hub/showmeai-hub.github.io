@@ -1,0 +1,8 @@
+<div class="index-tags">
+  关键词标签: 
+  {% assign tags = site.tags %}
+  {% for tag in tags %}
+  <a href="/tags/#{{tag[0]}}">{{tag[0]}}</a>{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  <br><br>
+</div>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Algorithm</title>
-    <description>world about machine learning and artificial intelligence</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Aug 2021 17:20:12 +0800</pubDate>
-    <lastBuildDate>Sat, 14 Aug 2021 17:20:12 +0800</lastBuildDate>
+    <title>ShowMeAI</title>
+    <description>探索机器学习与人工智能的世界</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 15 Aug 2021 18:00:13 +0800</pubDate>
+    <lastBuildDate>Sun, 15 Aug 2021 18:00:13 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -344,8 +344,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 07 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs224n-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs224n-course-materials-info/</guid>
+        <link>/cs224n-course-materials-info/</link>
+        <guid isPermaLink="true">/cs224n-course-materials-info/</guid>
         
         <category>cs224n</category>
         
@@ -353,7 +353,21 @@
         
         <category>deep learning</category>
         
-        <category>AI课程</category>
+        <category>词向量</category>
+        
+        <category>语言模型</category>
+        
+        <category>RNN</category>
+        
+        <category>seq2seq</category>
+        
+        <category>注意力</category>
+        
+        <category>CNN</category>
+        
+        <category>transformer</category>
+        
+        <category>问答系统</category>
         
         
         <category>AI课程</category>
@@ -605,14 +619,24 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 06 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs230-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs230-course-materials-info/</guid>
+        <link>/cs230-course-materials-info/</link>
+        <guid isPermaLink="true">/cs230-course-materials-info/</guid>
         
         <category>cs229</category>
         
         <category>machine learning</category>
         
-        <category>AI课程</category>
+        <category>卷积神经网络</category>
+        
+        <category>循环神经网络</category>
+        
+        <category>注意力</category>
+        
+        <category>目标检测</category>
+        
+        <category>人脸识别</category>
+        
+        <category>图像风格转换</category>
         
         
         <category>AI课程</category>
@@ -867,14 +891,18 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 06 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs229-course-materials-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs229-course-materials-info/</guid>
+        <link>/cs229-course-materials-info/</link>
+        <guid isPermaLink="true">/cs229-course-materials-info/</guid>
         
         <category>cs229</category>
         
         <category>machine learning</category>
         
-        <category>AI课程</category>
+        <category>监督学习</category>
+        
+        <category>无监督学习</category>
+        
+        <category>吴恩达</category>
         
         
         <category>AI课程</category>
@@ -4617,8 +4645,8 @@
 &lt;/body&gt;&lt;/html&gt;
 </description>
         <pubDate>Thu, 05 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/job-and-hiring/</link>
-        <guid isPermaLink="true">http://localhost:4000/job-and-hiring/</guid>
+        <link>/job-and-hiring/</link>
+        <guid isPermaLink="true">/job-and-hiring/</guid>
         
         <category>job</category>
         
@@ -4761,8 +4789,8 @@
 &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6fd9nj31fe0zy175.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 05 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/awesome-ai-cheatsheets-resources/</link>
-        <guid isPermaLink="true">http://localhost:4000/awesome-ai-cheatsheets-resources/</guid>
+        <link>/awesome-ai-cheatsheets-resources/</link>
+        <guid isPermaLink="true">/awesome-ai-cheatsheets-resources/</guid>
         
         <category>工具库与资源</category>
         
@@ -4827,51 +4855,64 @@
 
 &lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
     &lt;tr&gt;
-        &lt;th&gt;技术方向&lt;/th&gt;
-        &lt;th&gt;课程及链接&lt;/th&gt;
+        &lt;th&gt;章节编号&lt;/th&gt;
+        &lt;th&gt;章节内容&lt;/th&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;第01讲&lt;/td&gt;
+        &lt;td&gt;文本预处理&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;深度学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;第02讲&lt;/td&gt;
+        &lt;td&gt;编辑距离&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;自然语言处理&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;第03讲&lt;/td&gt;
+        &lt;td&gt;语言模型&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;第04讲&lt;/td&gt;
+        &lt;td&gt;朴素贝叶斯与文本分类&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;第05讲&lt;/td&gt;
+        &lt;td&gt;逻辑回归&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;第06讲&lt;/td&gt;
+        &lt;td&gt;信息检索-第1部分&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;第07讲&lt;/td&gt;
+        &lt;td&gt;信息检索-第2部分&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;第08讲&lt;/td&gt;
+        &lt;td&gt;语义向量与文本嵌入&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;图机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;第09讲&lt;/td&gt;
+        &lt;td&gt;序列标注及其在词性和实体标注中的应用&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;第10讲&lt;/td&gt;
+        &lt;td&gt;简单神经网络与神经语言模型&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;第11讲&lt;/td&gt;
+        &lt;td&gt;聊天机器人与对话系统&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;无监督学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;第12讲&lt;/td&gt;
+        &lt;td&gt;从协同过滤到推荐系统&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;第13讲&lt;/td&gt;
+        &lt;td&gt;网络与链接分析&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;第14讲&lt;/td&gt;
+        &lt;td&gt;社交网络分析&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -4939,8 +4980,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 04 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs124/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs124/</guid>
+        <link>/cs124/</link>
+        <guid isPermaLink="true">/cs124/</guid>
         
         <category>CS124</category>
         
@@ -4950,7 +4991,19 @@
         
         <category>信息检索</category>
         
-        <category>AI课程</category>
+        <category>编辑距离</category>
+        
+        <category>语言模型</category>
+        
+        <category>embedding</category>
+        
+        <category>协同过滤</category>
+        
+        <category>推荐系统</category>
+        
+        <category>社交网络分析</category>
+        
+        <category>问答系统</category>
         
         
         <category>AI课程</category>
@@ -5096,8 +5149,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/eecs498/</link>
-        <guid isPermaLink="true">http://localhost:4000/eecs498/</guid>
+        <link>/eecs498/</link>
+        <guid isPermaLink="true">/eecs498/</guid>
         
         <category>CS231n</category>
         
@@ -5105,7 +5158,25 @@
         
         <category>计算机视觉</category>
         
-        <category>AI课程</category>
+        <category>CNN</category>
+        
+        <category>RNN</category>
+        
+        <category>GPU</category>
+        
+        <category>目标检测</category>
+        
+        <category>语义分割</category>
+        
+        <category>GAN</category>
+        
+        <category>注意力</category>
+        
+        <category>3D视觉</category>
+        
+        <category>生成模型</category>
+        
+        <category>强化学习</category>
         
         
         <category>AI课程</category>
@@ -5267,8 +5338,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs520/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs520/</guid>
+        <link>/cs520/</link>
+        <guid isPermaLink="true">/cs520/</guid>
         
         <category>CS520</category>
         
@@ -5278,7 +5349,13 @@
         
         <category>图谱应用</category>
         
-        <category>AI课程</category>
+        <category>因果图</category>
+        
+        <category>实体识别</category>
+        
+        <category>指代消解</category>
+        
+        <category>图数据库</category>
         
         
         <category>AI课程</category>
@@ -5413,8 +5490,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs294-158/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs294-158/</guid>
+        <link>/cs294-158/</link>
+        <guid isPermaLink="true">/cs294-158/</guid>
         
         <category>伯克利</category>
         
@@ -5422,9 +5499,15 @@
         
         <category>无监督学习</category>
         
-        <category>计算机视觉</category>
+        <category>Autoregressive</category>
         
-        <category>AI课程</category>
+        <category>Flow</category>
+        
+        <category>VAE</category>
+        
+        <category>GAN</category>
+        
+        <category>半监督</category>
         
         
         <category>AI课程</category>
@@ -5571,8 +5654,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/cs285/</link>
-        <guid isPermaLink="true">http://localhost:4000/cs285/</guid>
+        <link>/cs285/</link>
+        <guid isPermaLink="true">/cs285/</guid>
         
         <category>CS285</category>
         
@@ -5580,7 +5663,11 @@
         
         <category>深度学习</category>
         
-        <category>AI课程</category>
+        <category>Actor-Critic</category>
+        
+        <category>DQN</category>
+        
+        <category>逆强化学习</category>
         
         
         <category>AI课程</category>

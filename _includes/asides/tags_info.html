@@ -1,0 +1,75 @@
+<!--[if lt IE 9]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+
+<script src="{{ root_url }}/{{ site.asset_dir.javascripts }}/tagcanvas.min.js" type="text/javascript"></script>
+
+<!--sscript type="text/javascript">
+  window.onload = function() {
+    try {
+      TagCanvas.Start('myCanvas','tag-cloud-list-items',{
+        textColour: '#ff0000',
+        outlineColour: '#ff00ff',
+        reverse: true,
+        depth: 0.8,
+        maxSpeed: 0.05
+      });
+    } catch(e) {
+      // something went wrong, hide the canvas container
+      document.getElementById('myCanvasContainer').style.display = 'none';
+    }
+  };
+</script-->
+
+<script type="text/javascript">
+  window.onload = function() {
+    try {
+      TagCanvas.Start('myCanvas','tag-cloud-list-items',{
+        textFont: 'Trebuchet MS, Helvetica, sans-serif',
+			  textColour: null,//'#f27',
+			  textHeight: 17,
+			  outlineMethod : 'block',
+			  outlineColour : 'rgb(135, 170, 250)',
+			  pulsateTo: 0.2,
+			  pulsateTime: 0.5,
+			  wheelZoom: true,
+			  maxSpeed : 0.02,
+			  minSpeed : 0.01,
+			  minBrightness : 0.2,
+			  depth : 1,
+			  zoom: 1.2,
+			  freezeActive: true,
+			  frontSelect: true,
+			  pulsateTo : 0.6,
+			  initial : [0.2, 0],
+			  //shape: 'vcylinder',
+			  decel : 0.9,
+			  reverse : true,
+			  hideTags : true,
+			  shadow : '#452',
+			  shadowBlur : 1,
+			  weight : false,
+			  imageScale : null,
+			  fadeIn : 1000,
+			  clickToFront : 800
+      });
+    } catch(e) {
+      // something went wrong, hide the canvas container
+      document.getElementById('myCanvasContainer').style.display = 'none';
+    }
+  };
+</script>
+
+<section>
+  <div id="myCanvasContainer">
+      <canvas width="800" height="400" id="myCanvas"></canvas>
+  </div>
+
+  <div id="tag-cloud-list-items"><ul>
+    {% for tag in site.tags %}
+		{% capture this_word %}{{ tag[0] | join: "/" | strip_newlines }}{% endcapture %}
+		<li>
+		<a href="{{ root_url }}/{{ site.tag_site}}/#{{ this_word }}" rel="nofollow">{{ this_word }}
+		</a>
+		</li>
+		{% endfor %}
+  </ul></div>
+</section>

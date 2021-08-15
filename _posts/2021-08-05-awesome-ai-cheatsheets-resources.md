@@ -1,7 +1,7 @@
 ---
 title: AI速查表全集
 subtitle: AI与数据科学各类工具库相关速查表与参考代码
-author: HanXinzi@ShowMeAI
+author: 韩信子
 author_url: https://github.com/HanXinzi-AI
 categories: [工具库与资源]
 tags: [工具库与资源]

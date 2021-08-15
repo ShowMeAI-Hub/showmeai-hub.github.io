@@ -1,10 +1,10 @@
 ---
 title: Jupyter资源与工具库大全
-author: HanXinzi@ShowMeAI
+author: 韩信子
 author_url: https://github.com/HanXinzi-AI
 date: 2021-04-25 10:55:00 +0800
 categories: [工具库与资源]
-tags: [工具库与资源]
+tags: [Jupyter, notebook, JupyterLab, 工具库]
 pin: false
 ---
 

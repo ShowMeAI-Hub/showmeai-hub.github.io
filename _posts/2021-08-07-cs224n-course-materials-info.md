@@ -1,10 +1,10 @@
 ---
 title: 斯坦福CS224n深度学习与自然语言处理-课程学习资料
 subtitle: 斯坦福CS224n深度学习与自然语言处理课程，内容覆盖NLP中常用算法模型与典型应用
-author: HanXinzi@ShowMeAI
+author: 韩信子
 author_url: https://github.com/HanXinzi-AI
 categories: [AI课程]
-tags: [cs224n, NLP, deep learning, AI课程]
+tags: [cs224n, NLP, deep learning, 词向量, 语言模型, RNN, seq2seq, 注意力, CNN, transformer, 问答系统]
 pin: false
 ---
 
