@@ -5,8 +5,8 @@
     <description>探索机器学习与人工智能的世界</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Aug 2021 21:08:38 +0800</pubDate>
-    <lastBuildDate>Sun, 15 Aug 2021 21:08:38 +0800</lastBuildDate>
+    <pubDate>Tue, 17 Aug 2021 10:10:34 +0800</pubDate>
+    <lastBuildDate>Tue, 17 Aug 2021 10:10:34 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -911,18 +911,9 @@
     
       <item>
         <title>算法求职市场现状与需求数据分析</title>
-        <description>&lt;html&gt;
-&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
-&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
-&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
-&lt;head&gt;
+        <description>&lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot; /&gt;
-    &lt;title&gt;Awesome-pyecharts&lt;/title&gt;
+    &lt;title&gt;ShowMeAI-job-and-career&lt;/title&gt;
             &lt;script type=&quot;text/javascript&quot; src=&quot;https://assets.pyecharts.org/assets/echarts.min.js&quot;&gt;&lt;/script&gt;
         &lt;script type=&quot;text/javascript&quot; src=&quot;https://assets.pyecharts.org/assets/maps/china.js&quot;&gt;&lt;/script&gt;
 
@@ -951,20 +942,20 @@
 &lt;/head&gt;
 &lt;body&gt;
 
-&lt;h2&gt;（2021-07-21更新）&lt;/h2&gt;
+&lt;h2&gt;（2021-08-17更新）&lt;/h2&gt;
 
 &lt;h2&gt;点击按钮查看招聘数据分析详情&lt;/h2&gt;
     
-&lt;a href=&quot;/job_analysis&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/job_analysis&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看薪资&lt;/button&gt;
 &lt;/a&gt;
-&lt;a href=&quot;/job_analysis/company&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/job_analysis/company&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看公司&lt;/button&gt;
 &lt;/a&gt;
-&lt;a href=&quot;/job_analysis/skills&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/job_analysis/skills&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;看要求&lt;/button&gt;
 &lt;/a&gt;
-&lt;a href=&quot;/job_analysis/recent_jds&quot;&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/job_analysis/recent_jds&quot;&gt;
     &lt;button class=&quot;button&quot;&gt;典型JD&lt;/button&gt;
 &lt;/a&gt;
 
@@ -972,7 +963,6 @@
 
 
 &lt;/body&gt;
-
 
 &lt;body&gt;
         &lt;style&gt;
@@ -1007,24 +997,24 @@
         }
     &lt;/style&gt;
     &lt;div class=&quot;tab&quot;&gt;
-            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'c35c684d4f0f469fa9cec2467402fa18')&quot;&gt;薪资&lt;/button&gt;
-            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'c2d5887457ac4aa7b310a8f248a7b1a4')&quot;&gt;实习薪资分布&lt;/button&gt;
-            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, '9dbd8e1b47be49caa80a6a2c04fa1e13')&quot;&gt;社招薪资分布&lt;/button&gt;
-            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'f298dcefa2e745f88250b414e6652487')&quot;&gt;城市&amp;amp;薪资&lt;/button&gt;
-            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, '78458f94dc3343699bcaa2f8fd0ee7c3')&quot;&gt;薪资地图&lt;/button&gt;
-            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'c2b8e8b6c25249f7bb15e74dde281044')&quot;&gt;区域&amp;amp;薪资&lt;/button&gt;
-            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'cc39960413664213b0627e8ed0c5ea0a')&quot;&gt;行业&amp;amp;薪资&lt;/button&gt;
-            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'cade40ed183246eaa532eeff0f774be0')&quot;&gt;方向关键词&amp;amp;薪资&lt;/button&gt;
-            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'e35c6591d4064a50832c143191932338')&quot;&gt;学历&amp;amp;薪资&lt;/button&gt;
-            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, '505975070c14488e96f1b260a08fe485')&quot;&gt;经验&amp;amp;薪资&lt;/button&gt;
-            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'ffa5ff080e954c999d87038bf79810b4')&quot;&gt;top10薪资招聘&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, '56ada8f3c9ac4b39a6c8021fe2eb53e3')&quot;&gt;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'a91dee273cbf4a64932a5e58af32fc73')&quot;&gt;实习薪资分布&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, '9a871feb1c77464eace30004914f7604')&quot;&gt;社招薪资分布&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, '8fc711aac93640a1800afe6513d172e2')&quot;&gt;城市&amp;amp;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'b94dd508ee3a41f591ab0eb2137c2761')&quot;&gt;薪资地图&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'ef14649bab004ccb8e806184a77b46fb')&quot;&gt;区域&amp;amp;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, '22bcd2a6c2d240258e3b6099f94c11b6')&quot;&gt;行业&amp;amp;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'ed6000ee9c3a4b85a9a534b6eebb5146')&quot;&gt;方向关键词&amp;amp;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'feb5c40ae7de472ca51dd4a93283c9c5')&quot;&gt;学历&amp;amp;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, '546c3c8676f746c89cf596c5a10a0ad7')&quot;&gt;经验&amp;amp;薪资&lt;/button&gt;
+            &lt;button class=&quot;tablinks&quot; onclick=&quot;showChart(event, 'ea4adf14bd0c4e67a42d9203b80b5ca1')&quot;&gt;top10薪资招聘&lt;/button&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;box&quot;&gt;
-                &lt;div id=&quot;c35c684d4f0f469fa9cec2467402fa18&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px;&quot;&gt;&lt;/div&gt;
+                &lt;div id=&quot;56ada8f3c9ac4b39a6c8021fe2eb53e3&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px;&quot;&gt;&lt;/div&gt;
     &lt;script&gt;
-        var chart_c35c684d4f0f469fa9cec2467402fa18 = echarts.init(
-            document.getElementById('c35c684d4f0f469fa9cec2467402fa18'), 'white', {renderer: 'canvas'});
+        var chart_56ada8f3c9ac4b39a6c8021fe2eb53e3 = echarts.init(
+            document.getElementById('56ada8f3c9ac4b39a6c8021fe2eb53e3'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -1039,7 +1029,7 @@
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_c35c684d4f0f469fa9cec2467402fa18 = {
+        var option_56ada8f3c9ac4b39a6c8021fe2eb53e3 = {
     &quot;backgroundColor&quot;: {
         &quot;type&quot;: &quot;pattern&quot;,
         &quot;image&quot;: img,
@@ -1086,16 +1076,16 @@
             &quot;yAxisIndex&quot;: 0,
             &quot;legendHoverLink&quot;: true,
             &quot;data&quot;: [
-                330,
-                222,
-                164,
-                162,
-                111,
-                84,
-                82,
-                67,
-                64,
-                48
+                345,
+                211,
+                177,
+                175,
+                114,
+                93,
+                91,
+                65,
+                65,
+                52
             ],
             &quot;showBackground&quot;: false,
             &quot;barMinHeight&quot;: 0,
@@ -1120,43 +1110,43 @@
             &quot;data&quot;: [
                 {
                     &quot;name&quot;: &quot;20k-40k&quot;,
-                    &quot;value&quot;: 330
+                    &quot;value&quot;: 345
                 },
                 {
                     &quot;name&quot;: &quot;25k-50k&quot;,
-                    &quot;value&quot;: 222
+                    &quot;value&quot;: 211
                 },
                 {
                     &quot;name&quot;: &quot;15k-30k&quot;,
-                    &quot;value&quot;: 164
+                    &quot;value&quot;: 177
                 },
                 {
                     &quot;name&quot;: &quot;30k-60k&quot;,
-                    &quot;value&quot;: 162
+                    &quot;value&quot;: 175
                 },
                 {
                     &quot;name&quot;: &quot;30k-50k&quot;,
-                    &quot;value&quot;: 111
-                },
-                {
-                    &quot;name&quot;: &quot;15k-25k&quot;,
-                    &quot;value&quot;: 84
+                    &quot;value&quot;: 114
                 },
                 {
                     &quot;name&quot;: &quot;20k-30k&quot;,
-                    &quot;value&quot;: 82
+                    &quot;value&quot;: 93
+                },
+                {
+                    &quot;name&quot;: &quot;15k-25k&quot;,
+                    &quot;value&quot;: 91
                 },
                 {
                     &quot;name&quot;: &quot;25k-40k&quot;,
-                    &quot;value&quot;: 67
+                    &quot;value&quot;: 65
                 },
                 {
                     &quot;name&quot;: &quot;20k-35k&quot;,
-                    &quot;value&quot;: 64
+                    &quot;value&quot;: 65
                 },
                 {
                     &quot;name&quot;: &quot;25k-45k&quot;,
-                    &quot;value&quot;: 48
+                    &quot;value&quot;: 52
                 }
             ],
             &quot;radius&quot;: [
@@ -1189,43 +1179,43 @@
             &quot;data&quot;: [
                 {
                     &quot;name&quot;: &quot;20k-40k&quot;,
-                    &quot;value&quot;: 330
+                    &quot;value&quot;: 345
                 },
                 {
                     &quot;name&quot;: &quot;25k-50k&quot;,
-                    &quot;value&quot;: 222
+                    &quot;value&quot;: 211
                 },
                 {
                     &quot;name&quot;: &quot;15k-30k&quot;,
-                    &quot;value&quot;: 164
+                    &quot;value&quot;: 177
                 },
                 {
                     &quot;name&quot;: &quot;30k-60k&quot;,
-                    &quot;value&quot;: 162
+                    &quot;value&quot;: 175
                 },
                 {
                     &quot;name&quot;: &quot;30k-50k&quot;,
-                    &quot;value&quot;: 111
-                },
-                {
-                    &quot;name&quot;: &quot;15k-25k&quot;,
-                    &quot;value&quot;: 84
+                    &quot;value&quot;: 114
                 },
                 {
                     &quot;name&quot;: &quot;20k-30k&quot;,
-                    &quot;value&quot;: 82
+                    &quot;value&quot;: 93
+                },
+                {
+                    &quot;name&quot;: &quot;15k-25k&quot;,
+                    &quot;value&quot;: 91
                 },
                 {
                     &quot;name&quot;: &quot;25k-40k&quot;,
-                    &quot;value&quot;: 67
+                    &quot;value&quot;: 65
                 },
                 {
                     &quot;name&quot;: &quot;20k-35k&quot;,
-                    &quot;value&quot;: 64
+                    &quot;value&quot;: 65
                 },
                 {
                     &quot;name&quot;: &quot;25k-45k&quot;,
-                    &quot;value&quot;: 48
+                    &quot;value&quot;: 52
                 }
             ],
             &quot;radius&quot;: [
@@ -1273,8 +1263,8 @@
                 &quot;15k-30k&quot;,
                 &quot;30k-60k&quot;,
                 &quot;30k-50k&quot;,
-                &quot;15k-25k&quot;,
                 &quot;20k-30k&quot;,
+                &quot;15k-25k&quot;,
                 &quot;25k-40k&quot;,
                 &quot;20k-35k&quot;,
                 &quot;25k-45k&quot;
@@ -1334,8 +1324,8 @@
                 &quot;15k-30k&quot;,
                 &quot;30k-60k&quot;,
                 &quot;30k-50k&quot;,
-                &quot;15k-25k&quot;,
                 &quot;20k-30k&quot;,
+                &quot;15k-25k&quot;,
                 &quot;25k-40k&quot;,
                 &quot;20k-35k&quot;,
                 &quot;25k-45k&quot;
@@ -1401,12 +1391,12 @@
         }
     ]
 };
-        chart_c35c684d4f0f469fa9cec2467402fa18.setOption(option_c35c684d4f0f469fa9cec2467402fa18);
+        chart_56ada8f3c9ac4b39a6c8021fe2eb53e3.setOption(option_56ada8f3c9ac4b39a6c8021fe2eb53e3);
     &lt;/script&gt;
-                &lt;div id=&quot;c2d5887457ac4aa7b310a8f248a7b1a4&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px;&quot;&gt;&lt;/div&gt;
+                &lt;div id=&quot;a91dee273cbf4a64932a5e58af32fc73&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px;&quot;&gt;&lt;/div&gt;
     &lt;script&gt;
-        var chart_c2d5887457ac4aa7b310a8f248a7b1a4 = echarts.init(
-            document.getElementById('c2d5887457ac4aa7b310a8f248a7b1a4'), 'white', {renderer: 'canvas'});
+        var chart_a91dee273cbf4a64932a5e58af32fc73 = echarts.init(
+            document.getElementById('a91dee273cbf4a64932a5e58af32fc73'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -1421,7 +1411,7 @@
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_c2d5887457ac4aa7b310a8f248a7b1a4 = {
+        var option_a91dee273cbf4a64932a5e58af32fc73 = {
     &quot;backgroundColor&quot;: {
         &quot;type&quot;: &quot;pattern&quot;,
         &quot;image&quot;: img,
@@ -1468,9 +1458,9 @@
             &quot;data&quot;: [
                 [
                     2,
-                    4.5,
-                    8,
-                    13.5,
+                    4.25,
+                    7.5,
+                    14.25,
                     30
                 ]
             ],
@@ -1503,9 +1493,9 @@
             &quot;data&quot;: [
                 [
                     3,
-                    6.5,
-                    12,
-                    22.0,
+                    6.25,
+                    11.5,
+                    23.0,
                     50
                 ]
             ],
@@ -1538,9 +1528,9 @@
             &quot;data&quot;: [
                 [
                     2.5,
-                    5.0,
+                    4.625,
                     6.0,
-                    8.125,
+                    8.0,
                     40.0
                 ]
             ],
@@ -1661,12 +1651,12 @@
         }
     ]
 };
-        chart_c2d5887457ac4aa7b310a8f248a7b1a4.setOption(option_c2d5887457ac4aa7b310a8f248a7b1a4);
+        chart_a91dee273cbf4a64932a5e58af32fc73.setOption(option_a91dee273cbf4a64932a5e58af32fc73);
     &lt;/script&gt;
-                &lt;div id=&quot;9dbd8e1b47be49caa80a6a2c04fa1e13&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px;&quot;&gt;&lt;/div&gt;
+                &lt;div id=&quot;9a871feb1c77464eace30004914f7604&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px;&quot;&gt;&lt;/div&gt;
     &lt;script&gt;
-        var chart_9dbd8e1b47be49caa80a6a2c04fa1e13 = echarts.init(
-            document.getElementById('9dbd8e1b47be49caa80a6a2c04fa1e13'), 'white', {renderer: 'canvas'});
+        var chart_9a871feb1c77464eace30004914f7604 = echarts.init(
+            document.getElementById('9a871feb1c77464eace30004914f7604'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -1681,7 +1671,7 @@
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_9dbd8e1b47be49caa80a6a2c04fa1e13 = {
+        var option_9a871feb1c77464eace30004914f7604 = {
     &quot;backgroundColor&quot;: {
         &quot;type&quot;: &quot;pattern&quot;,
         &quot;image&quot;: img,
@@ -1763,9 +1753,9 @@
             &quot;data&quot;: [
                 [
                     14,
-                    27,
-                    42,
-                    64,
+                    26.75,
+                    41.0,
+                    61.25,
                     120
                 ]
             ],
@@ -1921,13 +1911,13 @@
         }
     ]
 };
-        chart_9dbd8e1b47be49caa80a6a2c04fa1e13.setOption(option_9dbd8e1b47be49caa80a6a2c04fa1e13);
+        chart_9a871feb1c77464eace30004914f7604.setOption(option_9a871feb1c77464eace30004914f7604);
     &lt;/script&gt;
-                &lt;div id=&quot;f298dcefa2e745f88250b414e6652487&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
+                &lt;div id=&quot;8fc711aac93640a1800afe6513d172e2&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
     &lt;script&gt;
-        var chart_f298dcefa2e745f88250b414e6652487 = echarts.init(
-            document.getElementById('f298dcefa2e745f88250b414e6652487'), 'white', {renderer: 'canvas'});
-        var option_f298dcefa2e745f88250b414e6652487 = {
+        var chart_8fc711aac93640a1800afe6513d172e2 = echarts.init(
+            document.getElementById('8fc711aac93640a1800afe6513d172e2'), 'white', {renderer: 'canvas'});
+        var option_8fc711aac93640a1800afe6513d172e2 = {
     &quot;backgroundColor&quot;: {
         &quot;type&quot;: &quot;pattern&quot;,
         &quot;image&quot;: img,
@@ -1975,17 +1965,17 @@
             &quot;yAxisIndex&quot;: 0,
             &quot;legendHoverLink&quot;: true,
             &quot;data&quot;: [
-                37.5,
+                35.0,
                 30.0,
-                32.5,
+                30.0,
                 30.0,
                 25.0,
                 22.5,
                 22.5,
                 22.5,
-                20.0,
                 30.0,
-                24.5
+                20.0,
+                22.5
             ],
             &quot;showBackground&quot;: false,
             &quot;barMinHeight&quot;: 0,
@@ -2013,9 +2003,16 @@
                 [
                     12.0,
                     30.0,
-                    37.5,
+                    35.0,
                     45.0,
                     90.0
+                ],
+                [
+                    12.5,
+                    25.0,
+                    30.0,
+                    42.0,
+                    80.0
                 ],
                 [
                     12.0,
@@ -2026,14 +2023,7 @@
                 ],
                 [
                     12.5,
-                    25.0,
-                    32.5,
-                    45.0,
-                    85.0
-                ],
-                [
-                    12.5,
-                    23.375,
+                    23.25,
                     30.0,
                     40.0,
                     90.0
@@ -2054,31 +2044,31 @@
                 ],
                 [
                     12.5,
-                    17.5,
+                    18.0,
                     22.5,
-                    25.75,
+                    25.0,
                     37.5
                 ],
                 [
                     15.0,
-                    19.625,
+                    19.75,
                     22.5,
                     30.0,
                     50.0
                 ],
                 [
+                    21.0,
+                    30.0,
+                    30.0,
+                    37.5,
+                    65.0
+                ],
+                [
                     15.0,
-                    17.25,
+                    16.125,
                     20.0,
                     22.5,
                     35.0
-                ],
-                [
-                    21.0,
-                    26.25,
-                    30.0,
-                    35.625,
-                    37.5
                 ]
             ],
             &quot;label&quot;: {
@@ -2176,15 +2166,15 @@
             },
             &quot;data&quot;: [
                 &quot;\u5317\u4eac&quot;,
-                &quot;\u6df1\u5733&quot;,
                 &quot;\u4e0a\u6d77&quot;,
+                &quot;\u6df1\u5733&quot;,
                 &quot;\u676d\u5dde&quot;,
                 &quot;\u5e7f\u5dde&quot;,
                 &quot;\u6210\u90fd&quot;,
                 &quot;\u6b66\u6c49&quot;,
                 &quot;\u5357\u4eac&quot;,
-                &quot;\u82cf\u5dde&quot;,
                 &quot;\u4f5b\u5c71&quot;,
+                &quot;\u82cf\u5dde&quot;,
                 &quot;\u53a6\u95e8&quot;
             ]
         },
@@ -2210,15 +2200,15 @@
             },
             &quot;data&quot;: [
                 &quot;\u5317\u4eac&quot;,
-                &quot;\u6df1\u5733&quot;,
                 &quot;\u4e0a\u6d77&quot;,
+                &quot;\u6df1\u5733&quot;,
                 &quot;\u676d\u5dde&quot;,
                 &quot;\u5e7f\u5dde&quot;,
                 &quot;\u6210\u90fd&quot;,
                 &quot;\u6b66\u6c49&quot;,
                 &quot;\u5357\u4eac&quot;,
-                &quot;\u82cf\u5dde&quot;,
-                &quot;\u4f5b\u5c71&quot;
+                &quot;\u4f5b\u5c71&quot;,
+                &quot;\u82cf\u5dde&quot;
             ]
         }
     ],
@@ -2299,12 +2289,12 @@
         }
     ]
 };
-        chart_f298dcefa2e745f88250b414e6652487.setOption(option_f298dcefa2e745f88250b414e6652487);
+        chart_8fc711aac93640a1800afe6513d172e2.setOption(option_8fc711aac93640a1800afe6513d172e2);
     &lt;/script&gt;
-                &lt;div id=&quot;78458f94dc3343699bcaa2f8fd0ee7c3&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px;&quot;&gt;&lt;/div&gt;
+                &lt;div id=&quot;b94dd508ee3a41f591ab0eb2137c2761&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px;&quot;&gt;&lt;/div&gt;
     &lt;script&gt;
-        var chart_78458f94dc3343699bcaa2f8fd0ee7c3 = echarts.init(
-            document.getElementById('78458f94dc3343699bcaa2f8fd0ee7c3'), 'white', {renderer: 'canvas'});
+        var chart_b94dd508ee3a41f591ab0eb2137c2761 = echarts.init(
+            document.getElementById('b94dd508ee3a41f591ab0eb2137c2761'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -2319,7 +2309,7 @@
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_78458f94dc3343699bcaa2f8fd0ee7c3 = {
+        var option_b94dd508ee3a41f591ab0eb2137c2761 = {
     &quot;backgroundColor&quot;: {
         &quot;type&quot;: &quot;pattern&quot;,
         &quot;image&quot;: img,
@@ -2378,7 +2368,15 @@
                     &quot;value&quot;: [
                         116.407526,
                         39.90403,
-                        37.5
+                        35.0
+                    ]
+                },
+                {
+                    &quot;name&quot;: &quot;\u4e0a\u6d77&quot;,
+                    &quot;value&quot;: [
+                        121.473701,
+                        31.230416,
+                        30.0
                     ]
                 },
                 {
@@ -2387,14 +2385,6 @@
                         114.07,
                         22.62,
                         30.0
-                    ]
-                },
-                {
-                    &quot;name&quot;: &quot;\u4e0a\u6d77&quot;,
-                    &quot;value&quot;: [
-                        121.473701,
-                        31.230416,
-                        32.5
                     ]
                 },
                 {
@@ -2438,14 +2428,6 @@
                     ]
                 },
                 {
-                    &quot;name&quot;: &quot;\u82cf\u5dde&quot;,
-                    &quot;value&quot;: [
-                        120.62,
-                        31.32,
-                        20.0
-                    ]
-                },
-                {
                     &quot;name&quot;: &quot;\u4f5b\u5c71&quot;,
                     &quot;value&quot;: [
                         113.11,
@@ -2454,11 +2436,19 @@
                     ]
                 },
                 {
+                    &quot;name&quot;: &quot;\u82cf\u5dde&quot;,
+                    &quot;value&quot;: [
+                        120.62,
+                        31.32,
+                        20.0
+                    ]
+                },
+                {
                     &quot;name&quot;: &quot;\u53a6\u95e8&quot;,
                     &quot;value&quot;: [
                         118.1,
                         24.46,
-                        24.5
+                        22.5
                     ]
                 },
                 {
@@ -2499,14 +2489,6 @@
                         120.76,
                         30.77,
                         30.0
-                    ]
-                },
-                {
-                    &quot;name&quot;: &quot;\u9752\u5c9b&quot;,
-                    &quot;value&quot;: [
-                        120.33,
-                        36.07,
-                        17.5
                     ]
                 },
                 {
@@ -2614,13 +2596,13 @@
         &quot;emphasis&quot;: {}
     }
 };
-        chart_78458f94dc3343699bcaa2f8fd0ee7c3.setOption(option_78458f94dc3343699bcaa2f8fd0ee7c3);
+        chart_b94dd508ee3a41f591ab0eb2137c2761.setOption(option_b94dd508ee3a41f591ab0eb2137c2761);
     &lt;/script&gt;
-                &lt;div id=&quot;c2b8e8b6c25249f7bb15e74dde281044&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
+                &lt;div id=&quot;ef14649bab004ccb8e806184a77b46fb&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
     &lt;script&gt;
-        var chart_c2b8e8b6c25249f7bb15e74dde281044 = echarts.init(
-            document.getElementById('c2b8e8b6c25249f7bb15e74dde281044'), 'white', {renderer: 'canvas'});
-        var option_c2b8e8b6c25249f7bb15e74dde281044 = {
+        var chart_ef14649bab004ccb8e806184a77b46fb = echarts.init(
+            document.getElementById('ef14649bab004ccb8e806184a77b46fb'), 'white', {renderer: 'canvas'});
+        var option_ef14649bab004ccb8e806184a77b46fb = {
     &quot;backgroundColor&quot;: {
         &quot;type&quot;: &quot;pattern&quot;,
         &quot;image&quot;: img,
@@ -2673,12 +2655,12 @@
                 32.5,
                 30.0,
                 37.5,
+                30.0,
+                37.5,
                 37.5,
                 37.5,
                 30.0,
-                40.0,
-                37.5,
-                30.0
+                37.5
             ],
             &quot;showBackground&quot;: false,
             &quot;barMinHeight&quot;: 0,
@@ -2705,20 +2687,20 @@
             &quot;data&quot;: [
                 [
                     12.0,
-                    30.0,
+                    27.5,
                     35.0,
                     45.0,
                     75.0
                 ],
                 [
-                    13.5,
+                    14.5,
                     30.0,
                     37.5,
                     45.0,
                     90.0
                 ],
                 [
-                    12.5,
+                    12.0,
                     30.0,
                     32.5,
                     37.5,
@@ -2732,6 +2714,20 @@
                     80.0
                 ],
                 [
+                    20.0,
+                    30.0,
+                    37.5,
+                    45.0,
+                    75.0
+                ],
+                [
+                    19.5,
+                    22.5,
+                    30.0,
+                    37.5,
+                    52.5
+                ],
+                [
                     18.0,
                     25.0,
                     37.5,
@@ -2739,11 +2735,18 @@
                     60.0
                 ],
                 [
-                    20.0,
+                    17.5,
                     30.0,
                     37.5,
-                    43.75,
-                    75.0
+                    40.0,
+                    70.0
+                ],
+                [
+                    17.5,
+                    30.0,
+                    37.5,
+                    45.0,
+                    65.0
                 ],
                 [
                     20.0,
@@ -2751,27 +2754,6 @@
                     37.5,
                     45.0,
                     60.0
-                ],
-                [
-                    17.5,
-                    32.5,
-                    40.0,
-                    48.75,
-                    65.0
-                ],
-                [
-                    19.5,
-                    22.5,
-                    30.0,
-                    39.0,
-                    52.5
-                ],
-                [
-                    17.5,
-                    30.0,
-                    37.5,
-                    40.0,
-                    70.0
                 ]
             ],
             &quot;label&quot;: {
@@ -2872,13 +2854,13 @@
                 &quot;\u671d\u9633\u533a&quot;,
                 &quot;\u5357\u5c71\u533a&quot;,
                 &quot;\u79d1\u6280\u56ed&quot;,
-                &quot;\u4f59\u676d\u533a&quot;,
                 &quot;\u897f\u5317\u65fa&quot;,
-                &quot;\u671b\u4eac&quot;,
                 &quot;\u6d66\u4e1c\u65b0\u2026&quot;,
+                &quot;\u4f59\u676d\u533a&quot;,
                 &quot;\u95f5\u884c\u533a&quot;,
                 &quot;\u4e2d\u5173\u6751&quot;,
-                &quot;\u5b9d\u5b89\u533a&quot;
+                &quot;\u897f\u6e56\u533a&quot;,
+                &quot;\u671b\u4eac&quot;
             ]
         },
         {
@@ -2906,12 +2888,12 @@
                 &quot;\u671d\u9633\u533a&quot;,
                 &quot;\u5357\u5c71\u533a&quot;,
                 &quot;\u79d1\u6280\u56ed&quot;,
-                &quot;\u4f59\u676d\u533a&quot;,
                 &quot;\u897f\u5317\u65fa&quot;,
-                &quot;\u671b\u4eac&quot;,
-                &quot;\u95f5\u884c\u533a&quot;,
                 &quot;\u6d66\u4e1c\u65b0\u2026&quot;,
-                &quot;\u4e2d\u5173\u6751&quot;
+                &quot;\u4f59\u676d\u533a&quot;,
+                &quot;\u4e2d\u5173\u6751&quot;,
+                &quot;\u95f5\u884c\u533a&quot;,
+                &quot;\u671b\u4eac&quot;
             ]
         }
     ],
@@ -2992,13 +2974,13 @@
         }
     ]
 };
-        chart_c2b8e8b6c25249f7bb15e74dde281044.setOption(option_c2b8e8b6c25249f7bb15e74dde281044);
+        chart_ef14649bab004ccb8e806184a77b46fb.setOption(option_ef14649bab004ccb8e806184a77b46fb);
     &lt;/script&gt;
-                &lt;div id=&quot;cc39960413664213b0627e8ed0c5ea0a&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
+                &lt;div id=&quot;22bcd2a6c2d240258e3b6099f94c11b6&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
     &lt;script&gt;
-        var chart_cc39960413664213b0627e8ed0c5ea0a = echarts.init(
-            document.getElementById('cc39960413664213b0627e8ed0c5ea0a'), 'white', {renderer: 'canvas'});
-        var option_cc39960413664213b0627e8ed0c5ea0a = {
+        var chart_22bcd2a6c2d240258e3b6099f94c11b6 = echarts.init(
+            document.getElementById('22bcd2a6c2d240258e3b6099f94c11b6'), 'white', {renderer: 'canvas'});
+        var option_22bcd2a6c2d240258e3b6099f94c11b6 = {
     &quot;backgroundColor&quot;: {
         &quot;type&quot;: &quot;pattern&quot;,
         &quot;image&quot;: img,
@@ -3048,8 +3030,8 @@
             &quot;data&quot;: [
                 37.5,
                 37.5,
-                37.5,
                 33.75,
+                30.0,
                 30.0,
                 30.0,
                 22.5
@@ -3082,28 +3064,28 @@
                     22.5,
                     30.0,
                     37.5,
-                    85.0
+                    67.5
                 ],
                 [
                     12.5,
                     25.0,
                     30.0,
                     37.5,
-                    70.0
+                    75.0
                 ],
                 [
                     12.0,
-                    22.5,
+                    23.0,
                     30.0,
                     37.5,
-                    85.0
+                    80.0
                 ],
                 [
                     12.5,
-                    22.5,
+                    24.0,
                     30.0,
                     35.0,
-                    70.0
+                    75.0
                 ],
                 [
                     12.0,
@@ -3221,11 +3203,11 @@
                 }
             },
             &quot;data&quot;: [
-                &quot;\u77ff\u4ea7&quot;,
-                &quot;\u77ed\u89c6\u9891&quot;,
                 &quot;\u7535\u5546\u5e73\u53f0&quot;,
+                &quot;\u77ed\u89c6\u9891&quot;,
                 &quot;\u76f4\u64ad\u5e73\u53f0&quot;,
                 &quot;\u7269\u8054\u7f51&quot;,
+                &quot;\u77ff\u4ea7&quot;,
                 &quot;IT\u6280\u672f\u670d\u52a1&quot;,
                 &quot;\u786c\u4ef6&quot;
             ]
@@ -3338,13 +3320,13 @@
         }
     ]
 };
-        chart_cc39960413664213b0627e8ed0c5ea0a.setOption(option_cc39960413664213b0627e8ed0c5ea0a);
+        chart_22bcd2a6c2d240258e3b6099f94c11b6.setOption(option_22bcd2a6c2d240258e3b6099f94c11b6);
     &lt;/script&gt;
-                &lt;div id=&quot;cade40ed183246eaa532eeff0f774be0&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
+                &lt;div id=&quot;ed6000ee9c3a4b85a9a534b6eebb5146&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
     &lt;script&gt;
-        var chart_cade40ed183246eaa532eeff0f774be0 = echarts.init(
-            document.getElementById('cade40ed183246eaa532eeff0f774be0'), 'white', {renderer: 'canvas'});
-        var option_cade40ed183246eaa532eeff0f774be0 = {
+        var chart_ed6000ee9c3a4b85a9a534b6eebb5146 = echarts.init(
+            document.getElementById('ed6000ee9c3a4b85a9a534b6eebb5146'), 'white', {renderer: 'canvas'});
+        var option_ed6000ee9c3a4b85a9a534b6eebb5146 = {
     &quot;backgroundColor&quot;: {
         &quot;type&quot;: &quot;pattern&quot;,
         &quot;image&quot;: img,
@@ -3392,13 +3374,13 @@
             &quot;yAxisIndex&quot;: 0,
             &quot;legendHoverLink&quot;: true,
             &quot;data&quot;: [
-                37.5,
                 35.0,
                 30.0,
                 30.0,
                 30.0,
                 30.0,
-                30.0
+                30.0,
+                27.5
             ],
             &quot;showBackground&quot;: false,
             &quot;barMinHeight&quot;: 0,
@@ -3425,10 +3407,10 @@
             &quot;data&quot;: [
                 [
                     12.5,
-                    23.5,
+                    23.0,
                     30.0,
-                    35.0,
-                    55.0
+                    33.625,
+                    50.0
                 ],
                 [
                     12.0,
@@ -3439,37 +3421,37 @@
                 ],
                 [
                     12.5,
-                    23.5,
+                    23.75,
                     30.0,
-                    37.5,
+                    40.0,
                     90.0
                 ],
                 [
-                    15.0,
-                    29.5,
+                    13.5,
+                    22.5,
+                    27.5,
                     37.5,
-                    45.0,
-                    85.0
+                    75.0
                 ],
                 [
                     14.0,
-                    23.0,
+                    22.5,
                     30.0,
                     37.5,
-                    70.0
+                    55.0
                 ],
                 [
                     14.0,
                     25.0,
                     35.0,
-                    40.25,
-                    65.0
+                    43.75,
+                    75.0
                 ],
                 [
                     12.5,
                     24.0,
                     30.0,
-                    39.0,
+                    37.5,
                     75.0
                 ]
             ],
@@ -3567,13 +3549,13 @@
                 }
             },
             &quot;data&quot;: [
-                &quot;\u63a8\u8350\u7b97\u6cd5&quot;,
                 &quot;\u673a\u5668\u5b66\u4e60&quot;,
+                &quot;C/C++&quot;,
+                &quot;Python&quot;,
                 &quot;\u6570\u636e\u6316\u6398&quot;,
                 &quot;\u6df1\u5ea6\u5b66\u4e60&quot;,
                 &quot;\u4eba\u5de5\u667a\u80fd\u670d\u52a1&quot;,
-                &quot;C/C++&quot;,
-                &quot;Python&quot;
+                &quot;\u56fe\u50cf\u7b97\u6cd5&quot;
             ]
         },
         {
@@ -3600,7 +3582,7 @@
                 &quot;C/C++&quot;,
                 &quot;Python&quot;,
                 &quot;\u4eba\u5de5\u667a\u80fd\u670d\u52a1&quot;,
-                &quot;\u63a8\u8350\u7b97\u6cd5&quot;,
+                &quot;\u56fe\u50cf\u7b97\u6cd5&quot;,
                 &quot;\u6570\u636e\u6316\u6398&quot;,
                 &quot;\u673a\u5668\u5b66\u4e60&quot;,
                 &quot;\u6df1\u5ea6\u5b66\u4e60&quot;
@@ -3684,13 +3666,13 @@
         }
     ]
 };
-        chart_cade40ed183246eaa532eeff0f774be0.setOption(option_cade40ed183246eaa532eeff0f774be0);
+        chart_ed6000ee9c3a4b85a9a534b6eebb5146.setOption(option_ed6000ee9c3a4b85a9a534b6eebb5146);
     &lt;/script&gt;
-                &lt;div id=&quot;e35c6591d4064a50832c143191932338&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
+                &lt;div id=&quot;feb5c40ae7de472ca51dd4a93283c9c5&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
     &lt;script&gt;
-        var chart_e35c6591d4064a50832c143191932338 = echarts.init(
-            document.getElementById('e35c6591d4064a50832c143191932338'), 'white', {renderer: 'canvas'});
-        var option_e35c6591d4064a50832c143191932338 = {
+        var chart_feb5c40ae7de472ca51dd4a93283c9c5 = echarts.init(
+            document.getElementById('feb5c40ae7de472ca51dd4a93283c9c5'), 'white', {renderer: 'canvas'});
+        var option_feb5c40ae7de472ca51dd4a93283c9c5 = {
     &quot;backgroundColor&quot;: {
         &quot;type&quot;: &quot;pattern&quot;,
         &quot;image&quot;: img,
@@ -3745,7 +3727,7 @@
                 30.0,
                 22.5,
                 22.5,
-                22.5
+                21.0
             ],
             &quot;showBackground&quot;: false,
             &quot;barMinHeight&quot;: 0,
@@ -3774,7 +3756,7 @@
                     16.0,
                     30.0,
                     35.0,
-                    45.0,
+                    40.625,
                     85.0
                 ],
                 [
@@ -3787,7 +3769,7 @@
                 [
                     14.5,
                     14.875,
-                    17.5,
+                    17.25,
                     26.875,
                     32.5
                 ],
@@ -3800,14 +3782,14 @@
                 ],
                 [
                     12.0,
-                    17.5,
-                    22.5,
-                    26.5,
+                    15.0,
+                    21.0,
+                    25.0,
                     40.0
                 ],
                 [
                     12.5,
-                    16.0,
+                    17.5,
                     22.5,
                     30.0,
                     40.0
@@ -3821,7 +3803,7 @@
                 ],
                 [
                     12.5,
-                    26.875,
+                    25.0,
                     30.0,
                     40.0,
                     90.0
@@ -3927,8 +3909,8 @@
                 &quot;\u672c\u79d1&quot;,
                 &quot;\u7855\u58eb&quot;,
                 &quot;\u5e94\u5c4a / \u4e0d\u9650&quot;,
-                &quot;\u5e94\u5c4a / \u672c\u79d1&quot;,
-                &quot;\u5e94\u5c4a / \u7855\u58eb&quot;
+                &quot;\u5e94\u5c4a / \u7855\u58eb&quot;,
+                &quot;\u5e94\u5c4a / \u672c\u79d1&quot;
             ]
         },
         {
@@ -4040,13 +4022,13 @@
         }
     ]
 };
-        chart_e35c6591d4064a50832c143191932338.setOption(option_e35c6591d4064a50832c143191932338);
+        chart_feb5c40ae7de472ca51dd4a93283c9c5.setOption(option_feb5c40ae7de472ca51dd4a93283c9c5);
     &lt;/script&gt;
-                &lt;div id=&quot;505975070c14488e96f1b260a08fe485&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
+                &lt;div id=&quot;546c3c8676f746c89cf596c5a10a0ad7&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:900px;&quot;&gt;&lt;/div&gt;
     &lt;script&gt;
-        var chart_505975070c14488e96f1b260a08fe485 = echarts.init(
-            document.getElementById('505975070c14488e96f1b260a08fe485'), 'white', {renderer: 'canvas'});
-        var option_505975070c14488e96f1b260a08fe485 = {
+        var chart_546c3c8676f746c89cf596c5a10a0ad7 = echarts.init(
+            document.getElementById('546c3c8676f746c89cf596c5a10a0ad7'), 'white', {renderer: 'canvas'});
+        var option_546c3c8676f746c89cf596c5a10a0ad7 = {
     &quot;backgroundColor&quot;: {
         &quot;type&quot;: &quot;pattern&quot;,
         &quot;image&quot;: img,
@@ -4094,8 +4076,8 @@
             &quot;yAxisIndex&quot;: 0,
             &quot;legendHoverLink&quot;: true,
             &quot;data&quot;: [
-                55.0,
                 45.0,
+                42.5,
                 32.5,
                 30.0,
                 27.5,
@@ -4133,8 +4115,8 @@
                     80.0
                 ],
                 [
-                    13.5,
-                    16.25,
+                    15.0,
+                    20.0,
                     22.5,
                     25.0,
                     40.0
@@ -4148,7 +4130,7 @@
                 ],
                 [
                     12.5,
-                    35.625,
+                    35.0,
                     45.0,
                     52.5,
                     90.0
@@ -4164,7 +4146,7 @@
                     12.0,
                     17.5,
                     22.5,
-                    26.5,
+                    25.0,
                     40.0
                 ]
             ],
@@ -4262,8 +4244,8 @@
                 }
             },
             &quot;data&quot;: [
-                &quot;\u7ecf\u9a8c10\u5e74\u4ee5\u4e0a&quot;,
                 &quot;\u7ecf\u9a8c5-10\u5e74&quot;,
+                &quot;\u7ecf\u9a8c10\u5e74\u4ee5\u4e0a&quot;,
                 &quot;\u7ecf\u9a8c3-5\u5e74&quot;,
                 &quot;\u7ecf\u9a8c\u4e0d\u9650&quot;,
                 &quot;\u7ecf\u9a8c1-3\u5e74&quot;,
@@ -4378,7 +4360,7 @@
         }
     ]
 };
-        chart_505975070c14488e96f1b260a08fe485.setOption(option_505975070c14488e96f1b260a08fe485);
+        chart_546c3c8676f746c89cf596c5a10a0ad7.setOption(option_546c3c8676f746c89cf596c5a10a0ad7);
     &lt;/script&gt;
                         &lt;style&gt;
             .fl-table {
@@ -4432,186 +4414,190 @@
                 background: #F8F8F8;
             }
         &lt;/style&gt;
-        &lt;div id=&quot;ffa5ff080e954c999d87038bf79810b4&quot; class=&quot;chart-container&quot; style=&quot;&quot;&gt;
+        &lt;div id=&quot;ea4adf14bd0c4e67a42d9203b80b5ca1&quot; class=&quot;chart-container&quot; style=&quot;&quot;&gt;
             &lt;p class=&quot;title&quot; style=&quot;font-size: 18px; font-weight:bold;&quot;&gt; top10高薪岗位&lt;/p&gt;
             &lt;p class=&quot;subtitle&quot; style=&quot;font-size: 12px;&quot;&gt; &lt;/p&gt;
             &lt;table class=&quot;fl-table&quot;&gt;
-    &lt;tr&gt;
-        &lt;th&gt;标题&lt;/th&gt;
-        &lt;th&gt;公司地址&lt;/th&gt;
-        &lt;th&gt;公司名&lt;/th&gt;
-        &lt;th&gt;学历要求&lt;/th&gt;
-        &lt;th&gt;经验年限&lt;/th&gt;
-        &lt;th&gt;公司行业&lt;/th&gt;
-        &lt;th&gt;公司规模&lt;/th&gt;
-        &lt;th&gt;人员规模&lt;/th&gt;
-        &lt;th&gt;薪资&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;高级算法专家 - 机器学习(J210628045)&lt;/td&gt;
-        &lt;td&gt;杭州·西湖区&lt;/td&gt;
-        &lt;td&gt;滴滴&lt;/td&gt;
-        &lt;td&gt;硕士&lt;/td&gt;
-        &lt;td&gt;经验5-10年&lt;/td&gt;
-        &lt;td&gt;旅游｜出行&lt;/td&gt;
-        &lt;td&gt;不需要融资&lt;/td&gt;
-        &lt;td&gt;2000人以上&lt;/td&gt;
-        &lt;td&gt;80k-100k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;CV算法总监&lt;/td&gt;
-        &lt;td&gt;北京·朝阳区&lt;/td&gt;
-        &lt;td&gt;龙湖集团&lt;/td&gt;
-        &lt;td&gt;本科&lt;/td&gt;
-        &lt;td&gt;经验5-10年&lt;/td&gt;
-        &lt;td&gt;房地产｜建筑｜物业&lt;/td&gt;
-        &lt;td&gt;上市公司&lt;/td&gt;
-        &lt;td&gt;2000人以上&lt;/td&gt;
-        &lt;td&gt;60k-120k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;视觉算法工程师&lt;/td&gt;
-        &lt;td&gt;深圳·南油&lt;/td&gt;
-        &lt;td&gt;华为&lt;/td&gt;
-        &lt;td&gt;硕士&lt;/td&gt;
-        &lt;td&gt;经验3-5年&lt;/td&gt;
-        &lt;td&gt;通讯电子&lt;/td&gt;
-        &lt;td&gt;不需要融资&lt;/td&gt;
-        &lt;td&gt;2000人以上&lt;/td&gt;
-        &lt;td&gt;80k-100k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;算法工程师&lt;/td&gt;
-        &lt;td&gt;上海·杨浦区&lt;/td&gt;
-        &lt;td&gt;北京如秄&lt;/td&gt;
-        &lt;td&gt;本科&lt;/td&gt;
-        &lt;td&gt;经验5-10年&lt;/td&gt;
-        &lt;td&gt;工具类产品,IT技术服务｜咨询,专业服务｜咨询&lt;/td&gt;
-        &lt;td&gt;不需要融资&lt;/td&gt;
-        &lt;td&gt;50-150人&lt;/td&gt;
-        &lt;td&gt;70k-100k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分发算法总监 (MJ001652)&lt;/td&gt;
-        &lt;td&gt;北京·朝阳区&lt;/td&gt;
-        &lt;td&gt;Keep&lt;/td&gt;
-        &lt;td&gt;不限&lt;/td&gt;
-        &lt;td&gt;经验10年以上&lt;/td&gt;
-        &lt;td&gt;社交平台,内容社区&lt;/td&gt;
-        &lt;td&gt;D轮及以上&lt;/td&gt;
-        &lt;td&gt;500-2000人&lt;/td&gt;
-        &lt;td&gt;70k-100k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;搜索高级算法工程师&lt;/td&gt;
-        &lt;td&gt;北京·朝阳区&lt;/td&gt;
-        &lt;td&gt;寺库&lt;/td&gt;
-        &lt;td&gt;本科&lt;/td&gt;
-        &lt;td&gt;经验3-5年&lt;/td&gt;
-        &lt;td&gt;电商,消费生活&lt;/td&gt;
-        &lt;td&gt;D轮及以上&lt;/td&gt;
-        &lt;td&gt;500-2000人&lt;/td&gt;
-        &lt;td&gt;60k-100k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;算法专家（3D视觉方向）&lt;/td&gt;
-        &lt;td&gt;深圳·科技园&lt;/td&gt;
-        &lt;td&gt;信润富联&lt;/td&gt;
-        &lt;td&gt;博士&lt;/td&gt;
-        &lt;td&gt;经验1-3年&lt;/td&gt;
-        &lt;td&gt;软件开发&lt;/td&gt;
-        &lt;td&gt;不需要融资&lt;/td&gt;
-        &lt;td&gt;50-150人&lt;/td&gt;
-        &lt;td&gt;60k-100k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;算法leader&lt;/td&gt;
-        &lt;td&gt;北京·学院路&lt;/td&gt;
-        &lt;td&gt;最右&lt;/td&gt;
-        &lt;td&gt;本科&lt;/td&gt;
-        &lt;td&gt;经验5-10年&lt;/td&gt;
-        &lt;td&gt;社交平台,内容社区&lt;/td&gt;
-        &lt;td&gt;D轮及以上&lt;/td&gt;
-        &lt;td&gt;500-2000人&lt;/td&gt;
-        &lt;td&gt;60k-100k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;算法负责人（总监）&lt;/td&gt;
-        &lt;td&gt;上海·静安区&lt;/td&gt;
-        &lt;td&gt;逸兴遄飞&lt;/td&gt;
-        &lt;td&gt;本科&lt;/td&gt;
-        &lt;td&gt;经验5-10年&lt;/td&gt;
-        &lt;td&gt;专业服务｜咨询&lt;/td&gt;
-        &lt;td&gt;未融资&lt;/td&gt;
-        &lt;td&gt;50-150人&lt;/td&gt;
-        &lt;td&gt;70k-90k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;算法leader&lt;/td&gt;
-        &lt;td&gt;北京·海淀区&lt;/td&gt;
-        &lt;td&gt;音娱时光&lt;/td&gt;
-        &lt;td&gt;本科&lt;/td&gt;
-        &lt;td&gt;经验5-10年&lt;/td&gt;
-        &lt;td&gt;MCN｜直播平台&lt;/td&gt;
-        &lt;td&gt;B轮&lt;/td&gt;
-        &lt;td&gt;50-150人&lt;/td&gt;
-        &lt;td&gt;60k-90k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;算法工程师-jd零售&lt;/td&gt;
-        &lt;td&gt;北京·朝阳区&lt;/td&gt;
-        &lt;td&gt;仕佳&lt;/td&gt;
-        &lt;td&gt;本科&lt;/td&gt;
-        &lt;td&gt;经验5-10年&lt;/td&gt;
-        &lt;td&gt;移动互联网,企业服务&lt;/td&gt;
-        &lt;td&gt;未融资&lt;/td&gt;
-        &lt;td&gt;150-500人&lt;/td&gt;
-        &lt;td&gt;50k-100k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;高级/资深图像算法工程师&lt;/td&gt;
-        &lt;td&gt;北京·西北旺&lt;/td&gt;
-        &lt;td&gt;网易&lt;/td&gt;
-        &lt;td&gt;本科&lt;/td&gt;
-        &lt;td&gt;经验3-5年&lt;/td&gt;
-        &lt;td&gt;内容资讯,游戏,音频｜视频媒体&lt;/td&gt;
-        &lt;td&gt;上市公司&lt;/td&gt;
-        &lt;td&gt;2000人以上&lt;/td&gt;
-        &lt;td&gt;50k-100k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;算法总监&lt;/td&gt;
-        &lt;td&gt;上海·徐汇区&lt;/td&gt;
-        &lt;td&gt;Versa&lt;/td&gt;
-        &lt;td&gt;硕士&lt;/td&gt;
-        &lt;td&gt;经验3-5年&lt;/td&gt;
-        &lt;td&gt;工具类产品&lt;/td&gt;
-        &lt;td&gt;B轮&lt;/td&gt;
-        &lt;td&gt;50-150人&lt;/td&gt;
-        &lt;td&gt;50k-100k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;调度算法工程师&lt;/td&gt;
-        &lt;td&gt;北京·大兴区&lt;/td&gt;
-        &lt;td&gt;京东物流&lt;/td&gt;
-        &lt;td&gt;硕士&lt;/td&gt;
-        &lt;td&gt;经验3-5年&lt;/td&gt;
-        &lt;td&gt;物流｜运输&lt;/td&gt;
-        &lt;td&gt;A轮&lt;/td&gt;
-        &lt;td&gt;2000人以上&lt;/td&gt;
-        &lt;td&gt;50k-100k&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;资深算法和大数据工程师/专家【岗位编号003】&lt;/td&gt;
-        &lt;td&gt;北京·宣武门&lt;/td&gt;
-        &lt;td&gt;UMU&lt;/td&gt;
-        &lt;td&gt;本科&lt;/td&gt;
-        &lt;td&gt;经验5-10年&lt;/td&gt;
-        &lt;td&gt;社交平台&lt;/td&gt;
-        &lt;td&gt;C轮&lt;/td&gt;
-        &lt;td&gt;50-150人&lt;/td&gt;
-        &lt;td&gt;50k-100k&lt;/td&gt;
-    &lt;/tr&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;标题&lt;/th&gt;
+            &lt;th&gt;公司地址&lt;/th&gt;
+            &lt;th&gt;公司名&lt;/th&gt;
+            &lt;th&gt;学历要求&lt;/th&gt;
+            &lt;th&gt;经验年限&lt;/th&gt;
+            &lt;th&gt;公司行业&lt;/th&gt;
+            &lt;th&gt;公司规模&lt;/th&gt;
+            &lt;th&gt;人员规模&lt;/th&gt;
+            &lt;th&gt;薪资&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;高级算法专家 - 机器学习(J210628045)&lt;/td&gt;
+            &lt;td&gt;杭州·西湖区&lt;/td&gt;
+            &lt;td&gt;滴滴&lt;/td&gt;
+            &lt;td&gt;硕士&lt;/td&gt;
+            &lt;td&gt;经验5-10年&lt;/td&gt;
+            &lt;td&gt;旅游｜出行&lt;/td&gt;
+            &lt;td&gt;不需要融资&lt;/td&gt;
+            &lt;td&gt;2000人以上&lt;/td&gt;
+            &lt;td&gt;80k-100k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;视觉算法工程师&lt;/td&gt;
+            &lt;td&gt;深圳·南油&lt;/td&gt;
+            &lt;td&gt;华为&lt;/td&gt;
+            &lt;td&gt;硕士&lt;/td&gt;
+            &lt;td&gt;经验3-5年&lt;/td&gt;
+            &lt;td&gt;通讯电子&lt;/td&gt;
+            &lt;td&gt;不需要融资&lt;/td&gt;
+            &lt;td&gt;2000人以上&lt;/td&gt;
+            &lt;td&gt;80k-100k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;CV算法总监&lt;/td&gt;
+            &lt;td&gt;北京·朝阳区&lt;/td&gt;
+            &lt;td&gt;龙湖集团&lt;/td&gt;
+            &lt;td&gt;本科&lt;/td&gt;
+            &lt;td&gt;经验5-10年&lt;/td&gt;
+            &lt;td&gt;房地产｜建筑｜物业&lt;/td&gt;
+            &lt;td&gt;上市公司&lt;/td&gt;
+            &lt;td&gt;2000人以上&lt;/td&gt;
+            &lt;td&gt;60k-120k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;分发算法总监 (MJ001652)&lt;/td&gt;
+            &lt;td&gt;北京·朝阳区&lt;/td&gt;
+            &lt;td&gt;Keep&lt;/td&gt;
+            &lt;td&gt;不限&lt;/td&gt;
+            &lt;td&gt;经验10年以上&lt;/td&gt;
+            &lt;td&gt;社交平台,内容社区&lt;/td&gt;
+            &lt;td&gt;D轮及以上&lt;/td&gt;
+            &lt;td&gt;500-2000人&lt;/td&gt;
+            &lt;td&gt;70k-100k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;搜索高级算法工程师&lt;/td&gt;
+            &lt;td&gt;北京·朝阳区&lt;/td&gt;
+            &lt;td&gt;寺库&lt;/td&gt;
+            &lt;td&gt;本科&lt;/td&gt;
+            &lt;td&gt;经验3-5年&lt;/td&gt;
+            &lt;td&gt;电商,消费生活&lt;/td&gt;
+            &lt;td&gt;D轮及以上&lt;/td&gt;
+            &lt;td&gt;500-2000人&lt;/td&gt;
+            &lt;td&gt;60k-100k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;算法负责人（总监）&lt;/td&gt;
+            &lt;td&gt;上海·静安区&lt;/td&gt;
+            &lt;td&gt;逸兴遄飞&lt;/td&gt;
+            &lt;td&gt;本科&lt;/td&gt;
+            &lt;td&gt;经验5-10年&lt;/td&gt;
+            &lt;td&gt;专业服务｜咨询&lt;/td&gt;
+            &lt;td&gt;未融资&lt;/td&gt;
+            &lt;td&gt;50-150人&lt;/td&gt;
+            &lt;td&gt;70k-90k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;算法leader&lt;/td&gt;
+            &lt;td&gt;北京·学院路&lt;/td&gt;
+            &lt;td&gt;最右&lt;/td&gt;
+            &lt;td&gt;本科&lt;/td&gt;
+            &lt;td&gt;经验5-10年&lt;/td&gt;
+            &lt;td&gt;社交平台,内容社区&lt;/td&gt;
+            &lt;td&gt;D轮及以上&lt;/td&gt;
+            &lt;td&gt;500-2000人&lt;/td&gt;
+            &lt;td&gt;60k-100k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;算法专家（3D视觉方向）&lt;/td&gt;
+            &lt;td&gt;深圳·科技园&lt;/td&gt;
+            &lt;td&gt;信润富联&lt;/td&gt;
+            &lt;td&gt;博士&lt;/td&gt;
+            &lt;td&gt;经验1-3年&lt;/td&gt;
+            &lt;td&gt;软件开发&lt;/td&gt;
+            &lt;td&gt;不需要融资&lt;/td&gt;
+            &lt;td&gt;50-150人&lt;/td&gt;
+            &lt;td&gt;60k-100k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;AI算法专家(语音方向)【No.003】&lt;/td&gt;
+            &lt;td&gt;北京·西城区&lt;/td&gt;
+            &lt;td&gt;UMU&lt;/td&gt;
+            &lt;td&gt;本科&lt;/td&gt;
+            &lt;td&gt;经验不限&lt;/td&gt;
+            &lt;td&gt;社交平台&lt;/td&gt;
+            &lt;td&gt;C轮&lt;/td&gt;
+            &lt;td&gt;50-150人&lt;/td&gt;
+            &lt;td&gt;60k-90k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;资深算法和大数据工程师/专...&lt;/td&gt;
+            &lt;td&gt;北京·宣武门&lt;/td&gt;
+            &lt;td&gt;UMU&lt;/td&gt;
+            &lt;td&gt;本科&lt;/td&gt;
+            &lt;td&gt;经验5-10年&lt;/td&gt;
+            &lt;td&gt;社交平台&lt;/td&gt;
+            &lt;td&gt;C轮&lt;/td&gt;
+            &lt;td&gt;50-150人&lt;/td&gt;
+            &lt;td&gt;50k-100k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;算法leader&lt;/td&gt;
+            &lt;td&gt;北京·海淀区&lt;/td&gt;
+            &lt;td&gt;音娱时光&lt;/td&gt;
+            &lt;td&gt;本科&lt;/td&gt;
+            &lt;td&gt;经验5-10年&lt;/td&gt;
+            &lt;td&gt;MCN｜直播平台&lt;/td&gt;
+            &lt;td&gt;B轮&lt;/td&gt;
+            &lt;td&gt;50-150人&lt;/td&gt;
+            &lt;td&gt;60k-90k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;增长专家算法工程师&lt;/td&gt;
+            &lt;td&gt;北京·海淀区&lt;/td&gt;
+            &lt;td&gt;滴滴&lt;/td&gt;
+            &lt;td&gt;本科&lt;/td&gt;
+            &lt;td&gt;经验5-10年&lt;/td&gt;
+            &lt;td&gt;旅游｜出行&lt;/td&gt;
+            &lt;td&gt;不需要融资&lt;/td&gt;
+            &lt;td&gt;2000人以上&lt;/td&gt;
+            &lt;td&gt;50k-100k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;资深算法和大数据工程师/专家【岗位编号003】&lt;/td&gt;
+            &lt;td&gt;北京·宣武门&lt;/td&gt;
+            &lt;td&gt;UMU&lt;/td&gt;
+            &lt;td&gt;本科&lt;/td&gt;
+            &lt;td&gt;经验5-10年&lt;/td&gt;
+            &lt;td&gt;社交平台&lt;/td&gt;
+            &lt;td&gt;C轮&lt;/td&gt;
+            &lt;td&gt;50-150人&lt;/td&gt;
+            &lt;td&gt;50k-100k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;算法工程师-jd零售&lt;/td&gt;
+            &lt;td&gt;北京·朝阳区&lt;/td&gt;
+            &lt;td&gt;仕佳&lt;/td&gt;
+            &lt;td&gt;本科&lt;/td&gt;
+            &lt;td&gt;经验5-10年&lt;/td&gt;
+            &lt;td&gt;移动互联网,企业服务&lt;/td&gt;
+            &lt;td&gt;未融资&lt;/td&gt;
+            &lt;td&gt;150-500人&lt;/td&gt;
+            &lt;td&gt;50k-100k&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;资深音频算法工程师&lt;/td&gt;
+            &lt;td&gt;北京·海淀区&lt;/td&gt;
+            &lt;td&gt;字节跳动&lt;/td&gt;
+            &lt;td&gt;本科&lt;/td&gt;
+            &lt;td&gt;经验不限&lt;/td&gt;
+            &lt;td&gt;内容资讯,短视频&lt;/td&gt;
+            &lt;td&gt;D轮及以上&lt;/td&gt;
+            &lt;td&gt;2000人以上&lt;/td&gt;
+            &lt;td&gt;50k-100k&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
 &lt;/table&gt;
         &lt;/div&gt;
 
@@ -4642,7 +4628,7 @@
             evt.currentTarget.className += &quot; active&quot;;
         }
     &lt;/script&gt;
-&lt;/body&gt;&lt;/html&gt;
+&lt;/body&gt;
 </description>
         <pubDate>Thu, 05 Aug 2021 00:00:00 +0800</pubDate>
         <link>/job-and-hiring/</link>

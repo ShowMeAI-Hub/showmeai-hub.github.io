@@ -8,18 +8,9 @@ pin: false
 ---
 
 
-<html>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
-<link rel="stylesheet" href="/css/main.css">
-<link rel="stylesheet" href="/assets/vendor/highlight/styles/solarized_dark.css">
-<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
-<link rel="shortcut icon" href="/favicon.ico"/>
 <head>
     <meta charset="UTF-8">
-    <title>Awesome-pyecharts</title>
+    <title>ShowMeAI-job-and-career</title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
         <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
 
@@ -48,20 +39,20 @@ pin: false
 </head>
 <body>
 
-<h2>（2021-07-21更新）</h2>
+<h2>（2021-08-17更新）</h2>
 
 <h2>点击按钮查看招聘数据分析详情</h2>
     
-<a href="/job_analysis">
+<a href="https://showmeai-hub.github.io/job_analysis">
     <button class="button">看薪资</button>
 </a>
-<a href="/job_analysis/company">
+<a href="https://showmeai-hub.github.io/job_analysis/company">
     <button class="button">看公司</button>
 </a>
-<a href="/job_analysis/skills">
+<a href="https://showmeai-hub.github.io/job_analysis/skills">
     <button class="button">看要求</button>
 </a>
-<a href="/job_analysis/recent_jds">
+<a href="https://showmeai-hub.github.io/job_analysis/recent_jds">
     <button class="button">典型JD</button>
 </a>
 
@@ -104,24 +95,24 @@ pin: false
         }
     </style>
     <div class="tab">
-            <button class="tablinks" onclick="showChart(event, 'c35c684d4f0f469fa9cec2467402fa18')">薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'c2d5887457ac4aa7b310a8f248a7b1a4')">实习薪资分布</button>
-            <button class="tablinks" onclick="showChart(event, '9dbd8e1b47be49caa80a6a2c04fa1e13')">社招薪资分布</button>
-            <button class="tablinks" onclick="showChart(event, 'f298dcefa2e745f88250b414e6652487')">城市&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '78458f94dc3343699bcaa2f8fd0ee7c3')">薪资地图</button>
-            <button class="tablinks" onclick="showChart(event, 'c2b8e8b6c25249f7bb15e74dde281044')">区域&薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'cc39960413664213b0627e8ed0c5ea0a')">行业&薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'cade40ed183246eaa532eeff0f774be0')">方向关键词&薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'e35c6591d4064a50832c143191932338')">学历&薪资</button>
-            <button class="tablinks" onclick="showChart(event, '505975070c14488e96f1b260a08fe485')">经验&薪资</button>
-            <button class="tablinks" onclick="showChart(event, 'ffa5ff080e954c999d87038bf79810b4')">top10薪资招聘</button>
+            <button class="tablinks" onclick="showChart(event, '56ada8f3c9ac4b39a6c8021fe2eb53e3')">薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'a91dee273cbf4a64932a5e58af32fc73')">实习薪资分布</button>
+            <button class="tablinks" onclick="showChart(event, '9a871feb1c77464eace30004914f7604')">社招薪资分布</button>
+            <button class="tablinks" onclick="showChart(event, '8fc711aac93640a1800afe6513d172e2')">城市&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'b94dd508ee3a41f591ab0eb2137c2761')">薪资地图</button>
+            <button class="tablinks" onclick="showChart(event, 'ef14649bab004ccb8e806184a77b46fb')">区域&薪资</button>
+            <button class="tablinks" onclick="showChart(event, '22bcd2a6c2d240258e3b6099f94c11b6')">行业&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'ed6000ee9c3a4b85a9a534b6eebb5146')">方向关键词&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'feb5c40ae7de472ca51dd4a93283c9c5')">学历&薪资</button>
+            <button class="tablinks" onclick="showChart(event, '546c3c8676f746c89cf596c5a10a0ad7')">经验&薪资</button>
+            <button class="tablinks" onclick="showChart(event, 'ea4adf14bd0c4e67a42d9203b80b5ca1')">top10薪资招聘</button>
     </div>
 
     <div class="box">
-                <div id="c35c684d4f0f469fa9cec2467402fa18" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="56ada8f3c9ac4b39a6c8021fe2eb53e3" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_c35c684d4f0f469fa9cec2467402fa18 = echarts.init(
-            document.getElementById('c35c684d4f0f469fa9cec2467402fa18'), 'white', {renderer: 'canvas'});
+        var chart_56ada8f3c9ac4b39a6c8021fe2eb53e3 = echarts.init(
+            document.getElementById('56ada8f3c9ac4b39a6c8021fe2eb53e3'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -136,7 +127,7 @@ pin: false
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_c35c684d4f0f469fa9cec2467402fa18 = {
+        var option_56ada8f3c9ac4b39a6c8021fe2eb53e3 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -183,16 +174,16 @@ pin: false
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                330,
-                222,
-                164,
-                162,
-                111,
-                84,
-                82,
-                67,
-                64,
-                48
+                345,
+                211,
+                177,
+                175,
+                114,
+                93,
+                91,
+                65,
+                65,
+                52
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -217,43 +208,43 @@ pin: false
             "data": [
                 {
                     "name": "20k-40k",
-                    "value": 330
+                    "value": 345
                 },
                 {
                     "name": "25k-50k",
-                    "value": 222
+                    "value": 211
                 },
                 {
                     "name": "15k-30k",
-                    "value": 164
+                    "value": 177
                 },
                 {
                     "name": "30k-60k",
-                    "value": 162
+                    "value": 175
                 },
                 {
                     "name": "30k-50k",
-                    "value": 111
-                },
-                {
-                    "name": "15k-25k",
-                    "value": 84
+                    "value": 114
                 },
                 {
                     "name": "20k-30k",
-                    "value": 82
+                    "value": 93
+                },
+                {
+                    "name": "15k-25k",
+                    "value": 91
                 },
                 {
                     "name": "25k-40k",
-                    "value": 67
+                    "value": 65
                 },
                 {
                     "name": "20k-35k",
-                    "value": 64
+                    "value": 65
                 },
                 {
                     "name": "25k-45k",
-                    "value": 48
+                    "value": 52
                 }
             ],
             "radius": [
@@ -286,43 +277,43 @@ pin: false
             "data": [
                 {
                     "name": "20k-40k",
-                    "value": 330
+                    "value": 345
                 },
                 {
                     "name": "25k-50k",
-                    "value": 222
+                    "value": 211
                 },
                 {
                     "name": "15k-30k",
-                    "value": 164
+                    "value": 177
                 },
                 {
                     "name": "30k-60k",
-                    "value": 162
+                    "value": 175
                 },
                 {
                     "name": "30k-50k",
-                    "value": 111
-                },
-                {
-                    "name": "15k-25k",
-                    "value": 84
+                    "value": 114
                 },
                 {
                     "name": "20k-30k",
-                    "value": 82
+                    "value": 93
+                },
+                {
+                    "name": "15k-25k",
+                    "value": 91
                 },
                 {
                     "name": "25k-40k",
-                    "value": 67
+                    "value": 65
                 },
                 {
                     "name": "20k-35k",
-                    "value": 64
+                    "value": 65
                 },
                 {
                     "name": "25k-45k",
-                    "value": 48
+                    "value": 52
                 }
             ],
             "radius": [
@@ -370,8 +361,8 @@ pin: false
                 "15k-30k",
                 "30k-60k",
                 "30k-50k",
-                "15k-25k",
                 "20k-30k",
+                "15k-25k",
                 "25k-40k",
                 "20k-35k",
                 "25k-45k"
@@ -431,8 +422,8 @@ pin: false
                 "15k-30k",
                 "30k-60k",
                 "30k-50k",
-                "15k-25k",
                 "20k-30k",
+                "15k-25k",
                 "25k-40k",
                 "20k-35k",
                 "25k-45k"
@@ -498,12 +489,12 @@ pin: false
         }
     ]
 };
-        chart_c35c684d4f0f469fa9cec2467402fa18.setOption(option_c35c684d4f0f469fa9cec2467402fa18);
+        chart_56ada8f3c9ac4b39a6c8021fe2eb53e3.setOption(option_56ada8f3c9ac4b39a6c8021fe2eb53e3);
     </script>
-                <div id="c2d5887457ac4aa7b310a8f248a7b1a4" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="a91dee273cbf4a64932a5e58af32fc73" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_c2d5887457ac4aa7b310a8f248a7b1a4 = echarts.init(
-            document.getElementById('c2d5887457ac4aa7b310a8f248a7b1a4'), 'white', {renderer: 'canvas'});
+        var chart_a91dee273cbf4a64932a5e58af32fc73 = echarts.init(
+            document.getElementById('a91dee273cbf4a64932a5e58af32fc73'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -518,7 +509,7 @@ pin: false
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_c2d5887457ac4aa7b310a8f248a7b1a4 = {
+        var option_a91dee273cbf4a64932a5e58af32fc73 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -565,9 +556,9 @@ pin: false
             "data": [
                 [
                     2,
-                    4.5,
-                    8,
-                    13.5,
+                    4.25,
+                    7.5,
+                    14.25,
                     30
                 ]
             ],
@@ -600,9 +591,9 @@ pin: false
             "data": [
                 [
                     3,
-                    6.5,
-                    12,
-                    22.0,
+                    6.25,
+                    11.5,
+                    23.0,
                     50
                 ]
             ],
@@ -635,9 +626,9 @@ pin: false
             "data": [
                 [
                     2.5,
-                    5.0,
+                    4.625,
                     6.0,
-                    8.125,
+                    8.0,
                     40.0
                 ]
             ],
@@ -758,12 +749,12 @@ pin: false
         }
     ]
 };
-        chart_c2d5887457ac4aa7b310a8f248a7b1a4.setOption(option_c2d5887457ac4aa7b310a8f248a7b1a4);
+        chart_a91dee273cbf4a64932a5e58af32fc73.setOption(option_a91dee273cbf4a64932a5e58af32fc73);
     </script>
-                <div id="9dbd8e1b47be49caa80a6a2c04fa1e13" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="9a871feb1c77464eace30004914f7604" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_9dbd8e1b47be49caa80a6a2c04fa1e13 = echarts.init(
-            document.getElementById('9dbd8e1b47be49caa80a6a2c04fa1e13'), 'white', {renderer: 'canvas'});
+        var chart_9a871feb1c77464eace30004914f7604 = echarts.init(
+            document.getElementById('9a871feb1c77464eace30004914f7604'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -778,7 +769,7 @@ pin: false
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_9dbd8e1b47be49caa80a6a2c04fa1e13 = {
+        var option_9a871feb1c77464eace30004914f7604 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -860,9 +851,9 @@ pin: false
             "data": [
                 [
                     14,
-                    27,
-                    42,
-                    64,
+                    26.75,
+                    41.0,
+                    61.25,
                     120
                 ]
             ],
@@ -1018,13 +1009,13 @@ pin: false
         }
     ]
 };
-        chart_9dbd8e1b47be49caa80a6a2c04fa1e13.setOption(option_9dbd8e1b47be49caa80a6a2c04fa1e13);
+        chart_9a871feb1c77464eace30004914f7604.setOption(option_9a871feb1c77464eace30004914f7604);
     </script>
-                <div id="f298dcefa2e745f88250b414e6652487" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="8fc711aac93640a1800afe6513d172e2" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_f298dcefa2e745f88250b414e6652487 = echarts.init(
-            document.getElementById('f298dcefa2e745f88250b414e6652487'), 'white', {renderer: 'canvas'});
-        var option_f298dcefa2e745f88250b414e6652487 = {
+        var chart_8fc711aac93640a1800afe6513d172e2 = echarts.init(
+            document.getElementById('8fc711aac93640a1800afe6513d172e2'), 'white', {renderer: 'canvas'});
+        var option_8fc711aac93640a1800afe6513d172e2 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -1072,17 +1063,17 @@ pin: false
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                37.5,
+                35.0,
                 30.0,
-                32.5,
+                30.0,
                 30.0,
                 25.0,
                 22.5,
                 22.5,
                 22.5,
-                20.0,
                 30.0,
-                24.5
+                20.0,
+                22.5
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -1110,9 +1101,16 @@ pin: false
                 [
                     12.0,
                     30.0,
-                    37.5,
+                    35.0,
                     45.0,
                     90.0
+                ],
+                [
+                    12.5,
+                    25.0,
+                    30.0,
+                    42.0,
+                    80.0
                 ],
                 [
                     12.0,
@@ -1123,14 +1121,7 @@ pin: false
                 ],
                 [
                     12.5,
-                    25.0,
-                    32.5,
-                    45.0,
-                    85.0
-                ],
-                [
-                    12.5,
-                    23.375,
+                    23.25,
                     30.0,
                     40.0,
                     90.0
@@ -1151,31 +1142,31 @@ pin: false
                 ],
                 [
                     12.5,
-                    17.5,
+                    18.0,
                     22.5,
-                    25.75,
+                    25.0,
                     37.5
                 ],
                 [
                     15.0,
-                    19.625,
+                    19.75,
                     22.5,
                     30.0,
                     50.0
                 ],
                 [
+                    21.0,
+                    30.0,
+                    30.0,
+                    37.5,
+                    65.0
+                ],
+                [
                     15.0,
-                    17.25,
+                    16.125,
                     20.0,
                     22.5,
                     35.0
-                ],
-                [
-                    21.0,
-                    26.25,
-                    30.0,
-                    35.625,
-                    37.5
                 ]
             ],
             "label": {
@@ -1273,15 +1264,15 @@ pin: false
             },
             "data": [
                 "\u5317\u4eac",
-                "\u6df1\u5733",
                 "\u4e0a\u6d77",
+                "\u6df1\u5733",
                 "\u676d\u5dde",
                 "\u5e7f\u5dde",
                 "\u6210\u90fd",
                 "\u6b66\u6c49",
                 "\u5357\u4eac",
-                "\u82cf\u5dde",
                 "\u4f5b\u5c71",
+                "\u82cf\u5dde",
                 "\u53a6\u95e8"
             ]
         },
@@ -1307,15 +1298,15 @@ pin: false
             },
             "data": [
                 "\u5317\u4eac",
-                "\u6df1\u5733",
                 "\u4e0a\u6d77",
+                "\u6df1\u5733",
                 "\u676d\u5dde",
                 "\u5e7f\u5dde",
                 "\u6210\u90fd",
                 "\u6b66\u6c49",
                 "\u5357\u4eac",
-                "\u82cf\u5dde",
-                "\u4f5b\u5c71"
+                "\u4f5b\u5c71",
+                "\u82cf\u5dde"
             ]
         }
     ],
@@ -1396,12 +1387,12 @@ pin: false
         }
     ]
 };
-        chart_f298dcefa2e745f88250b414e6652487.setOption(option_f298dcefa2e745f88250b414e6652487);
+        chart_8fc711aac93640a1800afe6513d172e2.setOption(option_8fc711aac93640a1800afe6513d172e2);
     </script>
-                <div id="78458f94dc3343699bcaa2f8fd0ee7c3" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="b94dd508ee3a41f591ab0eb2137c2761" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_78458f94dc3343699bcaa2f8fd0ee7c3 = echarts.init(
-            document.getElementById('78458f94dc3343699bcaa2f8fd0ee7c3'), 'white', {renderer: 'canvas'});
+        var chart_b94dd508ee3a41f591ab0eb2137c2761 = echarts.init(
+            document.getElementById('b94dd508ee3a41f591ab0eb2137c2761'), 'white', {renderer: 'canvas'});
             
     var waterMarkText = 'ShowMeAI';
     var canvas = document.createElement('canvas');
@@ -1416,7 +1407,7 @@ pin: false
     ctx.fillText(waterMarkText, 0, 0);
     img = canvas;
     
-        var option_78458f94dc3343699bcaa2f8fd0ee7c3 = {
+        var option_b94dd508ee3a41f591ab0eb2137c2761 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -1475,7 +1466,15 @@ pin: false
                     "value": [
                         116.407526,
                         39.90403,
-                        37.5
+                        35.0
+                    ]
+                },
+                {
+                    "name": "\u4e0a\u6d77",
+                    "value": [
+                        121.473701,
+                        31.230416,
+                        30.0
                     ]
                 },
                 {
@@ -1484,14 +1483,6 @@ pin: false
                         114.07,
                         22.62,
                         30.0
-                    ]
-                },
-                {
-                    "name": "\u4e0a\u6d77",
-                    "value": [
-                        121.473701,
-                        31.230416,
-                        32.5
                     ]
                 },
                 {
@@ -1535,14 +1526,6 @@ pin: false
                     ]
                 },
                 {
-                    "name": "\u82cf\u5dde",
-                    "value": [
-                        120.62,
-                        31.32,
-                        20.0
-                    ]
-                },
-                {
                     "name": "\u4f5b\u5c71",
                     "value": [
                         113.11,
@@ -1551,11 +1534,19 @@ pin: false
                     ]
                 },
                 {
+                    "name": "\u82cf\u5dde",
+                    "value": [
+                        120.62,
+                        31.32,
+                        20.0
+                    ]
+                },
+                {
                     "name": "\u53a6\u95e8",
                     "value": [
                         118.1,
                         24.46,
-                        24.5
+                        22.5
                     ]
                 },
                 {
@@ -1596,14 +1587,6 @@ pin: false
                         120.76,
                         30.77,
                         30.0
-                    ]
-                },
-                {
-                    "name": "\u9752\u5c9b",
-                    "value": [
-                        120.33,
-                        36.07,
-                        17.5
                     ]
                 },
                 {
@@ -1711,13 +1694,13 @@ pin: false
         "emphasis": {}
     }
 };
-        chart_78458f94dc3343699bcaa2f8fd0ee7c3.setOption(option_78458f94dc3343699bcaa2f8fd0ee7c3);
+        chart_b94dd508ee3a41f591ab0eb2137c2761.setOption(option_b94dd508ee3a41f591ab0eb2137c2761);
     </script>
-                <div id="c2b8e8b6c25249f7bb15e74dde281044" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="ef14649bab004ccb8e806184a77b46fb" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_c2b8e8b6c25249f7bb15e74dde281044 = echarts.init(
-            document.getElementById('c2b8e8b6c25249f7bb15e74dde281044'), 'white', {renderer: 'canvas'});
-        var option_c2b8e8b6c25249f7bb15e74dde281044 = {
+        var chart_ef14649bab004ccb8e806184a77b46fb = echarts.init(
+            document.getElementById('ef14649bab004ccb8e806184a77b46fb'), 'white', {renderer: 'canvas'});
+        var option_ef14649bab004ccb8e806184a77b46fb = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -1770,12 +1753,12 @@ pin: false
                 32.5,
                 30.0,
                 37.5,
+                30.0,
+                37.5,
                 37.5,
                 37.5,
                 30.0,
-                40.0,
-                37.5,
-                30.0
+                37.5
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -1802,20 +1785,20 @@ pin: false
             "data": [
                 [
                     12.0,
-                    30.0,
+                    27.5,
                     35.0,
                     45.0,
                     75.0
                 ],
                 [
-                    13.5,
+                    14.5,
                     30.0,
                     37.5,
                     45.0,
                     90.0
                 ],
                 [
-                    12.5,
+                    12.0,
                     30.0,
                     32.5,
                     37.5,
@@ -1829,6 +1812,20 @@ pin: false
                     80.0
                 ],
                 [
+                    20.0,
+                    30.0,
+                    37.5,
+                    45.0,
+                    75.0
+                ],
+                [
+                    19.5,
+                    22.5,
+                    30.0,
+                    37.5,
+                    52.5
+                ],
+                [
                     18.0,
                     25.0,
                     37.5,
@@ -1836,11 +1833,18 @@ pin: false
                     60.0
                 ],
                 [
-                    20.0,
+                    17.5,
                     30.0,
                     37.5,
-                    43.75,
-                    75.0
+                    40.0,
+                    70.0
+                ],
+                [
+                    17.5,
+                    30.0,
+                    37.5,
+                    45.0,
+                    65.0
                 ],
                 [
                     20.0,
@@ -1848,27 +1852,6 @@ pin: false
                     37.5,
                     45.0,
                     60.0
-                ],
-                [
-                    17.5,
-                    32.5,
-                    40.0,
-                    48.75,
-                    65.0
-                ],
-                [
-                    19.5,
-                    22.5,
-                    30.0,
-                    39.0,
-                    52.5
-                ],
-                [
-                    17.5,
-                    30.0,
-                    37.5,
-                    40.0,
-                    70.0
                 ]
             ],
             "label": {
@@ -1969,13 +1952,13 @@ pin: false
                 "\u671d\u9633\u533a",
                 "\u5357\u5c71\u533a",
                 "\u79d1\u6280\u56ed",
-                "\u4f59\u676d\u533a",
                 "\u897f\u5317\u65fa",
-                "\u671b\u4eac",
                 "\u6d66\u4e1c\u65b0\u2026",
+                "\u4f59\u676d\u533a",
                 "\u95f5\u884c\u533a",
                 "\u4e2d\u5173\u6751",
-                "\u5b9d\u5b89\u533a"
+                "\u897f\u6e56\u533a",
+                "\u671b\u4eac"
             ]
         },
         {
@@ -2003,12 +1986,12 @@ pin: false
                 "\u671d\u9633\u533a",
                 "\u5357\u5c71\u533a",
                 "\u79d1\u6280\u56ed",
-                "\u4f59\u676d\u533a",
                 "\u897f\u5317\u65fa",
-                "\u671b\u4eac",
-                "\u95f5\u884c\u533a",
                 "\u6d66\u4e1c\u65b0\u2026",
-                "\u4e2d\u5173\u6751"
+                "\u4f59\u676d\u533a",
+                "\u4e2d\u5173\u6751",
+                "\u95f5\u884c\u533a",
+                "\u671b\u4eac"
             ]
         }
     ],
@@ -2089,13 +2072,13 @@ pin: false
         }
     ]
 };
-        chart_c2b8e8b6c25249f7bb15e74dde281044.setOption(option_c2b8e8b6c25249f7bb15e74dde281044);
+        chart_ef14649bab004ccb8e806184a77b46fb.setOption(option_ef14649bab004ccb8e806184a77b46fb);
     </script>
-                <div id="cc39960413664213b0627e8ed0c5ea0a" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="22bcd2a6c2d240258e3b6099f94c11b6" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_cc39960413664213b0627e8ed0c5ea0a = echarts.init(
-            document.getElementById('cc39960413664213b0627e8ed0c5ea0a'), 'white', {renderer: 'canvas'});
-        var option_cc39960413664213b0627e8ed0c5ea0a = {
+        var chart_22bcd2a6c2d240258e3b6099f94c11b6 = echarts.init(
+            document.getElementById('22bcd2a6c2d240258e3b6099f94c11b6'), 'white', {renderer: 'canvas'});
+        var option_22bcd2a6c2d240258e3b6099f94c11b6 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -2145,8 +2128,8 @@ pin: false
             "data": [
                 37.5,
                 37.5,
-                37.5,
                 33.75,
+                30.0,
                 30.0,
                 30.0,
                 22.5
@@ -2179,28 +2162,28 @@ pin: false
                     22.5,
                     30.0,
                     37.5,
-                    85.0
+                    67.5
                 ],
                 [
                     12.5,
                     25.0,
                     30.0,
                     37.5,
-                    70.0
+                    75.0
                 ],
                 [
                     12.0,
-                    22.5,
+                    23.0,
                     30.0,
                     37.5,
-                    85.0
+                    80.0
                 ],
                 [
                     12.5,
-                    22.5,
+                    24.0,
                     30.0,
                     35.0,
-                    70.0
+                    75.0
                 ],
                 [
                     12.0,
@@ -2318,11 +2301,11 @@ pin: false
                 }
             },
             "data": [
-                "\u77ff\u4ea7",
-                "\u77ed\u89c6\u9891",
                 "\u7535\u5546\u5e73\u53f0",
+                "\u77ed\u89c6\u9891",
                 "\u76f4\u64ad\u5e73\u53f0",
                 "\u7269\u8054\u7f51",
+                "\u77ff\u4ea7",
                 "IT\u6280\u672f\u670d\u52a1",
                 "\u786c\u4ef6"
             ]
@@ -2435,13 +2418,13 @@ pin: false
         }
     ]
 };
-        chart_cc39960413664213b0627e8ed0c5ea0a.setOption(option_cc39960413664213b0627e8ed0c5ea0a);
+        chart_22bcd2a6c2d240258e3b6099f94c11b6.setOption(option_22bcd2a6c2d240258e3b6099f94c11b6);
     </script>
-                <div id="cade40ed183246eaa532eeff0f774be0" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="ed6000ee9c3a4b85a9a534b6eebb5146" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_cade40ed183246eaa532eeff0f774be0 = echarts.init(
-            document.getElementById('cade40ed183246eaa532eeff0f774be0'), 'white', {renderer: 'canvas'});
-        var option_cade40ed183246eaa532eeff0f774be0 = {
+        var chart_ed6000ee9c3a4b85a9a534b6eebb5146 = echarts.init(
+            document.getElementById('ed6000ee9c3a4b85a9a534b6eebb5146'), 'white', {renderer: 'canvas'});
+        var option_ed6000ee9c3a4b85a9a534b6eebb5146 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -2489,13 +2472,13 @@ pin: false
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                37.5,
                 35.0,
                 30.0,
                 30.0,
                 30.0,
                 30.0,
-                30.0
+                30.0,
+                27.5
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -2522,10 +2505,10 @@ pin: false
             "data": [
                 [
                     12.5,
-                    23.5,
+                    23.0,
                     30.0,
-                    35.0,
-                    55.0
+                    33.625,
+                    50.0
                 ],
                 [
                     12.0,
@@ -2536,37 +2519,37 @@ pin: false
                 ],
                 [
                     12.5,
-                    23.5,
+                    23.75,
                     30.0,
-                    37.5,
+                    40.0,
                     90.0
                 ],
                 [
-                    15.0,
-                    29.5,
+                    13.5,
+                    22.5,
+                    27.5,
                     37.5,
-                    45.0,
-                    85.0
+                    75.0
                 ],
                 [
                     14.0,
-                    23.0,
+                    22.5,
                     30.0,
                     37.5,
-                    70.0
+                    55.0
                 ],
                 [
                     14.0,
                     25.0,
                     35.0,
-                    40.25,
-                    65.0
+                    43.75,
+                    75.0
                 ],
                 [
                     12.5,
                     24.0,
                     30.0,
-                    39.0,
+                    37.5,
                     75.0
                 ]
             ],
@@ -2664,13 +2647,13 @@ pin: false
                 }
             },
             "data": [
-                "\u63a8\u8350\u7b97\u6cd5",
                 "\u673a\u5668\u5b66\u4e60",
+                "C/C++",
+                "Python",
                 "\u6570\u636e\u6316\u6398",
                 "\u6df1\u5ea6\u5b66\u4e60",
                 "\u4eba\u5de5\u667a\u80fd\u670d\u52a1",
-                "C/C++",
-                "Python"
+                "\u56fe\u50cf\u7b97\u6cd5"
             ]
         },
         {
@@ -2697,7 +2680,7 @@ pin: false
                 "C/C++",
                 "Python",
                 "\u4eba\u5de5\u667a\u80fd\u670d\u52a1",
-                "\u63a8\u8350\u7b97\u6cd5",
+                "\u56fe\u50cf\u7b97\u6cd5",
                 "\u6570\u636e\u6316\u6398",
                 "\u673a\u5668\u5b66\u4e60",
                 "\u6df1\u5ea6\u5b66\u4e60"
@@ -2781,13 +2764,13 @@ pin: false
         }
     ]
 };
-        chart_cade40ed183246eaa532eeff0f774be0.setOption(option_cade40ed183246eaa532eeff0f774be0);
+        chart_ed6000ee9c3a4b85a9a534b6eebb5146.setOption(option_ed6000ee9c3a4b85a9a534b6eebb5146);
     </script>
-                <div id="e35c6591d4064a50832c143191932338" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="feb5c40ae7de472ca51dd4a93283c9c5" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_e35c6591d4064a50832c143191932338 = echarts.init(
-            document.getElementById('e35c6591d4064a50832c143191932338'), 'white', {renderer: 'canvas'});
-        var option_e35c6591d4064a50832c143191932338 = {
+        var chart_feb5c40ae7de472ca51dd4a93283c9c5 = echarts.init(
+            document.getElementById('feb5c40ae7de472ca51dd4a93283c9c5'), 'white', {renderer: 'canvas'});
+        var option_feb5c40ae7de472ca51dd4a93283c9c5 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -2842,7 +2825,7 @@ pin: false
                 30.0,
                 22.5,
                 22.5,
-                22.5
+                21.0
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -2871,7 +2854,7 @@ pin: false
                     16.0,
                     30.0,
                     35.0,
-                    45.0,
+                    40.625,
                     85.0
                 ],
                 [
@@ -2884,7 +2867,7 @@ pin: false
                 [
                     14.5,
                     14.875,
-                    17.5,
+                    17.25,
                     26.875,
                     32.5
                 ],
@@ -2897,14 +2880,14 @@ pin: false
                 ],
                 [
                     12.0,
-                    17.5,
-                    22.5,
-                    26.5,
+                    15.0,
+                    21.0,
+                    25.0,
                     40.0
                 ],
                 [
                     12.5,
-                    16.0,
+                    17.5,
                     22.5,
                     30.0,
                     40.0
@@ -2918,7 +2901,7 @@ pin: false
                 ],
                 [
                     12.5,
-                    26.875,
+                    25.0,
                     30.0,
                     40.0,
                     90.0
@@ -3024,8 +3007,8 @@ pin: false
                 "\u672c\u79d1",
                 "\u7855\u58eb",
                 "\u5e94\u5c4a / \u4e0d\u9650",
-                "\u5e94\u5c4a / \u672c\u79d1",
-                "\u5e94\u5c4a / \u7855\u58eb"
+                "\u5e94\u5c4a / \u7855\u58eb",
+                "\u5e94\u5c4a / \u672c\u79d1"
             ]
         },
         {
@@ -3137,13 +3120,13 @@ pin: false
         }
     ]
 };
-        chart_e35c6591d4064a50832c143191932338.setOption(option_e35c6591d4064a50832c143191932338);
+        chart_feb5c40ae7de472ca51dd4a93283c9c5.setOption(option_feb5c40ae7de472ca51dd4a93283c9c5);
     </script>
-                <div id="505975070c14488e96f1b260a08fe485" class="chart-container" style="width:900px; height:900px;"></div>
+                <div id="546c3c8676f746c89cf596c5a10a0ad7" class="chart-container" style="width:900px; height:900px;"></div>
     <script>
-        var chart_505975070c14488e96f1b260a08fe485 = echarts.init(
-            document.getElementById('505975070c14488e96f1b260a08fe485'), 'white', {renderer: 'canvas'});
-        var option_505975070c14488e96f1b260a08fe485 = {
+        var chart_546c3c8676f746c89cf596c5a10a0ad7 = echarts.init(
+            document.getElementById('546c3c8676f746c89cf596c5a10a0ad7'), 'white', {renderer: 'canvas'});
+        var option_546c3c8676f746c89cf596c5a10a0ad7 = {
     "backgroundColor": {
         "type": "pattern",
         "image": img,
@@ -3191,8 +3174,8 @@ pin: false
             "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
-                55.0,
                 45.0,
+                42.5,
                 32.5,
                 30.0,
                 27.5,
@@ -3230,8 +3213,8 @@ pin: false
                     80.0
                 ],
                 [
-                    13.5,
-                    16.25,
+                    15.0,
+                    20.0,
                     22.5,
                     25.0,
                     40.0
@@ -3245,7 +3228,7 @@ pin: false
                 ],
                 [
                     12.5,
-                    35.625,
+                    35.0,
                     45.0,
                     52.5,
                     90.0
@@ -3261,7 +3244,7 @@ pin: false
                     12.0,
                     17.5,
                     22.5,
-                    26.5,
+                    25.0,
                     40.0
                 ]
             ],
@@ -3359,8 +3342,8 @@ pin: false
                 }
             },
             "data": [
-                "\u7ecf\u9a8c10\u5e74\u4ee5\u4e0a",
                 "\u7ecf\u9a8c5-10\u5e74",
+                "\u7ecf\u9a8c10\u5e74\u4ee5\u4e0a",
                 "\u7ecf\u9a8c3-5\u5e74",
                 "\u7ecf\u9a8c\u4e0d\u9650",
                 "\u7ecf\u9a8c1-3\u5e74",
@@ -3475,7 +3458,7 @@ pin: false
         }
     ]
 };
-        chart_505975070c14488e96f1b260a08fe485.setOption(option_505975070c14488e96f1b260a08fe485);
+        chart_546c3c8676f746c89cf596c5a10a0ad7.setOption(option_546c3c8676f746c89cf596c5a10a0ad7);
     </script>
                         <style>
             .fl-table {
@@ -3529,186 +3512,190 @@ pin: false
                 background: #F8F8F8;
             }
         </style>
-        <div id="ffa5ff080e954c999d87038bf79810b4" class="chart-container" style="">
+        <div id="ea4adf14bd0c4e67a42d9203b80b5ca1" class="chart-container" style="">
             <p class="title" style="font-size: 18px; font-weight:bold;" > top10高薪岗位</p>
             <p class="subtitle" style="font-size: 12px;" > </p>
             <table class="fl-table">
-    <tr>
-        <th>标题</th>
-        <th>公司地址</th>
-        <th>公司名</th>
-        <th>学历要求</th>
-        <th>经验年限</th>
-        <th>公司行业</th>
-        <th>公司规模</th>
-        <th>人员规模</th>
-        <th>薪资</th>
-    </tr>
-    <tr>
-        <td>高级算法专家 - 机器学习(J210628045)</td>
-        <td>杭州·西湖区</td>
-        <td>滴滴</td>
-        <td>硕士</td>
-        <td>经验5-10年</td>
-        <td>旅游｜出行</td>
-        <td>不需要融资</td>
-        <td>2000人以上</td>
-        <td>80k-100k</td>
-    </tr>
-    <tr>
-        <td>CV算法总监</td>
-        <td>北京·朝阳区</td>
-        <td>龙湖集团</td>
-        <td>本科</td>
-        <td>经验5-10年</td>
-        <td>房地产｜建筑｜物业</td>
-        <td>上市公司</td>
-        <td>2000人以上</td>
-        <td>60k-120k</td>
-    </tr>
-    <tr>
-        <td>视觉算法工程师</td>
-        <td>深圳·南油</td>
-        <td>华为</td>
-        <td>硕士</td>
-        <td>经验3-5年</td>
-        <td>通讯电子</td>
-        <td>不需要融资</td>
-        <td>2000人以上</td>
-        <td>80k-100k</td>
-    </tr>
-    <tr>
-        <td>算法工程师</td>
-        <td>上海·杨浦区</td>
-        <td>北京如秄</td>
-        <td>本科</td>
-        <td>经验5-10年</td>
-        <td>工具类产品,IT技术服务｜咨询,专业服务｜咨询</td>
-        <td>不需要融资</td>
-        <td>50-150人</td>
-        <td>70k-100k</td>
-    </tr>
-    <tr>
-        <td>分发算法总监 (MJ001652)</td>
-        <td>北京·朝阳区</td>
-        <td>Keep</td>
-        <td>不限</td>
-        <td>经验10年以上</td>
-        <td>社交平台,内容社区</td>
-        <td>D轮及以上</td>
-        <td>500-2000人</td>
-        <td>70k-100k</td>
-    </tr>
-    <tr>
-        <td>搜索高级算法工程师</td>
-        <td>北京·朝阳区</td>
-        <td>寺库</td>
-        <td>本科</td>
-        <td>经验3-5年</td>
-        <td>电商,消费生活</td>
-        <td>D轮及以上</td>
-        <td>500-2000人</td>
-        <td>60k-100k</td>
-    </tr>
-    <tr>
-        <td>算法专家（3D视觉方向）</td>
-        <td>深圳·科技园</td>
-        <td>信润富联</td>
-        <td>博士</td>
-        <td>经验1-3年</td>
-        <td>软件开发</td>
-        <td>不需要融资</td>
-        <td>50-150人</td>
-        <td>60k-100k</td>
-    </tr>
-    <tr>
-        <td>算法leader</td>
-        <td>北京·学院路</td>
-        <td>最右</td>
-        <td>本科</td>
-        <td>经验5-10年</td>
-        <td>社交平台,内容社区</td>
-        <td>D轮及以上</td>
-        <td>500-2000人</td>
-        <td>60k-100k</td>
-    </tr>
-    <tr>
-        <td>算法负责人（总监）</td>
-        <td>上海·静安区</td>
-        <td>逸兴遄飞</td>
-        <td>本科</td>
-        <td>经验5-10年</td>
-        <td>专业服务｜咨询</td>
-        <td>未融资</td>
-        <td>50-150人</td>
-        <td>70k-90k</td>
-    </tr>
-    <tr>
-        <td>算法leader</td>
-        <td>北京·海淀区</td>
-        <td>音娱时光</td>
-        <td>本科</td>
-        <td>经验5-10年</td>
-        <td>MCN｜直播平台</td>
-        <td>B轮</td>
-        <td>50-150人</td>
-        <td>60k-90k</td>
-    </tr>
-    <tr>
-        <td>算法工程师-jd零售</td>
-        <td>北京·朝阳区</td>
-        <td>仕佳</td>
-        <td>本科</td>
-        <td>经验5-10年</td>
-        <td>移动互联网,企业服务</td>
-        <td>未融资</td>
-        <td>150-500人</td>
-        <td>50k-100k</td>
-    </tr>
-    <tr>
-        <td>高级/资深图像算法工程师</td>
-        <td>北京·西北旺</td>
-        <td>网易</td>
-        <td>本科</td>
-        <td>经验3-5年</td>
-        <td>内容资讯,游戏,音频｜视频媒体</td>
-        <td>上市公司</td>
-        <td>2000人以上</td>
-        <td>50k-100k</td>
-    </tr>
-    <tr>
-        <td>算法总监</td>
-        <td>上海·徐汇区</td>
-        <td>Versa</td>
-        <td>硕士</td>
-        <td>经验3-5年</td>
-        <td>工具类产品</td>
-        <td>B轮</td>
-        <td>50-150人</td>
-        <td>50k-100k</td>
-    </tr>
-    <tr>
-        <td>调度算法工程师</td>
-        <td>北京·大兴区</td>
-        <td>京东物流</td>
-        <td>硕士</td>
-        <td>经验3-5年</td>
-        <td>物流｜运输</td>
-        <td>A轮</td>
-        <td>2000人以上</td>
-        <td>50k-100k</td>
-    </tr>
-    <tr>
-        <td>资深算法和大数据工程师/专家【岗位编号003】</td>
-        <td>北京·宣武门</td>
-        <td>UMU</td>
-        <td>本科</td>
-        <td>经验5-10年</td>
-        <td>社交平台</td>
-        <td>C轮</td>
-        <td>50-150人</td>
-        <td>50k-100k</td>
-    </tr>
+    <thead>
+        <tr>
+            <th>标题</th>
+            <th>公司地址</th>
+            <th>公司名</th>
+            <th>学历要求</th>
+            <th>经验年限</th>
+            <th>公司行业</th>
+            <th>公司规模</th>
+            <th>人员规模</th>
+            <th>薪资</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>高级算法专家 - 机器学习(J210628045)</td>
+            <td>杭州·西湖区</td>
+            <td>滴滴</td>
+            <td>硕士</td>
+            <td>经验5-10年</td>
+            <td>旅游｜出行</td>
+            <td>不需要融资</td>
+            <td>2000人以上</td>
+            <td>80k-100k</td>
+        </tr>
+        <tr>
+            <td>视觉算法工程师</td>
+            <td>深圳·南油</td>
+            <td>华为</td>
+            <td>硕士</td>
+            <td>经验3-5年</td>
+            <td>通讯电子</td>
+            <td>不需要融资</td>
+            <td>2000人以上</td>
+            <td>80k-100k</td>
+        </tr>
+        <tr>
+            <td>CV算法总监</td>
+            <td>北京·朝阳区</td>
+            <td>龙湖集团</td>
+            <td>本科</td>
+            <td>经验5-10年</td>
+            <td>房地产｜建筑｜物业</td>
+            <td>上市公司</td>
+            <td>2000人以上</td>
+            <td>60k-120k</td>
+        </tr>
+        <tr>
+            <td>分发算法总监 (MJ001652)</td>
+            <td>北京·朝阳区</td>
+            <td>Keep</td>
+            <td>不限</td>
+            <td>经验10年以上</td>
+            <td>社交平台,内容社区</td>
+            <td>D轮及以上</td>
+            <td>500-2000人</td>
+            <td>70k-100k</td>
+        </tr>
+        <tr>
+            <td>搜索高级算法工程师</td>
+            <td>北京·朝阳区</td>
+            <td>寺库</td>
+            <td>本科</td>
+            <td>经验3-5年</td>
+            <td>电商,消费生活</td>
+            <td>D轮及以上</td>
+            <td>500-2000人</td>
+            <td>60k-100k</td>
+        </tr>
+        <tr>
+            <td>算法负责人（总监）</td>
+            <td>上海·静安区</td>
+            <td>逸兴遄飞</td>
+            <td>本科</td>
+            <td>经验5-10年</td>
+            <td>专业服务｜咨询</td>
+            <td>未融资</td>
+            <td>50-150人</td>
+            <td>70k-90k</td>
+        </tr>
+        <tr>
+            <td>算法leader</td>
+            <td>北京·学院路</td>
+            <td>最右</td>
+            <td>本科</td>
+            <td>经验5-10年</td>
+            <td>社交平台,内容社区</td>
+            <td>D轮及以上</td>
+            <td>500-2000人</td>
+            <td>60k-100k</td>
+        </tr>
+        <tr>
+            <td>算法专家（3D视觉方向）</td>
+            <td>深圳·科技园</td>
+            <td>信润富联</td>
+            <td>博士</td>
+            <td>经验1-3年</td>
+            <td>软件开发</td>
+            <td>不需要融资</td>
+            <td>50-150人</td>
+            <td>60k-100k</td>
+        </tr>
+        <tr>
+            <td>AI算法专家(语音方向)【No.003】</td>
+            <td>北京·西城区</td>
+            <td>UMU</td>
+            <td>本科</td>
+            <td>经验不限</td>
+            <td>社交平台</td>
+            <td>C轮</td>
+            <td>50-150人</td>
+            <td>60k-90k</td>
+        </tr>
+        <tr>
+            <td>资深算法和大数据工程师/专...</td>
+            <td>北京·宣武门</td>
+            <td>UMU</td>
+            <td>本科</td>
+            <td>经验5-10年</td>
+            <td>社交平台</td>
+            <td>C轮</td>
+            <td>50-150人</td>
+            <td>50k-100k</td>
+        </tr>
+        <tr>
+            <td>算法leader</td>
+            <td>北京·海淀区</td>
+            <td>音娱时光</td>
+            <td>本科</td>
+            <td>经验5-10年</td>
+            <td>MCN｜直播平台</td>
+            <td>B轮</td>
+            <td>50-150人</td>
+            <td>60k-90k</td>
+        </tr>
+        <tr>
+            <td>增长专家算法工程师</td>
+            <td>北京·海淀区</td>
+            <td>滴滴</td>
+            <td>本科</td>
+            <td>经验5-10年</td>
+            <td>旅游｜出行</td>
+            <td>不需要融资</td>
+            <td>2000人以上</td>
+            <td>50k-100k</td>
+        </tr>
+        <tr>
+            <td>资深算法和大数据工程师/专家【岗位编号003】</td>
+            <td>北京·宣武门</td>
+            <td>UMU</td>
+            <td>本科</td>
+            <td>经验5-10年</td>
+            <td>社交平台</td>
+            <td>C轮</td>
+            <td>50-150人</td>
+            <td>50k-100k</td>
+        </tr>
+        <tr>
+            <td>算法工程师-jd零售</td>
+            <td>北京·朝阳区</td>
+            <td>仕佳</td>
+            <td>本科</td>
+            <td>经验5-10年</td>
+            <td>移动互联网,企业服务</td>
+            <td>未融资</td>
+            <td>150-500人</td>
+            <td>50k-100k</td>
+        </tr>
+        <tr>
+            <td>资深音频算法工程师</td>
+            <td>北京·海淀区</td>
+            <td>字节跳动</td>
+            <td>本科</td>
+            <td>经验不限</td>
+            <td>内容资讯,短视频</td>
+            <td>D轮及以上</td>
+            <td>2000人以上</td>
+            <td>50k-100k</td>
+        </tr>
+    </tbody>
 </table>
         </div>
 
