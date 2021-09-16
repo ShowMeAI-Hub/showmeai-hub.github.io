@@ -5,8 +5,8 @@
     <description>探索机器学习与人工智能的世界</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Aug 2021 23:03:09 +0800</pubDate>
-    <lastBuildDate>Tue, 17 Aug 2021 23:03:09 +0800</lastBuildDate>
+    <pubDate>Thu, 16 Sep 2021 12:13:57 +0800</pubDate>
+    <lastBuildDate>Thu, 16 Sep 2021 12:13:57 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -290,27 +290,94 @@
 &lt;/style&gt;
 
 &lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
-  &lt;tr&gt;
-      &lt;th&gt;技术方向&lt;/th&gt;
-      &lt;th&gt;课程及链接&lt;/th&gt;
+    &lt;tr&gt;
+        &lt;th&gt;技术方向&lt;/th&gt;
+        &lt;th&gt;课程及链接&lt;/th&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;机器学习&lt;/td&gt;
+        &lt;td rowspan=&quot;5&quot;&gt;计算机数学基础&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.042j&quot;&gt;MIT-计算机科学的数学基础&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math100&quot;&gt;辛辛那提大学-微积分I&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math101&quot;&gt;辛辛那提大学-微积分II&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math1071&quot;&gt;辛辛那提大学-离散数学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-engr108&quot;&gt;斯坦福-线性代数与矩阵方法导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;计算机科学导论&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-cs105&quot;&gt;斯坦福-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-cs&quot;&gt;哈佛-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.0001&quot;&gt;MIT-计算机科学与Python编程导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据结构与算法&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.046j&quot;&gt;MIT-数据结构与算法设计&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/umd-cmsc420-0101&quot;&gt;马里兰大学-数据结构&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据库&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-14-455&quot;&gt;CMU-数据库系统导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-721&quot;&gt;CMU-数据库系统进阶&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;机器学习及应用&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;深度学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.036&quot;&gt;MIT-机器学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;8&quot;&gt;深度学习及应用&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;自然语言处理&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-ai&quot;&gt;哈佛-Python人工智能入门&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s191&quot;&gt;MIT-深度学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ntu-hylee-ml&quot;&gt;李宏毅-机器学习(&amp;amp;深度学习)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/tech-adl&quot;&gt;应用深度学习(全知识点覆盖)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-csw182&quot;&gt;UC Berkeley-深度神经网络设计、可视化与理解&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/wisc-stat453&quot;&gt;威斯康星-深度学习和生成模型导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-fsdl&quot;&gt;UC Berkeley-全栈深度学习训练营&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;4&quot;&gt;自然语言处理&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/umass-cs685&quot;&gt;马萨诸塞-自然语言处理进阶&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
@@ -323,7 +390,11 @@
         &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;图机器学习&lt;/td&gt;
+        &lt;td&gt;多模态&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-11-777&quot;&gt;CMU-多模态机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;图机器学习&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -334,8 +405,32 @@
         &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;无监督学习&lt;/td&gt;
+        &lt;td&gt;无监督学习&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;AI与生物医疗&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.874&quot;&gt;MIT-面向生命科学的深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.047&quot;&gt;MIT-基因组学机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s897&quot;&gt;MIT-医疗机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;图形学与几何&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-462&quot;&gt;CMU-计算机图形学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ammi-gml&quot;&gt;AMMI-几何深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;其他课程&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-web&quot;&gt;哈佛-基于Python/JavaScript的web编程&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-18.s191&quot;&gt;MIT-计算思维导论(Julia)&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -347,11 +442,11 @@
         <link>/cs224n-course-materials-info/</link>
         <guid isPermaLink="true">/cs224n-course-materials-info/</guid>
         
-        <category>cs224n</category>
+        <category>斯坦福</category>
         
         <category>NLP</category>
         
-        <category>deep learning</category>
+        <category>深度学习</category>
         
         <category>词向量</category>
         
@@ -565,27 +660,94 @@
 &lt;/style&gt;
 
 &lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
-  &lt;tr&gt;
-      &lt;th&gt;技术方向&lt;/th&gt;
-      &lt;th&gt;课程及链接&lt;/th&gt;
+    &lt;tr&gt;
+        &lt;th&gt;技术方向&lt;/th&gt;
+        &lt;th&gt;课程及链接&lt;/th&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;机器学习&lt;/td&gt;
+        &lt;td rowspan=&quot;5&quot;&gt;计算机数学基础&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.042j&quot;&gt;MIT-计算机科学的数学基础&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math100&quot;&gt;辛辛那提大学-微积分I&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math101&quot;&gt;辛辛那提大学-微积分II&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math1071&quot;&gt;辛辛那提大学-离散数学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-engr108&quot;&gt;斯坦福-线性代数与矩阵方法导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;计算机科学导论&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-cs105&quot;&gt;斯坦福-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-cs&quot;&gt;哈佛-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.0001&quot;&gt;MIT-计算机科学与Python编程导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据结构与算法&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.046j&quot;&gt;MIT-数据结构与算法设计&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/umd-cmsc420-0101&quot;&gt;马里兰大学-数据结构&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据库&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-14-455&quot;&gt;CMU-数据库系统导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-721&quot;&gt;CMU-数据库系统进阶&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;机器学习及应用&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;深度学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.036&quot;&gt;MIT-机器学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;8&quot;&gt;深度学习及应用&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;自然语言处理&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-ai&quot;&gt;哈佛-Python人工智能入门&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s191&quot;&gt;MIT-深度学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ntu-hylee-ml&quot;&gt;李宏毅-机器学习(&amp;amp;深度学习)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/tech-adl&quot;&gt;应用深度学习(全知识点覆盖)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-csw182&quot;&gt;UC Berkeley-深度神经网络设计、可视化与理解&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/wisc-stat453&quot;&gt;威斯康星-深度学习和生成模型导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-fsdl&quot;&gt;UC Berkeley-全栈深度学习训练营&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;4&quot;&gt;自然语言处理&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/umass-cs685&quot;&gt;马萨诸塞-自然语言处理进阶&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
@@ -598,7 +760,11 @@
         &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;图机器学习&lt;/td&gt;
+        &lt;td&gt;多模态&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-11-777&quot;&gt;CMU-多模态机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;图机器学习&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -609,8 +775,32 @@
         &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;无监督学习&lt;/td&gt;
+        &lt;td&gt;无监督学习&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;AI与生物医疗&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.874&quot;&gt;MIT-面向生命科学的深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.047&quot;&gt;MIT-基因组学机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s897&quot;&gt;MIT-医疗机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;图形学与几何&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-462&quot;&gt;CMU-计算机图形学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ammi-gml&quot;&gt;AMMI-几何深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;其他课程&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-web&quot;&gt;哈佛-基于Python/JavaScript的web编程&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-18.s191&quot;&gt;MIT-计算思维导论(Julia)&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -622,9 +812,9 @@
         <link>/cs230-course-materials-info/</link>
         <guid isPermaLink="true">/cs230-course-materials-info/</guid>
         
-        <category>cs229</category>
+        <category>斯坦福</category>
         
-        <category>machine learning</category>
+        <category>机器学习</category>
         
         <category>卷积神经网络</category>
         
@@ -837,27 +1027,94 @@
 &lt;/style&gt;
 
 &lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
-  &lt;tr&gt;
-      &lt;th&gt;技术方向&lt;/th&gt;
-      &lt;th&gt;课程及链接&lt;/th&gt;
+    &lt;tr&gt;
+        &lt;th&gt;技术方向&lt;/th&gt;
+        &lt;th&gt;课程及链接&lt;/th&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;机器学习&lt;/td&gt;
+        &lt;td rowspan=&quot;5&quot;&gt;计算机数学基础&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.042j&quot;&gt;MIT-计算机科学的数学基础&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math100&quot;&gt;辛辛那提大学-微积分I&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math101&quot;&gt;辛辛那提大学-微积分II&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math1071&quot;&gt;辛辛那提大学-离散数学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-engr108&quot;&gt;斯坦福-线性代数与矩阵方法导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;计算机科学导论&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-cs105&quot;&gt;斯坦福-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-cs&quot;&gt;哈佛-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.0001&quot;&gt;MIT-计算机科学与Python编程导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据结构与算法&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.046j&quot;&gt;MIT-数据结构与算法设计&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/umd-cmsc420-0101&quot;&gt;马里兰大学-数据结构&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据库&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-14-455&quot;&gt;CMU-数据库系统导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-721&quot;&gt;CMU-数据库系统进阶&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;机器学习及应用&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;深度学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.036&quot;&gt;MIT-机器学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;8&quot;&gt;深度学习及应用&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;自然语言处理&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-ai&quot;&gt;哈佛-Python人工智能入门&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s191&quot;&gt;MIT-深度学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ntu-hylee-ml&quot;&gt;李宏毅-机器学习(&amp;amp;深度学习)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/tech-adl&quot;&gt;应用深度学习(全知识点覆盖)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-csw182&quot;&gt;UC Berkeley-深度神经网络设计、可视化与理解&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/wisc-stat453&quot;&gt;威斯康星-深度学习和生成模型导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-fsdl&quot;&gt;UC Berkeley-全栈深度学习训练营&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;4&quot;&gt;自然语言处理&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/umass-cs685&quot;&gt;马萨诸塞-自然语言处理进阶&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
@@ -870,7 +1127,11 @@
         &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;图机器学习&lt;/td&gt;
+        &lt;td&gt;多模态&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-11-777&quot;&gt;CMU-多模态机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;图机器学习&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -881,8 +1142,32 @@
         &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;无监督学习&lt;/td&gt;
+        &lt;td&gt;无监督学习&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;AI与生物医疗&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.874&quot;&gt;MIT-面向生命科学的深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.047&quot;&gt;MIT-基因组学机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s897&quot;&gt;MIT-医疗机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;图形学与几何&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-462&quot;&gt;CMU-计算机图形学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ammi-gml&quot;&gt;AMMI-几何深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;其他课程&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-web&quot;&gt;哈佛-基于Python/JavaScript的web编程&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-18.s191&quot;&gt;MIT-计算思维导论(Julia)&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -894,9 +1179,9 @@
         <link>/cs229-course-materials-info/</link>
         <guid isPermaLink="true">/cs229-course-materials-info/</guid>
         
-        <category>cs229</category>
+        <category>斯坦福</category>
         
-        <category>machine learning</category>
+        <category>机器学习</category>
         
         <category>监督学习</category>
         
@@ -4912,27 +5197,94 @@
 &lt;h2 id=&quot;更多技术与课程清单--点击查看详细课程&quot;&gt;更多技术与课程清单 | 点击查看详细课程&lt;/h2&gt;
 
 &lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
-	&lt;tr&gt;
-	    &lt;th&gt;技术方向&lt;/th&gt;
-	    &lt;th&gt;课程及链接&lt;/th&gt;
-  	&lt;/tr&gt;
-  	&lt;tr&gt;
-        &lt;td&gt;机器学习&lt;/td&gt;
+    &lt;tr&gt;
+        &lt;th&gt;技术方向&lt;/th&gt;
+        &lt;th&gt;课程及链接&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;5&quot;&gt;计算机数学基础&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.042j&quot;&gt;MIT-计算机科学的数学基础&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math100&quot;&gt;辛辛那提大学-微积分I&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math101&quot;&gt;辛辛那提大学-微积分II&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math1071&quot;&gt;辛辛那提大学-离散数学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-engr108&quot;&gt;斯坦福-线性代数与矩阵方法导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;计算机科学导论&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-cs105&quot;&gt;斯坦福-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-cs&quot;&gt;哈佛-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.0001&quot;&gt;MIT-计算机科学与Python编程导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据结构与算法&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.046j&quot;&gt;MIT-数据结构与算法设计&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/umd-cmsc420-0101&quot;&gt;马里兰大学-数据结构&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据库&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-14-455&quot;&gt;CMU-数据库系统导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-721&quot;&gt;CMU-数据库系统进阶&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;机器学习及应用&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;深度学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.036&quot;&gt;MIT-机器学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;8&quot;&gt;深度学习及应用&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;自然语言处理&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-ai&quot;&gt;哈佛-Python人工智能入门&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s191&quot;&gt;MIT-深度学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ntu-hylee-ml&quot;&gt;李宏毅-机器学习(&amp;amp;深度学习)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/tech-adl&quot;&gt;应用深度学习(全知识点覆盖)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-csw182&quot;&gt;UC Berkeley-深度神经网络设计、可视化与理解&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/wisc-stat453&quot;&gt;威斯康星-深度学习和生成模型导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-fsdl&quot;&gt;UC Berkeley-全栈深度学习训练营&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;4&quot;&gt;自然语言处理&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/umass-cs685&quot;&gt;马萨诸塞-自然语言处理进阶&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
@@ -4945,7 +5297,11 @@
         &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-    	&lt;td&gt;图机器学习&lt;/td&gt;
+        &lt;td&gt;多模态&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-11-777&quot;&gt;CMU-多模态机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;图机器学习&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -4956,8 +5312,32 @@
         &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-    	&lt;td&gt;无监督学习&lt;/td&gt;
+        &lt;td&gt;无监督学习&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;AI与生物医疗&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.874&quot;&gt;MIT-面向生命科学的深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.047&quot;&gt;MIT-基因组学机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s897&quot;&gt;MIT-医疗机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;图形学与几何&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-462&quot;&gt;CMU-计算机图形学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ammi-gml&quot;&gt;AMMI-几何深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;其他课程&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-web&quot;&gt;哈佛-基于Python/JavaScript的web编程&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-18.s191&quot;&gt;MIT-计算思维导论(Julia)&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -4969,7 +5349,7 @@
         <link>/cs124/</link>
         <guid isPermaLink="true">/cs124/</guid>
         
-        <category>CS124</category>
+        <category>斯坦福</category>
         
         <category>文本挖掘</category>
         
@@ -4977,17 +5357,13 @@
         
         <category>信息检索</category>
         
-        <category>编辑距离</category>
-        
         <category>语言模型</category>
-        
-        <category>embedding</category>
         
         <category>协同过滤</category>
         
         <category>推荐系统</category>
         
-        <category>社交网络分析</category>
+        <category>社交网络</category>
         
         <category>问答系统</category>
         
@@ -4997,7 +5373,7 @@
       </item>
     
       <item>
-        <title>EECS498：CS231n进阶课程-学习资料</title>
+        <title>威斯康星深度学习和生成模型导论-学习资料</title>
         <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
 
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
@@ -5017,44 +5393,17 @@
 &lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt811d755qj31kx0fuwrv.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;http://image.showmeai.tech/course/WISC-STAT453-1.png&quot; width=&quot;100%&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;课程主页：&lt;a href=&quot;https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2019/&quot;&gt;Michigan·EECS498·Deep Learning for Computer Vision&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;密歇根EECS498课程，是李飞飞学生Justin Johnson从Stanford毕业后加入密歇根大学讲授的计算机视觉方向专业课程，核心内容覆盖神经网络、CNN、图像识别、RNN、神经网络训练、self-attention、transformer、生成模型、目标检测、图像分割、强化学习、多模态等内容。相对斯坦福目前公开的CS231n课程，此课程内容有更新更前沿的内容覆盖。&lt;/p&gt;
-
-&lt;h2 id=&quot;课程主题与大纲&quot;&gt;课程主题与大纲&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;计算机视觉中的深度学习介绍&lt;/li&gt;
-  &lt;li&gt;图像分类&lt;/li&gt;
-  &lt;li&gt;线性分类器&lt;/li&gt;
-  &lt;li&gt;训练与优化&lt;/li&gt;
-  &lt;li&gt;神经网络介绍&lt;/li&gt;
-  &lt;li&gt;反向传播&lt;/li&gt;
-  &lt;li&gt;卷积神经网络&lt;/li&gt;
-  &lt;li&gt;CNN典型结构&lt;/li&gt;
-  &lt;li&gt;深度学习硬件与软件&lt;/li&gt;
-  &lt;li&gt;训练神经网络&lt;/li&gt;
-  &lt;li&gt;循环神经网络&lt;/li&gt;
-  &lt;li&gt;注意力机制&lt;/li&gt;
-  &lt;li&gt;可视化与模型理解&lt;/li&gt;
-  &lt;li&gt;目标检测&lt;/li&gt;
-  &lt;li&gt;目标检测与图像分割&lt;/li&gt;
-  &lt;li&gt;3D计算机视觉&lt;/li&gt;
-  &lt;li&gt;深度学习中的视频处理&lt;/li&gt;
-  &lt;li&gt;生成模型&lt;/li&gt;
-  &lt;li&gt;强化学习&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;STAT453是威斯康星大学Sebastian Raschka老师讲授的深度学习和生成模型课程，课程从机器学习与深度学习的基础知识开始，给大家系统讲解了深度学习及其在视觉与文本数据中的典型模型与各种应用，并以pytorch为主AI框架进行了实战代码讲解。课程对于帮助大家在深度学习知识储备与实战能力构建都有很大帮助。\n课程覆盖的核心知识点包括 人工神经元、多层网络、Python、向量化、NumPy、PyTorch、梯度下降、Google Colab、过拟合和欠拟合、CNN、循环神经网络、长短期记忆、降维、GAN、注意力机制、自注意力、多头注意力、Transformer、BERT、GPT、BART、语言模型、Few-Shot、DistilBert 等。&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt811d2ph5j31kx0fuk04.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;http://image.showmeai.tech/course/WISC-STAT453-2.png&quot; width=&quot;100%&quot; /&gt;
 &lt;/div&gt;
-
 &lt;h2 id=&quot;更多技术与课程清单--点击查看详细课程&quot;&gt;更多技术与课程清单 | 点击查看详细课程&lt;/h2&gt;
 &lt;style&gt;
 #customers {
@@ -5086,15 +5435,79 @@
         &lt;th&gt;课程及链接&lt;/th&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;机器学习&lt;/td&gt;
+        &lt;td rowspan=&quot;5&quot;&gt;计算机数学基础&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.042j&quot;&gt;MIT-计算机科学的数学基础&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math100&quot;&gt;辛辛那提大学-微积分I&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math101&quot;&gt;辛辛那提大学-微积分II&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math1071&quot;&gt;辛辛那提大学-离散数学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-engr108&quot;&gt;斯坦福-线性代数与矩阵方法导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;计算机科学导论&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-cs105&quot;&gt;斯坦福-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-cs&quot;&gt;哈佛-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.0001&quot;&gt;MIT-计算机科学与Python编程导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据结构与算法&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.046j&quot;&gt;MIT-数据结构与算法设计&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/umd-cmsc420-0101&quot;&gt;马里兰大学-数据结构&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据库&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-14-455&quot;&gt;CMU-数据库系统导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-721&quot;&gt;CMU-数据库系统进阶&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;机器学习及应用&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;深度学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.036&quot;&gt;MIT-机器学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;8&quot;&gt;深度学习及应用&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;自然语言处理&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-ai&quot;&gt;哈佛-Python人工智能入门&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s191&quot;&gt;MIT-深度学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ntu-hylee-ml&quot;&gt;李宏毅-机器学习(&amp;amp;深度学习)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/tech-adl&quot;&gt;应用深度学习(全知识点覆盖)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-csw182&quot;&gt;UC Berkeley-深度神经网络设计、可视化与理解&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/wisc-stat453&quot;&gt;威斯康星-深度学习和生成模型导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-fsdl&quot;&gt;UC Berkeley-全栈深度学习训练营&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;4&quot;&gt;自然语言处理&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -5102,6 +5515,9 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/umass-cs685&quot;&gt;马萨诸塞-自然语言处理进阶&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
@@ -5112,6 +5528,10 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;多模态&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-11-777&quot;&gt;CMU-多模态机器学习&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;图机器学习&lt;/td&gt;
@@ -5128,228 +5548,513 @@
         &lt;td&gt;无监督学习&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;AI与生物医疗&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.874&quot;&gt;MIT-面向生命科学的深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.047&quot;&gt;MIT-基因组学机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s897&quot;&gt;MIT-医疗机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;图形学与几何&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-462&quot;&gt;CMU-计算机图形学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ammi-gml&quot;&gt;AMMI-几何深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;其他课程&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-web&quot;&gt;哈佛-基于Python/JavaScript的web编程&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-18.s191&quot;&gt;MIT-计算思维导论(Julia)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt811dl3ehj31kx0fu1kx.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;http://image.showmeai.tech/course/WISC-STAT453-3.png&quot; width=&quot;100%&quot; alt=&quot;end&quot; align=&quot;center&quot; /&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/eecs498/</link>
-        <guid isPermaLink="true">/eecs498/</guid>
+        <link>/wisc-stat453/</link>
+        <guid isPermaLink="true">/wisc-stat453/</guid>
         
-        <category>CS231n</category>
-        
-        <category>EECS498</category>
+        <category>深度学习</category>
         
         <category>计算机视觉</category>
         
-        <category>CNN</category>
+        <category>自然语言处理</category>
         
-        <category>RNN</category>
+        <category>强化学习</category>
         
-        <category>GPU</category>
         
-        <category>目标检测</category>
+        <category>AI课程</category>
         
-        <category>语义分割</category>
+      </item>
+    
+      <item>
+        <title>马里兰大学数据结构-学习资料</title>
+        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
+
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+
+&lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://image.showmeai.tech/course/UMD-CMSC420-1.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;CMSC 420是马里兰大学Dave Mount教授讲授的数据结构算法课程，是目前最新的数据结构方向算法课程，Dave Mount教授以手绘的方式，拆解和推进各种复杂数据结构与算法思路，对于数据结构的全面掌握和LeetCode破解等，本课程有非常好的支撑作用。课程内容覆盖 二叉搜索树、红黑树、KD树、跳跃表、Trie树(字典树、前缀树)、B树、数堆、搜索与排序等知识。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://image.showmeai.tech/course/UMD-CMSC420-2.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;更多技术与课程清单--点击查看详细课程&quot;&gt;更多技术与课程清单 | 点击查看详细课程&lt;/h2&gt;
+&lt;style&gt;
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#customers td, #customers th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #F5B041;
+  color: white;
+}
+
+&lt;/style&gt;
+
+&lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
+    &lt;tr&gt;
+        &lt;th&gt;技术方向&lt;/th&gt;
+        &lt;th&gt;课程及链接&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;5&quot;&gt;计算机数学基础&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.042j&quot;&gt;MIT-计算机科学的数学基础&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math100&quot;&gt;辛辛那提大学-微积分I&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math101&quot;&gt;辛辛那提大学-微积分II&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math1071&quot;&gt;辛辛那提大学-离散数学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-engr108&quot;&gt;斯坦福-线性代数与矩阵方法导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;计算机科学导论&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-cs105&quot;&gt;斯坦福-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-cs&quot;&gt;哈佛-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.0001&quot;&gt;MIT-计算机科学与Python编程导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据结构与算法&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.046j&quot;&gt;MIT-数据结构与算法设计&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/umd-cmsc420-0101&quot;&gt;马里兰大学-数据结构&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据库&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-14-455&quot;&gt;CMU-数据库系统导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-721&quot;&gt;CMU-数据库系统进阶&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;机器学习及应用&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.036&quot;&gt;MIT-机器学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;8&quot;&gt;深度学习及应用&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-ai&quot;&gt;哈佛-Python人工智能入门&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s191&quot;&gt;MIT-深度学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ntu-hylee-ml&quot;&gt;李宏毅-机器学习(&amp;amp;深度学习)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/tech-adl&quot;&gt;应用深度学习(全知识点覆盖)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-csw182&quot;&gt;UC Berkeley-深度神经网络设计、可视化与理解&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/wisc-stat453&quot;&gt;威斯康星-深度学习和生成模型导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-fsdl&quot;&gt;UC Berkeley-全栈深度学习训练营&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;4&quot;&gt;自然语言处理&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/umass-cs685&quot;&gt;马萨诸塞-自然语言处理进阶&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;多模态&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-11-777&quot;&gt;CMU-多模态机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;图机器学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;无监督学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;AI与生物医疗&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.874&quot;&gt;MIT-面向生命科学的深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.047&quot;&gt;MIT-基因组学机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s897&quot;&gt;MIT-医疗机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;图形学与几何&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-462&quot;&gt;CMU-计算机图形学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ammi-gml&quot;&gt;AMMI-几何深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;其他课程&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-web&quot;&gt;哈佛-基于Python/JavaScript的web编程&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-18.s191&quot;&gt;MIT-计算思维导论(Julia)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://image.showmeai.tech/course/UMD-CMSC420-3.png&quot; width=&quot;100%&quot; alt=&quot;end&quot; align=&quot;center&quot; /&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
+        <link>/umd-cmsc420-0101/</link>
+        <guid isPermaLink="true">/umd-cmsc420-0101/</guid>
         
-        <category>GAN</category>
+        <category>数据结构</category>
+        
+        
+        <category>AI课程</category>
+        
+      </item>
+    
+      <item>
+        <title>马萨诸塞自然语言处理进阶-学习资料</title>
+        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
+
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+
+&lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://image.showmeai.tech/course/UMASS-CS685-1.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;CS685是马萨诸塞大学Mohit Iyyer老师讲解的NLP进阶课程，课程详细讲解了NLP方向的前沿技术点（注意力机制、transformer、BERT、GPT-3等）与典型应用（语言模型、文本生成、问答系统、视觉NLP应用）。\n课程基于Pytorch完成代码案例讲解。手写重点与手敲代码的授课风格，能帮助大家更好地深入掌握相关知识。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://image.showmeai.tech/course/UMASS-CS685-2.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;更多技术与课程清单--点击查看详细课程&quot;&gt;更多技术与课程清单 | 点击查看详细课程&lt;/h2&gt;
+&lt;style&gt;
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#customers td, #customers th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #F5B041;
+  color: white;
+}
+
+&lt;/style&gt;
+
+&lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
+    &lt;tr&gt;
+        &lt;th&gt;技术方向&lt;/th&gt;
+        &lt;th&gt;课程及链接&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;5&quot;&gt;计算机数学基础&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.042j&quot;&gt;MIT-计算机科学的数学基础&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math100&quot;&gt;辛辛那提大学-微积分I&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math101&quot;&gt;辛辛那提大学-微积分II&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math1071&quot;&gt;辛辛那提大学-离散数学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-engr108&quot;&gt;斯坦福-线性代数与矩阵方法导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;计算机科学导论&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-cs105&quot;&gt;斯坦福-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-cs&quot;&gt;哈佛-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.0001&quot;&gt;MIT-计算机科学与Python编程导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据结构与算法&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.046j&quot;&gt;MIT-数据结构与算法设计&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/umd-cmsc420-0101&quot;&gt;马里兰大学-数据结构&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据库&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-14-455&quot;&gt;CMU-数据库系统导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-721&quot;&gt;CMU-数据库系统进阶&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;机器学习及应用&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.036&quot;&gt;MIT-机器学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;8&quot;&gt;深度学习及应用&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-ai&quot;&gt;哈佛-Python人工智能入门&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s191&quot;&gt;MIT-深度学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ntu-hylee-ml&quot;&gt;李宏毅-机器学习(&amp;amp;深度学习)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/tech-adl&quot;&gt;应用深度学习(全知识点覆盖)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-csw182&quot;&gt;UC Berkeley-深度神经网络设计、可视化与理解&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/wisc-stat453&quot;&gt;威斯康星-深度学习和生成模型导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-fsdl&quot;&gt;UC Berkeley-全栈深度学习训练营&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;4&quot;&gt;自然语言处理&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/umass-cs685&quot;&gt;马萨诸塞-自然语言处理进阶&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;多模态&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-11-777&quot;&gt;CMU-多模态机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;图机器学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;无监督学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;AI与生物医疗&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.874&quot;&gt;MIT-面向生命科学的深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.047&quot;&gt;MIT-基因组学机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s897&quot;&gt;MIT-医疗机器学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;图形学与几何&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-462&quot;&gt;CMU-计算机图形学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ammi-gml&quot;&gt;AMMI-几何深度学习&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;其他课程&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-web&quot;&gt;哈佛-基于Python/JavaScript的web编程&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-18.s191&quot;&gt;MIT-计算思维导论(Julia)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://image.showmeai.tech/course/UMASS-CS685-3.png&quot; width=&quot;100%&quot; alt=&quot;end&quot; align=&quot;center&quot; /&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
+        <link>/umass-cs685/</link>
+        <guid isPermaLink="true">/umass-cs685/</guid>
+        
+        <category>PyTorch</category>
         
         <category>注意力</category>
         
-        <category>3D视觉</category>
+        <category>transformer</category>
         
-        <category>生成模型</category>
+        <category>seq2seq</category>
         
-        <category>强化学习</category>
+        <category>迁移学习</category>
         
+        <category>BERT</category>
         
-        <category>AI课程</category>
+        <category>问答系统</category>
         
-      </item>
-    
-      <item>
-        <title>斯坦福CS520知识图谱-课程学习资料</title>
-        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
-
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
-
-&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
-
-&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
-
-&lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt810n1mtej31ky0fudp5.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;课程主页：&lt;a href=&quot;https://web.stanford.edu/class/cs520/&quot;&gt;Stanford·CS520·Knowledge Graphs&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;知识图谱在当今互联网时代的知识存储连接和应用中起着巨大的作用，CS520是顶级院校斯坦福出品的知识图谱方向专业课程，核心内容覆盖各种数据形态下的知识抽取、图谱构建、图谱的推断应用等，课程有部分lecture邀请企业专家分享工业界应用现状与方法，有很好的启发性和实用性。&lt;/p&gt;
-
-&lt;h2 id=&quot;课程主题与大纲&quot;&gt;课程主题与大纲&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;知识图谱简介&lt;/li&gt;
-  &lt;li&gt;知识图谱的what和why&lt;/li&gt;
-  &lt;li&gt;图数据模型&lt;/li&gt;
-  &lt;li&gt;应用Cypher进行图谱查询&lt;/li&gt;
-  &lt;li&gt;分布式RDF数据管理与查询&lt;/li&gt;
-  &lt;li&gt;如何设计知识图谱schema&lt;/li&gt;
-  &lt;li&gt;把维基百科数据构建成维基知识库&lt;/li&gt;
-  &lt;li&gt;给维基数据添加Convid信息&lt;/li&gt;
-  &lt;li&gt;维基数据中的实体schema和形状语言&lt;/li&gt;
-  &lt;li&gt;如何从结构化数据中构建知识图谱&lt;/li&gt;
-  &lt;li&gt;自监督实体识别与消歧&lt;/li&gt;
-  &lt;li&gt;网络知识图谱中的指代消解&lt;/li&gt;
-  &lt;li&gt;如何从文本数据中构建知识图谱&lt;/li&gt;
-  &lt;li&gt;构建用于语言理解的因果知识图谱&lt;/li&gt;
-  &lt;li&gt;可用于图像理解的场景图谱&lt;/li&gt;
-  &lt;li&gt;知识图谱知识推理算法介绍&lt;/li&gt;
-  &lt;li&gt;知识图谱的高价值应用案例介绍&lt;/li&gt;
-  &lt;li&gt;图谱关系学习与管理&lt;/li&gt;
-  &lt;li&gt;知识图谱介绍&lt;/li&gt;
-  &lt;li&gt;知识图谱交互方式&lt;/li&gt;
-  &lt;li&gt;为搜索引擎构建知识面板&lt;/li&gt;
-  &lt;li&gt;逻辑语言(英语)计算&lt;/li&gt;
-  &lt;li&gt;问答系统中基于语言模型和知识图谱的知识推理&lt;/li&gt;
-  &lt;li&gt;从0到亿的Rich Product图谱构建之路&lt;/li&gt;
-  &lt;li&gt;构建知识图谱&lt;/li&gt;
-  &lt;li&gt;如何拓展知识图谱&lt;/li&gt;
-  &lt;li&gt;针对递归查询的增量视图维护&lt;/li&gt;
-  &lt;li&gt;知识图谱工业实践应用&lt;/li&gt;
-  &lt;li&gt;工业大规模知识图谱：实时观察与预估&lt;/li&gt;
-  &lt;li&gt;因果图&lt;/li&gt;
-  &lt;li&gt;金融数据用例的通用预测计算建模：应用本体作为金融数据预处理工具&lt;/li&gt;
-  &lt;li&gt;构建知识图谱的开源工具调研&lt;/li&gt;
-  &lt;li&gt;从知识图谱到AI，两者如何关联&lt;/li&gt;
-  &lt;li&gt;用于扩展知识图谱的 Hendler 语义&lt;/li&gt;
-  &lt;li&gt;知识图谱++&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gtf3tsro4wj31kx0fujzg.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;更多技术与课程清单--点击查看详细课程&quot;&gt;更多技术与课程清单 | 点击查看详细课程&lt;/h2&gt;
-&lt;style&gt;
-#customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 80%;
-}
-
-#customers td, #customers th {
-  border: 2px solid #ddd;
-  padding: 8px;
-}
-
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #F5B041;
-  color: white;
-}
-
-&lt;/style&gt;
-
-&lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
-    &lt;tr&gt;
-        &lt;th&gt;技术方向&lt;/th&gt;
-        &lt;th&gt;课程及链接&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;深度学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;自然语言处理&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;图机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;无监督学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt810nfs68j31kx0fu1kx.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs520/</link>
-        <guid isPermaLink="true">/cs520/</guid>
+        <category>GPT-3</category>
         
-        <category>CS520</category>
+        <category>文本生成</category>
         
-        <category>知识图谱</category>
+        <category>模型蒸馏</category>
+        
+        <category>语言模型</category>
+        
+        <category>语义解析</category>
         
         <category>知识推理</category>
         
-        <category>图谱应用</category>
-        
-        <category>因果图</category>
-        
-        <category>实体识别</category>
-        
-        <category>指代消解</category>
-        
-        <category>图数据库</category>
-        
         
         <category>AI课程</category>
         
       </item>
     
       <item>
-        <title>伯克利深度无监督学习课程-学习资料</title>
+        <title>辛辛那提大学离散数学-学习资料</title>
         <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
 
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
@@ -5369,33 +6074,17 @@
 &lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gtabb7yfdjj31kx0fu4fz.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;http://image.showmeai.tech/course/UC-MATH1071-1.png&quot; width=&quot;100%&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;课程主页：&lt;a href=&quot;https://sites.google.com/view/berkeley-cs294-158-sp20/home&quot;&gt;UC Berkeley CS294-158 · Deep Unsupervised Learning&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;深度学习的研究方向包括一个非常重要的主题：对无标签数据的应用。UC伯克利的这门课程，针对无监督学习的场景展开，包括深度生成模型和自监督学习两大主题。其中生成模型使得对自然图像、音频波形和文本语料库等高维原始数据进行真实建模成为可能，而自监督学习算法在逐步缩小监督表示学习和非监督表示学习之间的差距。对无监督学习和深度学习感兴趣的小伙伴可以重点关注这门课程。&lt;/p&gt;
-
-&lt;h2 id=&quot;课程主题与大纲&quot;&gt;课程主题与大纲&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;自回归模型（Autoregressive Models）&lt;/li&gt;
-  &lt;li&gt;流模型（Flow Models）&lt;/li&gt;
-  &lt;li&gt;变分自动编码器（Variational Autoencoders）&lt;/li&gt;
-  &lt;li&gt;半监督学习（Semi-supervised Learning）&lt;/li&gt;
-  &lt;li&gt;生成对抗网络（Generative Adversarial Networks）&lt;/li&gt;
-  &lt;li&gt;基于能量的模型（Energy based Models）&lt;/li&gt;
-  &lt;li&gt;压缩（Compression）&lt;/li&gt;
-  &lt;li&gt;自监督学习（Self-supervised Learning）、&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;MATH1071是Trefor Bazett教授制作的数学课程，本课程对数学中的核心知识，借助于可视化的方式，做了生动的讲解。\nDiscrete Math是其中的离散数学课程，内容覆盖集合、命题逻辑、范式、概率空间、图论、树结构等，离散数学也是后续部分工科方向课程（例如 数据库）的基础，该课程形象的可视化与活泼的授课方式，让你更好地掌握相关的抽象数学知识。&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gtabb7yozzj31kx0fudnw.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;http://image.showmeai.tech/course/UC-MATH1071-2.png&quot; width=&quot;100%&quot; /&gt;
 &lt;/div&gt;
-
 &lt;h2 id=&quot;更多技术与课程清单--点击查看详细课程&quot;&gt;更多技术与课程清单 | 点击查看详细课程&lt;/h2&gt;
 &lt;style&gt;
 #customers {
@@ -5427,15 +6116,79 @@
         &lt;th&gt;课程及链接&lt;/th&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;机器学习&lt;/td&gt;
+        &lt;td rowspan=&quot;5&quot;&gt;计算机数学基础&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.042j&quot;&gt;MIT-计算机科学的数学基础&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math100&quot;&gt;辛辛那提大学-微积分I&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math101&quot;&gt;辛辛那提大学-微积分II&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/uc-math1071&quot;&gt;辛辛那提大学-离散数学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-engr108&quot;&gt;斯坦福-线性代数与矩阵方法导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;计算机科学导论&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/stanford-cs105&quot;&gt;斯坦福-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-cs&quot;&gt;哈佛-计算机科学导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.0001&quot;&gt;MIT-计算机科学与Python编程导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据结构与算法&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.046j&quot;&gt;MIT-数据结构与算法设计&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/umd-cmsc420-0101&quot;&gt;马里兰大学-数据结构&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;数据库&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-14-455&quot;&gt;CMU-数据库系统导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-721&quot;&gt;CMU-数据库系统进阶&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;机器学习及应用&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;深度学习&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.036&quot;&gt;MIT-机器学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;8&quot;&gt;深度学习及应用&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;自然语言处理&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-ai&quot;&gt;哈佛-Python人工智能入门&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s191&quot;&gt;MIT-深度学习导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/ntu-hylee-ml&quot;&gt;李宏毅-机器学习(&amp;amp;深度学习)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/tech-adl&quot;&gt;应用深度学习(全知识点覆盖)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-csw182&quot;&gt;UC Berkeley-深度神经网络设计、可视化与理解&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/wisc-stat453&quot;&gt;威斯康星-深度学习和生成模型导论&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/berkeley-fsdl&quot;&gt;UC Berkeley-全栈深度学习训练营&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=&quot;4&quot;&gt;自然语言处理&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -5443,6 +6196,9 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/umass-cs685&quot;&gt;马萨诸塞-自然语言处理进阶&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
@@ -5453,6 +6209,10 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;多模态&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-11-777&quot;&gt;CMU-多模态机器学习&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;图机器学习&lt;/td&gt;
@@ -5469,191 +6229,41 @@
         &lt;td&gt;无监督学习&lt;/td&gt;
         &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gtabb89iboj31kx0fu1kx.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs294-158/</link>
-        <guid isPermaLink="true">/cs294-158/</guid>
-        
-        <category>伯克利</category>
-        
-        <category>深度学习</category>
-        
-        <category>无监督学习</category>
-        
-        <category>Autoregressive</category>
-        
-        <category>Flow</category>
-        
-        <category>VAE</category>
-        
-        <category>GAN</category>
-        
-        <category>半监督</category>
-        
-        
-        <category>AI课程</category>
-        
-      </item>
-    
-      <item>
-        <title>伯克利CS285深度强化学习-课程学习资料</title>
-        <description>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
-
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
-
-&lt;link href=&quot;https://fonts.googleapis.com/css?family=Inconsolata:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/normalize-css/normalize.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/highlight/styles/solarized_dark.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/vendor/font-awesome/css/font-awesome.css&quot; /&gt;
-
-&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;
-
-&lt;h2 id=&quot;课程介绍&quot;&gt;课程介绍&lt;/h2&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt80zykfkmj31ky0funa5.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;课程主页：&lt;a href=&quot;http://rail.eecs.berkeley.edu/deeprlcourse-fa20/&quot;&gt;UC Berkeley CS285 · Deep Reinforcement Learning&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;深度强化学习，是人工智能发展的重大方向之一，备受各大科研机构与公司青睐，也被很多人认为是实现通用人工智能最有可能的路径。本课程来自著名的顶级院校UC伯克利，由Sergey Levine教授，内容针对使用深度学习神经网络进行强化学习的各类方法模型，对reinforcement learning感兴趣的同学可以借此全面了解神经网络在rl中的应用。&lt;/p&gt;
-
-&lt;h2 id=&quot;课程主题与大纲&quot;&gt;课程主题与大纲&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;课程速览与介绍&lt;/li&gt;
-  &lt;li&gt;行为监督学习&lt;/li&gt;
-  &lt;li&gt;强化学习介绍&lt;/li&gt;
-  &lt;li&gt;梯度策略&lt;/li&gt;
-  &lt;li&gt;Actor-Critic算法&lt;/li&gt;
-  &lt;li&gt;价值函数方法&lt;/li&gt;
-  &lt;li&gt;基于Q函数的的深度强化学习&lt;/li&gt;
-  &lt;li&gt;前沿梯度策略&lt;/li&gt;
-  &lt;li&gt;基于模型的规划&lt;/li&gt;
-  &lt;li&gt;基于模型的强化学习&lt;/li&gt;
-  &lt;li&gt;基于模型的策略学习&lt;/li&gt;
-  &lt;li&gt;探索与利用&lt;/li&gt;
-  &lt;li&gt;离线强化学习&lt;/li&gt;
-  &lt;li&gt;强化学习理论&lt;/li&gt;
-  &lt;li&gt;深度强化学习算法设计&lt;/li&gt;
-  &lt;li&gt;概率与变分推断初步&lt;/li&gt;
-  &lt;li&gt;推断与控制联系&lt;/li&gt;
-  &lt;li&gt;逆强化学习&lt;/li&gt;
-  &lt;li&gt;迁移学习与多任务学习&lt;/li&gt;
-  &lt;li&gt;挑战与开放待解决的问题&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt80zyngxkj31kx0fu7cd.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;更多技术与课程清单--点击查看详细课程&quot;&gt;更多技术与课程清单 | 点击查看详细课程&lt;/h2&gt;
-&lt;style&gt;
-#customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 80%;
-}
-
-#customers td, #customers th {
-  border: 2px solid #ddd;
-  padding: 8px;
-}
-
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #F5B041;
-  color: white;
-}
-
-&lt;/style&gt;
-
-&lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
     &lt;tr&gt;
-        &lt;th&gt;技术方向&lt;/th&gt;
-        &lt;th&gt;课程及链接&lt;/th&gt;
+        &lt;td rowspan=&quot;3&quot;&gt;AI与生物医疗&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.874&quot;&gt;MIT-面向生命科学的深度学习&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs229&quot;&gt;斯坦福CS229&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.047&quot;&gt;MIT-基因组学机器学习&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;深度学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs230&quot;&gt;斯坦福CS230&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-6.s897&quot;&gt;MIT-医疗机器学习&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;自然语言处理&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224n&quot;&gt;斯坦福CS224n（深度学习与NLP）&lt;/a&gt;&lt;/td&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;图形学与几何&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/cmu-15-462&quot;&gt;CMU-计算机图形学&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs124&quot;&gt;斯坦福CS124（从语言到信息）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/ammi-gml&quot;&gt;AMMI-几何深度学习&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs520&quot;&gt;斯坦福CS520（知识图谱）&lt;/a&gt;&lt;/td&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;其他课程&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/harvard-cs50-web&quot;&gt;哈佛-基于Python/JavaScript的web编程&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td rowspan=&quot;3&quot;&gt;计算机视觉&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs231n&quot;&gt;斯坦福CS231n（深度学习与CV）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/eecs498&quot;&gt;密歇根eecs498（CS231n进阶课）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/adl4cv&quot;&gt;慕尼黑工大adl4cv（深度学习与CV高阶课）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;图机器学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs224w&quot;&gt;斯坦福CS224w&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td rowspan=&quot;2&quot;&gt;强化学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs234&quot;&gt;斯坦福CS234（强化学习）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs285&quot;&gt;伯克利CS285（深度强化学习）&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;无监督学习&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;/cs294-158&quot;&gt;伯克利CS294-158（深度无监督学习）&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/mit-18.s191&quot;&gt;MIT-计算思维导论(Julia)&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1gt80zytxi4j31kx0fu1kx.jpg&quot; referrerpolicy=&quot;no-referrer&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;http://image.showmeai.tech/course/UC-MATH1071-3.png&quot; width=&quot;100%&quot; alt=&quot;end&quot; align=&quot;center&quot; /&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
-        <link>/cs285/</link>
-        <guid isPermaLink="true">/cs285/</guid>
+        <link>/uc-math1071/</link>
+        <guid isPermaLink="true">/uc-math1071/</guid>
         
-        <category>CS285</category>
-        
-        <category>强化学习</category>
-        
-        <category>深度学习</category>
-        
-        <category>Actor-Critic</category>
-        
-        <category>DQN</category>
-        
-        <category>逆强化学习</category>
+        <category>离散数学</category>
         
         
         <category>AI课程</category>
