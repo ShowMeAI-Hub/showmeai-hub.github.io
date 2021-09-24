@@ -26,6 +26,113 @@ pin: false
 Full Stack Deep Learning是UC Berkeley开放的全栈深度学习训练营课程，课程以实战为主，讲解了不同场景下应用深度学习解决问题的工具、过程和方法。包含了典型的自然语言处理与计算机视觉中，对文本和图像的处理建模方法，也包括AI应用生态的其他工序与操作，比如 数据标注与管理、模型测试、模型部署等。\n完整的课程学习，可以帮助我们了解AI解决问题的过程全链条技能，更好地把控AI落地应用的能力。
 
 <hr />
+
+<table id="customers" align="center">
+  <tr>
+    <th>课时编号</th>
+    <th>课时内容</th>
+</tr><tr>
+    <td>第1讲</td>
+    <td>深度学习基础</td>
+</tr><tr>
+</tr><tr>
+    <td>实验1</td>
+    <td>设置和介绍</td>
+</tr><tr>
+</tr><tr>
+    <td>实验2</td>
+    <td>CNN 和数据实验</td>
+</tr><tr>
+</tr><tr>
+    <td>第2A讲</td>
+    <td>卷积神经网络</td>
+</tr><tr>
+</tr><tr>
+    <td>第2B讲</td>
+    <td>计算机视觉应用</td>
+</tr><tr>
+</tr><tr>
+    <td>第3讲</td>
+    <td>循环神经网络</td>
+</tr><tr>
+</tr><tr>
+    <td>实验3</td>
+    <td>RNN</td>
+</tr><tr>
+</tr><tr>
+    <td>第4讲</td>
+    <td>迁移学习和 Transformer</td>
+</tr><tr>
+</tr><tr>
+    <td>实验4</td>
+    <td>Transformers应用</td>
+</tr><tr>
+</tr><tr>
+    <td>第5讲</td>
+    <td>机器学习项目</td>
+</tr><tr>
+</tr><tr>
+    <td>第6讲</td>
+    <td>基础设置和工具</td>
+</tr><tr>
+</tr><tr>
+    <td>实验5</td>
+    <td>实验管理</td>
+</tr><tr>
+</tr><tr>
+    <td>第7讲</td>
+    <td>深度神经网络调试与故障处理</td>
+</tr><tr>
+</tr><tr>
+    <td>第8讲</td>
+    <td>数据管理</td>
+</tr><tr>
+</tr><tr>
+    <td>第9讲</td>
+    <td>伦理</td>
+</tr><tr>
+</tr><tr>
+    <td>实验6</td>
+    <td>数据标记</td>
+</tr><tr>
+</tr><tr>
+    <td>实验7</td>
+    <td>段落识别</td>
+</tr><tr>
+</tr><tr>
+    <td>第10A讲</td>
+    <td>机器学习测试</td>
+</tr><tr>
+</tr><tr>
+    <td>第10B讲</td>
+    <td>机器学习可解释性</td>
+</tr><tr>
+</tr><tr>
+    <td>实验8</td>
+    <td>测试与持续集成</td>
+</tr><tr>
+</tr><tr>
+    <td>第11A讲</td>
+    <td>部署 ML 模型</td>
+</tr><tr>
+</tr><tr>
+    <td>第11B讲</td>
+    <td>监控 ML 模型</td>
+</tr><tr>
+</tr><tr>
+    <td>第12讲</td>
+    <td>研究方向</td>
+</tr><tr>
+</tr><tr>
+    <td>实验9</td>
+    <td>Web 部署</td>
+</tr><tr>
+</tr><tr>
+    <td>第13讲</td>
+    <td>机器学习团队</td>
+</tr><tr>
+</table>
+
 <h2 id="ShowMeAI课程解读">ShowMeAI课程解读：全套资料</h2>
 <div align="center">
 <img src="http://image.showmeai.tech/course/Berkeley-FSDL-2.png" width = "100%" />

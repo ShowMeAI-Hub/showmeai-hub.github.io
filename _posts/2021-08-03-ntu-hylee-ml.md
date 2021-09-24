@@ -26,6 +26,170 @@ pin: false
 Machine Learning是台大李宏毅老师讲授的机器学习课程，是国语授课中最受欢迎的AI课程之一，课程内容具备很好的前沿度，覆盖了 机器学习与深度学习基础知识与研究界关心的新方向进展（损失函数、优化、神经网络、自注意力、transformer、GAN、领域自适应、强化学习、元学习）。\n李宏毅老师的课程通常辅以活泼贴近生活的案例来讲解，对大家理解和学习相关知识有很好的帮助。
 
 <hr />
+
+<table id="customers" align="center">
+  <tr>
+    <th>课时编号</th>
+    <th>课时内容</th>
+</tr><tr>
+    <td>第1.1讲</td>
+    <td>机器学习基本概念简介</td>
+</tr><tr>
+</tr><tr>
+    <td>第1.2讲</td>
+    <td>深度学习基本概念简介</td>
+</tr><tr>
+</tr><tr>
+    <td>第3讲</td>
+    <td>机器学习任务攻略</td>
+</tr><tr>
+</tr><tr>
+    <td>第3.1讲</td>
+    <td>网络训练1：局部最小值与鞍点</td>
+</tr><tr>
+</tr><tr>
+    <td>第3.2讲</td>
+    <td>网络训练2：批次与动量</td>
+</tr><tr>
+</tr><tr>
+    <td>第4讲</td>
+    <td>网络训练3：自动调整学习速率</td>
+</tr><tr>
+</tr><tr>
+    <td>第5讲</td>
+    <td>网络训练4：损失函数</td>
+</tr><tr>
+</tr><tr>
+    <td>第7讲</td>
+    <td>卷积神经网络</td>
+</tr><tr>
+</tr><tr>
+    <td>第8.1讲</td>
+    <td>自注意力机制 (Self-attention) 1</td>
+</tr><tr>
+</tr><tr>
+    <td>第8.2讲</td>
+    <td>自注意力机制 (Self-attention) 2</td>
+</tr><tr>
+未发布对应视频
+</tr><tr>
+    <td>第10讲</td>
+    <td>网络训练5：批次标准化简介</td>
+</tr><tr>
+</tr><tr>
+    <td>第11.1讲</td>
+    <td>Transformer1</td>
+</tr><tr>
+</tr><tr>
+    <td>第11.2讲</td>
+    <td>Transformer2</td>
+</tr><tr>
+</tr><tr>
+    <td>第12.1讲</td>
+    <td>生成式对抗网络1：基本概念介绍</td>
+</tr><tr>
+</tr><tr>
+    <td>第12.2讲</td>
+    <td>生成式对抗网络2：理论介绍与WGAN</td>
+</tr><tr>
+</tr><tr>
+    <td>第12.3讲</td>
+    <td>生成式对抗网络3：生成器评估与条件式生成</td>
+</tr><tr>
+</tr><tr>
+    <td>第12.4讲</td>
+    <td>生成式对抗网络4：CycleGAN</td>
+</tr><tr>
+</tr><tr>
+    <td>第13.1讲</td>
+    <td>自督导式学习1：芝麻街与进击的巨人</td>
+</tr><tr>
+</tr><tr>
+    <td>第13.2讲</td>
+    <td>自督导式学习2：BERT简介</td>
+</tr><tr>
+</tr><tr>
+    <td>第13.3讲</td>
+    <td>自督导式学习3：BERT详解</td>
+</tr><tr>
+</tr><tr>
+    <td>第13.4讲</td>
+    <td>自督导式学习4：GPT</td>
+</tr><tr>
+</tr><tr>
+    <td>第14.1讲</td>
+    <td>自编码器1：基本概念</td>
+</tr><tr>
+</tr><tr>
+    <td>第14.2讲</td>
+    <td>自编码器2：领结变声器与更多应用</td>
+</tr><tr>
+</tr><tr>
+    <td>第15.1讲</td>
+    <td>对抗攻击1：基本概念</td>
+</tr><tr>
+</tr><tr>
+    <td>第15.2讲</td>
+    <td>对抗攻击2：神经网络与非自然刻意攻击</td>
+</tr><tr>
+</tr><tr>
+    <td>第16.1讲</td>
+    <td>机器学习模型的可解释性1：神经网络如何分辨宝可梦和数码宝贝</td>
+</tr><tr>
+</tr><tr>
+    <td>第16.2讲</td>
+    <td>机器学习模型的可解释性2：机器心中的猫长什么样子？</td>
+</tr><tr>
+</tr><tr>
+    <td>第17讲</td>
+    <td>概述领域自适应</td>
+</tr><tr>
+</tr><tr>
+    <td>第18.1讲</td>
+    <td>概述强化学习1：强化学习学习三个步骤</td>
+</tr><tr>
+</tr><tr>
+    <td>第18.2讲</td>
+    <td>概述强化学习2：PolicyGradient与修课心情</td>
+</tr><tr>
+</tr><tr>
+    <td>第18.3讲</td>
+    <td>概述强化学习3：Actor-Critic</td>
+</tr><tr>
+</tr><tr>
+    <td>第18.4讲</td>
+    <td>概述强化学习4：回馈非常罕见的时候怎么办？机器的望梅止渴</td>
+</tr><tr>
+</tr><tr>
+    <td>第18.5讲</td>
+    <td>概述增强式学习5：如何从示范中学习？逆向增强式学习</td>
+</tr><tr>
+</tr><tr>
+    <td>第20.1讲</td>
+    <td>机器终身学习1：人工智能与灾难性遗忘</td>
+</tr><tr>
+</tr><tr>
+    <td>第20.2讲</td>
+    <td>机器终身学习2：灾难性遗忘的克服之道</td>
+</tr><tr>
+</tr><tr>
+    <td>第21.1讲</td>
+    <td>神经网络压缩1：神经网络剪枝与大乐透假说</td>
+</tr><tr>
+</tr><tr>
+    <td>第21.2讲</td>
+    <td>神经网络压缩2：从各种不同的面向来压缩神经网络</td>
+</tr><tr>
+</tr><tr>
+    <td>第22.1讲</td>
+    <td>元学习1：元学习跟机器学习一样也是三个步骤</td>
+</tr><tr>
+</tr><tr>
+    <td>第22.2讲</td>
+    <td>元学习2：万物皆可Meta</td>
+</tr><tr>
+</table>
+
 <h2 id="ShowMeAI课程解读">ShowMeAI课程解读：全套资料</h2>
 <div align="center">
 <img src="http://image.showmeai.tech/course/Hung-yi-Lee-2.png" width = "100%" />

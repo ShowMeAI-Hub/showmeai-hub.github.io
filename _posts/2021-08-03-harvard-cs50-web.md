@@ -26,6 +26,113 @@ pin: false
 CS50-Web Programming是全球顶校Harvard哈佛开设的web编程方向的课程，课程以python和JavaScript为主编程语言，讲解了网络编程的方方面面。\n课程内容涵盖了 HTML、CSS、github、Python、Django、数据库、SQL、数据集成、JavaScript、web、测试、持续集成、持续部署 等内容，完整地学习课程可以帮助我们掌握动手构建实用的网站与网络应用的能力。
 
 <hr />
+
+<table id="customers" align="center">
+  <tr>
+    <th>课时编号</th>
+    <th>课时内容</th>
+</tr><tr>
+    <td>第0讲</td>
+    <td>HTML与CSS语法 1 (web编程与HTML)</td>
+</tr><tr>
+</tr><tr>
+    <td>第0讲</td>
+    <td>HTML与CSS语法 2 (CSS语法)</td>
+</tr><tr>
+</tr><tr>
+    <td>第0讲</td>
+    <td>HTML与CSS语法 3 (响应设计，Booststrap)</td>
+</tr><tr>
+</tr><tr>
+    <td>第1讲</td>
+    <td>github操作 1 (Git与GitHub基本操作)</td>
+</tr><tr>
+</tr><tr>
+    <td>第1讲</td>
+    <td>github操作 2 (github冲突处理与分支)</td>
+</tr><tr>
+</tr><tr>
+    <td>第2讲</td>
+    <td>Python编程语言全解 1 (变量，字符串格式化，条件与循环)</td>
+</tr><tr>
+</tr><tr>
+    <td>第2讲</td>
+    <td>Python编程语言全解 2 (函数，面向对象，异常处理)</td>
+</tr><tr>
+</tr><tr>
+    <td>第3讲</td>
+    <td>Django网络编程 1 (web应用，http，路由)</td>
+</tr><tr>
+</tr><tr>
+    <td>第3讲</td>
+    <td>Django网络编程 2 (模板)</td>
+</tr><tr>
+</tr><tr>
+    <td>第3讲</td>
+    <td>Django网络编程 3 (表单与session)</td>
+</tr><tr>
+</tr><tr>
+    <td>第4讲</td>
+    <td>数据库、SQL与集成 1 (数据表与SQL)</td>
+</tr><tr>
+</tr><tr>
+    <td>第4讲</td>
+    <td>数据库、SQL与集成 2 (表关联，django模型，集成)</td>
+</tr><tr>
+</tr><tr>
+    <td>第4讲</td>
+    <td>数据库、SQL与集成 3 (用户管理)</td>
+</tr><tr>
+</tr><tr>
+    <td>第5讲</td>
+    <td>JavaScript编程全解 1 (事件，变量)</td>
+</tr><tr>
+</tr><tr>
+    <td>第5讲</td>
+    <td>JavaScript编程全解 2 (DOM操作)</td>
+</tr><tr>
+</tr><tr>
+    <td>第5讲</td>
+    <td>JavaScript编程全解 3 (逻辑存储，API)</td>
+</tr><tr>
+</tr><tr>
+    <td>第6讲</td>
+    <td>web用户接口与交互 1 (用户接口，单页面应用)</td>
+</tr><tr>
+</tr><tr>
+    <td>第6讲</td>
+    <td>web用户接口与交互 2 (动画与交互)</td>
+</tr><tr>
+</tr><tr>
+    <td>第6讲</td>
+    <td>web用户接口与交互 3 (React)</td>
+</tr><tr>
+</tr><tr>
+    <td>第7讲</td>
+    <td>测试与前端CI/CD 1 (测试与断言，单测)</td>
+</tr><tr>
+</tr><tr>
+    <td>第7讲</td>
+    <td>测试与前端CI/CD 2 (selenium，CI/CD)</td>
+</tr><tr>
+</tr><tr>
+    <td>第7讲</td>
+    <td>测试与前端CI/CD 3 (github与docker应用)</td>
+</tr><tr>
+</tr><tr>
+    <td>第8讲</td>
+    <td>拓展性与安全 1 (可扩展性，负载均衡，自动伸缩)</td>
+</tr><tr>
+</tr><tr>
+    <td>第8讲</td>
+    <td>拓展性与安全 2 (缓存，安全，https)</td>
+</tr><tr>
+</tr><tr>
+    <td>第8讲</td>
+    <td>拓展性与安全 3 (数据库，JS)</td>
+</tr><tr>
+</table>
+
 <h2 id="ShowMeAI课程解读">ShowMeAI课程解读：全套资料</h2>
 <div align="center">
 <img src="http://image.showmeai.tech/course/Harvard-CS50-WEB-2.png" width = "100%" />
