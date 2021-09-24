@@ -106,7 +106,7 @@ Full Stack Deep Learning是UC Berkeley开放的全栈深度学习训练营课程
 </tr><tr>
     <td>第13讲</td>
     <td>机器学习团队</td>
-</tr><tr>
+</tr>
 </table>
 
 <h2 id="ShowMeAI课程解读">ShowMeAI课程解读：全套资料</h2>

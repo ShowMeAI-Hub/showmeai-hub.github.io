@@ -106,7 +106,7 @@ CS50-Web Programming是全球顶校Harvard哈佛开设的web编程方向的课�
 </tr><tr>
     <td>第8讲</td>
     <td>拓展性与安全 3 (数据库，JS)</td>
-</tr><tr>
+</tr>
 </table>
 
 <h2 id="ShowMeAI课程解读">ShowMeAI课程解读：全套资料</h2>
