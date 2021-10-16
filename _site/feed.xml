@@ -5,8 +5,8 @@
     <description>探索机器学习与人工智能的世界</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Sep 2021 22:48:01 +0800</pubDate>
-    <lastBuildDate>Fri, 24 Sep 2021 22:48:01 +0800</lastBuildDate>
+    <pubDate>Sat, 16 Oct 2021 18:29:22 +0800</pubDate>
+    <lastBuildDate>Sat, 16 Oct 2021 18:29:22 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -5870,7 +5870,9 @@
 &lt;img src=&quot;http://image.showmeai.tech/course/WISC-STAT453-1.png&quot; width=&quot;100%&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;STAT453是威斯康星大学Sebastian Raschka老师讲授的深度学习和生成模型课程，课程从机器学习与深度学习的基础知识开始，给大家系统讲解了深度学习及其在视觉与文本数据中的典型模型与各种应用，并以pytorch为主AI框架进行了实战代码讲解。课程对于帮助大家在深度学习知识储备与实战能力构建都有很大帮助。\n课程覆盖的核心知识点包括 人工神经元、多层网络、Python、向量化、NumPy、PyTorch、梯度下降、Google Colab、过拟合和欠拟合、CNN、循环神经网络、长短期记忆、降维、GAN、注意力机制、自注意力、多头注意力、Transformer、BERT、GPT、BART、语言模型、Few-Shot、DistilBert 等。&lt;/p&gt;
+&lt;p&gt;STAT453是威斯康星大学Sebastian Raschka老师讲授的深度学习和生成模型课程，课程从机器学习与深度学习的基础知识开始，给大家系统讲解了深度学习及其在视觉与文本数据中的典型模型与各种应用，并以pytorch为主AI框架进行了实战代码讲解。课程对于帮助大家在深度学习知识储备与实战能力构建都有很大帮助。&lt;/p&gt;
+
+&lt;p&gt;课程覆盖的核心知识点包括 人工神经元、多层网络、Python、向量化、NumPy、PyTorch、梯度下降、Google Colab、过拟合和欠拟合、CNN、循环神经网络、长短期记忆、降维、GAN、注意力机制、自注意力、多头注意力、Transformer、BERT、GPT、BART、语言模型、Few-Shot、DistilBert 等。&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -6358,14 +6360,14 @@
 &lt;/tr&gt;&lt;tr&gt;
     &lt;td&gt;第19.6讲&lt;/td&gt;
     &lt;td&gt;基于PyTorch 的 DistilBert 电影评论分类器&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;
-&amp;lt;/table&amp;gt;
+&lt;/tr&gt;
+&lt;/table&gt;
 
 &lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
 &lt;div align=&quot;center&quot;&gt;
 &lt;img src=&quot;http://image.showmeai.tech/course/WISC-STAT453-2.png&quot; width=&quot;100%&quot; /&gt;
 &lt;/div&gt;
-## 更多技术与课程清单 | 点击查看详细课程
+&lt;h2 id=&quot;更多技术与课程清单--点击查看详细课程&quot;&gt;更多技术与课程清单 | 点击查看详细课程&lt;/h2&gt;
 &lt;style&gt;
 #customers {
   font-family: Arial, Helvetica, sans-serif;
@@ -6538,7 +6540,6 @@
 &lt;div align=&quot;center&quot;&gt;
 &lt;img src=&quot;http://image.showmeai.tech/course/WISC-STAT453-3.png&quot; width=&quot;100%&quot; alt=&quot;end&quot; align=&quot;center&quot; /&gt;
 &lt;/div&gt;
-&lt;/tr&gt;&lt;/table&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
         <link>/wisc-stat453/</link>
@@ -6584,6 +6585,81 @@
 &lt;p&gt;CMSC 420是马里兰大学Dave Mount教授讲授的数据结构算法课程，是目前最新的数据结构方向算法课程，Dave Mount教授以手绘的方式，拆解和推进各种复杂数据结构与算法思路，对于数据结构的全面掌握和LeetCode破解等，本课程有非常好的支撑作用。课程内容覆盖 二叉搜索树、红黑树、KD树、跳跃表、Trie树(字典树、前缀树)、B树、数堆、搜索与排序等知识。&lt;/p&gt;
 
 &lt;hr /&gt;
+
+&lt;table id=&quot;customers&quot; align=&quot;center&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;课时编号&lt;/th&gt;
+    &lt;th&gt;课时内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第1讲&lt;/td&gt;
+    &lt;td&gt;课程介绍与背景知识&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第2讲&lt;/td&gt;
+    &lt;td&gt;基础数据结构&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第3讲&lt;/td&gt;
+    &lt;td&gt;有根树与二叉树&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第4讲&lt;/td&gt;
+    &lt;td&gt;二叉搜索树&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第5讲&lt;/td&gt;
+    &lt;td&gt;平衡二叉树&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第6讲&lt;/td&gt;
+    &lt;td&gt;2-3树&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第7讲&lt;/td&gt;
+    &lt;td&gt;红黑树与AA树&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第8讲&lt;/td&gt;
+    &lt;td&gt;树堆(treaps)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第9讲&lt;/td&gt;
+    &lt;td&gt;跳跃表&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第10讲&lt;/td&gt;
+    &lt;td&gt;伸展树(splay tree)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第11讲&lt;/td&gt;
+    &lt;td&gt;B树&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第12讲&lt;/td&gt;
+    &lt;td&gt;替罪羊树(Scapegoat Trees) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第14讲&lt;/td&gt;
+    &lt;td&gt;哈希与散列&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第15讲&lt;/td&gt;
+    &lt;td&gt;四叉树与KD树 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第16讲&lt;/td&gt;
+    &lt;td&gt;KD树中的检索 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第17讲&lt;/td&gt;
+    &lt;td&gt;区域树(range trees) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;第19讲&lt;/td&gt;
+    &lt;td&gt;前缀树/字典树&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
 
 &lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
 &lt;div align=&quot;center&quot;&gt;
@@ -6798,7 +6874,9 @@
 &lt;img src=&quot;http://image.showmeai.tech/course/UMASS-CS685-1.png&quot; width=&quot;100%&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;CS685是马萨诸塞大学Mohit Iyyer老师讲解的NLP进阶课程，课程详细讲解了NLP方向的前沿技术点（注意力机制、transformer、BERT、GPT-3等）与典型应用（语言模型、文本生成、问答系统、视觉NLP应用）。\n课程基于Pytorch完成代码案例讲解。手写重点与手敲代码的授课风格，能帮助大家更好地深入掌握相关知识。&lt;/p&gt;
+&lt;p&gt;CS685是马萨诸塞大学Mohit Iyyer老师讲解的NLP进阶课程，课程详细讲解了NLP方向的前沿技术点（注意力机制、transformer、BERT、GPT-3等）与典型应用（语言模型、文本生成、问答系统、视觉NLP应用）。&lt;/p&gt;
+
+&lt;p&gt;课程基于Pytorch完成代码案例讲解。手写重点与手敲代码的授课风格，能帮助大家更好地深入掌握相关知识。&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -6878,14 +6956,14 @@
 &lt;/tr&gt;&lt;tr&gt;
     &lt;td&gt;第21讲&lt;/td&gt;
     &lt;td&gt;[客座讲座] 常识推理 (Lorraine Li)&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;
-&amp;lt;/table&amp;gt;
+&lt;/tr&gt;
+&lt;/table&gt;
 
 &lt;h2 id=&quot;ShowMeAI课程解读&quot;&gt;ShowMeAI课程解读：全套资料&lt;/h2&gt;
 &lt;div align=&quot;center&quot;&gt;
 &lt;img src=&quot;http://image.showmeai.tech/course/UMASS-CS685-2.png&quot; width=&quot;100%&quot; /&gt;
 &lt;/div&gt;
-## 更多技术与课程清单 | 点击查看详细课程
+&lt;h2 id=&quot;更多技术与课程清单--点击查看详细课程&quot;&gt;更多技术与课程清单 | 点击查看详细课程&lt;/h2&gt;
 &lt;style&gt;
 #customers {
   font-family: Arial, Helvetica, sans-serif;
@@ -7058,7 +7136,6 @@
 &lt;div align=&quot;center&quot;&gt;
 &lt;img src=&quot;http://image.showmeai.tech/course/UMASS-CS685-3.png&quot; width=&quot;100%&quot; alt=&quot;end&quot; align=&quot;center&quot; /&gt;
 &lt;/div&gt;
-&lt;/tr&gt;&lt;/table&gt;
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 +0800</pubDate>
         <link>/umass-cs685/</link>
