@@ -17,6 +17,27 @@ pin: false
     
 <body>
 
+<style>
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid pink;
+  background-color: #f4511e;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 16px;
+  transition: all 0.1s;
+  cursor: pointer;
+  float: left;
+}
+
+
+.button:hover {
+    background-color: #3e8e41;
+}
+</style>
+
 <h2>（2021-10-17更新）</h2>
 
 <h2>点击按钮查看招聘数据分析详情</h2>

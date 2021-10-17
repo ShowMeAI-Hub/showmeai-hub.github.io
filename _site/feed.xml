@@ -5,8 +5,8 @@
     <description>探索机器学习与人工智能的世界</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Oct 2021 16:30:34 +0800</pubDate>
-    <lastBuildDate>Sun, 17 Oct 2021 16:30:34 +0800</lastBuildDate>
+    <pubDate>Sun, 17 Oct 2021 16:34:52 +0800</pubDate>
+    <lastBuildDate>Sun, 17 Oct 2021 16:34:52 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -32646,6 +32646,27 @@
 
     
 &lt;body&gt;
+
+&lt;style&gt;
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid pink;
+  background-color: #f4511e;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 16px;
+  transition: all 0.1s;
+  cursor: pointer;
+  float: left;
+}
+
+
+.button:hover {
+    background-color: #3e8e41;
+}
+&lt;/style&gt;
 
 &lt;h2&gt;（2021-10-17更新）&lt;/h2&gt;
 
