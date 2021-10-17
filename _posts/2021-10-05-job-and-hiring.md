@@ -15,6 +15,29 @@ pin: false
         <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
 
     
+<body>
+
+<h2>（2021-10-17更新）</h2>
+
+<h2>点击按钮查看招聘数据分析详情</h2>
+    
+<a href="https://showmeai-hub.github.io/job_analysis">
+    <button class="button">看薪资</button>
+</a>
+<a href="https://showmeai-hub.github.io/job_analysis/company">
+    <button class="button">看公司</button>
+</a>
+<a href="https://showmeai-hub.github.io/job_analysis/skills">
+    <button class="button">看要求</button>
+</a>
+<a href="https://showmeai-hub.github.io/job_analysis/recent_jds">
+    <button class="button">典型JD</button>
+</a>
+
+<p style="clear:both"><br></p>
+
+
+</body>
 
 <body>
         <style>

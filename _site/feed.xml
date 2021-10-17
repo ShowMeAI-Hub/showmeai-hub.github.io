@@ -5,8 +5,8 @@
     <description>探索机器学习与人工智能的世界</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Oct 2021 16:24:22 +0800</pubDate>
-    <lastBuildDate>Sun, 17 Oct 2021 16:24:22 +0800</lastBuildDate>
+    <pubDate>Sun, 17 Oct 2021 16:30:34 +0800</pubDate>
+    <lastBuildDate>Sun, 17 Oct 2021 16:30:34 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -32645,6 +32645,29 @@
         &lt;script type=&quot;text/javascript&quot; src=&quot;https://assets.pyecharts.org/assets/maps/china.js&quot;&gt;&lt;/script&gt;
 
     
+&lt;body&gt;
+
+&lt;h2&gt;（2021-10-17更新）&lt;/h2&gt;
+
+&lt;h2&gt;点击按钮查看招聘数据分析详情&lt;/h2&gt;
+    
+&lt;a href=&quot;https://showmeai-hub.github.io/job_analysis&quot;&gt;
+    &lt;button class=&quot;button&quot;&gt;看薪资&lt;/button&gt;
+&lt;/a&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/job_analysis/company&quot;&gt;
+    &lt;button class=&quot;button&quot;&gt;看公司&lt;/button&gt;
+&lt;/a&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/job_analysis/skills&quot;&gt;
+    &lt;button class=&quot;button&quot;&gt;看要求&lt;/button&gt;
+&lt;/a&gt;
+&lt;a href=&quot;https://showmeai-hub.github.io/job_analysis/recent_jds&quot;&gt;
+    &lt;button class=&quot;button&quot;&gt;典型JD&lt;/button&gt;
+&lt;/a&gt;
+
+&lt;p style=&quot;clear:both&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+
+
+&lt;/body&gt;
 
 &lt;body&gt;
         &lt;style&gt;
