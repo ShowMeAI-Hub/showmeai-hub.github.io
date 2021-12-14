@@ -5,8 +5,8 @@
     <description>探索机器学习与人工智能的世界</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Oct 2021 16:34:52 +0800</pubDate>
-    <lastBuildDate>Sun, 17 Oct 2021 16:34:52 +0800</lastBuildDate>
+    <pubDate>Tue, 14 Dec 2021 19:03:17 +0800</pubDate>
+    <lastBuildDate>Tue, 14 Dec 2021 19:03:17 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -37597,6 +37597,7 @@
             &lt;ul&gt;
               &lt;li&gt;&lt;a href=&quot;#importing-data&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Importing%20Data&quot;&gt;Importing Data&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
               &lt;li&gt;&lt;a href=&quot;#pandas&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Pandas&quot;&gt;Pandas&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#SQL&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/SQL&quot;&gt;SQL&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#数据可视化&quot;&gt;数据可视化&lt;/a&gt;
@@ -37619,6 +37620,18 @@
           &lt;li&gt;&lt;a href=&quot;#深度学习&quot;&gt;深度学习&lt;/a&gt;
             &lt;ul&gt;
               &lt;li&gt;&lt;a href=&quot;#keras&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Keras&quot;&gt;Keras&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#Tensorflow&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Tensorflow&quot;&gt;Tensorflow&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#Pytorch&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Pytorch&quot;&gt;Pytorch&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#垂直领域&quot;&gt;垂直领域&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#OpenCV&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/OpenCV&quot;&gt;OpenCV&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#通用技能&quot;&gt;通用技能&lt;/a&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#RegularExpression&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/RegularExpression&quot;&gt;正则表达式&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
@@ -37629,54 +37642,73 @@
 
 &lt;h2 id=&quot;速查表速览&quot;&gt;速查表速览&lt;/h2&gt;
 
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/cheatsheet-list.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;工具与平台&quot;&gt;工具与平台&lt;/h3&gt;
 
 &lt;h4 id=&quot;jupyter-notebook&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/JupyterNotebook&quot;&gt;Jupyter Notebook&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmheh2b5lj31fm10ck71.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/jupyter.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;编程语言&quot;&gt;编程语言&lt;/h3&gt;
 
 &lt;h4 id=&quot;python&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Python&quot;&gt;Python&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhgnvlo8j31fi10stw2.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/python.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;科学计算&quot;&gt;科学计算&lt;/h3&gt;
 
 &lt;h4 id=&quot;numpy&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Numpy&quot;&gt;Numpy&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhh8jzscj31fg1021a4.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/numpy.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;scipy&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scipy&quot;&gt;Scipy&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi800noj31fe100h14.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/scipy.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;数据分析与处理&quot;&gt;数据分析与处理&lt;/h3&gt;
 
 &lt;h4 id=&quot;importing-data&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Importing%20Data&quot;&gt;Importing Data&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhjptab5j31fg0zy7gu.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/dataIO.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;pandas&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Pandas&quot;&gt;Pandas&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi3v8cvj31fg0zw4ck.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/pandas.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;sql&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/SQL&quot;&gt;SQL&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/SQL.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;数据可视化&quot;&gt;数据可视化&lt;/h3&gt;
 
 &lt;h4 id=&quot;matplotlib&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Matplotlib&quot;&gt;Matplotlib&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi3mnhjj31fe0zydwh.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/matplotlib.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;seaborn&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Seaborn&quot;&gt;Seaborn&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6s7adj31fi0zy4gd.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/seaborn.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;bokeh&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Bokeh&quot;&gt;Bokeh&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi66xv4j31fi0zugyc.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/bokeh.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;大数据&quot;&gt;大数据&lt;/h3&gt;
 &lt;h4 id=&quot;spark&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Spark&quot;&gt;Spark&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhlj26yoj31fe0t8gwr.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/spark.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;机器学习&quot;&gt;机器学习&lt;/h3&gt;
 &lt;h4 id=&quot;scikit-learn&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scikit-Learn&quot;&gt;Scikit-Learn&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhl9crtuj31fi0zqtjk.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/sklearn.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;深度学习&quot;&gt;深度学习&lt;/h3&gt;
 &lt;h4 id=&quot;keras&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Keras&quot;&gt;Keras&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6fd9nj31fe0zy175.jpg&quot; referrerpolicy=&quot;no-referrer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/keras.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;tensorflow&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Tensorflow&quot;&gt;Tensorflow&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/tensorflow.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;pytorch&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Pytorch&quot;&gt;Pytorch&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/pytorch.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;垂直领域&quot;&gt;垂直领域&lt;/h3&gt;
+&lt;h4 id=&quot;opencv&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/OpenCV&quot;&gt;OpenCV&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/opencv.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;通用技能&quot;&gt;通用技能&lt;/h3&gt;
+&lt;h4 id=&quot;正则表达式&quot;&gt;&lt;a href=&quot;https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/RegularExpression&quot;&gt;正则表达式&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://image.showmeai.tech/cheatsheets/reg_ex.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 05 Aug 2021 00:00:00 +0800</pubDate>
         <link>/awesome-ai-cheatsheets-resources/</link>

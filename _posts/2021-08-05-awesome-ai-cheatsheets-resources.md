@@ -34,6 +34,7 @@ tags: [工具库与资源]
       * [数据分析与处理](#数据分析与处理)
          * [<a href="https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Importing%20Data">Importing Data</a>](#importing-data)
          * [<a href="https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Pandas">Pandas</a>](#pandas)
+         * [<a href="https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/SQL">SQL</a>](#SQL)
       * [数据可视化](#数据可视化)
          * [<a href="https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Matplotlib">Matplotlib</a>](#matplotlib)
          * [<a href="https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Seaborn">Seaborn</a>](#seaborn)
@@ -44,57 +45,80 @@ tags: [工具库与资源]
          * [<a href="https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scikit-Learn">Scikit-Learn</a>](#scikit-learn)
       * [深度学习](#深度学习)
          * [<a href="https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Keras">Keras</a>](#keras)
-
-
+         * [<a href="https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Tensorflow">Tensorflow</a>](#Tensorflow)
+         * [<a href="https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Pytorch">Pytorch</a>](#Pytorch)
+      * [垂直领域](#垂直领域)
+         * [<a href="https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/OpenCV">OpenCV</a>](#OpenCV)
+      * [通用技能](#通用技能)
+         * [<a href="https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/RegularExpression">正则表达式</a>](#RegularExpression)
 
 ## 速查表速览
+
+![](http://image.showmeai.tech/cheatsheets/cheatsheet-list.png)
 
 ### 工具与平台
 
 #### [Jupyter Notebook](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/JupyterNotebook)
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grmheh2b5lj31fm10ck71.jpg" referrerpolicy="no-referrer"/>
+![](http://image.showmeai.tech/cheatsheets/jupyter.png)
 
 ### 编程语言
 
 #### [Python](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Python)
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grmhgnvlo8j31fi10stw2.jpg" referrerpolicy="no-referrer"/>
+![](http://image.showmeai.tech/cheatsheets/python.png)
 
 ### 科学计算
 
 #### [Numpy](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Numpy)
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grmhh8jzscj31fg1021a4.jpg" referrerpolicy="no-referrer"/>
+![](http://image.showmeai.tech/cheatsheets/numpy.png)
 
 #### [Scipy](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scipy)
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grmhi800noj31fe100h14.jpg" referrerpolicy="no-referrer"/>
+![](http://image.showmeai.tech/cheatsheets/scipy.png)
 
 ### 数据分析与处理
 
 #### [Importing Data](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Importing%20Data)
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grmhjptab5j31fg0zy7gu.jpg" referrerpolicy="no-referrer"/>
+![](http://image.showmeai.tech/cheatsheets/dataIO.png)
 
 #### [Pandas](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Pandas)
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grmhi3v8cvj31fg0zw4ck.jpg" referrerpolicy="no-referrer"/>
+![](http://image.showmeai.tech/cheatsheets/pandas.png)
+
+#### [SQL](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/SQL)
+![](http://image.showmeai.tech/cheatsheets/SQL.png)
 
 ### 数据可视化
 
 #### [Matplotlib](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Matplotlib)
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grmhi3mnhjj31fe0zydwh.jpg" referrerpolicy="no-referrer"/>
+![](http://image.showmeai.tech/cheatsheets/matplotlib.png)
 
 #### [Seaborn](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Seaborn)
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6s7adj31fi0zy4gd.jpg" referrerpolicy="no-referrer"/>
+![](http://image.showmeai.tech/cheatsheets/seaborn.png)
 
 #### [Bokeh](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Bokeh)
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grmhi66xv4j31fi0zugyc.jpg" referrerpolicy="no-referrer"/>
+![](http://image.showmeai.tech/cheatsheets/bokeh.png)
 
 
 ### 大数据
 #### [Spark](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Spark)
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grmhlj26yoj31fe0t8gwr.jpg" referrerpolicy="no-referrer"/>
+![](http://image.showmeai.tech/cheatsheets/spark.png)
 
 ### 机器学习
 #### [Scikit-Learn](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Scikit-Learn)
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grmhl9crtuj31fi0zqtjk.jpg" referrerpolicy="no-referrer"/>
+![](http://image.showmeai.tech/cheatsheets/sklearn.png)
 
 ### 深度学习
 #### [Keras](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Keras)
-<img src="http://ww1.sinaimg.cn/large/0060yMmAly1grmhi6fd9nj31fe0zy175.jpg" referrerpolicy="no-referrer"/>
+![](http://image.showmeai.tech/cheatsheets/keras.png)
+
+#### [Tensorflow](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Tensorflow)
+![](http://image.showmeai.tech/cheatsheets/tensorflow.png)
+
+#### [Pytorch](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/Pytorch)
+![](http://image.showmeai.tech/cheatsheets/pytorch.png)
+
+### 垂直领域
+#### [OpenCV](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/OpenCV)
+![](http://image.showmeai.tech/cheatsheets/opencv.png)
+
+### 通用技能
+#### [正则表达式](https://github.com/ShowMeAI-Hub/awesome-AI-cheatsheets/tree/main/RegularExpression)
+![](http://image.showmeai.tech/cheatsheets/reg_ex.png)
