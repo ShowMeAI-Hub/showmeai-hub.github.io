@@ -20,11 +20,7 @@ pin: false
 
 <div align=center><img alt="CS50; Introduction to Computer Science; 计算机科学导论" src="http://tva1.sinaimg.cn/large/0060yMmAly1h3v4rzqxx8j311t0aik86.jpg" width="100%" referrerpolicy="no-referrer"></div>
 
-<br>
-
-<center> <a href="http://blog.showmeai.tech/harvard-cs50-cs/">🏆 <strong>课程学习指南</strong></a> | <a href="https://cs50.harvard.edu/x/2020/">🌍 <strong>课程主页</strong></a> | <a href="https://www.bilibili.com/video/BV1Hh411W7Up">📺 <strong>中英字幕视频</strong></a> | <a href="https://github.com/ShowMeAI-Hub/">🚀 <strong>项目代码解析</strong></a> </center>
-
-<br>
+<center> <a href="https://www.showmeai.tech/article-detail/348">🏆 <strong>课程学习中心</strong></a> | <a href="https://www.showmeai.tech/tutorials/29">🚧 <strong>计算机基础课程合辑</strong></a> | <a href="https://cs50.harvard.edu/x/2020/">🌍 <strong>课程主页</strong></a> | <a href="https://www.bilibili.com/video/BV1Hh411W7Up">📺 <strong>中英字幕视频</strong></a> | <a href="https://github.com/ShowMeAI-Hub/">🚀 <strong>项目代码解析</strong></a> </center>
 
 <center> <strong>Introduction to Computer Science</strong></center>
 
@@ -39,42 +35,42 @@ pin: false
 <center> <strong>⭐⭐⭐⭐⭐</strong></center>
 
 <br>
-
 ## 课程介绍
 
 <div align=center><img alt="CS50; Introduction to Computer Science; 计算机科学导论" src="http://tva1.sinaimg.cn/large/0060yMmAly1h6wx45e2mjj31kw0fxe81.jpg" referrerpolicy="no-referrer" width = "100%" /></div>
 
-<br>
+
 
 CS50是哈佛大学 Engineering and Applied Sciences 学院开设的系列计算机课程，讲解游戏开发、Web编程、法律、商业、计算机等领域用到的基础CS技能。
 
 <div align=center><img alt="CS50; Introduction to Computer Science; 计算机科学导论" src="https://img-blog.csdnimg.cn/img_convert/b3599ec34efe4ab30f00643432d405a3.gif" referrerpolicy="no-referrer" width = "100%" /></div>
 
-<br>
+
 
 CS50-CS 是一门**非常火爆**的计算机导论课！不仅成为哈佛大学最受欢迎的课程之一，也通过网络风靡全球！许多美国大学计算机课程的设计，都参考过这门课程。除了内容的专业度和权威性，Harvard的课程有着非常与众不同的授课风格，整个课程在舞台形态的讲台上，以极具激情的方式讲授。
 
 <div align=center><img alt="CS50; Introduction to Computer Science; 计算机科学导论" src="https://img-blog.csdnimg.cn/img_convert/213af34ac8d363356128bc2a56524470.png" referrerpolicy="no-referrer" width = "100%" /></div>
 
-<br>
+
 
 
 作为入门课程，它兼顾了深度和广度，能帮助快速全面地对计算机科学构建知识体系。对于小白来说也比较友好——历年学生有2/3没有编程经验。
 
 <div align=center><img alt="CS50; Introduction to Computer Science; 计算机科学导论" src="https://img-blog.csdnimg.cn/img_convert/cc6761da8042412d7f54cb3b8c66cd24.gif" referrerpolicy="no-referrer" width = "100%" /></div>
 
-<br>
+
 
 讲师 David Malan 更是课程的灵魂所在！他充分地利用了舞台布置和布置，使得授课过程身临其境又妙趣横生。例如，他用『实际电灯的亮与灭』讲解二进制，用『食品制作』讲解算法，用『手撕电话簿』讲解二分法，因此被网友们笑称『撕书教授』。2020秋季最新课程中，我们又一次看到了这一经典场景。
 
 <div align=center><img alt="CS50; Introduction to Computer Science; 计算机科学导论" src="https://img-blog.csdnimg.cn/img_convert/e5ae7da70cc4caeebd3bd91abdd6e6e7.png" referrerpolicy="no-referrer" width = "100%" /></div>
 
-<br>
+
 
 这门课的教学团队有80多人，其中有全职教师12人。我们能从每年的课程迭代、从统一风格的课件、配套完善的开发环境、无数精巧构思的教学细节中，感受到这个团队的专注与热爱。
 
-<br>
 
+
+<br>
 ## 课程主题
 
 往年，教室选在校内的塞德斯剧场（Sander Theater），可以容纳800-1000人，空间足够大，能满足热情的选课学生，也有极欢脱的课堂氛围。今年(2020 Fall)，授课地点更换为 LOEB Drama Center，授课方式也更换为在线视频。课程主题如下：
@@ -89,24 +85,25 @@ CS50-CS 是一门**非常火爆**的计算机导论课！不仅成为哈佛大�
 - Information（**网络编程全指南：网络协议、HTML、CSS、JavaScript**）
 
 
+
+
+
 <br>
-
-
 ## 课程资料 | 下载
 
 <table><tbody><tr><td><div align=center><img alt="CS50; Introduction to Computer Science; 计算机科学导论" src="http://tva1.sinaimg.cn/large/0060yMmAly1h6wx45bjd9j31kx0fu116.jpg" referrerpolicy="no-referrer" width = "100%" /></div></td></tr></tbody></table>
 
-<br>
+
 
 扫描上方图片二维码，关注公众号并回复关键字 🎯『**CS50-CS**』，就可以获取整理完整的资料合辑啦！当然也可以点击 🎯 <a href="https://mp.weixin.qq.com/s/XgNFjFchku0wr99lZQNq7Q"><strong>这里</strong></a> 查看更多课程的资料获取方式！
 
 <div align=center><img alt="CS50; Introduction to Computer Science; 计算机科学导论" src="https://img-blog.csdnimg.cn/img_convert/bf8a1f4e52de24b30ac64b9a096ec906.png" referrerpolicy="no-referrer" width = "100%" /></div>
 
-<br>
+
 
 <div align=center><img alt="CS50; Introduction to Computer Science; 计算机科学导论" src="https://img-blog.csdnimg.cn/img_convert/62b0b6aabc9063c58bc07047e832116d.png" referrerpolicy="no-referrer" width = "100%" /></div>
 
-<br>
+
 
  [ShowMeAI](https://www.showmeai.tech/) 对课程资料进行了梳理，整理成这份完备且清晰的资料包：
 
@@ -114,8 +111,9 @@ CS50-CS 是一门**非常火爆**的计算机导论课！不仅成为哈佛大�
 - 📚 **代码**（.sb3）。课程使用的代码，可以搭建本地环境运行，也可以访问在线studio （https://scratch.mit.edu/studios/25128634/）查看代码运行结果。
 - 📚**一位学霸的学习笔记资料**，供参考。
 
-<br>
 
+
+<br>
 ## 课程视频 | B站
 
 <iframe 
@@ -128,7 +126,7 @@ CS50-CS 是一门**非常火爆**的计算机导论课！不仅成为哈佛大�
 
 <center> <a href="https://www.bilibili.com/video/BV1Hh411W7Up/">🌍 <strong>B站 | 【双语字幕+资料下载】哈佛CS50-CS | 计算机科学导论(2020·完整版)</strong></a> </center>
 
-<br>
+
 
 [ShowMeAI](https://www.showmeai.tech/) 将视频上传至B站，并增加了**中英双语字幕**，以提供更加友好的学习体验。点击页面视频，可以进行预览。推荐前往 👆 **B站** 观看完整课程视频哦！
 
@@ -184,13 +182,15 @@ CS50-CS 是一门**非常火爆**的计算机导论课！不仅成为哈佛大�
     <td>计算机与道德话题</td>
 </tr>
 </table>
-<br>
 
+
+<br>
 ## 学习建议
 
 但这并不是一门轻松的课程。David Malan高密度的信息输出，以及开放性的课程配套练习等，都是需要花费大量时间才能掌握和完成的。而完成之后，又会带来无与伦比的成就感！
 
 
+<br>
 ## 更多技术与课程清单 | 点击查看详细课程
 <style>
 #customers {
@@ -217,148 +217,284 @@ CS50-CS 是一门**非常火爆**的计算机导论课！不仅成为哈佛大�
 </style>
 
 <table id="customers" align="center">
-    <tr>
-        <th>技术方向</th>
-        <th>课程及链接</th>
-    </tr>
-    <tr>
-        <td rowspan="5">计算机数学基础</td>
-        <td><a href="/mit-6.042j">MIT-计算机科学的数学基础</a></td>
-    </tr>
-    <tr>
-        <td><a href="/uc-math100">辛辛那提大学-微积分I</a></td>
-    </tr>
-    <tr>
-        <td><a href="/uc-math101">辛辛那提大学-微积分II</a></td>
-    </tr>
-    <tr>
-        <td><a href="/uc-math1071">辛辛那提大学-离散数学</a></td>
-    </tr>
-    <tr>
-        <td><a href="/stanford-engr108">斯坦福-线性代数与矩阵方法导论</a></td>
-    </tr>
-    <tr>
-        <td rowspan="3">计算机科学导论</td>
-        <td><a href="/stanford-cs105">斯坦福-计算机科学导论</a></td>
-    </tr>
-    <tr>
-        <td><a href="/harvard-cs50-cs">哈佛-计算机科学导论</a></td>
-    </tr>
-    <tr>
-        <td><a href="/mit-6.0001">MIT-计算机科学与Python编程导论</a></td>
-    </tr>
-    <tr>
-        <td rowspan="2">数据结构与算法</td>
-        <td><a href="/mit-6.046j">MIT-数据结构与算法设计</a></td>
-    </tr>
-    <tr>
-        <td><a href="/umd-cmsc420-0101">马里兰大学-数据结构</a></td>
-    </tr>
-    <tr>
-        <td rowspan="2">数据库</td>
-        <td><a href="/cmu-14-455">CMU-数据库系统导论</a></td>
-    </tr>
-    <tr>
-        <td><a href="/cmu-15-721">CMU-数据库系统进阶</a></td>
-    </tr>
-    <tr>
-        <td rowspan="2">机器学习及应用</td>
-        <td><a href="/cs229">斯坦福CS229</a></td>
-    </tr>
-    <tr>
-        <td><a href="/mit-6.036">MIT-机器学习导论</a></td>
-    </tr>
-    <tr>
-        <td rowspan="8">深度学习及应用</td>
-        <td><a href="/cs230">斯坦福CS230</a></td>
-    </tr>
-    <tr>
-        <td><a href="/harvard-cs50-ai">哈佛-Python人工智能入门</a></td>
-    </tr>
-    <tr>
-        <td><a href="/mit-6.s191">MIT-深度学习导论</a></td>
-    </tr>
-    <tr>
-        <td><a href="/ntu-hylee-ml">李宏毅-机器学习(&深度学习)</a></td>
-    </tr>
-    <tr>
-        <td><a href="/tech-adl">应用深度学习(全知识点覆盖)</a></td>
-    </tr>
-    <tr>
-        <td><a href="/berkeley-csw182">UC Berkeley-深度神经网络设计、可视化与理解</a></td>
-    </tr>
-    <tr>
-        <td><a href="/wisc-stat453">威斯康星-深度学习和生成模型导论</a></td>
-    </tr>
-    <tr>
-        <td><a href="/berkeley-fsdl">UC Berkeley-全栈深度学习训练营</a></td>
-    </tr>
-    <tr>
-        <td rowspan="4">自然语言处理</td>
-        <td><a href="/cs224n">斯坦福CS224n（深度学习与NLP）</a></td>
-    </tr>
-    <tr>
-        <td><a href="/cs124">斯坦福CS124（从语言到信息）</a></td>
-    </tr>
-    <tr>
-        <td><a href="/cs520">斯坦福CS520（知识图谱）</a></td>
-    </tr>
-    <tr>
-        <td><a href="/umass-cs685">马萨诸塞-自然语言处理进阶</a></td>
-    </tr>
-    <tr>
-        <td rowspan="3">计算机视觉</td>
-        <td><a href="/cs231n">斯坦福CS231n（深度学习与CV）</a></td>
-    </tr>
-    <tr>
-        <td><a href="/eecs498">密歇根eecs498（CS231n进阶课）</a></td>
-    </tr>
-    <tr>
-        <td><a href="/adl4cv">慕尼黑工大adl4cv（深度学习与CV高阶课）</a></td>
-    </tr>
-    <tr>
-        <td >多模态</td>
-        <td><a href="/cmu-11-777">CMU-多模态机器学习</a></td>
-    </tr>
-    <tr>
-        <td >图机器学习</td>
-        <td><a href="/cs224w">斯坦福CS224w</a></td>
-    </tr>
-    <tr>
-        <td rowspan="2">强化学习</td>
-        <td><a href="/cs234">斯坦福CS234（强化学习）</a></td>
-    </tr>
-    <tr>
-        <td><a href="/cs285">伯克利CS285（深度强化学习）</a></td>
-    </tr>
-    <tr>
-        <td >无监督学习</td>
-        <td><a href="/cs294-158">伯克利CS294-158（深度无监督学习）</a></td>
-    </tr>
-    <tr>
-        <td rowspan="3">AI与生物医疗</td>
-        <td><a href="/mit-6.874">MIT-面向生命科学的深度学习</a></td>
-    </tr>
-    <tr>
-        <td><a href="/mit-6.047">MIT-基因组学机器学习</a></td>
-    </tr>
-    <tr>
-        <td><a href="/mit-6.s897">MIT-医疗机器学习</a></td>
-    </tr>
-    <tr>
-        <td rowspan="2">图形学与几何</td>
-        <td><a href="/cmu-15-462">CMU-计算机图形学</a></td>
-    </tr>
-    <tr>
-        <td><a href="/ammi-gml">AMMI-几何深度学习</a></td>
-    </tr>
-    <tr>
-        <td rowspan="2">其他课程</td>
-        <td><a href="/harvard-cs50-web">哈佛-基于Python/JavaScript的web编程</a></td>
-    </tr>
-    <tr>
-        <td><a href="/mit-18.s191">MIT-计算思维导论(Julia)</a></td>
-    </tr>
+	<thead>
+		<tr>
+			<th>合辑</th>
+			<th>课程链接</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="5">
+				<a href="https://www.showmeai.tech/tutorials/38">
+					<strong>CS数学基础课程合辑</strong>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/346">【ENGR108】Stanford斯坦福 · 线性代数与矩阵方法导论课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/354">【6.042J】MIT麻省理工 · 计算机科学的数学基础课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/376">【MATH100】辛辛那提大学 · 微积分Ⅰ课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/377">【MATH101】辛辛那提大学 · 微积分Ⅱ课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/378">【MATH1071】辛辛那提大学 · 离散数学课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="9">
+				<a href="https://www.showmeai.tech/tutorials/29">
+					<strong>计算机基础课程合辑</strong>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/357">【14-455】CMU卡内基梅隆 · 数据库系统导论课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/358">【15-721】CMU卡内基梅隆 · 数据库系统进阶课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/359">【CS105】Stanford斯坦福 · 计算机科学导论课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/348">【CS50-CS】Harvard哈佛 · 计算机科学导论课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/362">【CS50-WEB】Harvard哈佛 · 基于Python / JavaScript的Web编程课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/349">【6.0001】MIT麻省理工 · 计算机科学与Python编程导论课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/363">【6.046J】MIT麻省理工 · 数据结构与算法设计课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/372">【18.S191】MIT麻省理工 · 计算思维导论(Julia)课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/385">【CMSC420】马里兰大学 · 数据结构课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3">
+				<a href="https://www.showmeai.tech/tutorials/28">
+					<strong>机器学习课程合辑</strong>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/380">【AndrewNG-ML】吴恩达 · 机器学习专项课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/382">【CS229】Stanford斯坦福 · 机器学习课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/353">【6.036】MIT麻省理工 · 机器学习导论课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="10">
+				<a href="https://www.showmeai.tech/tutorials/77">
+					<strong>深度学习课程合辑</strong>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/379">【AndrewNG-DL】吴恩达 · 深度学习专项课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/383">【CS230】Stanford斯坦福 · 深度学习课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/355">【CSW182】Berkeley伯克利 · 深度神经网络设计、可视化与理解课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/356">【FSDL】Berkeley伯克利 · 全栈深度学习训练营课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/361">【CS50-AI】Harvard哈佛 · Python人工智能入门课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/386">【6.S191】MIT麻省理工 · 深度学习导论课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/373">【APPLY-DL】科罗拉多大学 · 应用深度学习(全知识点覆盖)课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/375">【STAT453】威斯康星 · 深度学习和生成模型导论课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/369">【T81-558】WUSTL · 深度神经网络应用案例实操课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/370">【HYLEE】李宏毅 · 机器学习(&amp;深度学习)课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="4">
+				<a href="https://www.showmeai.tech/tutorials/55">
+					<strong>NLP课程合辑</strong>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/384">【CS224n】Stanford斯坦福 · 深度学习与自然语言处理课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/360">【CS124】Stanford斯坦福 · 从语言到信息课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/351">【CS520】Stanford斯坦福 · 知识图谱课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/374">【CS685】马萨诸塞大学 · 自然语言处理进阶课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3">
+				<a href="https://www.showmeai.tech/tutorials/73">
+					<strong>计算机视觉课程合辑</strong>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/381">【CS231n】Stanford斯坦福 · 深度学习与计算机视觉课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/350">【EECS498】Michigan密歇根 · 深度学习与计算机视觉(CS231n进阶课)</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/343">【ADL4CV】慕尼黑工大 · 计算机视觉深度学习进阶课</a>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="2">
+				<a href="https://www.showmeai.tech/tutorials/87">
+					<strong>强化学习课程合辑</strong>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/345">【CS285】Berkeley伯克利 · 深度强化学习课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/347">【CS234】Stanford斯坦福 · 强化学习课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3">
+				<a href="https://www.showmeai.tech/tutorials/74">
+					<strong>AI生物医疗课程合辑</strong>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/364">【6.047】MIT麻省理工 · 基因组学机器学习课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/367">【6.874】MIT麻省理工 · 面向生命科学的深度学习课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/371">【6.S897】MIT麻省理工 · 医疗机器学习课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="6">
+				<a href="https://www.showmeai.tech/tutorials/76">
+					<strong>其他名校AI课程合辑</strong>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/344">【CS294】Berkeley伯克利 · 深度无监督学习课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/365">【11-777】CMU卡内基梅隆 · 多模态机器学习课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/366">【15-462】CMU卡内基梅隆 · 计算机图形学课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/352">【CS224W】Stanford斯坦福 · 图机器学习课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/368">【6.S094】MIT麻省理工 · 深度学习与无人驾驶课程</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.showmeai.tech/article-detail/387">【GDL】AMMI · 几何深度学习课程</a>
+			</td>
+		</tr>
+	</tbody>
 </table>
 
 <div align=center><img alt="CS50; Introduction to Computer Science; 计算机科学导论" src="http://tva1.sinaimg.cn/large/0060yMmAly1h6wx45glcxj31kx0fu7wh.jpg" referrerpolicy="no-referrer" width = "100%" /></div>
